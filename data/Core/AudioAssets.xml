@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AssetTable
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/Lib/AssetTableDef.xsd">
+
+	<Asset>
+		<Tag>MAIN_MENU_MUSIC</Tag>
+		<Filename>Main_Menu__Control_the_Stars.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>OPTIONS_SCREEN_MUSIC</Tag>
+		<Filename>Main_Menu__Control_the_Stars.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>MULTIPLAYER_SCREEN_MUSIC</Tag>
+		<Filename>Main_Menu__Control_the_Stars.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>LEADERBOARDS_SCREEN_MUSIC</Tag>
+		<Filename>Main_Menu__Control_the_Stars.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>CIVILIZATION_SETUP_MUSIC</Tag>
+		<Filename>Main_Menu__Control_the_Stars.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>GALAXY_SETTINGS_MUSIC</Tag>
+		<Filename>Main_Menu__Control_the_Stars.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>GAME_SETTINGS_MUSIC</Tag>
+		<Filename>Main_Menu__Control_the_Stars.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>SAVE_LOAD_SCREEN_MUSIC</Tag>
+		<Filename>Main_Menu__Control_the_Stars.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>VICTORY_SCREEN_MUSIC</Tag>
+		<Filename>GalCiv3_ALongTwilight.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>GOVERN_SCREEN_MUSIC</Tag>
+    <Filename>GovernScreenLoop.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>RESEARCH_SCREEN_MUSIC</Tag>
+		<Filename>Technology Screen Mockup Ver. 1.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>CULTURE_SCREEN_MUSIC</Tag>
+		<Filename>CultureScreenLoop.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>DIPLOMACY_SCREEN_MUSIC</Tag>
+    <Filename>DiplomacyScreenLoop.mp3</Filename>
+	</Asset>
+  
+  <Asset>
+		<Tag>DESIGNER_LANDING_SCREEN_MUSIC</Tag>
+    <Filename>outfit.ogg</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>SHIPYARD_SCREEN_MUSIC</Tag>
+    <Filename>shipyard.ogg</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>END_CREDITS_MUSIC</Tag>
+		<Filename>.</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>LOADING_SCREEN_MUSIC</Tag>
+		<Filename>Hyperspace__Lightyears_Away.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>PLANET_SCREEN_MUSIC</Tag>
+    <Filename>PlanetScreenMusic_1.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>FLEET_SCREEN_MUSIC</Tag>
+    <Filename>Technology Screen Mockup Ver. 2.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>DEFEAT_EVENT</Tag>
+		<Filename>.</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>VICTORY_CONQUEST_EVENT</Tag>
+    <Filename>GC3_Victory_Conquest.1.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>VICTORY_CULTURE_EVENT</Tag>
+		<Filename>GC3_Victory_Culture.1.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>VICTORY_RESEARCH_EVENT</Tag>
+		<Filename>.</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>VICTORY_ALLIANCE_EVENT</Tag>
+		<Filename>.</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>VICTORY_ASCENSION_EVENT</Tag>
+		<Filename>.</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>VICTORY_TURNLIMIT_EVENT</Tag>
+		<Filename>.</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>UNITED_PLANETS_EVENT</Tag>
+		<Filename>.</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>FIRST_COLONY_EVENT</Tag>
+		<Filename>GC3_First_Colony.1.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>FIRST_STARBASE_EVENT</Tag>
+    <Filename>First_Starbase.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>STARBASE_SCREEN_MUSIC</Tag>
+		<Filename>starbase.ogg</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>NEW_RESEARCH_DISCOVERED_EVENT</Tag>
+		<Filename>GC3_NewResearch.1.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>EXTRA_EVENT_PIECE_ONE_EVENT</Tag>
+		<Filename>.</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>EXTRA_EVENT_PIECE_TWO_EVENT</Tag>
+		<Filename>.</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>EXTRA_EVENT_PIECE_THREE_EVENT</Tag>
+		<Filename>.</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>EXTRA_EVENT_PIECE_FOUR_EVENT</Tag>
+		<Filename>.</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>ALTARIAN_WAR_DECLARED_EVENT</Tag>
+		<Filename>GC3_Drengin_War.2.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>DRENGIN_WAR_DECLARED_EVENT</Tag>
+		<Filename>GC3_Drengin_War.2.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>ICONIAN_WAR_DECLARED_EVENT</Tag>
+		<Filename>GC3_Drengin_War.2.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>IRIDIUM_WAR_DECLARED_EVENT</Tag>
+		<Filename>GC3_Drengin_War.2.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>KRYNN_WAR_DECLARED_EVENT</Tag>
+		<Filename>GC3_Drengin_War.2.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>TERRAN_WAR_DECLARED_EVENT</Tag>
+		<Filename>GC3_Drengin_War.2.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>THALAN_WAR_DECLARED_EVENT</Tag>
+		<Filename>GC3_Drengin_War.2.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>YOR_WAR_DECLARED_EVENT</Tag>
+		<Filename>GC3_Drengin_War.2.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>ANOMALY_EVENT</Tag>
+    <Filename>GC3_EventMusic4.1.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>ALTARIANS_PEACE_EVENT</Tag>
+		<Filename>.</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>ALTARIANS_WAR_EVENT</Tag>
+		<Filename>.</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>DRENGIN_PEACE_EVENT</Tag>
+		<Filename>.</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>DRENGIN_WAR_EVENT</Tag>
+		<Filename>.</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>ICONIANS_PEACE_EVENT</Tag>
+		<Filename>.</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>ICONIANS_WAR_EVENT</Tag>
+		<Filename>.</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>IRIDIUM_PEACE_EVENT</Tag>
+		<Filename>.</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>IRIDIUM_WAR_EVENT</Tag>
+		<Filename>.</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>KRYNN_PEACE_EVENT</Tag>
+		<Filename>.</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>KRYNN_WAR_EVENT</Tag>
+		<Filename>.</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>TERRANS_PEACE_EVENT</Tag>
+		<Filename>.</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>TERRANS_WAR_EVENT</Tag>
+		<Filename>.</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>THALAN_PEACE_EVENT</Tag>
+		<Filename>.</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>THALAN_WAR_EVENT</Tag>
+		<Filename>.</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>YOR_PEACE_EVENT</Tag>
+		<Filename>.</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>YOR_WAR2_EVENT</Tag>
+		<Filename>.</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>EARLY_GAME_AMBIENT_MUSIC_1</Tag>
+		<Filename>GalCiv3_Ambient_01a.mp3</Filename>
+	</Asset>
+	<Asset>
+		<Tag>EARLY_GAME_AMBIENT_MUSIC_2</Tag>
+		<Filename>GalCiv3_Ambient_02a.mp3</Filename>
+	</Asset>
+	<Asset>
+		<Tag>EARLY_GAME_AMBIENT_MUSIC_3</Tag>
+		<Filename>GalCiv3_Ambient_06a.mp3</Filename>
+	</Asset>
+	<Asset>
+		<Tag>EARLY_GAME_AMBIENT_MUSIC_4</Tag>
+		<Filename>.</Filename>
+	</Asset>
+	<Asset>
+		<Tag>EARLY_GAME_AMBIENT_MUSIC_5</Tag>
+		<Filename>.</Filename>
+	</Asset>
+	
+	<Asset>
+		<Tag>MID_GAME_AMBIENT_MUSIC_1</Tag>
+		<Filename>GalCiv3_ALongTwilight.mp3</Filename>
+	</Asset>
+	<Asset>
+		<Tag>MID_GAME_AMBIENT_MUSIC_2</Tag>
+		<Filename>GalCiv3_MidGame_Ambient_07a.mp3</Filename>
+	</Asset>
+	<Asset>
+		<Tag>MID_GAME_AMBIENT_MUSIC_3</Tag>
+		<Filename>.</Filename>
+	</Asset>
+	<Asset>
+		<Tag>MID_GAME_AMBIENT_MUSIC_4</Tag>
+		<Filename>.</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>LATE_GAME_AMBIENT_MUSIC_1</Tag>
+    <Filename>GalCiv3_Ambient_LateGame_09a.mp3</Filename>
+	</Asset>
+	<Asset>
+		<Tag>LATE_GAME_AMBIENT_MUSIC_2</Tag>
+		<Filename>GalCiv3_Ambient_LateGame_10a.mp3</Filename>
+	</Asset>
+	<Asset>
+		<Tag>LATE_GAME_AMBIENT_MUSIC_3</Tag>
+		<Filename>GalCiv3_Ambient_LateGame_11a.mp3</Filename>
+	</Asset>
+	<Asset>
+		<Tag>LATE_GAME_AMBIENT_MUSIC_4</Tag>
+		<Filename>GalCiv3_Ambient_LateGame_12a.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>WINNING_GAME_AMBIENT_MUSIC_1</Tag>
+		<Filename>.</Filename>
+	</Asset>
+	<Asset>
+		<Tag>LOSING_GAME_AMBIENT_MUSIC_1</Tag>
+		<Filename>.</Filename>
+	</Asset>
+
+</AssetTable>
