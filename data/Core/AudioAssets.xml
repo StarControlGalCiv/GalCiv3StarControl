@@ -51,7 +51,7 @@ xsi:noNamespaceSchemaLocation="../Schema/Lib/AssetTableDef.xsd">
 
 	<Asset>
 		<Tag>GOVERN_SCREEN_MUSIC</Tag>
-    <Filename>GovernScreenLoop.mp3</Filename>
+    <Filename>orbit3.ogg</Filename>
 	</Asset>
 
 	<Asset>
@@ -81,7 +81,7 @@ xsi:noNamespaceSchemaLocation="../Schema/Lib/AssetTableDef.xsd">
 
 	<Asset>
 		<Tag>END_CREDITS_MUSIC</Tag>
-		<Filename>.</Filename>
+		<Filename>Credits__So_Long_and_Thanks_for_All_the_Orz.mp3</Filename>
 	</Asset>
 
 	<Asset>
@@ -91,7 +91,7 @@ xsi:noNamespaceSchemaLocation="../Schema/Lib/AssetTableDef.xsd">
 
 	<Asset>
 		<Tag>PLANET_SCREEN_MUSIC</Tag>
-    <Filename>PlanetScreenMusic_1.mp3</Filename>
+    <Filename>orbit3.ogg</Filename>
 	</Asset>
 
 	<Asset>
@@ -136,12 +136,12 @@ xsi:noNamespaceSchemaLocation="../Schema/Lib/AssetTableDef.xsd">
 
 	<Asset>
 		<Tag>UNITED_PLANETS_EVENT</Tag>
-		<Filename>.</Filename>
+		<Filename>07_Star Control 2 OST - inorbit.mp3</Filename>
 	</Asset>
 
 	<Asset>
 		<Tag>FIRST_COLONY_EVENT</Tag>
-		<Filename>GC3_First_Colony.1.mp3</Filename>
+		<Filename>08_Star Control 2 OST - tominetheheavens.mp3</Filename>
 	</Asset>
 
 	<Asset>
@@ -305,6 +305,226 @@ xsi:noNamespaceSchemaLocation="../Schema/Lib/AssetTableDef.xsd">
 	</Asset>
 
 	<Asset>
+		<Tag>KOHR-AH_PEACE_EVENT</Tag>
+		<Filename>blackur-the_eternal_doctrine.ogg</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>KOHR-AH_WAR_EVENT</Tag>
+		<Filename>blackur-the_eternal_doctrine.ogg</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>KZER-ZA_PEACE_EVENT</Tag>
+		<Filename>urquan.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>KZER-ZA_WAR_EVENT</Tag>
+		<Filename>urquan.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>ARILOU_PEACE_EVENT</Tag>
+		<Filename>arilou.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>ARILOU_WAR_EVENT</Tag>
+		<Filename>Super_Melee_Menu__Fight!.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>CHMMR_PEACE_EVENT</Tag>
+		<Filename>Chmmr__Photosynthesis.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>CHMMR_WAR_EVENT</Tag>
+		<Filename>Super_Melee_Menu__Fight!.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>DRUUGE_PEACE_EVENT</Tag>
+		<Filename>druuge.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>DRUUGE_WAR_EVENT</Tag>
+		<Filename>Super_Melee_Menu__Fight!.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>HUMANS_PEACE_EVENT</Tag>
+		<Filename>comandr.ogg</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>HUMANS_WAR_EVENT</Tag>
+		<Filename>Super_Melee_Menu__Fight!.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>ILWRATH_PEACE_EVENT</Tag>
+		<Filename>ilwrath.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>ILWRATH_WAR_EVENT</Tag>
+		<Filename>Super_Melee_Menu__Fight!.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>MELNORME_PEACE_EVENT</Tag>
+		<Filename>melnorm.ogg</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>MELNORME_WAR_EVENT</Tag>
+		<Filename>Super_Melee_Menu__Fight!.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>MYCON_PEACE_EVENT</Tag>
+		<Filename>mycon.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>MYCON_WAR_EVENT</Tag>
+		<Filename>Super_Melee_Menu__Fight!.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>ORZ_PEACE_EVENT</Tag>
+		<Filename>Orz__Squeezing_the_Juice.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>ORZ_WAR_EVENT</Tag>
+		<Filename>Super_Melee_Menu__Fight!.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>PKUNK_PEACE_EVENT</Tag>
+		<Filename>Pkunk__Pkunks_Not_Dead.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>PKUNK_WAR_EVENT</Tag>
+		<Filename>Super_Melee_Menu__Fight!.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>SHOFIXTI_PEACE_EVENT</Tag>
+		<Filename>Shofixti__Bonsai!.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>SHOFIXTI_WAR_EVENT</Tag>
+		<Filename>Super_Melee_Menu__Fight!.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>SLYLANDRO_PEACE_EVENT</Tag>
+		<Filename>slyhome.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>SLYLANDRO_WAR_EVENT</Tag>
+		<Filename>Super_Melee_Menu__Fight!.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>SPATHI_PEACE_EVENT</Tag>
+		<Filename>spathi.ogg</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>SPATHI_WAR_EVENT</Tag>
+		<Filename>Super_Melee_Menu__Fight!.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>SUPOX_PEACE_EVENT</Tag>
+		<Filename>Supox__Shake_Yer_Rootz.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>SUPOX_WAR_EVENT</Tag>
+		<Filename>Super_Melee_Menu__Fight!.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>SYREEN_PEACE_EVENT</Tag>
+		<Filename>Syreen__Close_Encounters_of_the_Seventh_Kind.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>SYREEN_WAR_EVENT</Tag>
+		<Filename>Super_Melee_Menu__Fight!.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>THRADDASH_PEACE_EVENT</Tag>
+		<Filename>thradd.ogg</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>THRADDASH_WAR_EVENT</Tag>
+		<Filename>Super_Melee_Menu__Fight!.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>UMGAH_PEACE_EVENT</Tag>
+		<Filename>umgah.ogg</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>UMGAH_WAR_EVENT</Tag>
+		<Filename>Super_Melee_Menu__Fight!.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>UTWIG_PEACE_EVENT</Tag>
+		<Filename>Utwig__Mask_of_Ultimate_Embarrassment_and_Shame.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>UTWIG_WAR_EVENT</Tag>
+		<Filename>Super_Melee_Menu__Fight!.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>VUX_PEACE_EVENT</Tag>
+		<Filename>vux.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>VUX_WAR_EVENT</Tag>
+		<Filename>Super_Melee_Menu__Fight!.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>YEHAT_PEACE_EVENT</Tag>
+		<Filename>Yehat__Years_Late_Mix.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>YEHAT_WAR_EVENT</Tag>
+		<Filename>Super_Melee_Menu__Fight!.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>ZOQ-FOT-PIK_PEACE_EVENT</Tag>
+		<Filename>Zoq-Fot-Pik__Frungy_Party.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>ZOQ-FOT-PIK_WAR_EVENT</Tag>
+		<Filename>Super_Melee_Menu__Fight!.mp3</Filename>
+	</Asset>
+
+	<Asset>
 		<Tag>EARLY_GAME_AMBIENT_MUSIC_1</Tag>
 		<Filename>GalCiv3_Ambient_01a.mp3</Filename>
 	</Asset>
@@ -318,11 +538,11 @@ xsi:noNamespaceSchemaLocation="../Schema/Lib/AssetTableDef.xsd">
 	</Asset>
 	<Asset>
 		<Tag>EARLY_GAME_AMBIENT_MUSIC_4</Tag>
-		<Filename>.</Filename>
+		<Filename>orbit4.ogg</Filename>
 	</Asset>
 	<Asset>
 		<Tag>EARLY_GAME_AMBIENT_MUSIC_5</Tag>
-		<Filename>.</Filename>
+		<Filename>orbit5.ogg</Filename>
 	</Asset>
 	
 	<Asset>
