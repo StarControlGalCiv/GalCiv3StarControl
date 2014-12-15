@@ -58,8 +58,8 @@ Major:
 
 Major (non-playable due to advanced tech):
 *	Ur-Quan:
-  *		Kohr-Ah (Evil)
-  *		Kzer-Za (Evil)
+  *		Kohr-Ah (Pure Evil)
+  *		Kzer-Za (Chaotic Evil)
 
 
 Minor:
@@ -77,3 +77,10 @@ Minor:
 *	With hidden homeworld:
   *		Arilou Lalee'lay (Chaotic Good)
   *		Melnorme (Neutral)
+
+## License:
+Creative Commons Attribution-NonCommercial 3.0 Unported License
+
+![Creative Commons Attribution-NonCommercial 3.0 Unported License](https://i.creativecommons.org/l/by-nc/3.0/88x31.png)
+
+http://creativecommons.org/licenses/by-nc/3.0/
