@@ -28,7 +28,7 @@ http://www.stardock.com/
 
 ## Star Control 2 scenario
 
-Ur-Quan Kzer-Za and Ur-Quan Kohr-Ah are at permanent war with each other. While the last war was won by the Kzer-Za using the Sa-Matra battle platform, in this war Kzer-Za avoid using the Sa-Matra. Most likely outcome is victory by the Kohr-Ah.
+Ur-Quan Kzer-Za and Ur-Quan Kohr-Ah are at permanent war with each other, termed the second Doctrinal Conflict. While the last war was won by the Kzer-Za using the Sa-Matra battle platform, in this war Kzer-Za avoid using the Sa-Matra or even its Battle Thralls. Most likely outcome is victory by the Kohr-Ah, though neither outcome is desireable to other races.
 
 Sa-Matra is owned by Ur-Quan Kzer-Za and is unable to move until Ur-Quan Kohr-Ah are defeated.
 
@@ -36,7 +36,7 @@ Both Ur-Quan subraces would not attend United Planet conventions.
 
 Events:
 
-* When Ur-Quan Kzer-Za are defeated or end the Doctrinal Conflict. Ur-Quan Kohr-Ah declare permanent war with all non-Ur-Quan races.
+* When Ur-Quan Kzer-Za are defeated or end the Doctrinal Conflict. Kohr-Ah declare permanent war with all non-Ur-Quan races.
 * When Ur-Quan Kohr-Ah are defeated. Sa-Matra is free to move. Ur-Quan Kzer-Za and all remaining Battle Thralls declare war on independent races. Once all of them are defeated, Kzer-Za demands surrender of each Battle Thrall, refusal makes that Battle Thrall go to war with Ur-Quan and its remaining Battle Thralls.
 * When foreign ships enter Kohr-Ah space, then Kohr-Ah will declare war on that faction and remain so until all foreign ships are destroyed.
 * Utwig and Supox offer the player to launch an invasion on Ur-Quan Kohr-Ah.
@@ -57,7 +57,7 @@ Ur-Quan Kohr-Ah:
 Ur-Quan Kzer-Za - 
 * Technology almost equal to Ur-Quan Kzer-Za, except in weapon technology.
 * Offensive weapons consists mostly of laser weapons(plasma), missile weapons are secondary(fighters).
-* Puts other races behind a Slave shield, but do not by themselves own or use slaves.
+* Puts other races behind a Slave shield. While they do not by themselves own slaves, they demand Battle Thralls to man Ur-Quan Dreadnought's crew with the only Ur-Quan as the captain. Since the Slave War is put on hold, the former has no notability.
 * Has 7 Battle Thralls, who have to go to war, if demanded by Kzer-Za.
 * Left the United Planets
 
