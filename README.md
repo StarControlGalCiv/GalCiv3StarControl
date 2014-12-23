@@ -92,23 +92,22 @@ Major:
   *		Pkunk (Chaotic Good)
   *		Supox (Pure Good)
   *		Utwig (Chaotic Good)
+  *		Zoq-Fot-Pik (Pure Good)
 *	Ascend from Minor to Major status:
   *		Pre-Chmmr as Chmmr (Chaotic Good)
   *		Shofixti (Chaotic Good)
 
 Minor:
-*	Free:
-  *		Zoq-Fot-Pik (Pure Good)
-*	Free, confined to homeworld without atbility to create buildings:
+*	Independent, with hidden homeworld:
+  *		Arilou Lalee'lay (Chaotic Good)
+  *		Melnorme (Neutral)
+*	Independent, confined to homeworld without atbility to create buildings:
   *		Slylandro (Neutral)
 *	Slaveshielded, has fleet:
   *		Syreen (Pure Good) (Gaia)
 *	Entirely slaveshielded:
   *		Humans (Chaotic Good) (Earth & Unzervalt)
   *		Pre-Chmmr (Chaotic Good) (Procyon II)
-*	With hidden homeworld:
-  *		Arilou Lalee'lay (Chaotic Good)
-  *		Melnorme (Neutral)
 
 ## License:
 Creative Commons Attribution-NonCommercial 3.0 Unported License
