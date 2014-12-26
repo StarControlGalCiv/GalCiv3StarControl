@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<StringTableList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- FactionText.xml -->
+ 
+<!-- Tech Names and Descriptions -->
+ 
+  <StringTable>
+    <Label>FACTION_TERRAN_Name</Label>
+    <String>Terran Alliance</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FACTION_TERRAN_ShortName</Label>
+    <String>Terran</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FACTION_TERRAN_LeaderName</Label>
+    <String>D.L. Bradly</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FACTION_TERRAN_Dec</Label>
+    <String>Terrans are the inventors of hyperdrive and the youngest race on the galactic stage. Although committed diplomats, Terrans have a militaristic streak that has taken many by surprise.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FACTION_DRENGIN_Name</Label>
+    <String>Drengin Empire</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FACTION_DRENGIN_ShortName</Label>
+    <String>Drengin</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FACTION_DRENGIN_LeaderName</Label>
+    <String>Lord Kona</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FACTION_DRENGIN_Dec</Label>
+    <String>The Drengin are a profoundly evil and warlike civilization. Exceedingly clever and vicious, there are few beings capable of meeting a Drengin and not becoming its next meal.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FACTION_ALTARIAN_Name</Label>
+    <String>Altarian Resistance</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FACTION_ALTARIAN_ShortName</Label>
+    <String>Altarian</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FACTION_ALTARIAN_LeaderName</Label>
+    <String>Akari Malara</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FACTION_ALTARIAN_Dec</Label>
+    <String>Altarians are a deeply religious race that is kind in its interaction with others, although a bit self-righteous. For unknown reasons, they are very similar in appearance to the Terrans.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FACTION_IRIDIUM_Name</Label>
+    <String>Iridium Corporation</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FACTION_IRIDIUM_ShortName</Label>
+    <String>Iridium</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FACTION_IRIDIUM_LeaderName</Label>
+    <String>Harondin Gaul</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FACTION_IRIDIUM_Dec</Label>
+    <String>The Iridium are an ultra capitalistic civilization, ruled by a number of multi-planet corporations. Firm believers in the power of free markets, they specialize in economic and cultural growth.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FACTION_KRYNN_Name</Label>
+    <String>Krynn Syndicate</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FACTION_KRYNN_ShortName</Label>
+    <String>Krynn</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FACTION_KRYNN_LeaderName</Label>
+    <String>Ynrhed Eidden</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FACTION_KRYNN_Dec</Label>
+    <String>The Krynn are a coalition of races deeply united by a shared religion. In recent years a secretive arm of their faith has taken control of their government, and its Shadow Network now spans the galaxy.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FACTION_YOR_Name</Label>
+    <String>Yor Singularity</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FACTION_YOR_ShortName</Label>
+    <String>YOR</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FACTION_YOR_LeaderName</Label>
+    <String>N-1</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FACTION_YOR_Dec</Label>
+    <String>The Yor are a race of sentient artificial beings. They have no need for crude means for reproduction and consumption, and can instead build citizens to inhabit their worlds.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FACTION_PIRATES_Name</Label>
+    <String>Space Pirates</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FACTION_PIRATES_ShortName</Label>
+    <String>Pirates</String>
+  </StringTable>
+ 
+</StringTableList>
