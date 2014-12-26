@@ -1,140 +1,476 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<StringTableList
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
-<!-- Created with the Gal Civ 3 Editor -->
-<!-- FactionText.xml -->
- 
-<!-- Tech Names and Descriptions -->
- 
-  <StringTable>
-    <Label>FACTION_TERRAN_Name</Label>
-    <String>Terran Alliance</String>
-  </StringTable>
- 
-  <StringTable>
-    <Label>FACTION_TERRAN_ShortName</Label>
-    <String>Terran</String>
-  </StringTable>
- 
-  <StringTable>
-    <Label>FACTION_TERRAN_LeaderName</Label>
-    <String>D.L. Bradly</String>
-  </StringTable>
- 
-  <StringTable>
-    <Label>FACTION_TERRAN_Dec</Label>
-    <String>Terrans are the inventors of hyperdrive and the youngest race on the galactic stage. Although committed diplomats, Terrans have a militaristic streak that has taken many by surprise.</String>
-  </StringTable>
- 
-  <StringTable>
-    <Label>FACTION_DRENGIN_Name</Label>
-    <String>Drengin Empire</String>
-  </StringTable>
- 
-  <StringTable>
-    <Label>FACTION_DRENGIN_ShortName</Label>
-    <String>Drengin</String>
-  </StringTable>
- 
-  <StringTable>
-    <Label>FACTION_DRENGIN_LeaderName</Label>
-    <String>Lord Kona</String>
-  </StringTable>
- 
-  <StringTable>
-    <Label>FACTION_DRENGIN_Dec</Label>
-    <String>The Drengin are a profoundly evil and warlike civilization. Exceedingly clever and vicious, there are few beings capable of meeting a Drengin and not becoming its next meal.</String>
-  </StringTable>
- 
-  <StringTable>
-    <Label>FACTION_ALTARIAN_Name</Label>
-    <String>Altarian Resistance</String>
-  </StringTable>
- 
-  <StringTable>
-    <Label>FACTION_ALTARIAN_ShortName</Label>
-    <String>Altarian</String>
-  </StringTable>
- 
-  <StringTable>
-    <Label>FACTION_ALTARIAN_LeaderName</Label>
-    <String>Akari Malara</String>
-  </StringTable>
- 
-  <StringTable>
-    <Label>FACTION_ALTARIAN_Dec</Label>
-    <String>Altarians are a deeply religious race that is kind in its interaction with others, although a bit self-righteous. For unknown reasons, they are very similar in appearance to the Terrans.</String>
-  </StringTable>
- 
-  <StringTable>
-    <Label>FACTION_IRIDIUM_Name</Label>
-    <String>Iridium Corporation</String>
-  </StringTable>
- 
-  <StringTable>
-    <Label>FACTION_IRIDIUM_ShortName</Label>
-    <String>Iridium</String>
-  </StringTable>
- 
-  <StringTable>
-    <Label>FACTION_IRIDIUM_LeaderName</Label>
-    <String>Harondin Gaul</String>
-  </StringTable>
- 
-  <StringTable>
-    <Label>FACTION_IRIDIUM_Dec</Label>
-    <String>The Iridium are an ultra capitalistic civilization, ruled by a number of multi-planet corporations. Firm believers in the power of free markets, they specialize in economic and cultural growth.</String>
-  </StringTable>
- 
-  <StringTable>
-    <Label>FACTION_KRYNN_Name</Label>
-    <String>Krynn Syndicate</String>
-  </StringTable>
- 
-  <StringTable>
-    <Label>FACTION_KRYNN_ShortName</Label>
-    <String>Krynn</String>
-  </StringTable>
- 
-  <StringTable>
-    <Label>FACTION_KRYNN_LeaderName</Label>
-    <String>Ynrhed Eidden</String>
-  </StringTable>
- 
-  <StringTable>
-    <Label>FACTION_KRYNN_Dec</Label>
-    <String>The Krynn are a coalition of races deeply united by a shared religion. In recent years a secretive arm of their faith has taken control of their government, and its Shadow Network now spans the galaxy.</String>
-  </StringTable>
- 
-  <StringTable>
-    <Label>FACTION_YOR_Name</Label>
-    <String>Yor Singularity</String>
-  </StringTable>
- 
-  <StringTable>
-    <Label>FACTION_YOR_ShortName</Label>
-    <String>YOR</String>
-  </StringTable>
- 
-  <StringTable>
-    <Label>FACTION_YOR_LeaderName</Label>
-    <String>N-1</String>
-  </StringTable>
- 
-  <StringTable>
-    <Label>FACTION_YOR_Dec</Label>
-    <String>The Yor are a race of sentient artificial beings. They have no need for crude means for reproduction and consumption, and can instead build citizens to inhabit their worlds.</String>
-  </StringTable>
- 
-  <StringTable>
-    <Label>FACTION_PIRATES_Name</Label>
-    <String>Space Pirates</String>
-  </StringTable>
- 
-  <StringTable>
-    <Label>FACTION_PIRATES_ShortName</Label>
-    <String>Pirates</String>
-  </StringTable>
- 
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- edited with XMLSpy v2015 sp2 (x64) (http://www.altova.com) by Yanis Lukes (None) -->
+<StringTableList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
+	<!-- Created with the Gal Civ 3 Editor -->
+	<!-- FactionText.xml -->
+	<!-- Tech Names and Descriptions -->
+	<StringTable>
+		<Label>FACTION_TERRAN_Name</Label>
+		<String>Terran Alliance</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_TERRAN_ShortName</Label>
+		<String>Terran</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_TERRAN_LeaderName</Label>
+		<String>D.L. Bradly</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_TERRAN_Dec</Label>
+		<String>Terrans are the inventors of hyperdrive and the youngest race on the galactic stage. Although committed diplomats, Terrans have a militaristic streak that has taken many by surprise.</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_DRENGIN_Name</Label>
+		<String>Drengin Empire</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_DRENGIN_ShortName</Label>
+		<String>Drengin</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_DRENGIN_LeaderName</Label>
+		<String>Lord Kona</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_DRENGIN_Dec</Label>
+		<String>The Drengin are a profoundly evil and warlike civilization. Exceedingly clever and vicious, there are few beings capable of meeting a Drengin and not becoming its next meal.</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_ALTARIAN_Name</Label>
+		<String>Altarian Resistance</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_ALTARIAN_ShortName</Label>
+		<String>Altarian</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_ALTARIAN_LeaderName</Label>
+		<String>Akari Malara</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_ALTARIAN_Dec</Label>
+		<String>Altarians are a deeply religious race that is kind in its interaction with others, although a bit self-righteous. For unknown reasons, they are very similar in appearance to the Terrans.</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_IRIDIUM_Name</Label>
+		<String>Iridium Corporation</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_IRIDIUM_ShortName</Label>
+		<String>Iridium</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_IRIDIUM_LeaderName</Label>
+		<String>Harondin Gaul</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_IRIDIUM_Dec</Label>
+		<String>The Iridium are an ultra capitalistic civilization, ruled by a number of multi-planet corporations. Firm believers in the power of free markets, they specialize in economic and cultural growth.</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_KRYNN_Name</Label>
+		<String>Krynn Syndicate</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_KRYNN_ShortName</Label>
+		<String>Krynn</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_KRYNN_LeaderName</Label>
+		<String>Ynrhed Eidden</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_KRYNN_Dec</Label>
+		<String>The Krynn are a coalition of races deeply united by a shared religion. In recent years a secretive arm of their faith has taken control of their government, and its Shadow Network now spans the galaxy.</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_YOR_Name</Label>
+		<String>Yor Singularity</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_YOR_ShortName</Label>
+		<String>YOR</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_YOR_LeaderName</Label>
+		<String>N-1</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_YOR_Dec</Label>
+		<String>The Yor are a race of sentient artificial beings. They have no need for crude means for reproduction and consumption, and can instead build citizens to inhabit their worlds.</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_PIRATES_Name</Label>
+		<String>Space Pirates</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_PIRATES_ShortName</Label>
+		<String>Pirates</String>
+	</StringTable>
+	<!--Star Control:-->
+	<StringTable>
+		<Label>FACTION_SUPOX_Name</Label>
+		<String>Supox Utricularia</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_SUPOX_ShortName</Label>
+		<String>Supox</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_SUPOX_LeaderName</Label>
+		<String>Root</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_SUPOX_Dec</Label>
+		<String>The Supox Utricularia are an intelligent spacefaring race resembling some carnivorous plants. When they were first met by the New Alliance of Free Stars the Supox had already forged a cooperative relationship with the nearby Utwig.</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_DRUUGE_Name</Label>
+		<String>Crimson Corporation</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_DRUUGE_ShortName</Label>
+		<String>Druuge</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_DRUUGE_LeaderName</Label>
+		<String>Moola</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_DRUUGE_Dec</Label>
+		<String>The Druuge, who reside around the Persei constellation, are greedy, piggish, unsentimental, horned humanoids with a characteristic ooze constantly emanating from the mouth, nose and ears. Their whole culture is an image of extreme capitalism, and all Druuge are the employees of a syndicate they call the Crimson Corporation. The bosses of this gargantuan corporate empire are no less than the overlords of their whole civilization.</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_SYREEN_Name</Label>
+		<String>Syreen Matriarchy</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_SYREEN_ShortName</Label>
+		<String>Syreen</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_SYREEN_LeaderName</Label>
+		<String>Talana</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_SYREEN_Dec</Label>
+		<String>The Syreen are a race of bipedal hominids astonishingly similar to the Humans. With the female population outnumbering that of male, Syreen civilization can be considered as a Matriarchy.</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_YEHAT_Name</Label>
+		<String>Yehat Monarchy</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_YEHAT_ShortName</Label>
+		<String>Yehat</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_YEHAT_LeaderName</Label>
+		<String>Queen of Veep-Neep</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_YEHAT_Dec</Label>
+		<String>The Yehat are a Pterodactyl-like race that has travelled the stars for many centuries. They were a significant force in the Alliance of Free Stars, before becoming one of Ur-Quan Battle Thralls.</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_UTWIG_Name</Label>
+		<String>Utwig Technocracy</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_UTWIG_ShortName</Label>
+		<String>Utwig</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_UTWIG_LeaderName</Label>
+		<String>Uuter</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_UTWIG_Dec</Label>
+		<String>They are a fatalist race with a sophisticated, somewhat mystic culture, involving masks and their dependency on an artifact known as the Ultron. They believe that their race has a grand destiny to, via the Ultron, "perform [an] essential service for the universe".</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_CHMMR_Name</Label>
+		<String>Chmmr</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_CHMMR_ShortName</Label>
+		<String>Chmmr</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_CHMMR_LeaderName</Label>
+		<String>Qwerty</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_CHMMR_Dec</Label>
+		<String>The Chmmr are a composite race created from the two separate races of the Chenjesu and the Mmrnmhrm. The synthesis of the two races takes place under the slave shield on the Chenjesu's homeworld of Procyon II.</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_VUX_Name</Label>
+		<String>VUX</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_VUX_ShortName</Label>
+		<String>VUX</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_VUX_LeaderName</Label>
+		<String>REX</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_VUX_Dec</Label>
+		<String>Much of VUX history is not known due to the VUX's staunch unwillingness to communicate with other races. However, the events in the recent two wars are common knowledge to many species.</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_ILWRATH_Name</Label>
+		<String>Ilwrath Collective</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_ILWRATH_ShortName</Label>
+		<String>Ilwrath</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_ILWRATH_LeaderName</Label>
+		<String>Gorgon</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_ILWRATH_Dec</Label>
+		<String>The Ilwrath are spider-like beings who worship their dark gods Dogan and Kazon.</String>
+	</StringTable>
+	<!-- Ur-Quan: -->
+	<StringTable>
+		<Label>FACTION_KOHR-AH_Name</Label>
+		<String>Ur-Quan Kohr-Ah</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_KOHR-AH_ShortName</Label>
+		<String>Kohr-Ah</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_KOHR-AH_LeaderName</Label>
+		<String>Kohr-Ah Primat</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_KOHR-AH_Dec</Label>
+		<String>The Ur-Quan Kohr-Ah are one of the two subraces of the Ur-Quan. Their determination to exterminate all non-Ur-Quan life rather than enslaving them has made them even more dangerous as a foe.</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_KZER-ZA_Name</Label>
+		<String>Ur-Quan Kzer-Za</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_KZER-ZA_ShortName</Label>
+		<String>Kzer-Za</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_KZER-ZA_LeaderName</Label>
+		<String>Master Nine</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_KZER-ZA_Dec</Label>
+		<String>The Ur-Quan Kzer-Za are one of two subraces of Ur-Quan. Kzer-Za are bent on enslaving other races if they refuse to fight their wars. The Kzer-Za were designed to be the "thinkers," the scientists, technicians, and overseers of a previous Empire. When their cousins the Kohr-Ah are around, they engage in their doctrinal conflict.</String>
+	</StringTable>
+	<!-- Battle Thrall: -->
+	<StringTable>
+		<Label>FACTION_MYCON_Name</Label>
+		<String>Mycon</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_MYCON_ShortName</Label>
+		<String>Mycon</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_MYCON_LeaderName</Label>
+		<String>Spork</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_MYCON_Dec</Label>
+		<String>While most sentient races are taxonomically animals, the Mycon are fungi. The Mycon spread the spores of their race through the galaxy with their Podships.</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_SPATHI_Name</Label>
+		<String>Spathi</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_SPATHI_ShortName</Label>
+		<String>Spathi</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_SPATHI_LeaderName</Label>
+		<String>Safe Ones</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_SPATHI_Dec</Label>
+		<String>The Spathi are a cowardly race of "meta-mollusks", self-described as possessing the "best qualities of both the clam and the Dravatz".</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_THRADDASH_Name</Label>
+		<String>Thraddash Culture 19</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_THRADDASH_ShortName</Label>
+		<String>Thraddash</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_THRADDASH_LeaderName</Label>
+		<String>Knarg</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_THRADDASH_Dec</Label>
+		<String>The Thraddash are a race of intellectually challenged barbarians from the Draconis stars. Thraddash history has witnessed the rise and fall of 18 different planetary cultures.</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_UMGAH_Name</Label>
+		<String>Umgah</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_UMGAH_ShortName</Label>
+		<String>Umgah</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_UMGAH_LeaderName</Label>
+		<String>Bob</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_UMGAH_Dec</Label>
+		<String>The Umgah are a race of pranksters whose warped sense of humor knows no bounds.</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_ORZ_Name</Label>
+		<String>Orz</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_ORZ_ShortName</Label>
+		<String>Orz</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_ORZ_LeaderName</Label>
+		<String>*Finger*</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_ORZ_Dec</Label>
+		<String>The Orz are — is — an alien species/projections of an extradimensional entity first encountered by The Captain in the space near where the Androsynth had been known to reside.</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_PKUNK_Name</Label>
+		<String>Pkunk</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_PKUNK_ShortName</Label>
+		<String>Pkunk</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_PKUNK_LeaderName</Label>
+		<String>Braky Girdy</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_PKUNK_Dec</Label>
+		<String>The Pkunk are wacky, toucan-like beings, an offshoot of the Yehat race. They are pacifistic mystics who claim to be in constant contact with the "spirit-world".</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_ZOQ-FOT-PIK_Name</Label>
+		<String>Zoq-Fot-Pik</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_ZOQ-FOT-PIK_ShortName</Label>
+		<String>Zoq-Fot-Pik</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_ZOQ-FOT-PIK_LeaderName</Label>
+		<String>The Trio</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_ZOQ-FOT-PIK_Dec</Label>
+		<String>The Zoq, Fot, and Pik are three separate races that evolved simultaneously on a jungle-like world. The Zoq-Fot-Pik first entered the galactic fray when they found their colony worlds were playing host to terrible space battles. These battles unleashed titanic forces as the two sides fought, and when they missed each other the small Zoq-Fot-Pik colonies suffered.</String>
+	</StringTable>
+	<!-- Minor: -->
+	<StringTable>
+		<Label>FACTION_ARILOU_Name</Label>
+		<String>Arilou Lalee'lay</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_ARILOU_ShortName</Label>
+		<String>Arilou</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_ARILOU_LeaderName</Label>
+		<String>Faffywaffy</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_ARILOU_Dec</Label>
+		<String>Arilou first made themselves known to the Galaxy during the Ur-Quan Slave War, suddenly appearing and applying to join the Alliance of Free Stars. Their actions were equally mercurial at the end of the war, retreating and abandoning the other races as soon as the Humans were slave-shielded. The motives for their actions seem to be some mysterious connection they have with the Human race.</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_HUMANS_Name</Label>
+		<String>Earthlings</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_HUMANS_ShortName</Label>
+		<String>Earthlings</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_HUMANS_LeaderName</Label>
+		<String>Commander Hayes</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_HUMANS_Dec</Label>
+		<String>After the Alliance of Free Stars was defeated by the Ur-Quan Kzer-Za, most of the human population voted to live under a slaveshielded Earth rather than joining the Ur-Quan Kzer-Za as Battle Thralls.</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_MELNORME_Name</Label>
+		<String>Melnorme</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_MELNORME_ShortName</Label>
+		<String>Melnorme</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_MELNORME_LeaderName</Label>
+		<String>Purple</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_MELNORME_Dec</Label>
+		<String>The Melnorme, as far as we know, are a race of traveling traders in information and technology. They appear as several orange globs piled on top of each other, with a large smile and a single eye.</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_SHOFIXTI_Name</Label>
+		<String>Shofixti</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_SHOFIXTI_ShortName</Label>
+		<String>Shofixti</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_SHOFIXTI_LeaderName</Label>
+		<String>Tanaka</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_SHOFIXTI_Dec</Label>
+		<String>The Shofixti are a marsupial race of honorable mammals. All life on their homeworld was wiped out by a mini-supernova. Their technology, culture and religion (referred to as "Yehat Ancestor Worship") are greatly influenced by the Yehat, who uplifted them.</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_SYLANDRO_Name</Label>
+		<String>Slylandro</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_SYLANDRO_ShortName</Label>
+		<String>Slylandro</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_SYLANDRO_LeaderName</Label>
+		<String>Content to Hover</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_SYLANDRO_Dec</Label>
+		<String>The Slylandro are the only known race whose homeworld, which they call Source, is a Gas Giant. They cannot travel through space due to their physiology, though they have bought a self replicating Probe from the Melnorme to explore space for them and report back to them. The Slylandro have had contact with the Precursors, the original Ur-Quan and the Sentient Milieu.</String>
+	</StringTable>
+	<!-- Other: -->
+	<StringTable>
+		<Label>FACTION_PROBES_Name</Label>
+		<String>Sylandro Probes</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_PROBES_ShortName</Label>
+		<String>Probes</String>
+	</StringTable>
 </StringTableList>
