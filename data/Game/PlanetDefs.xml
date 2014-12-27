@@ -1,25 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<PlanetList
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
-
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- edited with XMLSpy v2015 sp2 (x64) (http://www.altova.com) by Yanis Lukes (None) -->
+<PlanetList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 	<Planet>
 		<InternalName>PlanetMercury</InternalName>
 		<DisplayName>MERCURY_NAME</DisplayName>
-		<PlanetType>Dead</PlanetType>		
-		<PlanetClass>0</PlanetClass>		
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
 		<ArtDefine>MercuryArt</ArtDefine>
 	</Planet>
-
 	<Planet>
 		<InternalName>PlanetEarth</InternalName>
 		<DisplayName>EarthName</DisplayName>
 		<PlanetType>Habitable</PlanetType>
 		<HabitableType>GreenWorld</HabitableType>
-		<PlanetClass>11</PlanetClass>		
-    <ArtDefine>EarthArt</ArtDefine>
+		<PlanetClass>11</PlanetClass>
+		<ArtDefine>EarthArt</ArtDefine>
 	</Planet>
-	
 	<Planet>
 		<InternalName>PlanetMars</InternalName>
 		<DisplayName>MarsName</DisplayName>
@@ -28,7 +24,6 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<PlanetClass>5</PlanetClass>
 		<ArtDefine>MarsArt</ArtDefine>
 	</Planet>
-	
 	<Planet>
 		<InternalName>PlanetJupiter</InternalName>
 		<DisplayName>JupiterName</DisplayName>
@@ -36,7 +31,6 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<PlanetClass>0</PlanetClass>
 		<ArtDefine>JupiterArt</ArtDefine>
 	</Planet>
-
 	<Planet>
 		<InternalName>PlanetSaturn</InternalName>
 		<DisplayName>SaturnName</DisplayName>
@@ -44,53 +38,45 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<PlanetClass>0</PlanetClass>
 		<ArtDefine>SaturnArt</ArtDefine>
 	</Planet>
-
-  <!--Drengia System-->
-  
+	<!--Drengia System-->
 	<Planet>
 		<InternalName>PlanetDrengi</InternalName>
 		<DisplayName>DrengiName</DisplayName>
 		<PlanetType>Habitable</PlanetType>
 		<HabitableType>GreenWorld</HabitableType>
-		<PlanetClass>11</PlanetClass>		
+		<PlanetClass>11</PlanetClass>
 		<ArtDefine>DrengiArt</ArtDefine>
 	</Planet>
-
-  <Planet>
-    <InternalName>PlanetKona</InternalName>
-    <DisplayName>Kona_Name</DisplayName>
-    <PlanetType>Habitable</PlanetType>
-    <HabitableType>AridWorld</HabitableType>
-    <PlanetClass>5</PlanetClass>
-    <ArtDefine>TempOKPlanet07</ArtDefine>
-  </Planet>
-
-  <Planet>
-    <InternalName>PlanetRathor</InternalName>
-    <DisplayName>Rathor_Name</DisplayName>
-    <PlanetType>Dead</PlanetType>
-    <PlanetClass>0</PlanetClass>
-    <ArtDefine>VenusArt</ArtDefine>
-  </Planet>
-
-  <Planet>
-    <InternalName>PlanetGrathis</InternalName>
-    <DisplayName>Grathis_Name</DisplayName>
-    <PlanetType>Dead</PlanetType>
-    <PlanetClass>0</PlanetClass>
-    <ArtDefine>MercuryArt</ArtDefine>
-  </Planet>
-
-  <Planet>
-    <InternalName>PlanetMawhar</InternalName>
-    <DisplayName>Mawhar_Name</DisplayName>
-    <PlanetType>Dead</PlanetType>
-    <PlanetClass>0</PlanetClass>
-    <ArtDefine>TempOKPlanet04</ArtDefine>
-  </Planet>
-  
-  <!--Altaris System-->
-  
+	<Planet>
+		<InternalName>PlanetKona</InternalName>
+		<DisplayName>Kona_Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<HabitableType>AridWorld</HabitableType>
+		<PlanetClass>5</PlanetClass>
+		<ArtDefine>TempOKPlanet07</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetRathor</InternalName>
+		<DisplayName>Rathor_Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>VenusArt</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetGrathis</InternalName>
+		<DisplayName>Grathis_Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>MercuryArt</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetMawhar</InternalName>
+		<DisplayName>Mawhar_Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>TempOKPlanet04</ArtDefine>
+	</Planet>
+	<!--Altaris System-->
 	<Planet>
 		<InternalName>PlanetAltaria</InternalName>
 		<DisplayName>AltariaName</DisplayName>
@@ -99,42 +85,36 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<PlanetClass>10</PlanetClass>
 		<ArtDefine>AltariaArt</ArtDefine>
 	</Planet>
-
-  <Planet>
-    <InternalName>PlanetWisp</InternalName>
-    <DisplayName>Wisp_Name</DisplayName>
-    <PlanetType>Habitable</PlanetType>
-    <HabitableType>AridWorld</HabitableType>
-    <PlanetClass>6</PlanetClass>
-    <ArtDefine>TempGoodPlanet03</ArtDefine>
-  </Planet>
-
-  <Planet>
-    <InternalName>PlanetEpas</InternalName>
-    <DisplayName>Epas_Name</DisplayName>
-    <PlanetType>Dead</PlanetType>
-    <PlanetClass>0</PlanetClass>
-    <ArtDefine>TempOKPlanet04</ArtDefine>
-  </Planet>
-
-  <Planet>
-    <InternalName>PlanetImoth</InternalName>
-    <DisplayName>Imoth_Name</DisplayName>
-    <PlanetType>Dead</PlanetType>
-    <PlanetClass>0</PlanetClass>
-    <ArtDefine>TempBadPlanet03</ArtDefine>
-  </Planet>
-
-  <Planet>
-    <InternalName>PlanetPo</InternalName>
-    <DisplayName>Po_Name</DisplayName>
-    <PlanetType>Dead</PlanetType>
-    <PlanetClass>0</PlanetClass>
-    <ArtDefine>TempBadPlanet04</ArtDefine>
-  </Planet>
-
-  <!--Icos System-->
-  
+	<Planet>
+		<InternalName>PlanetWisp</InternalName>
+		<DisplayName>Wisp_Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<HabitableType>AridWorld</HabitableType>
+		<PlanetClass>6</PlanetClass>
+		<ArtDefine>TempGoodPlanet03</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetEpas</InternalName>
+		<DisplayName>Epas_Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>TempOKPlanet04</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetImoth</InternalName>
+		<DisplayName>Imoth_Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>TempBadPlanet03</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetPo</InternalName>
+		<DisplayName>Po_Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>TempBadPlanet04</ArtDefine>
+	</Planet>
+	<!--Icos System-->
 	<Planet>
 		<InternalName>PlanetIconia</InternalName>
 		<DisplayName>IconiaName</DisplayName>
@@ -143,7 +123,6 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<PlanetClass>14</PlanetClass>
 		<ArtDefine>IconiaArt</ArtDefine>
 	</Planet>
-
 	<Planet>
 		<InternalName>PlanetIconia2</InternalName>
 		<DisplayName>Iconia2Name</DisplayName>
@@ -151,7 +130,6 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<PlanetClass>0</PlanetClass>
 		<ArtDefine>Iconia2Art</ArtDefine>
 	</Planet>
-
 	<Planet>
 		<InternalName>PlanetIconia3</InternalName>
 		<DisplayName>Iconia3Name</DisplayName>
@@ -159,7 +137,6 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<PlanetClass>0</PlanetClass>
 		<ArtDefine>Iconia3Art</ArtDefine>
 	</Planet>
-
 	<Planet>
 		<InternalName>PlanetIconia4</InternalName>
 		<DisplayName>Iconia4Name</DisplayName>
@@ -167,76 +144,336 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<PlanetClass>0</PlanetClass>
 		<ArtDefine>Iconia4Art</ArtDefine>
 	</Planet>
-
-  <!--Iridii System-->
-
-  <Planet>
-    <InternalName>PlanetIridia</InternalName>
-    <DisplayName>IridiaName</DisplayName>
-    <PlanetType>Habitable</PlanetType>
-    <HabitableType>GreenWorld</HabitableType>
-    <PlanetClass>12</PlanetClass>
-    <ArtDefine>IridiaArt</ArtDefine>
-  </Planet>
-
-  <Planet>
-    <InternalName>PlanetVallus</InternalName>
-    <DisplayName>Vallus_Name</DisplayName>
-    <PlanetType>Habitable</PlanetType>
-    <HabitableType>AridWorld</HabitableType>
-    <PlanetClass>5</PlanetClass>
-    <ArtDefine>TempOKPlanet02</ArtDefine>
-  </Planet>
-
-  <Planet>
-    <InternalName>PlanetGold</InternalName>
-    <DisplayName>Gold_Name</DisplayName>
-    <PlanetType>GasGiant</PlanetType>
-    <PlanetClass>0</PlanetClass>
-    <ArtDefine>SaturnArt</ArtDefine>
-  </Planet>
-
-  <Planet>
-    <InternalName>PlanetSilver</InternalName>
-    <DisplayName>Silver_Name</DisplayName>
-    <PlanetType>Dead</PlanetType>
-    <PlanetClass>0</PlanetClass>
-    <ArtDefine>TempDeadPlanet02</ArtDefine>
-  </Planet>
-  
-    <Planet>
-    <InternalName>PlanetKryseth</InternalName>
-    <DisplayName>KrysethName</DisplayName>
-    <PlanetType>Habitable</PlanetType>
-    <HabitableType>GreenWorld</HabitableType>
-    <PlanetClass>8</PlanetClass>
-    <ArtDefine>KrysethArt</ArtDefine>
-  </Planet>
-
-  <Planet>
-    <InternalName>PlanetKrysethAlpha</InternalName>
-    <DisplayName>PlanetKrysethAlphaName</DisplayName>
-    <PlanetType>Habitable</PlanetType>
-    <HabitableType>GreenWorld</HabitableType>
-    <PlanetClass>4</PlanetClass>
-    <ArtDefine>GenericWorld</ArtDefine>
-  </Planet>
-
-  <Planet>
-    <InternalName>PlanetKrysethBeta</InternalName>
-    <DisplayName>PlanetKrysethBetaName</DisplayName>
-    <PlanetType>Habitable</PlanetType>
-    <HabitableType>GreenWorld</HabitableType>
-    <PlanetClass>4</PlanetClass>
-    <ArtDefine>GenericWorld</ArtDefine>
-  </Planet>
-
-  <Planet>
-    <InternalName>PlanetEidden</InternalName>
-    <DisplayName>PlanetEiddenName</DisplayName>
-    <PlanetType>GasGiant</PlanetType>
-    <PlanetClass>0</PlanetClass>
-    <ArtDefine>GasGiantArt</ArtDefine>
-  </Planet>
-
+	<!--Iridii System-->
+	<Planet>
+		<InternalName>PlanetIridia</InternalName>
+		<DisplayName>IridiaName</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<HabitableType>GreenWorld</HabitableType>
+		<PlanetClass>12</PlanetClass>
+		<ArtDefine>IridiaArt</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetVallus</InternalName>
+		<DisplayName>Vallus_Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<HabitableType>AridWorld</HabitableType>
+		<PlanetClass>5</PlanetClass>
+		<ArtDefine>TempOKPlanet02</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetGold</InternalName>
+		<DisplayName>Gold_Name</DisplayName>
+		<PlanetType>GasGiant</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>SaturnArt</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetSilver</InternalName>
+		<DisplayName>Silver_Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>TempDeadPlanet02</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetKryseth</InternalName>
+		<DisplayName>KrysethName</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<HabitableType>GreenWorld</HabitableType>
+		<PlanetClass>8</PlanetClass>
+		<ArtDefine>KrysethArt</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetKrysethAlpha</InternalName>
+		<DisplayName>PlanetKrysethAlphaName</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<HabitableType>GreenWorld</HabitableType>
+		<PlanetClass>4</PlanetClass>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetKrysethBeta</InternalName>
+		<DisplayName>PlanetKrysethBetaName</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<HabitableType>GreenWorld</HabitableType>
+		<PlanetClass>4</PlanetClass>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetEidden</InternalName>
+		<DisplayName>PlanetEiddenName</DisplayName>
+		<PlanetType>GasGiant</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>GasGiantArt</ArtDefine>
+	</Planet>
+	<!--Star Control:-->
+	<!--Supox Homeworld-->
+	<Planet>
+		<InternalName>PlanetBetaLibre1</InternalName>
+		<DisplayName>VlikName</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<HabitableType>GreenWorld</HabitableType>
+		<PlanetClass>10</PlanetClass>
+		<ArtDefine>AltariaArt</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetBetaLibre2</InternalName>
+		<DisplayName>BetaLibre2Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<HabitableType>AridWorld</HabitableType>
+		<PlanetClass>6</PlanetClass>
+		<ArtDefine>TempGoodPlanet03</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetBetaLibre3</InternalName>
+		<DisplayName>BetaLibre3Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>TempOKPlanet04</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetBetaLibre4</InternalName>
+		<DisplayName>BetaLibre4Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>TempBadPlanet03</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetBetaLibre5</InternalName>
+		<DisplayName>BetaLibre5Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>TempBadPlanet04</ArtDefine>
+	</Planet>
+	<!--Druuge Homeworld-->
+	<Planet>
+		<InternalName>PlanetZetaPersei1</InternalName>
+		<DisplayName>ZetaPersei1Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<HabitableType>GreenWorld</HabitableType>
+		<PlanetClass>11</PlanetClass>
+		<ArtDefine>DrengiArt</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetZetaPersei2</InternalName>
+		<DisplayName>ZetaPersei2Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<HabitableType>AridWorld</HabitableType>
+		<PlanetClass>5</PlanetClass>
+		<ArtDefine>TempOKPlanet07</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetZetaPersei3</InternalName>
+		<DisplayName>ZetaPersei3Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>VenusArt</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetZetaPersei4</InternalName>
+		<DisplayName>ZetaPersei4Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>MercuryArt</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetZetaPersei5</InternalName>
+		<DisplayName>ZetaPersei5Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>TempOKPlanet04</ArtDefine>
+	</Planet>
+	<!--Syreen Homeworld-->
+	<Planet>
+		<InternalName>PlanetBetelgeuse1</InternalName>
+		<DisplayName>GaiaName</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<HabitableType>GreenWorld</HabitableType>
+		<PlanetClass>10</PlanetClass>
+		<ArtDefine>AltariaArt</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetBetelgeuse2</InternalName>
+		<DisplayName>Betelgeuse2Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<HabitableType>AridWorld</HabitableType>
+		<PlanetClass>6</PlanetClass>
+		<ArtDefine>TempGoodPlanet03</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetBetelgeuse3</InternalName>
+		<DisplayName>Betelgeuse3Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>TempOKPlanet04</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetBetelgeuse4</InternalName>
+		<DisplayName>Betelgeuse4Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>TempBadPlanet03</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetBetelgeuse5</InternalName>
+		<DisplayName>Betelgeuse5Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>TempBadPlanet04</ArtDefine>
+	</Planet>
+	<!--Chmmr Homeworld-->
+	<Planet>
+		<InternalName>PlanetProcyon2</InternalName>
+		<DisplayName>Procyon2Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<HabitableType>GreenWorld</HabitableType>
+		<PlanetClass>14</PlanetClass>
+		<ArtDefine>IconiaArt</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetProcyon1</InternalName>
+		<DisplayName>Procyon1Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>Iconia2Art</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetProcyon3</InternalName>
+		<DisplayName>Procyon3Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>Iconia3Art</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetProcyon4</InternalName>
+		<DisplayName>Procyon4Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>Iconia4Art</ArtDefine>
+	</Planet>
+	<!--Yehat Homeworld-->
+	<Planet>
+		<InternalName>PlanetGammaSerpentis1</InternalName>
+		<DisplayName>GammaSerpentis1Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<HabitableType>GreenWorld</HabitableType>
+		<PlanetClass>12</PlanetClass>
+		<ArtDefine>IridiaArt</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetGammaSerpentis2</InternalName>
+		<DisplayName>GammaSerpentis2Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<HabitableType>AridWorld</HabitableType>
+		<PlanetClass>5</PlanetClass>
+		<ArtDefine>TempOKPlanet02</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetGammaSerpentis3</InternalName>
+		<DisplayName>GammaSerpentis3Name</DisplayName>
+		<PlanetType>GasGiant</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>SaturnArt</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetGammaSerpentis4</InternalName>
+		<DisplayName>GammaSerpentis4Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>TempDeadPlanet02</ArtDefine>
+	</Planet>
+	<!--Utwig Homeworld-->
+	<Planet>
+		<InternalName>PlanetBetaAquarii1</InternalName>
+		<DisplayName>FahzName</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<HabitableType>GreenWorld</HabitableType>
+		<PlanetClass>8</PlanetClass>
+		<ArtDefine>KrysethArt</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetBetaAquarii2</InternalName>
+		<DisplayName>BetaAquarii2Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<HabitableType>GreenWorld</HabitableType>
+		<PlanetClass>4</PlanetClass>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetBetaAquarii3</InternalName>
+		<DisplayName>BetaAquarii3Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<HabitableType>GreenWorld</HabitableType>
+		<PlanetClass>4</PlanetClass>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetBetaAquarii4</InternalName>
+		<DisplayName>BetaAquarii4Name</DisplayName>
+		<PlanetType>GasGiant</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>GasGiantArt</ArtDefine>
+	</Planet>
+	<!--VUX Homeworld-->
+	<Planet>
+		<InternalName>PlanetBetaLuyten1</InternalName>
+		<DisplayName>BetaLuyten1Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<HabitableType>GreenWorld</HabitableType>
+		<PlanetClass>12</PlanetClass>
+		<ArtDefine>IridiaArt</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetBetaLuyten2</InternalName>
+		<DisplayName>BetaLuyten2Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<HabitableType>AridWorld</HabitableType>
+		<PlanetClass>5</PlanetClass>
+		<ArtDefine>TempOKPlanet02</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetBetaLuyten3</InternalName>
+		<DisplayName>BetaLuyten3Name</DisplayName>
+		<PlanetType>GasGiant</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>SaturnArt</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetBetaLuyten4</InternalName>
+		<DisplayName>BetaLuyten4Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>TempDeadPlanet02</ArtDefine>
+	</Planet>
+	<!--Ilwrath Homeworld-->
+	<Planet>
+		<InternalName>PlanetAlphaTauri1</InternalName>
+		<DisplayName>AlphaTauri1Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<HabitableType>GreenWorld</HabitableType>
+		<PlanetClass>12</PlanetClass>
+		<ArtDefine>IridiaArt</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetAlphaTauri2</InternalName>
+		<DisplayName>AlphaTauri2Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<HabitableType>AridWorld</HabitableType>
+		<PlanetClass>5</PlanetClass>
+		<ArtDefine>TempOKPlanet02</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetAlphaTauri3</InternalName>
+		<DisplayName>AlphaTauri3Name</DisplayName>
+		<PlanetType>GasGiant</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>SaturnArt</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetAlphaTauri4</InternalName>
+		<DisplayName>AlphaTauri4Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>TempDeadPlanet02</ArtDefine>
+	</Planet>
 </PlanetList>
