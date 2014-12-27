@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<StarSystemList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- StarSystemDefs.xml -->
+ 
+  <!-- System Group -->
+ 
+  <StarSystemGroup>
+    <InternalName>FactionStart</InternalName>
+ 
+    <!-- StarSystem -->
+ 
+    <StarSystem>
+      <InternalName>SolSystem</InternalName>
+ 
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>SolStar</BodyDef>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>DeadZone</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetMercury</BodyDef>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetEarth</BodyDef>
+          <Position>5</Position>
+        </Body>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetMars</BodyDef>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+          <Position>0</Position>
+        </Body>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetJupiter</BodyDef>
+        </Body>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetSaturn</BodyDef>
+          <Position></Position>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+      </OrbitLane>
+ 
+    </StarSystem>
+ 
+    <!-- StarSystem -->
+ 
+    <StarSystem>
+      <InternalName>DrengiSystem</InternalName>
+ 
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>DrengiaStar</BodyDef>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetGrathis</BodyDef>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetDrengi</BodyDef>
+          <Position>5</Position>
+        </Body>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetKona</BodyDef>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+          <Position>12</Position>
+        </Body>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetMawhar</BodyDef>
+        </Body>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetRathor</BodyDef>
+          <Position></Position>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+      </OrbitLane>
+ 
+    </StarSystem>
+ 
+    <!-- StarSystem -->
+ 
+    <StarSystem>
+      <InternalName>AltariaSystem</InternalName>
+ 
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>AltarisStar</BodyDef>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>DeadZone</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetImoth</BodyDef>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetAltaria</BodyDef>
+          <Position>5</Position>
+        </Body>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetWisp</BodyDef>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+          <Position>15</Position>
+        </Body>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetPo</BodyDef>
+        </Body>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetEpas</BodyDef>
+          <Position></Position>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+      </OrbitLane>
+ 
+    </StarSystem>
+ 
+    <!-- StarSystem -->
+ 
+    <StarSystem>
+      <InternalName>IridiaSystem</InternalName>
+ 
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>IridiiStar</BodyDef>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetSilver</BodyDef>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetIridia</BodyDef>
+          <Position>8</Position>
+        </Body>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetVallus</BodyDef>
+        </Body>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetGold</BodyDef>
+          <Position></Position>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+          <Position>14</Position>
+        </Body>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+          <Position>4</Position>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+      </OrbitLane>
+ 
+    </StarSystem>
+ 
+    <!-- StarSystem -->
+ 
+    <StarSystem>
+      <InternalName>IconiaSystem</InternalName>
+ 
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>IcosStar</BodyDef>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetIconia2</BodyDef>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetIconia</BodyDef>
+          <Position>5</Position>
+        </Body>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetIconia3</BodyDef>
+        </Body>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetIconia4</BodyDef>
+          <Position></Position>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+          <Position>14</Position>
+        </Body>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+          <Position>4</Position>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+      </OrbitLane>
+ 
+    </StarSystem>
+ 
+    <!-- StarSystem -->
+ 
+    <StarSystem>
+      <InternalName>KrysethSystem</InternalName>
+ 
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>KrysethStar</BodyDef>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>DeadZone</LaneType>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetKryseth</BodyDef>
+          <Position>5</Position>
+        </Body>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetKrysethAlpha</BodyDef>
+        </Body>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetKrysethBeta</BodyDef>
+          <Position></Position>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+          <Position>15</Position>
+        </Body>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetEidden</BodyDef>
+          <Position></Position>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+      </OrbitLane>
+ 
+    </StarSystem>
+ 
+ </StarSystemGroup>
+ 
+  <!-- System Group -->
+ 
+  <StarSystemGroup>
+    <InternalName>SystemTemplate</InternalName>
+ 
+    <!-- StarSystem -->
+ 
+    <StarSystem>
+      <InternalName>System00</InternalName>
+ 
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>YellowStar</BodyDef>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>DeadZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>1</MaxPlanets>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>4</MaxPlanets>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>OuterZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>2</MaxPlanets>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+      </OrbitLane>
+ 
+    </StarSystem>
+ 
+    <!-- StarSystem -->
+ 
+    <StarSystem>
+      <InternalName>System08</InternalName>
+ 
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>PurpleStar</BodyDef>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>DeadZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>1</MaxPlanets>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>4</MaxPlanets>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>OuterZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>3</MaxPlanets>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+      </OrbitLane>
+ 
+    </StarSystem>
+ 
+    <!-- StarSystem -->
+ 
+    <StarSystem>
+      <InternalName>System01</InternalName>
+ 
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>WhiteStar</BodyDef>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>4</MaxPlanets>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>Asteroid</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>2</MaxPlanets>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+      </OrbitLane>
+ 
+    </StarSystem>
+ 
+    <!-- StarSystem -->
+ 
+    <StarSystem>
+      <InternalName>System02</InternalName>
+ 
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>BlueStar</BodyDef>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>DeadZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>1</MaxPlanets>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>4</MaxPlanets>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>OuterZone</LaneType>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+      </OrbitLane>
+ 
+    </StarSystem>
+ 
+    <!-- StarSystem -->
+ 
+    <StarSystem>
+      <InternalName>System04</InternalName>
+ 
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>RedGiantStar</BodyDef>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>DeadZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>1</MaxPlanets>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>3</MaxPlanets>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>OuterZone</LaneType>
+        <MinPlanets>1</MinPlanets>
+        <MaxPlanets>2</MaxPlanets>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+      </OrbitLane>
+ 
+    </StarSystem>
+ 
+    <!-- StarSystem -->
+ 
+    <StarSystem>
+      <InternalName>System05</InternalName>
+ 
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>OrangeStar</BodyDef>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>1</MaxPlanets>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+      </OrbitLane>
+ 
+    </StarSystem>
+ 
+    <!-- StarSystem -->
+ 
+    <StarSystem>
+      <InternalName>System06</InternalName>
+ 
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>OrangeStar</BodyDef>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>DeadZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>1</MaxPlanets>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>3</MaxPlanets>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>OuterZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>1</MaxPlanets>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+      </OrbitLane>
+ 
+    </StarSystem>
+ 
+    <!-- StarSystem -->
+ 
+    <StarSystem>
+      <InternalName>System07</InternalName>
+ 
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>WhiteStar</BodyDef>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>4</MaxPlanets>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>Asteroid</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>2</MaxPlanets>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+      </OrbitLane>
+ 
+    </StarSystem>
+ 
+    <!-- StarSystem -->
+ 
+    <StarSystem>
+      <InternalName>System09</InternalName>
+ 
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>BlueStar</BodyDef>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>DeadZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>1</MaxPlanets>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>4</MaxPlanets>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>OuterZone</LaneType>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+      </OrbitLane>
+ 
+    </StarSystem>
+ 
+    <!-- StarSystem -->
+ 
+    <StarSystem>
+      <InternalName>System10</InternalName>
+ 
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>RedGiantStar</BodyDef>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>DeadZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>1</MaxPlanets>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>3</MaxPlanets>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>OuterZone</LaneType>
+        <MinPlanets>1</MinPlanets>
+        <MaxPlanets>2</MaxPlanets>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+      </OrbitLane>
+ 
+    </StarSystem>
+ 
+    <!-- StarSystem -->
+ 
+    <StarSystem>
+      <InternalName>System11</InternalName>
+ 
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>OrangeStar</BodyDef>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>1</MaxPlanets>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+      </OrbitLane>
+ 
+    </StarSystem>
+ 
+    <!-- StarSystem -->
+ 
+    <StarSystem>
+      <InternalName>System12</InternalName>
+ 
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>OrangeStar</BodyDef>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>DeadZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>1</MaxPlanets>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>3</MaxPlanets>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+        </Body>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>OuterZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>1</MaxPlanets>
+      </OrbitLane>
+ 
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+      </OrbitLane>
+ 
+    </StarSystem>
+ 
+ </StarSystemGroup>
+ 
+</StarSystemList>
