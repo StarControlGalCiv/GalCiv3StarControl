@@ -308,7 +308,7 @@
 		<!--Star Control:-->
 		<!--Supox StarSystem -->
 		<StarSystem>
-			<InternalName>BetaLibreSystem</InternalName>
+			<InternalName>BetaLibraeSystem</InternalName>
 			<OrbitLane>
 				<LaneType>Star</LaneType>
 				<Body>
@@ -320,19 +320,19 @@
 				<LaneType>HabitableZone</LaneType>
 				<Body>
 					<BodyType>Planet</BodyType>
-					<BodyDef>PlanetBetaLibre1</BodyDef>
+					<BodyDef>PlanetBetaLibrae1</BodyDef>
 					<Position>5</Position>
 				</Body>
 				<Body>
 					<BodyType>Planet</BodyType>
-					<BodyDef>PlanetBetaLibre2</BodyDef>
+					<BodyDef>PlanetBetaLibrae2</BodyDef>
 				</Body>
 			</OrbitLane>
 			<OrbitLane>
 				<LaneType>DeadZone</LaneType>
 				<Body>
 					<BodyType>Planet</BodyType>
-					<BodyDef>PlanetBetaLibre3</BodyDef>
+					<BodyDef>PlanetBetaLibrae3</BodyDef>
 				</Body>
 			</OrbitLane>
 			<OrbitLane>
@@ -344,11 +344,11 @@
 				</Body>
 				<Body>
 					<BodyType>Planet</BodyType>
-					<BodyDef>PlanetBetaLibre4</BodyDef>
+					<BodyDef>PlanetBetaLibrae4</BodyDef>
 				</Body>
 				<Body>
 					<BodyType>Planet</BodyType>
-					<BodyDef>PlanetBetaLibre5</BodyDef>
+					<BodyDef>PlanetBetaLibrae5</BodyDef>
 					<Position/>
 				</Body>
 			</OrbitLane>
@@ -658,7 +658,7 @@
 		</StarSystem>
 		<!--Ilwrath StarSystem -->
 		<StarSystem>
-			<InternalName>GammaSerpentisSystem</InternalName>
+			<InternalName>AlphaTauriSystem</InternalName>
 			<OrbitLane>
 				<LaneType>Star</LaneType>
 				<Body>
@@ -670,16 +670,16 @@
 				<LaneType>HabitableZone</LaneType>
 				<Body>
 					<BodyType>Planet</BodyType>
-					<BodyDef>PlanetGammaSerpentis1</BodyDef>
+					<BodyDef>PlanetAlphaTauri1</BodyDef>
 					<Position>8</Position>
 				</Body>
 				<Body>
 					<BodyType>Planet</BodyType>
-					<BodyDef>PlanetGammaSerpentis2</BodyDef>
+					<BodyDef>PlanetAlphaTauri2</BodyDef>
 				</Body>
 				<Body>
 					<BodyType>Planet</BodyType>
-					<BodyDef>PlanetGammaSerpentis3</BodyDef>
+					<BodyDef>PlanetAlphaTauri3</BodyDef>
 					<Position/>
 				</Body>
 			</OrbitLane>
@@ -687,7 +687,7 @@
 				<LaneType>NoRandom</LaneType>
 				<Body>
 					<BodyType>Planet</BodyType>
-					<BodyDef>PlanetGammaSerpentis4</BodyDef>
+					<BodyDef>PlanetAlphaTauri4</BodyDef>
 				</Body>
 			</OrbitLane>
 			<OrbitLane>

@@ -209,7 +209,7 @@
 	<!--Star Control:-->
 	<!--Supox Homeworld-->
 	<Planet>
-		<InternalName>PlanetBetaLibre1</InternalName>
+		<InternalName>PlanetBetaLibrae1</InternalName>
 		<DisplayName>VlikName</DisplayName>
 		<PlanetType>Habitable</PlanetType>
 		<HabitableType>GreenWorld</HabitableType>
@@ -217,30 +217,30 @@
 		<ArtDefine>AltariaArt</ArtDefine>
 	</Planet>
 	<Planet>
-		<InternalName>PlanetBetaLibre2</InternalName>
-		<DisplayName>BetaLibre2Name</DisplayName>
+		<InternalName>PlanetBetaLibrae2</InternalName>
+		<DisplayName>BetaLibrae2Name</DisplayName>
 		<PlanetType>Habitable</PlanetType>
 		<HabitableType>AridWorld</HabitableType>
 		<PlanetClass>6</PlanetClass>
 		<ArtDefine>TempGoodPlanet03</ArtDefine>
 	</Planet>
 	<Planet>
-		<InternalName>PlanetBetaLibre3</InternalName>
-		<DisplayName>BetaLibre3Name</DisplayName>
+		<InternalName>PlanetBetaLibrae3</InternalName>
+		<DisplayName>BetaLibrae3Name</DisplayName>
 		<PlanetType>Dead</PlanetType>
 		<PlanetClass>0</PlanetClass>
 		<ArtDefine>TempOKPlanet04</ArtDefine>
 	</Planet>
 	<Planet>
-		<InternalName>PlanetBetaLibre4</InternalName>
-		<DisplayName>BetaLibre4Name</DisplayName>
+		<InternalName>PlanetBetaLibrae4</InternalName>
+		<DisplayName>BetaLibrae4Name</DisplayName>
 		<PlanetType>Dead</PlanetType>
 		<PlanetClass>0</PlanetClass>
 		<ArtDefine>TempBadPlanet03</ArtDefine>
 	</Planet>
 	<Planet>
-		<InternalName>PlanetBetaLibre5</InternalName>
-		<DisplayName>BetaLibre5Name</DisplayName>
+		<InternalName>PlanetBetaLibrae5</InternalName>
+		<DisplayName>BetaLibrae5Name</DisplayName>
 		<PlanetType>Dead</PlanetType>
 		<PlanetClass>0</PlanetClass>
 		<ArtDefine>TempBadPlanet04</ArtDefine>

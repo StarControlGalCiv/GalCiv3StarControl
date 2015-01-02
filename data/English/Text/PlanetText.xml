@@ -133,28 +133,28 @@
 	<!--Star Control:-->
 	<!--Supox Homeworld-->
 	<StringTable>
-		<Label>BetaLibre1Name</Label>
-		<String>Beta Libre I</String>
+		<Label>BetaLibrae1Name</Label>
+		<String>Beta Librae I</String>
 	</StringTable>
 	<StringTable>
-		<Label>BetaLibre2Name</Label>
-		<String>Beta Libre II</String>
+		<Label>BetaLibrae2Name</Label>
+		<String>Beta Librae II</String>
 	</StringTable>
 	<StringTable>
-		<Label>BetaLibre3Name</Label>
-		<String>Beta Libre III</String>
+		<Label>BetaLibrae3Name</Label>
+		<String>Beta Librae III</String>
 	</StringTable>
 	<StringTable>
-		<Label>BetaLibre4Name</Label>
-		<String>Beta Libre IV</String>
+		<Label>BetaLibrae4Name</Label>
+		<String>Beta Librae IV</String>
 	</StringTable>
 	<StringTable>
-		<Label>BetaLibre5Name</Label>
-		<String>Beta Libre V</String>
+		<Label>BetaLibrae5Name</Label>
+		<String>Beta Librae V</String>
 	</StringTable>
 	<StringTable>
-		<Label>BetaLibre6Name</Label>
-		<String>Beta Libre VI</String>
+		<Label>BetaLibrae6Name</Label>
+		<String>Beta Librae VI</String>
 	</StringTable>
 	<StringTable>
 		<Label>VlikName</Label>
