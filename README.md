@@ -3,7 +3,7 @@ Galactic Civilizations 3 - Star Control Mod
 
 This is a total conversion mod of Stardock's Galactic Civilizations III based on Star Control game series.
 
-At the moment of this writing Galactic Civilizations III is in beta development stage without official support for making mods for it. While a Mods folder exists, files within it do not override game files, yet.
+At the moment of this writing Galactic Civilizations III is in beta development stage without official support for making mods for it. While a Mods folder exists in Window's user documents, files within it do not override game files, only SFX and Music for now.
 
 Current version: 0.0.1 Pre-Alpha
 
