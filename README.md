@@ -28,7 +28,7 @@ http://www.stardock.com/
 
 ## Star Control 2 scenario
 
-Ur-Quan Kzer-Za and Ur-Quan Kohr-Ah are at permanent war with each other, termed the second Doctrinal Conflict. While the last war was won by the Kzer-Za using the Sa-Matra battle platform, in this war Kzer-Za avoid using the Sa-Matra or even its Battle Thralls. Most likely outcome is victory by the Kohr-Ah, though neither outcome is desireable to other races.
+Ur-Quan Kzer-Za and Ur-Quan Kohr-Ah are at permanent war with each other, termed the second Doctrinal Conflict. While the last war was won by the Kzer-Za using the Sa-Matra battle platform, in this war the Kzer-Za avoid using it or even its Battle Thralls. Most likely outcome is victory by the Kohr-Ah, though neither outcome is desireable to other races.
 
 Sa-Matra is owned by Ur-Quan Kzer-Za and is unable to move until Ur-Quan Kohr-Ah are defeated.
 
