@@ -93,8 +93,14 @@ Major:
   *		Supox (Pure Good)
   *		Utwig (Chaotic Good)
   *		Zoq-Fot-Pik (Pure Good)
-*	Ascend from Minor to Major status:
-  *		Pre-Chmmr as Chmmr (Chaotic Good)
+  
+Ascend to Major status:
+*	Slaveshielded, has shipyard:
+  *		Syreen (Pure Good) (Gaia)
+*	Slaveshielded:
+  *		Chmmr (Chaotic Good)
+  *		Humans (Chaotic Good) (Earth & Unzervalt)
+*	Slaveshielded, has fleet:
   *		Shofixti (Chaotic Good)
 
 Minor:
@@ -103,11 +109,10 @@ Minor:
   *		Melnorme (Neutral)
 *	Independent, confined to homeworld without atbility to create buildings:
   *		Slylandro (Neutral)
-*	Slaveshielded, has fleet:
-  *		Syreen (Pure Good) (Gaia)
-*	Entirely slaveshielded:
-  *		Humans (Chaotic Good) (Earth & Unzervalt)
-  *		Pre-Chmmr (Chaotic Good) (Procyon II)
+
+Special:
+* Pirates
+* Sylandro Drones
 
 ## License:
 Creative Commons Attribution-NonCommercial 3.0 Unported License
