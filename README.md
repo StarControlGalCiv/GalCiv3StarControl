@@ -100,7 +100,7 @@ Ascend to Major status:
 *	Slaveshielded:
   *		Chmmr (Chaotic Good)
   *		Humans (Chaotic Good) (Earth & Unzervalt)
-*	Slaveshielded, has fleet:
+*	Stalled growth until event:
   *		Shofixti (Chaotic Good)
 
 Minor:
