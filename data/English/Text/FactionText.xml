@@ -187,7 +187,7 @@
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_UTWIG_Dec</Label>
-		<String>They are a fatalist race with a sophisticated, somewhat mystic culture, involving masks and their dependency on an artifact known as the Ultron. They believe that their race has a grand destiny to, via the Ultron, "perform [an] essential service for the universe".</String>
+		<String>They are a fatalist race with a sophisticated, somewhat mystic culture, involving masks and their dependency on an artifact known as the Ultron. They believe that their race has a grand destiny to, via the Ultron, 'perform an essential service for the universe'.</String>
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_CHMMR_Name</Label>

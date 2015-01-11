@@ -207,6 +207,38 @@
 		<ArtDefine>GasGiantArt</ArtDefine>
 	</Planet>
 	<!--Star Control:-->
+	<!--BattleThralls:-->
+	<!--Ilwrath Homeworld-->
+	<Planet>
+		<InternalName>PlanetAlphaTauri1</InternalName>
+		<DisplayName>AlphaTauri1Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<HabitableType>GreenWorld</HabitableType>
+		<PlanetClass>12</PlanetClass>
+		<ArtDefine>IridiaArt</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetAlphaTauri2</InternalName>
+		<DisplayName>AlphaTauri2Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<HabitableType>AridWorld</HabitableType>
+		<PlanetClass>5</PlanetClass>
+		<ArtDefine>TempOKPlanet02</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetAlphaTauri3</InternalName>
+		<DisplayName>AlphaTauri3Name</DisplayName>
+		<PlanetType>GasGiant</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>SaturnArt</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetAlphaTauri4</InternalName>
+		<DisplayName>AlphaTauri4Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<ArtDefine>TempDeadPlanet02</ArtDefine>
+	</Planet>
 	<!--Supox Homeworld-->
 	<Planet>
 		<InternalName>PlanetBetaLibrae1</InternalName>
@@ -441,37 +473,6 @@
 	<Planet>
 		<InternalName>PlanetBetaLuyten4</InternalName>
 		<DisplayName>BetaLuyten4Name</DisplayName>
-		<PlanetType>Dead</PlanetType>
-		<PlanetClass>0</PlanetClass>
-		<ArtDefine>TempDeadPlanet02</ArtDefine>
-	</Planet>
-	<!--Ilwrath Homeworld-->
-	<Planet>
-		<InternalName>PlanetAlphaTauri1</InternalName>
-		<DisplayName>AlphaTauri1Name</DisplayName>
-		<PlanetType>Habitable</PlanetType>
-		<HabitableType>GreenWorld</HabitableType>
-		<PlanetClass>12</PlanetClass>
-		<ArtDefine>IridiaArt</ArtDefine>
-	</Planet>
-	<Planet>
-		<InternalName>PlanetAlphaTauri2</InternalName>
-		<DisplayName>AlphaTauri2Name</DisplayName>
-		<PlanetType>Habitable</PlanetType>
-		<HabitableType>AridWorld</HabitableType>
-		<PlanetClass>5</PlanetClass>
-		<ArtDefine>TempOKPlanet02</ArtDefine>
-	</Planet>
-	<Planet>
-		<InternalName>PlanetAlphaTauri3</InternalName>
-		<DisplayName>AlphaTauri3Name</DisplayName>
-		<PlanetType>GasGiant</PlanetType>
-		<PlanetClass>0</PlanetClass>
-		<ArtDefine>SaturnArt</ArtDefine>
-	</Planet>
-	<Planet>
-		<InternalName>PlanetAlphaTauri4</InternalName>
-		<DisplayName>AlphaTauri4Name</DisplayName>
 		<PlanetType>Dead</PlanetType>
 		<PlanetClass>0</PlanetClass>
 		<ArtDefine>TempDeadPlanet02</ArtDefine>

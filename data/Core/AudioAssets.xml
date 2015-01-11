@@ -310,12 +310,22 @@ xsi:noNamespaceSchemaLocation="../Schema/Lib/AssetTableDef.xsd">
 	</Asset>
 
 	<Asset>
+		<Tag>KOHR-AH_DIPLOMACY</Tag>
+		<Filename>blackur-the_eternal_doctrine.ogg</Filename>
+	</Asset>
+
+	<Asset>
 		<Tag>KOHR-AH_WAR_EVENT</Tag>
 		<Filename>blackur-the_eternal_doctrine.ogg</Filename>
 	</Asset>
 
 	<Asset>
 		<Tag>KZER-ZA_PEACE_EVENT</Tag>
+		<Filename>urquan.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>KZER-ZA_DIPLOMACY</Tag>
 		<Filename>urquan.mp3</Filename>
 	</Asset>
 
@@ -330,12 +340,22 @@ xsi:noNamespaceSchemaLocation="../Schema/Lib/AssetTableDef.xsd">
 	</Asset>
 
 	<Asset>
+		<Tag>ARILOU_DIPLOMACY</Tag>
+		<Filename>arilou.mp3</Filename>
+	</Asset>
+
+	<Asset>
 		<Tag>ARILOU_WAR_EVENT</Tag>
 		<Filename>Super_Melee_Menu__Fight!.mp3</Filename>
 	</Asset>
 
 	<Asset>
 		<Tag>CHMMR_PEACE_EVENT</Tag>
+		<Filename>Chmmr__Photosynthesis.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>CHMMR_DIPLOMACY</Tag>
 		<Filename>Chmmr__Photosynthesis.mp3</Filename>
 	</Asset>
 
@@ -350,22 +370,37 @@ xsi:noNamespaceSchemaLocation="../Schema/Lib/AssetTableDef.xsd">
 	</Asset>
 
 	<Asset>
+		<Tag>DRUUGE_DIPLOMACY</Tag>
+		<Filename>druuge.mp3</Filename>
+	</Asset>
+
+	<Asset>
 		<Tag>DRUUGE_WAR_EVENT</Tag>
 		<Filename>Super_Melee_Menu__Fight!.mp3</Filename>
 	</Asset>
 
 	<Asset>
-		<Tag>HUMANS_PEACE_EVENT</Tag>
+		<Tag>EARTHLINGS_PEACE_EVENT</Tag>
 		<Filename>comandr.ogg</Filename>
 	</Asset>
 
 	<Asset>
-		<Tag>HUMANS_WAR_EVENT</Tag>
+		<Tag>EARTHLINGS_DIPLOMACY</Tag>
+		<Filename>comandr.ogg</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>EARTHLINGS_WAR_EVENT</Tag>
 		<Filename>Super_Melee_Menu__Fight!.mp3</Filename>
 	</Asset>
 
 	<Asset>
 		<Tag>ILWRATH_PEACE_EVENT</Tag>
+		<Filename>ilwrath.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>ILWRATH_DIPLOMACY</Tag>
 		<Filename>ilwrath.mp3</Filename>
 	</Asset>
 
@@ -380,12 +415,22 @@ xsi:noNamespaceSchemaLocation="../Schema/Lib/AssetTableDef.xsd">
 	</Asset>
 
 	<Asset>
+		<Tag>MELNORME_DIPLOMACY</Tag>
+		<Filename>melnorm.ogg</Filename>
+	</Asset>
+
+	<Asset>
 		<Tag>MELNORME_WAR_EVENT</Tag>
 		<Filename>Super_Melee_Menu__Fight!.mp3</Filename>
 	</Asset>
 
 	<Asset>
 		<Tag>MYCON_PEACE_EVENT</Tag>
+		<Filename>mycon.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>MYCON_DIPLOMACY</Tag>
 		<Filename>mycon.mp3</Filename>
 	</Asset>
 
@@ -400,12 +445,22 @@ xsi:noNamespaceSchemaLocation="../Schema/Lib/AssetTableDef.xsd">
 	</Asset>
 
 	<Asset>
+		<Tag>ORZ_DIPLOMACY</Tag>
+		<Filename>Orz__Squeezing_the_Juice.mp3</Filename>
+	</Asset>
+
+	<Asset>
 		<Tag>ORZ_WAR_EVENT</Tag>
 		<Filename>Super_Melee_Menu__Fight!.mp3</Filename>
 	</Asset>
 
 	<Asset>
 		<Tag>PKUNK_PEACE_EVENT</Tag>
+		<Filename>Pkunk__Pkunks_Not_Dead.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>PKUNK_DIPLOMACY</Tag>
 		<Filename>Pkunk__Pkunks_Not_Dead.mp3</Filename>
 	</Asset>
 
@@ -420,12 +475,22 @@ xsi:noNamespaceSchemaLocation="../Schema/Lib/AssetTableDef.xsd">
 	</Asset>
 
 	<Asset>
+		<Tag>SHOFIXTI_DIPLOMACY</Tag>
+		<Filename>Shofixti__Bonsai!.mp3</Filename>
+	</Asset>
+
+	<Asset>
 		<Tag>SHOFIXTI_WAR_EVENT</Tag>
 		<Filename>Super_Melee_Menu__Fight!.mp3</Filename>
 	</Asset>
 
 	<Asset>
 		<Tag>SLYLANDRO_PEACE_EVENT</Tag>
+		<Filename>slyhome.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>SLYLANDRO_DIPLOMACY</Tag>
 		<Filename>slyhome.mp3</Filename>
 	</Asset>
 
@@ -440,12 +505,22 @@ xsi:noNamespaceSchemaLocation="../Schema/Lib/AssetTableDef.xsd">
 	</Asset>
 
 	<Asset>
+		<Tag>SPATHI_DIPLOMACY</Tag>
+		<Filename>spathi.ogg</Filename>
+	</Asset>
+
+	<Asset>
 		<Tag>SPATHI_WAR_EVENT</Tag>
 		<Filename>Super_Melee_Menu__Fight!.mp3</Filename>
 	</Asset>
 
 	<Asset>
 		<Tag>SUPOX_PEACE_EVENT</Tag>
+		<Filename>Supox__Shake_Yer_Rootz.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>SUPOX_DIPLOMACY</Tag>
 		<Filename>Supox__Shake_Yer_Rootz.mp3</Filename>
 	</Asset>
 
@@ -460,12 +535,22 @@ xsi:noNamespaceSchemaLocation="../Schema/Lib/AssetTableDef.xsd">
 	</Asset>
 
 	<Asset>
+		<Tag>SYREEN_DIPLOMACY</Tag>
+		<Filename>Syreen__Close_Encounters_of_the_Seventh_Kind.mp3</Filename>
+	</Asset>
+
+	<Asset>
 		<Tag>SYREEN_WAR_EVENT</Tag>
 		<Filename>Super_Melee_Menu__Fight!.mp3</Filename>
 	</Asset>
 
 	<Asset>
 		<Tag>THRADDASH_PEACE_EVENT</Tag>
+		<Filename>thradd.ogg</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>THRADDASH_DIPLOMACY</Tag>
 		<Filename>thradd.ogg</Filename>
 	</Asset>
 
@@ -480,12 +565,22 @@ xsi:noNamespaceSchemaLocation="../Schema/Lib/AssetTableDef.xsd">
 	</Asset>
 
 	<Asset>
+		<Tag>UMGAH_DIPLOMACY</Tag>
+		<Filename>umgah.ogg</Filename>
+	</Asset>
+
+	<Asset>
 		<Tag>UMGAH_WAR_EVENT</Tag>
 		<Filename>Super_Melee_Menu__Fight!.mp3</Filename>
 	</Asset>
 
 	<Asset>
 		<Tag>UTWIG_PEACE_EVENT</Tag>
+		<Filename>Utwig__Mask_of_Ultimate_Embarrassment_and_Shame.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>UTWIG_DIPLOMACY</Tag>
 		<Filename>Utwig__Mask_of_Ultimate_Embarrassment_and_Shame.mp3</Filename>
 	</Asset>
 
@@ -500,6 +595,11 @@ xsi:noNamespaceSchemaLocation="../Schema/Lib/AssetTableDef.xsd">
 	</Asset>
 
 	<Asset>
+		<Tag>VUX_DIPLOMACY</Tag>
+		<Filename>vux.mp3</Filename>
+	</Asset>
+
+	<Asset>
 		<Tag>VUX_WAR_EVENT</Tag>
 		<Filename>Super_Melee_Menu__Fight!.mp3</Filename>
 	</Asset>
@@ -510,12 +610,22 @@ xsi:noNamespaceSchemaLocation="../Schema/Lib/AssetTableDef.xsd">
 	</Asset>
 
 	<Asset>
+		<Tag>YEHAT_DIPLOMACY</Tag>
+		<Filename>Yehat__Years_Late_Mix.mp3</Filename>
+	</Asset>
+
+	<Asset>
 		<Tag>YEHAT_WAR_EVENT</Tag>
 		<Filename>Super_Melee_Menu__Fight!.mp3</Filename>
 	</Asset>
 
 	<Asset>
 		<Tag>ZOQ-FOT-PIK_PEACE_EVENT</Tag>
+		<Filename>Zoq-Fot-Pik__Frungy_Party.mp3</Filename>
+	</Asset>
+
+	<Asset>
+		<Tag>ZOQ-FOT-PIK_DIPLOMACY</Tag>
 		<Filename>Zoq-Fot-Pik__Frungy_Party.mp3</Filename>
 	</Asset>
 
