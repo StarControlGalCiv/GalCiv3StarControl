@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<ShipComponentList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- ShipComponentDefs.xml -->
+
+  <ShipComponent>
+    <InternalName>KzerZaDroneCarrierModule</InternalName>
+    <DisplayName>DroneCarrierModule_Name</DisplayName>
+    <Description>DroneCarrierModule_Dec</Description>
+    <ArtDefine>Carrier_Module_01</ArtDefine>
+    <Category>Modules</Category>
+    <OnePerShip>true</OnePerShip>
+    <Type>InterceptorCarrierModule</Type>
+    <PlacementType>Module</PlacementType>
+    <Stats>
+      <EffectType>Threat</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>6</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Value</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>10</Value>
+    </Stats>
+    <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>48</Value>
+    </Stats>
+    <Stats>
+      <EffectType>SupportMass</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>45</Value>
+    </Stats>
+    <Stats>
+      <EffectType>InterceptorFightersCap</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>2</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>0.5</Value>
+    </Stats>
+
+    <Prerequ>
+      <RaceTrait>
+        <Option>KzerZa</Option>
+      </RaceTrait>
+    </Prerequ>
+  </ShipComponent>
+
+  <!-- Kohr Ah Special weapon -->
+  <!-- No weapon does splash damage, mimicking it -->
+  <ShipComponent>
+    <InternalName>Immolator</InternalName>
+    <DisplayName>Immolator_Name</DisplayName>
+    <Description>Immolator_Dec</Description>
+    <ArtDefine>SoldierModel_01</ArtDefine>
+    <Category>Support</Category>
+    <OnePerShip>true</OnePerShip>
+    <Type>RepairSupport</Type>
+    <SupportType>Repair</SupportType>
+    <PlacementType>Support</PlacementType>
+    <Stats>
+      <EffectType>Value</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>4</Value>
+    </Stats>
+    <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>65</Value>
+    </Stats>
+    <Stats>
+      <EffectType>SupportMass</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>15</Value>
+    </Stats>
+    <Stats>
+      <EffectType>TacticalRepair</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>3</Value>
+    </Stats>
+    <!-- <Stats>
+      <EffectType>TacticalRepair</EffectType>
+      <Scope>UPResolutionGalaxy</Scope>
+      <Target>
+        <TargetType>AllShipsInFleet</TargetType>
+        <TargetRelation>Foreign</TargetRelation>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>-1</Value>
+    </Stats> -->
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>0.75</Value>
+    </Stats>
+    
+    <Prerequ>
+      <RaceTrait>
+        <Option>KohrAh</Option>
+      </RaceTrait>
+    </Prerequ>
+  </ShipComponent>
+
+</ShipComponentList>

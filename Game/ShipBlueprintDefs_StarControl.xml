@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<ShipBlueprintList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/ShipBlueprintDefs.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- ShipBlueprintDefs.xml -->
+ 
+
+  <!-- Begin Blueprint -->
+
+  <ShipBlueprint>
+    <InternalName>LargeDroneCarrierBlueprint</InternalName>
+    <ShipHullType>Large</ShipHullType>
+    <Role>Capital</Role>
+    <RequiredComponentType>InterceptorCarrierModule</RequiredComponentType>
+    <ComponentType>Armor</ComponentType>
+    <ComponentType>BeamWeapon</ComponentType>
+    <ComponentType>BeamWeapon</ComponentType>
+    <ComponentType>InterceptorCarrierModule</ComponentType>
+    <ComponentType>BeamWeapon</ComponentType>
+    <ComponentType>LifeSupport</ComponentType>
+    <ComponentType>InterstellarDrive</ComponentType>
+    <ComponentType>InterceptorCarrierModule</ComponentType>
+    <ComponentType>Sensor</ComponentType>
+    <ComponentType>InterstellarDrive</ComponentType>
+    <FillerComponentType>BeamWeapon</FillerComponentType>
+  </ShipBlueprint>
+ 
+  <!-- Begin Blueprint -->
+ 
+  <ShipBlueprint>
+    <InternalName>HugeGuardianCarrierBlueprint</InternalName>
+    <ShipHullType>Huge</ShipHullType>
+    <Role>Capital</Role>
+    <RequiredComponentType>GuardianCarrierModule</RequiredComponentType>
+    <ComponentType>Armor</ComponentType>
+    <ComponentType>BeamWeapon</ComponentType>
+    <ComponentType>BeamWeapon</ComponentType>
+    <ComponentType>GuardianCarrierModule</ComponentType>
+    <ComponentType>BeamWeapon</ComponentType>
+    <ComponentType>LifeSupport</ComponentType>
+    <ComponentType>InterstellarDrive</ComponentType>
+    <ComponentType>GuardianCarrierModule</ComponentType>
+    <ComponentType>Sensor</ComponentType>
+    <ComponentType>InterstellarDrive</ComponentType>
+    <FillerComponentType>BeamWeapon</FillerComponentType>
+  </ShipBlueprint>
+ 
+</ShipBlueprintList>

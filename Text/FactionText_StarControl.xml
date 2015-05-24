@@ -3,111 +3,6 @@
 <StringTableList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
 	<!-- Created with the Gal Civ 3 Editor -->
 	<!-- FactionText.xml -->
-	<!-- Tech Names and Descriptions -->
-	<StringTable>
-		<Label>FACTION_TERRAN_Name</Label>
-		<String>Terran Alliance</String>
-	</StringTable>
-	<StringTable>
-		<Label>FACTION_TERRAN_ShortName</Label>
-		<String>Terran</String>
-	</StringTable>
-	<StringTable>
-		<Label>FACTION_TERRAN_LeaderName</Label>
-		<String>D.L. Bradly</String>
-	</StringTable>
-	<StringTable>
-		<Label>FACTION_TERRAN_Dec</Label>
-		<String>Terrans are the inventors of hyperdrive and the youngest race on the galactic stage. Although committed diplomats, Terrans have a militaristic streak that has taken many by surprise.</String>
-	</StringTable>
-	<StringTable>
-		<Label>FACTION_DRENGIN_Name</Label>
-		<String>Drengin Empire</String>
-	</StringTable>
-	<StringTable>
-		<Label>FACTION_DRENGIN_ShortName</Label>
-		<String>Drengin</String>
-	</StringTable>
-	<StringTable>
-		<Label>FACTION_DRENGIN_LeaderName</Label>
-		<String>Lord Kona</String>
-	</StringTable>
-	<StringTable>
-		<Label>FACTION_DRENGIN_Dec</Label>
-		<String>The Drengin are a profoundly evil and warlike civilization. Exceedingly clever and vicious, there are few beings capable of meeting a Drengin and not becoming its next meal.</String>
-	</StringTable>
-	<StringTable>
-		<Label>FACTION_ALTARIAN_Name</Label>
-		<String>Altarian Resistance</String>
-	</StringTable>
-	<StringTable>
-		<Label>FACTION_ALTARIAN_ShortName</Label>
-		<String>Altarian</String>
-	</StringTable>
-	<StringTable>
-		<Label>FACTION_ALTARIAN_LeaderName</Label>
-		<String>Akari Malara</String>
-	</StringTable>
-	<StringTable>
-		<Label>FACTION_ALTARIAN_Dec</Label>
-		<String>Altarians are a deeply religious race that is kind in its interaction with others, although a bit self-righteous. For unknown reasons, they are very similar in appearance to the Terrans.</String>
-	</StringTable>
-	<StringTable>
-		<Label>FACTION_IRIDIUM_Name</Label>
-		<String>Iridium Corporation</String>
-	</StringTable>
-	<StringTable>
-		<Label>FACTION_IRIDIUM_ShortName</Label>
-		<String>Iridium</String>
-	</StringTable>
-	<StringTable>
-		<Label>FACTION_IRIDIUM_LeaderName</Label>
-		<String>Harondin Gaul</String>
-	</StringTable>
-	<StringTable>
-		<Label>FACTION_IRIDIUM_Dec</Label>
-		<String>The Iridium are an ultra capitalistic civilization, ruled by a number of multi-planet corporations. Firm believers in the power of free markets, they specialize in economic and cultural growth.</String>
-	</StringTable>
-	<StringTable>
-		<Label>FACTION_KRYNN_Name</Label>
-		<String>Krynn Syndicate</String>
-	</StringTable>
-	<StringTable>
-		<Label>FACTION_KRYNN_ShortName</Label>
-		<String>Krynn</String>
-	</StringTable>
-	<StringTable>
-		<Label>FACTION_KRYNN_LeaderName</Label>
-		<String>Ynrhed Eidden</String>
-	</StringTable>
-	<StringTable>
-		<Label>FACTION_KRYNN_Dec</Label>
-		<String>The Krynn are a coalition of races deeply united by a shared religion. In recent years a secretive arm of their faith has taken control of their government, and its Shadow Network now spans the galaxy.</String>
-	</StringTable>
-	<StringTable>
-		<Label>FACTION_YOR_Name</Label>
-		<String>Yor Singularity</String>
-	</StringTable>
-	<StringTable>
-		<Label>FACTION_YOR_ShortName</Label>
-		<String>YOR</String>
-	</StringTable>
-	<StringTable>
-		<Label>FACTION_YOR_LeaderName</Label>
-		<String>N-1</String>
-	</StringTable>
-	<StringTable>
-		<Label>FACTION_YOR_Dec</Label>
-		<String>The Yor are a race of sentient artificial beings. They have no need for crude means for reproduction and consumption, and can instead build citizens to inhabit their worlds.</String>
-	</StringTable>
-	<StringTable>
-		<Label>FACTION_PIRATES_Name</Label>
-		<String>Space Pirates</String>
-	</StringTable>
-	<StringTable>
-		<Label>FACTION_PIRATES_ShortName</Label>
-		<String>Pirates</String>
-	</StringTable>
 	<!--Star Control:-->
 	<StringTable>
 		<Label>FACTION_SUPOX_Name</Label>
@@ -120,6 +15,7 @@
 	<StringTable>
 		<Label>FACTION_SUPOX_LeaderName</Label>
 		<String>Root</String>
+		<!-- Made up -->
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_SUPOX_Dec</Label>
@@ -136,6 +32,7 @@
 	<StringTable>
 		<Label>FACTION_DRUUGE_LeaderName</Label>
 		<String>Moola</String>
+		<!-- Made up -->
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_DRUUGE_Dec</Label>
@@ -184,6 +81,7 @@
 	<StringTable>
 		<Label>FACTION_UTWIG_LeaderName</Label>
 		<String>Uuter</String>
+		<!-- Made up -->
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_UTWIG_Dec</Label>
@@ -200,10 +98,11 @@
 	<StringTable>
 		<Label>FACTION_CHMMR_LeaderName</Label>
 		<String>Qwerty</String>
+		<!-- Made up -->
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_CHMMR_Dec</Label>
-		<String>The Chmmr are a composite race created from the two separate races of the Chenjesu and the Mmrnmhrm. The synthesis of the two races takes place under the slave shield on the Chenjesu's homeworld of Procyon II.</String>
+		<String>The Chmmr are a composite race created from the two separate races of the Chenjesu and the Mmrnmhrm. The synthesis of the two races took/takes place under the slave shield on the Chenjesu's homeworld of Procyon II.</String>
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_VUX_Name</Label>
@@ -216,6 +115,7 @@
 	<StringTable>
 		<Label>FACTION_VUX_LeaderName</Label>
 		<String>REX</String>
+		<!-- Made up -->
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_VUX_Dec</Label>
@@ -232,6 +132,7 @@
 	<StringTable>
 		<Label>FACTION_ILWRATH_LeaderName</Label>
 		<String>Gorgon</String>
+		<!-- Made up -->
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_ILWRATH_Dec</Label>
@@ -249,10 +150,15 @@
 	<StringTable>
 		<Label>FACTION_KOHR-AH_LeaderName</Label>
 		<String>Kohr-Ah Primat</String>
+		<!-- Source, Kzer-Za dialogue - "Perhaps we should contact the Kohr-Ah Primat, explain to her." -->
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_KOHR-AH_Dec</Label>
 		<String>The Ur-Quan Kohr-Ah are one of the two subraces of the Ur-Quan. Their determination to exterminate all non-Ur-Quan life rather than enslaving them has made them even more dangerous as a foe.</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_KOHR-AH_Callsign</Label>
+		<String>Death</String>
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_KZER-ZA_Name</Label>
@@ -265,10 +171,15 @@
 	<StringTable>
 		<Label>FACTION_KZER-ZA_LeaderName</Label>
 		<String>Master Nine</String>
+		<!-- Source, Syreen dialogue - "Ur-Quan Master Nine explained that they had encountered this situation before..." -->
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_KZER-ZA_Dec</Label>
 		<String>The Ur-Quan Kzer-Za are one of two subraces of Ur-Quan. Kzer-Za are bent on enslaving other races if they refuse to fight their wars. The Kzer-Za were designed to be the "thinkers," the scientists, technicians, and overseers of a previous Empire. When their cousins the Kohr-Ah are around, they engage in their doctrinal conflict.</String>
+	</StringTable>
+	<StringTable>
+		<Label>FACTION_KZER-ZA_Callsign</Label>
+		<String>Lord</String>
 	</StringTable>
 	<!-- Battle Thrall: -->
 	<StringTable>
@@ -282,6 +193,7 @@
 	<StringTable>
 		<Label>FACTION_MYCON_LeaderName</Label>
 		<String>Spork</String>
+		<!-- Made up -->
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_MYCON_Dec</Label>
@@ -314,6 +226,7 @@
 	<StringTable>
 		<Label>FACTION_THRADDASH_LeaderName</Label>
 		<String>Knarg</String>
+		<!-- Made up -->
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_THRADDASH_Dec</Label>
@@ -330,6 +243,7 @@
 	<StringTable>
 		<Label>FACTION_UMGAH_LeaderName</Label>
 		<String>Bob</String>
+		<!-- Made up -->
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_UMGAH_Dec</Label>
@@ -346,6 +260,7 @@
 	<StringTable>
 		<Label>FACTION_ORZ_LeaderName</Label>
 		<String>*Finger*</String>
+		<!-- Made up -->
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_ORZ_Dec</Label>
@@ -362,6 +277,7 @@
 	<StringTable>
 		<Label>FACTION_PKUNK_LeaderName</Label>
 		<String>Braky Girdy</String>
+		<!-- Future Pkunk queen of the Yehat -->
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_PKUNK_Dec</Label>
@@ -378,6 +294,7 @@
 	<StringTable>
 		<Label>FACTION_ZOQ-FOT-PIK_LeaderName</Label>
 		<String>The Trio</String>
+		<!-- Made up -->
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_ZOQ-FOT-PIK_Dec</Label>
@@ -411,11 +328,40 @@
 	<StringTable>
 		<Label>FACTION_HUMANS_LeaderName</Label>
 		<String>Commander Hayes</String>
+		<!-- In command of the starbase, which means he is in charge of the remaining Earthling space forces -->
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_HUMANS_Dec</Label>
-		<String>After the Alliance of Free Stars was defeated by the Ur-Quan Kzer-Za, most of the human population voted to live under a slaveshielded Earth rather than joining the Ur-Quan Kzer-Za as Battle Thralls.</String>
+		<String>After the Alliance of Free Stars was defeated by the Ur-Quan Kzer-Za, most of the Earth population voted to live under a slaveshielded Earth rather than joining the Ur-Quan Kzer-Za as Battle Thralls.</String>
 	</StringTable>
+
+	<StringTable>
+		<Label>FACTION_HUMANS_LeaderDec</Label>
+		<String>Commander Hayes commands the Earth starbase.</String>
+	</StringTable>
+
+	<StringTable>
+		<Label>FACTION_HUMANS_Callsign</Label>
+		<String>T.A.S.</String>
+	</StringTable>
+
+	<StringTable>
+		<Label>FACTION_HUMANS_StartupTitle</Label>
+		<String>Denied Final Frontier</String>
+	</StringTable>
+
+	<StringTable>
+		<Label>FACTION_HUMANS_StartupDescription</Label>
+		<String>The blue planet has changed. Red is the light every human most often sees. Ancient wonders have been destroyed by the Ur-Quan. The Chenjesu convinced Earth to take this route while requesting to wait for their plan to come to fruition. Patience for humans is running thin and there are increasing cries for the government to somehow remove the slaveshield. Government doesn't have a way to do that and even if they did the Ur-Quan would re-enslave humans again.
+
+		Humans now believe that an opportunity has been struck. For a while there hasn't been any communication between Earth and the Ur-Quan starbase. Heavy focus is now done on research in order to break the Slave Shield.</String>
+	</StringTable>
+
+	<StringTable>
+		<Label>FACTION_HUMANS_StartupTraitsDescription</Label>
+		<String>Humans are naturally adventurous, with fast, long ranging ships. All ships are equipped with the Point-defence Laser System. Their production capacity and diplomatic abilities are well regarded, except by the VUX.</String>
+	</StringTable>
+
 	<StringTable>
 		<Label>FACTION_MELNORME_Name</Label>
 		<String>Melnorme</String>
@@ -427,6 +373,7 @@
 	<StringTable>
 		<Label>FACTION_MELNORME_LeaderName</Label>
 		<String>Purple</String>
+		<!-- Made up -->
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_MELNORME_Dec</Label>
@@ -449,25 +396,25 @@
 		<String>The Shofixti are a marsupial race of honorable mammals. All life on their homeworld was wiped out by a mini-supernova. Their technology, culture and religion (referred to as "Yehat Ancestor Worship") are greatly influenced by the Yehat, who uplifted them.</String>
 	</StringTable>
 	<StringTable>
-		<Label>FACTION_SYLANDRO_Name</Label>
+		<Label>FACTION_SLYLANDRO_Name</Label>
 		<String>Slylandro</String>
 	</StringTable>
 	<StringTable>
-		<Label>FACTION_SYLANDRO_ShortName</Label>
+		<Label>FACTION_SLYLANDRO_ShortName</Label>
 		<String>Slylandro</String>
 	</StringTable>
 	<StringTable>
-		<Label>FACTION_SYLANDRO_LeaderName</Label>
+		<Label>FACTION_SLYLANDRO_LeaderName</Label>
 		<String>Content to Hover</String>
 	</StringTable>
 	<StringTable>
-		<Label>FACTION_SYLANDRO_Dec</Label>
+		<Label>FACTION_SLYLANDRO_Dec</Label>
 		<String>The Slylandro are the only known race whose homeworld, which they call Source, is a Gas Giant. They cannot travel through space due to their physiology, though they have bought a self replicating Probe from the Melnorme to explore space for them and report back to them. The Slylandro have had contact with the Precursors, the original Ur-Quan and the Sentient Milieu.</String>
 	</StringTable>
 	<!-- Other: -->
 	<StringTable>
 		<Label>FACTION_PROBES_Name</Label>
-		<String>Sylandro Probes</String>
+		<String>Slylandro Probes</String>
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_PROBES_ShortName</Label>

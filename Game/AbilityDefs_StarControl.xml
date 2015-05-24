@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<RaceTraitList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- AbilityDefs.xml -->
+
+  <RaceTrait>
+    <InternalName>MundaneAbility</InternalName>
+    <DisplayName>MundaneAbility_Name</DisplayName>
+    <DisplayNameShort>MundaneAbility_ShortName</DisplayNameShort>
+    <Description>MundaneAbility_Desc</Description>
+    <IsAbility>1</IsAbility>
+  </RaceTrait>
+
+  <RaceTrait>
+    <InternalName>KzerZa</InternalName>
+    <DisplayName>KzerZa_Name</DisplayName>
+    <DisplayNameShort>KzerZa_ShortName</DisplayNameShort>
+    <Description>KzerZa_Desc</Description>
+    <IsAbility>1</IsAbility>
+    <Mod>
+      <EffectType>Diplomacy</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>-10</Value>
+    </Mod>
+    <Mod>
+      <EffectType>InterceptorFightersCap</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Starbase</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>2</Value>
+    </Mod>
+    <Mod>
+      <EffectType>InterceptorFightersCap</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Shipyard</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>2</Value>
+    </Mod>
+  </RaceTrait>
+
+  <RaceTrait>
+    <InternalName>KohrAh</InternalName>
+    <DisplayName>KohrAh_Name</DisplayName>
+    <DisplayNameShort>KohrAh_ShortName</DisplayNameShort>
+    <Description>KohrAh_Desc</Description>
+    <IsAbility>1</IsAbility>
+    <Mod>
+      <EffectType>Diplomacy</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>-10</Value>
+    </Mod>
+    <Mod>
+      <EffectType>KineticRange</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.75</Value>
+    </Mod>
+    <Mod>
+      <EffectType>KineticAccuracy</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.75</Value>
+    </Mod>
+    <Mod>
+      <EffectType>KineticRange</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Starbase</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>1</Value>
+    </Mod>
+    <Mod>
+      <EffectType>KineticRange</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Shipyard</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>1</Value>
+    </Mod>
+  </RaceTrait>
+
+<!--   <RaceTrait>
+    <InternalName>HeadstartAbility</InternalName>
+    <DisplayName>HeadstartAbility_Name</DisplayName>
+    <DisplayNameShort>HeadstartAbility_ShortName</DisplayNameShort>
+    <Description>HeadstartAbility_Desc</Description>
+    <IsAbility>1</IsAbility>
+    <Triggers>
+      <OnEvent>OnStartTurn</OnEvent>
+      <CriteriaTurnNum>1</CriteriaTurnNum>
+      <Lifetime>Instant</Lifetime>
+      <PerformAction>
+        <Action>AwardShipOfClass</Action>
+        <StringParam>ColonyStaticBlueprint</StringParam>
+      </PerformAction>
+      <PerformAction>
+        <Action>AwardShipOfClass</Action>
+        <StringParam>ColonyStaticBlueprint</StringParam>
+      </PerformAction>
+      <PerformAction>
+        <Action>AwardShipOfClass</Action>
+        <StringParam>ColonyStaticBlueprint</StringParam>
+      </PerformAction>
+      <PerformAction>
+        <Action>AwardShipOfClass</Action>
+        <StringParam>ColonyStaticBlueprint</StringParam>
+      </PerformAction>
+      <PerformAction>
+        <Action>AwardShipOfClass</Action>
+        <StringParam>ColonyStaticBlueprint</StringParam>
+      </PerformAction>
+      <PerformAction>
+        <Action>AwardShipOfClass</Action>
+        <StringParam>UrQuanConstructorStaticBlueprint</StringParam>
+      </PerformAction>
+      <PerformAction>
+        <Action>AwardShipOfClass</Action>
+        <StringParam>UrQuanConstructorStaticBlueprint</StringParam>
+      </PerformAction>
+      <PerformAction>
+        <Action>AwardShipOfClass</Action>
+        <StringParam>UrQuanConstructorStaticBlueprint</StringParam>
+      </PerformAction>
+      <PerformAction>
+        <Action>AwardShipOfClass</Action>
+        <StringParam>UrQuanConstructorStaticBlueprint</StringParam>
+      </PerformAction>
+      <PerformAction>
+        <Action>AwardShipOfClass</Action>
+        <StringParam>UrQuanConstructorStaticBlueprint</StringParam>
+      </PerformAction>
+    </Triggers>
+  </RaceTrait> -->
+
+
+  <!-- Should upgrade colony capital to slaveshield capital  -->
+  <!-- <RaceTrait>
+    <InternalName>SlaveshieldedAbility</InternalName>
+    <DisplayName>SlaveshieldedAbility_Name</DisplayName>
+    <DisplayNameShort>SlaveshieldedAbility_ShortName</DisplayNameShort>
+    <Description>SlaveshieldedAbility_Desc</Description>
+    <IsAbility>1</IsAbility>
+    <Triggers>
+      <OnEvent>OnStartTurn</OnEvent>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <Duration>0</Duration>
+      <PerformAction>
+        <Action>AwardFreeImprovement</Action>
+      </PerformAction>
+    </Triggers>
+  </RaceTrait> -->
+
+  <!-- Should make race leave United Planets -->
+  <!-- <RaceTrait>
+    <InternalName>MundaneAbility</InternalName>
+    <DisplayName>MundaneAbility_Name</DisplayName>
+    <DisplayNameShort>MundaneAbility_ShortName</DisplayNameShort>
+    <Description>MundaneAbility_Desc</Description>
+    <IsAbility>1</IsAbility>
+    <Triggers>
+      <OnEvent>OnStartTurn</OnEvent>
+      <CriteriaTurnNum>1</CriteriaTurnNum>
+      <PerformAction>
+        <Action>UPResolutionDefiantRaceRemoval</Action>
+      </PerformAction>
+    </Triggers>
+  </RaceTrait> -->
+
+  <!-- All ships are equipped with the Point-defence Laser System. (few points to beam offence, small defense against all types of attacks) -->
+  <RaceTrait>
+    <InternalName>PDLSAtbility</InternalName>
+    <DisplayName>PDLSAtbility_Name</DisplayName>
+    <DisplayNameShort>PDLSAtbility_ShortName</DisplayNameShort>
+    <Description>PDLSAtbility_Desc</Description>
+    <IsAbility>1</IsAbility>
+    <Triggers>
+      <OnEvent>OnConstructShip</OnEvent>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <Lifetime>Target</Lifetime>
+      <Modifier>
+        <EffectType>BeamWeapon</EffectType>
+        <Target>
+          <TargetType>Ship</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <Value>1</Value>
+      </Modifier>
+      <Modifier>
+        <EffectType>BeamAttack</EffectType>
+        <Target>
+          <TargetType>Ship</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <Value>2</Value>
+      </Modifier>
+      <Modifier>
+        <EffectType>ShieldStrength</EffectType>
+        <Target>
+          <TargetType>Ship</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <Value>4</Value>
+      </Modifier>
+      <Modifier>
+        <EffectType>PointDefense</EffectType>
+        <Target>
+          <TargetType>Ship</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <Value>4</Value>
+      </Modifier>
+      <Modifier>
+        <EffectType>ArmorRating</EffectType>
+        <Target>
+          <TargetType>Ship</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <Value>4</Value>
+      </Modifier>
+    </Triggers>
+  </RaceTrait>
+</RaceTraitList>

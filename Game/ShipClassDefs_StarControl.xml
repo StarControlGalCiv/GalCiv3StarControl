@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<ShipClassList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/ShipClassDefs.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- ShipClassDefs.xml -->
+
+  <ShipClass>
+    <InternalName>UrQuanStartingColony</InternalName>
+    <DisplayName>DrenginColony_Class_Name</DisplayName>
+    <Description>DrenginColony_Dec</Description>
+    <ThumbnailOverride>Temp_Drengin_Colony_Alpha_01.png</ThumbnailOverride>
+    <ShipHullType>Cargo</ShipHullType>
+    <ShipRule>ColonyShip</ShipRule>
+    <ShipDesign>Drengin_Colony_01T</ShipDesign>
+    <AIShipClass>Colony</AIShipClass>
+    <StrategicIcon>ColonyShip</StrategicIcon>
+    <StaticBlueprintDef>UrQuanColonyStaticBlueprint</StaticBlueprintDef>
+  </ShipClass>
+
+  <ShipClass>
+    <InternalName>UrQuanStartingConstructor</InternalName>
+    <DisplayName>DrenginConstructor_Class_Name</DisplayName>
+    <Description>DrenginConstructor_Dec</Description>
+    <ThumbnailOverride>Temp_Drengin_Constructor_Alpha_01.png</ThumbnailOverride>
+    <ShipHullType>Cargo</ShipHullType>
+    <ShipRule>Constructor</ShipRule>
+    <ShipDesign>Drengin_Constructor_01T</ShipDesign>
+    <AIShipClass>Constructor</AIShipClass>
+    <StrategicIcon>Constructor</StrategicIcon>
+    <StaticBlueprintDef>UrQuanConstructorStaticBlueprint</StaticBlueprintDef>
+  </ShipClass>
+
+  <ShipClass>
+    <InternalName>KzerZaLarge</InternalName>
+    <DisplayName>KzerZaLarge_Class_Name</DisplayName>
+    <Description>KzerZaLarge_Dec</Description>
+    <ThumbnailOverride>Drengin_Battleship_02T.PNG</ThumbnailOverride>
+    <ShipHullType>Large</ShipHullType>
+    <ShipRule>FavorBeam</ShipRule>
+    <ShipDesign>Drengin_Battleship_02T</ShipDesign>
+    <AIShipClass>Assault</AIShipClass>
+    <StrategicIcon>Battleship</StrategicIcon>
+    <StaticBlueprintDef>DestroyerDefenseBattleshipStaticBlueprint</StaticBlueprintDef>
+  </ShipClass>
+
+  <ShipClass>
+    <InternalName>KzerZaHuge</InternalName>
+    <DisplayName>KzerZaHuge_Class_Name</DisplayName>
+    <Description>KzerZaHuge_Dec</Description>
+    <ThumbnailOverride>Drengin_Dreadnought_01T.PNG</ThumbnailOverride>
+    <ShipHullType>Huge</ShipHullType>
+    <ShipRule>FavorBeam</ShipRule>
+    <ShipDesign>Drengin_Battleship_02T</ShipDesign>
+    <AIShipClass>Assault</AIShipClass>
+    <StrategicIcon>Dreadnought</StrategicIcon>
+    <StaticBlueprintDef>DreadnaughtCapitalCarrierStaticBlueprint</StaticBlueprintDef>
+  </ShipClass>
+
+  <ShipClass>
+    <InternalName>KohrAhLarge</InternalName>
+    <DisplayName>KohrAhLarge_Class_Name</DisplayName>
+    <Description>KohrAhLarge_Dec</Description>
+    <ThumbnailOverride>Drengin_Battleship_02T.PNG</ThumbnailOverride>
+    <ShipHullType>Large</ShipHullType>
+    <ShipRule>FavorKinetic</ShipRule>
+    <ShipDesign>Drengin_Battleship_02T</ShipDesign>
+    <AIShipClass>Assault</AIShipClass>
+    <StrategicIcon>Battleship</StrategicIcon>
+    <StaticBlueprintDef>WreckerDefenseBattleshipStaticBlueprint</StaticBlueprintDef>
+  </ShipClass>
+
+  <ShipClass>
+    <InternalName>KohrAhHuge</InternalName>
+    <DisplayName>KohrAhHuge_Class_Name</DisplayName>
+    <Description>KohrAhHuge_Dec</Description>
+    <ThumbnailOverride>Drengin_Dreadnought_01T.PNG</ThumbnailOverride>
+    <ShipHullType>Huge</ShipHullType>
+    <ShipRule>FavorKinetic</ShipRule>
+    <ShipDesign>Drengin_Battleship_02T</ShipDesign>
+    <AIShipClass>Assault</AIShipClass>
+    <StrategicIcon>Dreadnought</StrategicIcon>
+    <StaticBlueprintDef>MarauderCapitalStaticBlueprint</StaticBlueprintDef>
+  </ShipClass>
+
+</ShipClassList>

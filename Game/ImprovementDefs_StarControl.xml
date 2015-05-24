@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<DefaultImprovementList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- ImprovementDefs.xml -->
+ 
+
+<!-- Begin Improvement -->
+ 
+  <Improvement>
+    <InternalName>EnslavedColonyCapital</InternalName>
+    <DisplayName>ColonyCapital_Name</DisplayName>
+    <ShortDescription>ColonyCapital_ShortDec</ShortDescription>
+    <Description>ColonyCapital_Dec</Description>
+    <Icon>EnslavedColonyCapital.png</Icon>
+    <BuildIcon>ColonyCapital_Build.png</BuildIcon>
+    <ListIcon>EnslavedColonyCapital_Icon.png</ListIcon>
+    <ImprovementType>Special</ImprovementType>
+    <PlacementType>Special</PlacementType>
+    <IsIndestructible>true</IsIndestructible>
+    <IsColonyUnique>true</IsColonyUnique>
+ 
+    <!-- Stats -->
+ 
+    <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>ProductionPoints</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>4</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>GoodsAndServices</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>2</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>InfluencePerTurn</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-1</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>Food</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>5</Value>
+    </Stats>
+ 
+    <!-- Slaveshield -->
+
+     <Stats>
+      <EffectType>MaxManufacturing</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>Research</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.1</Value>
+    </Stats>
+
+    <!-- Faction wide -->
+
+    <Stats>
+      <EffectType>TradeLicensesMax</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>CulturePerTurnBenevolent</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-1</Value>
+    </Stats>
+ 
+     <Stats>
+      <EffectType>CulturePerTurnNeutral</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>CulturePerTurnMerciless</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>CanTourism</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>ImmuneToWar</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>ImmuneToCultureFlip</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+        <!-- Target type Colony does not work -->
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion0</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion1</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion2</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion3</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion4</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion5</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <!-- Triggers -->
+ 
+    <!-- Level Effect Trigers -->
+ 
+    <!-- Level Effect Stats -->
+ 
+    <LevelEffectStats>
+      <EffectType>MaxManufacturing</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.1</Value>
+    </LevelEffectStats>
+ 
+    <LevelEffectStats>
+      <EffectType>Research</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.1</Value>
+    </LevelEffectStats>
+ 
+    <LevelEffectStats>
+      <EffectType>InfluencePerTurn</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0</Value>
+    </LevelEffectStats>
+ 
+    <LevelEffectStats>
+      <EffectType>Food</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </LevelEffectStats>
+ 
+    <!-- Adjacency Bonuses -->
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Research</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Approval</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Population</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Manufacturing</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Influence</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Tourism</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Wealth</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Military</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <!-- Prerequisites -->
+ 
+    <Prerequ>
+      <RaceTrait>
+        <Option>UnderSlaveShield</Option>
+      </RaceTrait>
+      <UpgradesFrom>ColonyCapital</UpgradesFrom>
+    </Prerequ>
+ 
+  </Improvement>
+ 
+<!-- End Improvement -->
+
+<!-- Civilization capital improvement exists, but is not used in GalCiv 3  -->
+
+  <Improvement>
+    <InternalName>FreeColonyCapital</InternalName>
+    <DisplayName>ColonyCapital_Name</DisplayName>
+    <ShortDescription>ColonyCapital_ShortDec</ShortDescription>
+    <Description>ColonyCapital_Dec</Description>
+    <Icon>ColonyCapital.png</Icon>
+    <BuildIcon>ColonyCapital_Build.png</BuildIcon>
+    <ListIcon>ColonyCapital_Icon.png</ListIcon>
+    <ImprovementType>Special</ImprovementType>
+    <PlacementType>Special</PlacementType>
+    <IsIndestructible>true</IsIndestructible>
+    <IsColonyUnique>true</IsColonyUnique>
+ 
+    <!-- Stats -->
+ 
+    <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>227</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>ProductionPoints</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>5</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>GoodsAndServices</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>4</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>InfluenceTally</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>9</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>InfluencePerTurn</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>5</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>Food</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>6</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>SensorRange</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>5</Value>
+    </Stats>
+
+    <!-- Free -->
+
+    <Stats>
+      <EffectType>ResistanceBonus</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>0.5</Value>
+    </Stats>
+
+    <!-- Triggers -->
+ 
+    <!-- Level Effect Trigers -->
+ 
+    <!-- Level Effect Stats -->
+ 
+    <LevelEffectStats>
+      <EffectType>MaxManufacturing</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.1</Value>
+    </LevelEffectStats>
+ 
+    <LevelEffectStats>
+      <EffectType>Research</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.1</Value>
+    </LevelEffectStats>
+ 
+    <LevelEffectStats>
+      <EffectType>InfluencePerTurn</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </LevelEffectStats>
+ 
+    <LevelEffectStats>
+      <EffectType>Food</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </LevelEffectStats>
+ 
+    <!-- Adjacency Bonuses -->
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Research</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Approval</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Population</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Manufacturing</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Influence</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Tourism</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Wealth</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Military</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <!-- Prerequisites -->
+ 
+    <Prerequ>
+      <!-- <Techs>
+        <Option>InternalSlaveShieldRemover</Option>
+      </Techs> -->
+      <RaceTrait>
+        <Option>UnderSlaveShield</Option>
+      </RaceTrait>
+      <TechAge>
+        <Option>AgeOfAscension</Option>
+      </TechAge>
+      <UpgradesFrom>EnslavedColonyCapital</UpgradesFrom>
+    </Prerequ>
+ 
+  </Improvement>
+</DefaultImprovementList>

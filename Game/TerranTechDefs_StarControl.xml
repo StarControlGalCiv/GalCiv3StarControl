@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<TechList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/TechDefs.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- TerranTechDefs.xml -->
+ 
+<!-- Begin Tech -->
+ 
+  <Tech>
+    <InternalName>TerranInternalSlaveShieldRemover</InternalName>
+    <GenericName>InternalSlaveShieldRemover</GenericName>
+    <DisplayName>TerranInternalSlaveShieldRemover_Name</DisplayName>
+    <TechTree>Terran_Tree</TechTree>
+    <ShortDescription>TerranInternalSlaveShieldRemover_ShortDec</ShortDescription>
+    <Description>TerranInternalSlaveShieldRemover_Dec</Description>
+    <ResearchCost>5000</ResearchCost>
+    <!-- <ResearchCost>1</ResearchCost> -->
+    <TechPoints>1</TechPoints>
+    <AICannotTrade>true</AICannotTrade>
+    <AICategoryWeight>
+      <Military>20</Military>
+      <Growth>5</Growth>
+      <Tech>5</Tech>
+      <Diplomacy>5</Diplomacy>
+      <Expansion>5</Expansion>
+      <Wealth>5</Wealth>
+      <Influence>5</Influence>
+      <Fortification>5</Fortification>
+    </AICategoryWeight>
+    <Prerequ>
+      <!-- <Techs>
+        <Option>ColonizationTech</Option>
+      </Techs>
+      <TechAge>
+        <Option>AgeOfExpansion</Option>
+      </TechAge> -->
+    </Prerequ>
+  </Tech>
+
+</TechList>

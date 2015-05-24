@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<StringTableList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- IStarSystem.xml -->
+ 
+<!-- Tech Names and Descriptions -->
+ 
+  <StringTable>
+    <Label>KzerSystem_Name</Label>
+    <String>Kzer</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>KzerSystem_Dec</Label>
+    <String>The Ur-Quan Kzer-Ah home system containing a class 11 and a class 5 world.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>KohrSystem_Name</Label>
+    <String>Kohr</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>KohrSystem_Dec</Label>
+    <String>The Ur-Quan Kohr-Ah home system containing a class 11 and a class 5 world.</String>
+  </StringTable>
+</StringTableList>

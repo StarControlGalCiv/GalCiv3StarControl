@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GC3MaterialsList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/GC3MaterialDefs.xsd">
+  
+  <GC3Material>
+    <!-- <InternalName>GC3_Ship_Material_Steel</InternalName> -->
+    <InternalName>GC3_Ship_Material_Kohr-Ah_Steel</InternalName>
+    <DisplayName>SHIP_MATERIAL_Steel</DisplayName>
+    <SpecularIntensity>0.20000000</SpecularIntensity>
+  	<Reflectivity>0.07000</Reflectivity>
+  	<DiffuseSaturation>1.000000</DiffuseSaturation>
+  	<SpecularSaturation>0.3000</SpecularSaturation>
+  	<ReflectionSaturation>0.13000</ReflectionSaturation>
+    <ReflectionColor>1.0</ReflectionColor>
+  	<EmissiveMapIntensityA>2.30</EmissiveMapIntensityA>
+  	<EmissiveMapIntensityB>2.0</EmissiveMapIntensityB>
+  	<EmissiveMapIntensityC>2.000000</EmissiveMapIntensityC>
+    <Roughness>0.76</Roughness>
+    <RefractionIndex>0.74</RefractionIndex>
+  </GC3Material>
+
+</GC3MaterialsList>

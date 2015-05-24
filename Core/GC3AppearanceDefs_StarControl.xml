@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GC3AppearanceList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/GC3AppearanceDefs.xsd">
+
+	<GC3Appearance>
+		<!-- <InternalName>GC3_Obsidian</InternalName> -->
+		<InternalName>GC3_Kohr-Ah</InternalName>
+		<DisplayName>UI_Color_Obsidian</DisplayName>
+		<DisplayIcon>Obsidian_Appearance_Icon.png</DisplayIcon>
+		<DiffuseGradientRow1>15</DiffuseGradientRow1>
+		<DiffuseGradientRow2>15</DiffuseGradientRow2>
+		<LightGradientRow1>2</LightGradientRow1>
+		<LightGradientRow2>1</LightGradientRow2>
+		<LightGradientRow3>253</LightGradientRow3>
+		<SurfaceScale1>33.0</SurfaceScale1>
+		<SurfaceWeight1>.92</SurfaceWeight1>
+		<SurfaceScale2>58.0</SurfaceScale2>
+		<SurfaceWeight2>0.73</SurfaceWeight2>
+		<EngineColor>
+			<Red>255</Red>
+			<Green>255</Green>
+			<Blue>255</Blue>
+			<Alpha>255</Alpha>
+		</EngineColor>
+	</GC3Appearance>
+
+	<GC3Appearance>
+		<!-- <InternalName>GC3_Swamp</InternalName> -->
+		<InternalName>GC3_Kzer-Za</InternalName>
+		<DisplayName>UI_Color_Swamp</DisplayName>
+		<!-- <DisplayIcon>Swamp_Appearance_Icon.png</DisplayIcon> -->
+		<DisplayIcon>Altarian_Appearance_Icon.png</DisplayIcon>
+		<DiffuseGradientRow1>5</DiffuseGradientRow1>
+		<DiffuseGradientRow2>6</DiffuseGradientRow2>
+		<LightGradientRow1>6</LightGradientRow1>
+		<LightGradientRow2>12</LightGradientRow2>
+		<LightGradientRow3>253</LightGradientRow3>
+		<SurfaceScale1>33.0</SurfaceScale1>
+		<SurfaceWeight1>.92</SurfaceWeight1>
+		<SurfaceScale2>58.0</SurfaceScale2>
+		<SurfaceWeight2>0.73</SurfaceWeight2>
+		<EngineColor>
+			<Red>255</Red>
+			<Green>50</Green>
+			<Blue>50</Blue>
+			<Alpha>255</Alpha>
+		</EngineColor>
+	</GC3Appearance>
+
+</GC3AppearanceList>

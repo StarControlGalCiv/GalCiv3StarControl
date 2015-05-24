@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<StatTypeDisplayDefs
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/StatTypeDisplayDefs.xsd">
+
+	<StatTypeDisplayDef>
+		<UniqueID>IsImmuneToInvasion0</UniqueID>
+		<DisplayName>STATNAME_IsImmuneToInvasion0</DisplayName>
+	</StatTypeDisplayDef>
+
+	<StatTypeDisplayDef>
+		<UniqueID>IsImmuneToInvasion19</UniqueID>
+		<DisplayName></DisplayName>
+	</StatTypeDisplayDef>
+
+</StatTypeDisplayDefs>

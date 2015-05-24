@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<StarSystemList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- StarSystemDefs.xml -->
+ 
+  <!-- System Group -->
+ 
+  <StarSystemGroup>
+    <InternalName>StarControl2FactionStart</InternalName>
+ 
+    <!-- Made up -->
+    <StarSystem>
+      <InternalName>KzerSystem</InternalName>
+      <DisplayName>KzerSystem_Name</DisplayName>
+      <Description>KzerSystem_Dec</Description>
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>KzerStar</BodyDef>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>DeadZone</LaneType>
+        <MinPlanets>1</MinPlanets>
+        <MaxPlanets>1</MaxPlanets>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>Kzer</BodyDef>
+          <IsHomeworld>true</IsHomeworld>
+          <Position>5</Position>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>OuterZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>2</MaxPlanets>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+        </Body>
+      </OrbitLane>
+    </StarSystem>
+
+    <!-- Made up -->
+    <StarSystem>
+      <InternalName>KohrSystem</InternalName>
+      <DisplayName>KohrSystem_Name</DisplayName>
+      <Description>KohrSystem_Dec</Description>
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>KohrStar</BodyDef>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>DeadZone</LaneType>
+        <MinPlanets>2</MinPlanets>
+        <MaxPlanets>2</MaxPlanets>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>Kohr</BodyDef>
+          <IsHomeworld>true</IsHomeworld>
+          <Position>5</Position>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>OuterZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>2</MaxPlanets>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+        </Body>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+        </Body>
+      </OrbitLane>
+    </StarSystem>
+  </StarSystemGroup>
+ 
+</StarSystemList>

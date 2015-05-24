@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<FactionList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- FactionDefs.xml -->
+
+    <Faction>
+        <InternalName>FACTION_KZER-ZA</InternalName>
+        <DisplayName>FACTION_KZER-ZA_Name</DisplayName>
+        <DisplayNameShort>FACTION_KZER-ZA_ShortName</DisplayNameShort>
+        <LeaderName>FACTION_KZER-ZA_LeaderName</LeaderName>
+        <Description>FACTION_KZER-ZA_Dec</Description>
+        <LeaderDescription>FACTION_KZER-ZA_LeaderDec</LeaderDescription>
+        <RaceType>Major</RaceType>
+        <PersonalityTraits>Aggressive</PersonalityTraits>
+        <PersonalityTraits>Cruel</PersonalityTraits>
+        <PersonalityTraits>Xenophobic</PersonalityTraits>
+        <!-- <RaceTraits>MundaneAbility</RaceTraits> -->
+        <RaceTraits>KzerZa</RaceTraits>
+        <RaceTraits>HeadstartAbility</RaceTraits> 
+        <RaceTraits>ProlificAbility</RaceTraits>
+        <RaceTraits>UnwaveringAbility</RaceTraits>
+        <RaceTraits>PatrioticAbility</RaceTraits> 
+        <RaceTraits>KnowledgeableAbility></RaceTraits>
+        <RaceTraits>UnlimitedRange1</RaceTraits>
+        
+        <RaceTraits>Spacefaring</RaceTraits>
+        <RaceTraits>Economical2</RaceTraits>
+        <RaceTraits>Observant1</RaceTraits>
+        <RaceTraits>Content2</RaceTraits>
+        <RaceTraits>Militant1</RaceTraits>
+        <RaceTraits>Brutal1</RaceTraits>
+        <RaceTraits>Courageous2</RaceTraits>
+        <RaceTraits>Tough1</RaceTraits>
+        <RaceTraits>Likeable3</RaceTraits>
+        <RaceTraits>Clever4</RaceTraits>
+        <RaceTraits>Fertile3</RaceTraits>
+        <RaceTraits>Farmers3</RaceTraits>
+        <RequiresHomeworld>true</RequiresHomeworld>
+        <HomeStarSystem>KzerSystem</HomeStarSystem>
+        <StartingShips>UrQuanColonyStaticBlueprint</StartingShips>
+        <StartingShips>UrQuanColonyStaticBlueprint</StartingShips>
+        <StartingShips>UrQuanColonyStaticBlueprint</StartingShips>
+        <StartingShips>UrQuanColonyStaticBlueprint</StartingShips>
+        <StartingShips>UrQuanColonyStaticBlueprint</StartingShips>
+        <StartingShips>UrQuanConstructorStaticBlueprint</StartingShips>
+        <StartingShips>UrQuanConstructorStaticBlueprint</StartingShips>
+        <StartingShips>UrQuanConstructorStaticBlueprint</StartingShips>
+        <StartingShips>UrQuanConstructorStaticBlueprint</StartingShips>
+        <StartingShips>UrQuanConstructorStaticBlueprint</StartingShips>
+        <!-- Have to be balanced -->
+        <!-- <StartingShips>DestroyerDefenseBattleshipStaticBlueprint</StartingShips>
+        <StartingShips>DestroyerDefenseBattleshipStaticBlueprint</StartingShips>
+        <StartingShips>DestroyerDefenseBattleshipStaticBlueprint</StartingShips>
+        <StartingShips>DestroyerDefenseBattleshipStaticBlueprint</StartingShips>
+        <StartingShips>DestroyerDefenseBattleshipStaticBlueprint</StartingShips>
+        <StartingShips>DreadnaughtCapitalCarrierStaticBlueprint</StartingShips> -->
+        <TechTree>Drengin_Tree</TechTree>
+
+        <StartingTechs>EngineeringTech</StartingTechs>
+        <StartingTechs>InterstellarSpecialization3</StartingTechs>
+        <StartingTechs>IonDriveTech</StartingTechs>
+
+        <StartingTechs>WarfareTech</StartingTechs>
+        <StartingTechs>WeaponsSystemsTech</StartingTechs>
+        <StartingTechs>WeaponsSpecializationTech1</StartingTechs>
+        <StartingTechs>WeaponsSpecializationTech2</StartingTechs>
+        <StartingTechs>WeaponsSpecializationTech3</StartingTechs>
+        <StartingTechs>BeamWeapons</StartingTechs>
+        <StartingTechs>BeamWeaponOptimization1</StartingTechs>
+        <StartingTechs>BeamWeaponOptimization2</StartingTechs>
+        <StartingTechs>BeamWeaponOptimization3</StartingTechs>
+        <StartingTechs>MatterDisruption</StartingTechs>
+        <StartingTechs>HighEnergyFocus1</StartingTechs>
+        <StartingTechs>HighEnergyFocus2</StartingTechs>
+        <StartingTechs>HighEnergyFocus3</StartingTechs>
+        <StartingTechs>PlasmaProjection</StartingTechs>
+        <StartingTechs>BeamWeaponMastery2</StartingTechs>
+
+        <!-- Invasion -->
+        <StartingTechs>MilitarizationTech</StartingTechs>
+        <StartingTechs>MilitarySpecialization1</StartingTechs>
+        <StartingTechs>MilitarySpecialization2</StartingTechs>
+        <StartingTechs>MilitarySpecialization3</StartingTechs>
+        <StartingTechs>Fortification</StartingTechs>
+        <StartingTechs>DefensiveFocus2</StartingTechs>
+
+        <!-- Planetary techs -->
+        <StartingTechs>PlanetaryImprovement</StartingTechs>
+        <StartingTechs>PlanetarySpecialization1</StartingTechs>
+        <StartingTechs>PlanetarySpecialization2</StartingTechs>
+        <StartingTechs>PlanetarySpecialization3</StartingTechs>
+        <StartingTechs>XenoAgriculturalAdaptation</StartingTechs>
+        <StartingTechs>AgriculturalOptimization1</StartingTechs>
+        <StartingTechs>AgriculturalOptimization2</StartingTechs>
+        <StartingTechs>AgriculturalOptimization3</StartingTechs>
+        <StartingTechs>EnvironmentalEngineering</StartingTechs>
+        <StartingTechs>PlanetarySpecialization1</StartingTechs>
+        <StartingTechs>PlanetarySpecialization2</StartingTechs>
+        <StartingTechs>PlanetarySpecialization3</StartingTechs>
+
+        <!-- Industry techs -->
+        <StartingTechs>IndustrialSpecialization1</StartingTechs>
+        <StartingTechs>IndustrialSpecialization3</StartingTechs>
+        <!-- Add sibling, preq -->
+        <StartingTechs>ConstructionOptimization1</StartingTechs>
+        <StartingTechs>ConstructionOptimization2</StartingTechs>
+        <StartingTechs>ConstructionOptimization3</StartingTechs>
+
+        <!-- Government -->
+        <StartingTechs>InterstellarGovernance</StartingTechs>
+        <StartingTechs>PoliticalSpecialization1</StartingTechs>
+        <StartingTechs>GalacticGovernance</StartingTechs>
+        <StartingTechs>PoliticalFocus1</StartingTechs>
+        <StartingTechs>InterstellarDemocracyTech</StartingTechs>
+        <StartingTechs>PoliticalMastery1</StartingTechs>
+
+        <!-- Economic -->
+        <StartingTechs>XenoCommerce</StartingTechs>
+        <StartingTechs>CommerceSpecialization1</StartingTechs>
+        <StartingTechs>CommerceSpecialization2</StartingTechs>
+        <StartingTechs>InterstellarBanking</StartingTechs>
+
+        <!-- Hulls -->
+        <StartingTechs>LargeScaleConstruction</StartingTechs>
+        <StartingTechs>MassiveScaleConstruction</StartingTechs>
+
+        <!-- Let Stardock fix the overpowered Carriers first -->
+        <StartingTechs>CarrierTech</StartingTechs>
+        <StartingTechs>CarrierFocus1</StartingTechs>
+        <StartingTechs>CarrierFocus2</StartingTechs>
+
+        <HatedFaction>FACTION_KOHR-AH</HatedFaction>
+
+        <ShipCallsign>FACTION_KZER-ZA_Callsign</ShipCallsign>
+        <LogoImage>KzerZaLogo.png</LogoImage>
+        <LeaderThumbnail>KzerZaPortrait.png</LeaderThumbnail>
+        <LeaderImageFG>KzerZaLeader.png</LeaderImageFG>
+        <NewsRobotMovie_Approach>Drengin_NewsBot_Idle.bk2</NewsRobotMovie_Approach>
+        <NewsRobotMovie_Idle>Drengin_NewsBot_Idle.bk2</NewsRobotMovie_Idle>
+        <StartupImage>StartGameDrengin.png</StartupImage>
+        <StartupTitle>FACTION_DRENGIN_StartupTitle</StartupTitle>
+        <StartupDescription>FACTION_DRENGIN_StartupDescription</StartupDescription>
+        <StartupTraitsDescription>FACTION_DRENGIN_StartupTraitsDescription</StartupTraitsDescription>
+        <MapColorDef>AltDarkGreen</MapColorDef>
+        <UIColorDef>DrenginUIColors</UIColorDef>
+        <!-- <FactionMoviesFGDef>DrenginMoviesFG</FactionMoviesFGDef> -->
+        <!-- <FactionMoviesBGDef>DrenginMoviesBG</FactionMoviesBGDef> -->
+        <FactionMusicDef>DrenginMusic</FactionMusicDef>
+        <Material1>GC3_Asteroid_Material_01</Material1>
+        <Material2>GC3_Ship_Material_IconianPainted</Material2>
+        <Surface1>GC3_Default_Surface_07</Surface1>
+        <Surface2>GC3_Default_Surface_04</Surface2>
+        <Appearance>GC3_Kzer-Za</Appearance>
+        <ShipStyleSet>UrQuanShipStyleSet</ShipStyleSet>
+        <CreditsInit>30000</CreditsInit>
+        <WarEnduranceInit>150</WarEnduranceInit>
+        <DefaultResistance>0.7</DefaultResistance>
+        <InfluenceTallyInit>30</InfluenceTallyInit>
+        <StartingColonyPopulation>12</StartingColonyPopulation>
+        <AICategoryWeight>
+          <Military>25</Military>
+          <Growth>10</Growth>
+          <Tech>15</Tech>
+          <Diplomacy>5</Diplomacy>
+          <Expansion>20</Expansion>
+          <Wealth>10</Wealth>
+          <Influence>5</Influence>
+          <Fortification>10</Fortification>
+        </AICategoryWeight>
+    </Faction>
+
+    <Faction>
+        <InternalName>FACTION_KOHR-AH</InternalName>
+        <DisplayName>FACTION_KOHR-AH_Name</DisplayName>
+        <DisplayNameShort>FACTION_KOHR-AH_ShortName</DisplayNameShort>
+        <LeaderName>FACTION_KOHR-AH_LeaderName</LeaderName>
+        <Description>FACTION_KOHR-AH_Dec</Description>
+        <LeaderDescription>FACTION_KOHR-AH_LeaderDec</LeaderDescription>
+        <RaceType>Major</RaceType>
+        <PersonalityTraits>Merciless</PersonalityTraits>
+        <PersonalityTraits>Aggressive</PersonalityTraits>
+        <PersonalityTraits>Cruel</PersonalityTraits>
+        <PersonalityTraits>Xenophobic</PersonalityTraits>
+        <RaceTraits>KohrAh</RaceTraits>
+        <!-- <RaceTraits>MundaneAbility</RaceTraits> -->
+        <RaceTraits>HeadstartAbility</RaceTraits>
+        <RaceTraits>ProlificAbility</RaceTraits>
+        <RaceTraits>UnwaveringAbility</RaceTraits>
+        <RaceTraits>EngineersAbility</RaceTraits>
+        <RaceTraits>ZealotsAbility</RaceTraits>
+        <RaceTraits>PatrioticAbility</RaceTraits>
+        <RaceTraits>StarfaringAbility</RaceTraits>
+        <RaceTraits>UnlimitedRange1</RaceTraits>
+
+        <RaceTraits>Spacefaring</RaceTraits>
+        <RaceTraits>Economical1</RaceTraits>
+        <RaceTraits>Observant2</RaceTraits>
+        <RaceTraits>Content1</RaceTraits>
+        <RaceTraits>Militant1</RaceTraits>
+        <RaceTraits>Brutal1</RaceTraits>
+        <RaceTraits>Courageous1</RaceTraits>
+        <RaceTraits>Tough1</RaceTraits>
+        <RaceTraits>Farmers1</RaceTraits>
+        <RaceTraits>Likeable4</RaceTraits>
+        <RaceTraits>Clever4</RaceTraits>
+        <RaceTraits>Fertile4</RaceTraits>
+        
+        <RequiresHomeworld>true</RequiresHomeworld>
+        <HomeStarSystem>KohrSystem</HomeStarSystem>
+        <StartingShips>UrQuanColonyStaticBlueprint</StartingShips>
+        <StartingShips>UrQuanColonyStaticBlueprint</StartingShips>
+        <StartingShips>UrQuanColonyStaticBlueprint</StartingShips>
+        <StartingShips>UrQuanColonyStaticBlueprint</StartingShips>
+        <StartingShips>UrQuanColonyStaticBlueprint</StartingShips>
+        <StartingShips>UrQuanConstructorStaticBlueprint</StartingShips>
+        <StartingShips>UrQuanConstructorStaticBlueprint</StartingShips>
+        <StartingShips>UrQuanConstructorStaticBlueprint</StartingShips>
+        <StartingShips>UrQuanConstructorStaticBlueprint</StartingShips>
+        <StartingShips>UrQuanConstructorStaticBlueprint</StartingShips>
+        <!-- Have to be balanced -->
+        <!-- <StartingShips>WreckerDefenseBattleshipStaticBlueprint</StartingShips>
+        <StartingShips>WreckerDefenseBattleshipStaticBlueprint</StartingShips>
+        <StartingShips>WreckerDefenseBattleshipStaticBlueprint</StartingShips>
+        <StartingShips>WreckerDefenseBattleshipStaticBlueprint</StartingShips>
+        <StartingShips>WreckerDefenseBattleshipStaticBlueprint</StartingShips>
+        <StartingShips>MarauderCapitalStaticBlueprint</StartingShips>
+        <StartingShips>MarauderCapitalStaticBlueprint</StartingShips> -->
+        <TechTree>Drengin_Tree</TechTree>
+
+        <StartingTechs>InterstellarTravel</StartingTechs>
+        <StartingTechs>InterstellarSpecialization3</StartingTechs>
+        <StartingTechs>IonDriveTech</StartingTechs>
+
+        <StartingTechs>WarfareTech</StartingTechs>
+        <StartingTechs>WeaponsSystemsTech</StartingTechs>
+        <StartingTechs>WeaponsSpecializationTech2</StartingTechs>
+
+        <StartingTechs>KineticWeapons</StartingTechs>
+        <StartingTechs>KineticOptimization1</StartingTechs>
+        <StartingTechs>KineticOptimization2</StartingTechs>
+        <StartingTechs>KineticOptimization3</StartingTechs>
+        <StartingTechs>PulseCannonTech</StartingTechs>
+        <StartingTechs>KineticAccelerationFocus1</StartingTechs>
+        <StartingTechs>KineticAccelerationFocus2</StartingTechs>
+        <StartingTechs>KineticAccelerationFocus3</StartingTechs>
+        <StartingTechs>GravitonThrower</StartingTechs>
+        <StartingTechs>KineticMastery2</StartingTechs>
+
+        <!-- Invasion -->
+        <StartingTechs>MilitarizationTech</StartingTechs>
+        <StartingTechs>MilitarySpecialization1</StartingTechs>
+        <StartingTechs>MilitarySpecialization2</StartingTechs>
+        <StartingTechs>MilitarySpecialization3</StartingTechs>
+        <StartingTechs>Fortification</StartingTechs>
+        <StartingTechs>DefensiveFocus2</StartingTechs>
+
+        <!-- Planetary techs -->
+        <StartingTechs>PlanetaryImprovement</StartingTechs>
+        <StartingTechs>PlanetarySpecialization1</StartingTechs>
+        <StartingTechs>PlanetarySpecialization2</StartingTechs>
+        <StartingTechs>PlanetarySpecialization3</StartingTechs>
+        <StartingTechs>XenoAgriculturalAdaptation</StartingTechs>
+        <StartingTechs>AgriculturalOptimization1</StartingTechs>
+        <StartingTechs>AgriculturalOptimization2</StartingTechs>
+        <StartingTechs>AgriculturalOptimization3</StartingTechs>
+        <StartingTechs>EnvironmentalEngineering</StartingTechs>
+        <StartingTechs>PlanetarySpecialization1</StartingTechs>
+        <StartingTechs>PlanetarySpecialization2</StartingTechs>
+        <StartingTechs>PlanetarySpecialization3</StartingTechs>
+
+        <!-- Industry techs -->
+        <StartingTechs>IndustrialSpecialization1</StartingTechs>
+        <StartingTechs>IndustrialSpecialization3</StartingTechs>
+        <!-- Add sibling, preq -->
+        <StartingTechs>ConstructionOptimization1</StartingTechs>
+        <StartingTechs>ConstructionOptimization2</StartingTechs>
+        <StartingTechs>ConstructionOptimization3</StartingTechs>
+
+        <!-- Government -->
+        <StartingTechs>InterstellarGovernance</StartingTechs>
+        <StartingTechs>PoliticalSpecialization1</StartingTechs>
+        <StartingTechs>GalacticGovernance</StartingTechs>
+        <StartingTechs>PoliticalFocus1</StartingTechs>
+        <StartingTechs>InterstellarDemocracyTech</StartingTechs>
+        <StartingTechs>PoliticalMastery1</StartingTechs>
+
+        <!-- Economic -->
+        <StartingTechs>XenoCommerce</StartingTechs>
+        <StartingTechs>CommerceSpecialization1</StartingTechs>
+        <StartingTechs>CommerceSpecialization2</StartingTechs>
+        <StartingTechs>InterstellarBanking</StartingTechs>
+
+        <!-- Hulls -->
+        <StartingTechs>LargeScaleConstruction</StartingTechs>
+        <StartingTechs>MassiveScaleConstruction</StartingTechs>
+        <StartingTechs>HullMastery1</StartingTechs>
+        <StartingTechs>HullMastery2</StartingTechs>
+
+        <HatedFaction>FACTION_KZER-ZA</HatedFaction>
+        <HatedFaction>FACTION_HUMANS</HatedFaction>
+        <ShipCallsign>FACTION_KOHR-AH_Callsign</ShipCallsign>
+        <LogoImage>KohrAhLogo.png</LogoImage>
+        <LeaderThumbnail>KohrAhPortrait.png</LeaderThumbnail>
+        <LeaderImageFG>KohrAhLeader.png</LeaderImageFG>
+        <NewsRobotMovie_Approach>Drengin_NewsBot_Idle.bk2</NewsRobotMovie_Approach>
+        <NewsRobotMovie_Idle>Drengin_NewsBot_Idle.bk2</NewsRobotMovie_Idle>
+        <StartupImage>StartGameKohrAh.png</StartupImage>
+        <StartupTitle>FACTION_KOHR-AH_StartupTitle</StartupTitle>
+        <StartupDescription>FACTION_KOHR-AH_StartupDescription</StartupDescription>
+        <StartupTraitsDescription>FACTION_KOHR-AH_StartupTraitsDescription</StartupTraitsDescription>
+        <MapColorDef>GreyMapColors</MapColorDef>
+        <UIColorDef>DrenginUIColors</UIColorDef>
+        <!-- <FactionMoviesFGDef>DrenginMoviesFG</FactionMoviesFGDef>
+        <FactionMoviesBGDef>DrenginMoviesBG</FactionMoviesBGDef> -->
+        <FactionMusicDef>DrenginMusic</FactionMusicDef>
+        <Material1>GC3_Ship_Material_Kohr-Ah_Steel</Material1>
+        <Material2>GC3_Ship_Material_YorPainted</Material2>
+        <Surface1>GC3_Default_Surface_18</Surface1>
+        <Surface2>GC3_Default_Surface_18</Surface2>
+        <Appearance>GC3_Kohr-Ah</Appearance>
+        <ShipStyleSet>UrQuanShipStyleSet</ShipStyleSet>
+        <CreditsInit>30000</CreditsInit>
+        <WarEnduranceInit>150</WarEnduranceInit>
+        <DefaultResistance>0.7</DefaultResistance>
+        <InfluenceTallyInit>30</InfluenceTallyInit>
+        <StartingColonyPopulation>12</StartingColonyPopulation>
+        <AICategoryWeight>
+          <Military>25</Military>
+          <Growth>10</Growth>
+          <Tech>15</Tech>
+          <Diplomacy>5</Diplomacy>
+          <Expansion>20</Expansion>
+          <Wealth>10</Wealth>
+          <Influence>5</Influence>
+          <Fortification>10</Fortification>
+        </AICategoryWeight>
+    </Faction>
+
+    <Faction>
+        <InternalName>FACTION_HUMANS</InternalName>
+        <DisplayName>FACTION_HUMANS_Name</DisplayName>
+        <DisplayNameShort>FACTION_HUMANS_ShortName</DisplayNameShort>
+        <LeaderName>FACTION_HUMANS_LeaderName</LeaderName>
+        <Description>FACTION_HUMANS_Dec</Description>
+        <LeaderDescription>FACTION_HUMANS_LeaderDec</LeaderDescription>
+        <RaceType>Major</RaceType>
+        <PersonalityTraits>Neutral</PersonalityTraits>
+        <PersonalityTraits>Expansionist</PersonalityTraits>
+        <PersonalityTraits>Diplomatic</PersonalityTraits>
+        <RaceTraits>UnderSlaveShield</RaceTraits>
+        <RaceTraits>PDLSAtbility</RaceTraits>
+        <RaceTraits>ColonizersAbility</RaceTraits>
+        <!-- Bonus atbility for breaking free -->
+        <RaceTraits>ProlificAbility</RaceTraits>
+        <RaceTraits>PatrioticAbility</RaceTraits>
+
+        <RaceTraits>Productive2</RaceTraits>
+        <RaceTraits>Adventuresome2</RaceTraits>
+        <RaceTraits>Likeable2</RaceTraits>
+        <RaceTraits>Fast2</RaceTraits>
+        <RaceTraits>Organized2</RaceTraits>
+        <RequiresHomeworld>true</RequiresHomeworld>
+        <HomeStarSystem>SolSystem</HomeStarSystem>
+        <TechTree>Terran_Tree</TechTree>
+        <StartingTechs>Slaveshielded</StartingTechs>
+        <ShipCallsign>FACTION_TERRAN_Callsign</ShipCallsign>
+        <LogoImage>EarthlingsLogo.png</LogoImage>
+        <LeaderThumbnail>EarthlingsPortrait.png</LeaderThumbnail>
+        <LeaderImageFG>EarthlingsLeader.png</LeaderImageFG>
+        <NewsRobotMovie_Approach>Terran_ResearchAdviser_Approach.bk2</NewsRobotMovie_Approach>
+        <NewsRobotMovie_Idle>Terran_ResearchAdviser_Idle.bk2</NewsRobotMovie_Idle>
+        <StartupImage>StartGameTerran.png</StartupImage>
+        <StartupTitle>FACTION_TERRAN_StartupTitle</StartupTitle>
+        <StartupDescription>FACTION_TERRAN_StartupDescription</StartupDescription>
+        <StartupTraitsDescription>FACTION_TERRAN_StartupTraitsDescription</StartupTraitsDescription>
+        <MapColorDef>TerranMapColors</MapColorDef>
+        <UIColorDef>TerranUIColors</UIColorDef>
+        <!-- <FactionMoviesFGDef>TerranMoviesFG</FactionMoviesFGDef>
+        <FactionMoviesBGDef>TerranMoviesBG</FactionMoviesBGDef> -->
+        <FactionMusicDef>TerranMusic</FactionMusicDef>
+        <Material1>GC3_Ship_Material_01</Material1>
+        <Material2>GC3_Ship_Material_02</Material2>
+        <Surface1>GC3_Default_Surface_01</Surface1>
+        <Surface2>GC3_Default_Surface_02</Surface2>
+        <Appearance>GC3_Terran_Appearance</Appearance>
+        <ShipStyleSet>EarthlingShipStyleSet</ShipStyleSet>
+        <CreditsInit>5000</CreditsInit>
+        <WarEnduranceInit>90</WarEnduranceInit>
+        <DefaultResistance>0.5</DefaultResistance>
+        <ManufacturingSliderInit>1.0</ManufacturingSliderInit>
+        <MilitarySliderInit>0</MilitarySliderInit>
+        <InfluenceTallyInit>1</InfluenceTallyInit>
+        <StartingColonyPopulation>10</StartingColonyPopulation>
+        <AICategoryWeight>
+          <Military>15</Military>
+          <Growth>25</Growth>
+          <Tech>25</Tech>
+          <Diplomacy>15</Diplomacy>
+          <Expansion>20</Expansion>
+          <Wealth>10</Wealth>
+          <Influence>5</Influence>
+          <Fortification>5</Fortification>
+        </AICategoryWeight>
+    </Faction>
+</FactionList>

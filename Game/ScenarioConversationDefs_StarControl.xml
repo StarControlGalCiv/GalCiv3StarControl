@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<ScenarioConversationDefs
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/ScenarioConversationDefs.xsd">
+
+  <ScenarioConversationDef>
+    <InternalName>StarControl2_ScenarioConversation_BrokeOathOfFealty</InternalName>
+    <ConversationTopic>StarControl2_Conversation_BrokeOathOfFealty</ConversationTopic>
+  </ScenarioConversationDef>
+
+</ScenarioConversationDefs>
+    

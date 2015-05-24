@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<StringTableList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- ImprovementText.xml -->
+ 
+<!-- Tech Names and Descriptions -->
+ 
+  <StringTable>
+    <Label>EnslavedColonyCapital_Name</Label>
+    <String>Enslaved Colony Capital</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>EnslavedColonyCapital_ShortDec</Label>
+    <String>Provides the basic needs for shielded planet.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>EnslavedColonyCapital_Dec</Label>
+    <String>Colony capital that is imprisoned under an Ur-Quan slaveshield. Disallows building a shipyard. Colonial capital does a little bit of everything and serves as a stepping stone to greater things.</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>FreeColonyCapital_Name</Label>
+    <String>Free Colony Capital</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FreeColonyCapital_ShortDec</Label>
+    <String>Colony that has had its Ur-Quan slaveshield removed.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FreeColonyCapital_Dec</Label>
+    <String>Colony that has had its Ur-Quan slaveshield removed. The population feels uplifted after this event. Colonial capital does a little bit of everything and serves as a stepping stone to greater things.</String>
+  </StringTable>
+
+</StringTableList>
