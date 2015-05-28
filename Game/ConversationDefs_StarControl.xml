@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<ConversationTopicDefs
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/ConversationDefs.xsd">
+
+  <ConversationTopicDef>
+    <InternalName>SandboxConversation_FirstContact_StarControl</InternalName>
+    <TopicID>FirstContact</TopicID>
+    <ConversationDef>
+      <FlavorText>FIRST_CONTACT_MAIN_STAR_CONTROL</FlavorText>
+      <Response>
+        <InternalName>FirstContact_Response_1_StarControl</InternalName>
+        <ResponseFlavorText>FIRST_CONTACT_RESPONSE_PEACEFUL</ResponseFlavorText>
+      </Response>
+      <Response>
+        <InternalName>FirstContact_Response_2_StarControl</InternalName>
+        <ResponseFlavorText>FIRST_CONTACT_RESPONSE_NEUTRAL</ResponseFlavorText>
+      </Response>
+    </ConversationDef>
+  </ConversationTopicDef>
+
+</ConversationTopicDefs>

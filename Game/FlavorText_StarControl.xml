@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<FlavorTextDefs
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/FlavorText.xsd">
+
+  <FlavorTextDef>
+    <InternalName>FIRST_CONTACT_MAIN_STAR_CONTROL</InternalName>
+
+    <FlavorTextOption>
+      <ResponseTag>GARBLED_TEXT</ResponseTag>
+      <Requirements>
+        <SpeakerFaction>FACTION_KZER-ZA</SpeakerFaction>
+        <ListenerHasUniversalTranslator>false</ListenerHasUniversalTranslator>
+      </Requirements>
+      <Text>There is something wrong here... something which makes my sheath retract and my talons ooze. I sense the ugliness of a thousand evil thoughts and I have located the source of these fetid emanations. They come from aboard one of your vessels! Foolish renegade [LISTENING_RACE_LEADER], why have you come here? All that you have found is your inevitable punishment.</Text>
+      <PreferenceWeight>1</PreferenceWeight>
+    </FlavorTextOption>
+
+    <FlavorTextOption>
+      <ResponseTag>GARBLED_TEXT</ResponseTag>
+      <Requirements>
+        <SpeakerFaction>FACTION_KOHR-AH</SpeakerFaction>
+        <ListenerHasUniversalTranslator>false</ListenerHasUniversalTranslator>
+      </Requirements>
+      <Text>We sense... something... something ancient... a sickly smell... a chilling wind. My ancestors scream from within their chambers in my mind but I cannot understand their words. This feeling... a memory? It sickens us. We are the Ur-Quan Kohr-Ah. Your presence here is premature. Our nature, the fulfillment of our fate requires your destruction.</Text>
+      <PreferenceWeight>1</PreferenceWeight>
+    </FlavorTextOption>
+
+    <FlavorTextOption>
+      <Requirements>
+        <SpeakerFaction>FACTION_KZER-ZA</SpeakerFaction>
+      </Requirements>
+      <Text>There is something wrong here... something which makes my sheath retract and my talons ooze. I sense the ugliness of a thousand evil thoughts and I have located the source of these fetid emanations. They come from aboard one of your vessels! Foolish renegade [LISTENING_RACE_LEADER], why have you come here? All that you have found is your inevitable punishment.</Text>
+      <PreferenceWeight>1</PreferenceWeight>
+    </FlavorTextOption>
+
+    <FlavorTextOption>
+      <Requirements>
+        <SpeakerFaction>FACTION_KOHR-AH</SpeakerFaction>
+      </Requirements>
+      <Text>We sense... something... something ancient... a sickly smell... a chilling wind. My ancestors scream from within their chambers in my mind but I cannot understand their words. This feeling... a memory? It sickens us. We are the Ur-Quan Kohr-Ah. Your presence here is premature. Our nature, the fulfillment of our fate requires your destruction.</Text>
+      <PreferenceWeight>1</PreferenceWeight>
+    </FlavorTextOption>
+  </FlavorTextDef>
+</FlavorTextDefs>
