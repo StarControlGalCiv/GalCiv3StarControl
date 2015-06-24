@@ -9,7 +9,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>EnslavedColonyCapital_Name</Label>
-    <String>Enslaved Colony Capital</String>
+    <String>[ICON=ShieldedWorldIcon] Enslaved Colony Capital</String>
   </StringTable>
  
   <StringTable>

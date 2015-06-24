@@ -21,6 +21,8 @@
 		<Label>FACTION_SUPOX_Dec</Label>
 		<String>The Supox Utricularia are an intelligent spacefaring race resembling some carnivorous plants. When they were first met by the New Alliance of Free Stars the Supox had already forged a cooperative relationship with the nearby Utwig.</String>
 	</StringTable>
+
+
 	<StringTable>
 		<Label>FACTION_DRUUGE_Name</Label>
 		<String>Crimson Corporation</String>
@@ -38,6 +40,8 @@
 		<Label>FACTION_DRUUGE_Dec</Label>
 		<String>The Druuge, who reside around the Persei constellation, are greedy, piggish, unsentimental, horned humanoids with a characteristic ooze constantly emanating from the mouth, nose and ears. Their whole culture is an image of extreme capitalism, and all Druuge are the employees of a syndicate they call the Crimson Corporation. The bosses of this gargantuan corporate empire are no less than the overlords of their whole civilization.</String>
 	</StringTable>
+
+
 	<StringTable>
 		<Label>FACTION_SYREEN_Name</Label>
 		<String>Syreen Matriarchy</String>
@@ -54,6 +58,8 @@
 		<Label>FACTION_SYREEN_Dec</Label>
 		<String>The Syreen are a race of bipedal hominids astonishingly similar to the Humans. With the female population outnumbering that of male, Syreen civilization can be considered as a Matriarchy.</String>
 	</StringTable>
+
+
 	<StringTable>
 		<Label>FACTION_YEHAT_Name</Label>
 		<String>Yehat Monarchy</String>
@@ -70,6 +76,8 @@
 		<Label>FACTION_YEHAT_Dec</Label>
 		<String>The Yehat are a Pterodactyl-like race that has travelled the stars for many centuries. They were a significant force in the Alliance of Free Stars, before becoming one of Ur-Quan Battle Thralls.</String>
 	</StringTable>
+
+
 	<StringTable>
 		<Label>FACTION_UTWIG_Name</Label>
 		<String>Utwig Technocracy</String>
@@ -87,6 +95,8 @@
 		<Label>FACTION_UTWIG_Dec</Label>
 		<String>They are a fatalist race with a sophisticated, somewhat mystic culture, involving masks and their dependency on an artifact known as the Ultron. They believe that their race has a grand destiny to, via the Ultron, 'perform an essential service for the universe'.</String>
 	</StringTable>
+
+
 	<StringTable>
 		<Label>FACTION_CHMMR_Name</Label>
 		<String>Chmmr</String>
@@ -104,6 +114,8 @@
 		<Label>FACTION_CHMMR_Dec</Label>
 		<String>The Chmmr are a composite race created from the two separate races of the Chenjesu and the Mmrnmhrm. The synthesis of the two races took/takes place under the slave shield on the Chenjesu's homeworld of Procyon II.</String>
 	</StringTable>
+
+
 	<StringTable>
 		<Label>FACTION_VUX_Name</Label>
 		<String>VUX</String>
@@ -121,6 +133,8 @@
 		<Label>FACTION_VUX_Dec</Label>
 		<String>Much of VUX history is not known due to the VUX's staunch unwillingness to communicate with other races. However, the events in the recent two wars are common knowledge to many species.</String>
 	</StringTable>
+
+
 	<StringTable>
 		<Label>FACTION_ILWRATH_Name</Label>
 		<String>Ilwrath Collective</String>
@@ -138,6 +152,8 @@
 		<Label>FACTION_ILWRATH_Dec</Label>
 		<String>The Ilwrath are spider-like beings who worship their dark gods Dogan and Kazon.</String>
 	</StringTable>
+
+
 	<!-- Ur-Quan: -->
 	<StringTable>
 		<Label>FACTION_KOHR-AH_Name</Label>
@@ -150,7 +166,7 @@
 	<StringTable>
 		<Label>FACTION_KOHR-AH_LeaderName</Label>
 		<String>Kohr-Ah Primat</String>
-		<!-- Source, Kzer-Za dialogue - "Perhaps we should contact the Kohr-Ah Primat, explain to her." -->
+		<!-- Source: Kzer-Za dialogue - "Perhaps we should contact the Kohr-Ah Primat, explain to her." -->
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_KOHR-AH_Dec</Label>
@@ -160,6 +176,8 @@
 		<Label>FACTION_KOHR-AH_Callsign</Label>
 		<String>Death</String>
 	</StringTable>
+
+
 	<StringTable>
 		<Label>FACTION_KZER-ZA_Name</Label>
 		<String>Ur-Quan Kzer-Za</String>
@@ -171,7 +189,7 @@
 	<StringTable>
 		<Label>FACTION_KZER-ZA_LeaderName</Label>
 		<String>Master Nine</String>
-		<!-- Source, Syreen dialogue - "Ur-Quan Master Nine explained that they had encountered this situation before..." -->
+		<!-- Source: Syreen dialogue - "Ur-Quan Master Nine explained that they had encountered this situation before..." -->
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_KZER-ZA_Dec</Label>
@@ -181,6 +199,8 @@
 		<Label>FACTION_KZER-ZA_Callsign</Label>
 		<String>Lord</String>
 	</StringTable>
+
+
 	<!-- Battle Thrall: -->
 	<StringTable>
 		<Label>FACTION_MYCON_Name</Label>
@@ -199,6 +219,8 @@
 		<Label>FACTION_MYCON_Dec</Label>
 		<String>While most sentient races are taxonomically animals, the Mycon are fungi. The Mycon spread the spores of their race through the galaxy with their Podships.</String>
 	</StringTable>
+
+
 	<StringTable>
 		<Label>FACTION_SPATHI_Name</Label>
 		<String>Spathi</String>
@@ -215,6 +237,8 @@
 		<Label>FACTION_SPATHI_Dec</Label>
 		<String>The Spathi are a cowardly race of "meta-mollusks", self-described as possessing the "best qualities of both the clam and the Dravatz".</String>
 	</StringTable>
+
+
 	<StringTable>
 		<Label>FACTION_THRADDASH_Name</Label>
 		<String>Thraddash Culture 19</String>
@@ -232,6 +256,8 @@
 		<Label>FACTION_THRADDASH_Dec</Label>
 		<String>The Thraddash are a race of intellectually challenged barbarians from the Draconis stars. Thraddash history has witnessed the rise and fall of 18 different planetary cultures.</String>
 	</StringTable>
+
+
 	<StringTable>
 		<Label>FACTION_UMGAH_Name</Label>
 		<String>Umgah</String>
@@ -249,6 +275,8 @@
 		<Label>FACTION_UMGAH_Dec</Label>
 		<String>The Umgah are a race of pranksters whose warped sense of humor knows no bounds.</String>
 	</StringTable>
+
+
 	<StringTable>
 		<Label>FACTION_ORZ_Name</Label>
 		<String>Orz</String>
@@ -259,13 +287,15 @@
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_ORZ_LeaderName</Label>
-		<String>*Finger*</String>
+		<String>*fat* *fingers*</String>
 		<!-- Made up -->
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_ORZ_Dec</Label>
 		<String>The Orz are — is — an alien species/projections of an extradimensional entity first encountered by The Captain in the space near where the Androsynth had been known to reside.</String>
 	</StringTable>
+
+
 	<StringTable>
 		<Label>FACTION_PKUNK_Name</Label>
 		<String>Pkunk</String>
@@ -283,6 +313,8 @@
 		<Label>FACTION_PKUNK_Dec</Label>
 		<String>The Pkunk are wacky, toucan-like beings, an offshoot of the Yehat race. They are pacifistic mystics who claim to be in constant contact with the "spirit-world".</String>
 	</StringTable>
+
+
 	<StringTable>
 		<Label>FACTION_ZOQ-FOT-PIK_Name</Label>
 		<String>Zoq-Fot-Pik</String>
@@ -300,6 +332,8 @@
 		<Label>FACTION_ZOQ-FOT-PIK_Dec</Label>
 		<String>The Zoq, Fot, and Pik are three separate races that evolved simultaneously on a jungle-like world. The Zoq-Fot-Pik first entered the galactic fray when they found their colony worlds were playing host to terrible space battles. These battles unleashed titanic forces as the two sides fought, and when they missed each other the small Zoq-Fot-Pik colonies suffered.</String>
 	</StringTable>
+
+
 	<!-- Minor: -->
 	<StringTable>
 		<Label>FACTION_ARILOU_Name</Label>
@@ -317,19 +351,24 @@
 		<Label>FACTION_ARILOU_Dec</Label>
 		<String>Arilou first made themselves known to the Galaxy during the Ur-Quan Slave War, suddenly appearing and applying to join the Alliance of Free Stars. Their actions were equally mercurial at the end of the war, retreating and abandoning the other races as soon as the Humans were slave-shielded. The motives for their actions seem to be some mysterious connection they have with the Human race.</String>
 	</StringTable>
+
+
 	<StringTable>
 		<Label>FACTION_HUMANS_Name</Label>
 		<String>Earthlings</String>
 	</StringTable>
+
 	<StringTable>
 		<Label>FACTION_HUMANS_ShortName</Label>
 		<String>Earthlings</String>
 	</StringTable>
+
 	<StringTable>
 		<Label>FACTION_HUMANS_LeaderName</Label>
 		<String>Commander Hayes</String>
 		<!-- In command of the starbase, which means he is in charge of the remaining Earthling space forces -->
 	</StringTable>
+
 	<StringTable>
 		<Label>FACTION_HUMANS_Dec</Label>
 		<String>After the Alliance of Free Stars was defeated by the Ur-Quan Kzer-Za, most of the Earth population voted to live under a slaveshielded Earth rather than joining the Ur-Quan Kzer-Za as Battle Thralls.</String>
@@ -362,55 +401,71 @@
 		<String>Humans are naturally adventurous, with fast, long ranging ships. All ships are equipped with the Point-defence Laser System. Their production capacity and diplomatic abilities are well regarded, except by the VUX.</String>
 	</StringTable>
 
+
 	<StringTable>
 		<Label>FACTION_MELNORME_Name</Label>
 		<String>Melnorme</String>
 	</StringTable>
+
 	<StringTable>
 		<Label>FACTION_MELNORME_ShortName</Label>
 		<String>Melnorme</String>
 	</StringTable>
+
 	<StringTable>
 		<Label>FACTION_MELNORME_LeaderName</Label>
 		<String>Purple</String>
 		<!-- Made up -->
 	</StringTable>
+
 	<StringTable>
 		<Label>FACTION_MELNORME_Dec</Label>
 		<String>The Melnorme, as far as we know, are a race of traveling traders in information and technology. They appear as several orange globs piled on top of each other, with a large smile and a single eye.</String>
 	</StringTable>
+
+
 	<StringTable>
 		<Label>FACTION_SHOFIXTI_Name</Label>
 		<String>Shofixti</String>
 	</StringTable>
+
 	<StringTable>
 		<Label>FACTION_SHOFIXTI_ShortName</Label>
 		<String>Shofixti</String>
 	</StringTable>
+
 	<StringTable>
 		<Label>FACTION_SHOFIXTI_LeaderName</Label>
 		<String>Tanaka</String>
 	</StringTable>
+
 	<StringTable>
 		<Label>FACTION_SHOFIXTI_Dec</Label>
 		<String>The Shofixti are a marsupial race of honorable mammals. All life on their homeworld was wiped out by a mini-supernova. Their technology, culture and religion (referred to as "Yehat Ancestor Worship") are greatly influenced by the Yehat, who uplifted them.</String>
 	</StringTable>
+
+
 	<StringTable>
 		<Label>FACTION_SLYLANDRO_Name</Label>
 		<String>Slylandro</String>
 	</StringTable>
+
 	<StringTable>
 		<Label>FACTION_SLYLANDRO_ShortName</Label>
 		<String>Slylandro</String>
 	</StringTable>
+
 	<StringTable>
 		<Label>FACTION_SLYLANDRO_LeaderName</Label>
 		<String>Content to Hover</String>
 	</StringTable>
+
 	<StringTable>
 		<Label>FACTION_SLYLANDRO_Dec</Label>
 		<String>The Slylandro are the only known race whose homeworld, which they call Source, is a Gas Giant. They cannot travel through space due to their physiology, though they have bought a self replicating Probe from the Melnorme to explore space for them and report back to them. The Slylandro have had contact with the Precursors, the original Ur-Quan and the Sentient Milieu.</String>
 	</StringTable>
+
+
 	<!-- Other: -->
 	<StringTable>
 		<Label>FACTION_PROBES_Name</Label>

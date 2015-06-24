@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<StringTableList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- PlanetTraitText.XML -->
+
+  <!-- Names and descriptions taken from Ultronomicon wiki page with modifications - http://wiki.uqm.stack.nl/script/index.php?title=List_of_planet_types&oldid=26930 -->
+
+  <StringTable>
+    <Label>AcidWorldSC_Name</Label>
+    <String>Acid World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>AcidWorldSC_Dec</Label>
+    <String>Acid Worlds are rich in common minerals, with heavy deposits of formic, hydrochloric, hydrocyanic, nitric, phosphoric, and sulfuric acids.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>AlkaliWorldSC_Name</Label>
+    <String>Alkali World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>AlkaliWorldSC_Dec</Label>
+    <String>Alkali Worlds are rich in alkali base metals, with medium deposits of strontium, barium, and calcium. They appear green from space, with blotches of teal and blue on the surface.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>AuricWorldSC_Name</Label>
+    <String>Auric World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>AuricWorldSC_Dec</Label>
+    <String>Auric Worlds have the equivalent of three huge deposits of gold available for collection on them. They appear yellow from space.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>AzureWorldSC_Name</Label>
+    <String>Azure World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>AzureWorldSC_Dec</Label>
+    <String>Azure Worlds feature light deposits of indium, vanadium, and molybdenum.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>CarbideWorldSC_Name</Label>
+    <String>Carbide World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>CarbideWorldSC_Dec</Label>
+    <String>Carbide Worlds are rich in carbon, a common element, with three heavy deposits' worth.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>ChlorineWorldSC_Name</Label>
+    <String>Chlorine World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>ChlorineWorldSC_Dec</Label>
+    <String>Chlorine Worlds feature very heavy deposits of both pure chlorine and hydrochloric acids, with light deposits of zinc and trace deposits of gallium.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>ChondriteWorldSC_Name</Label>
+    <String>Chondrite World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>ChondriteWorldSC_Dec</Label>
+    <String>Chondrite Worlds feature heavy deposits of ethanol and free radicals.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>CimmerianWorldSC_Name</Label>
+    <String>Cimmerian World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>CimmerianWorldSC_Dec</Label>
+    <String>Cimmerian Worlds have midsize deposits of methane, ammonia, methanol, and lithium.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>CopperWorldSC_Name</Label>
+    <String>Copper World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>CopperWorldSC_Dec</Label>
+    <String>Copper Worlds are made of pure copper, and feature the equivalent of two huge deposits of copper.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>CrimsonWorldSC_Name</Label>
+    <String>Crimson World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>CrimsonWorldSC_Dec</Label>
+    <String>Crimson Worlds feature light deposits of barium, boron, beryllium, bismuth, and bromine.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>CyanicWorldSC_Name</Label>
+    <String>Cyanic World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>CyanicWorldSC_Dec</Label>
+    <String>Cyanic Worlds usually have huge quantities of Cyano-acetylene.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>DustWorldSC_Name</Label>
+    <String>Dust World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>DustWorldSC_Dec</Label>
+    <String>[ICON=DesertWorldIcon] Dust Worlds have light deposits of bismuth, aluminum, and potassium. Their surface is composed of silicate and metal oxides. Their thin atmosphere occasionally supports minimal ecosystems.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>EmeraldWorldSC_Name</Label>
+    <String>Emerald World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>EmeraldWorldSC_Dec</Label>
+    <String>Emerald Worlds are rich in exotic minerals, with medium deposits of antimatter and huge deposits of Aguuti nodules.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>FluorescentWorldSC_Name</Label>
+    <String>Fluorescent World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>FluorescentWorldSC_Dec</Label>
+    <String>Fluorescent Worlds have huge quantities of technetium and neon, and light quantities of radon.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>GasGiantWorldSC_Name</Label>
+    <String>Gas Giant World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>GasGiantWorldSC_Dec</Label>
+    <String>Gas Giants get their name from the fact that they are incredibly large planets composed of gases. They often have many moons.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>GreenWorldSC_Name</Label>
+    <String>Green World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>GreenWorldSC_Dec</Label>
+    <String>Green Worlds have heavy deposits of praseodymium and neodymium.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>HalideWorldSC_Name</Label>
+    <String>Halide World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>HalideWorldSC_Dec</Label>
+    <String>Halide Worlds feature medium deposits of the corrosive halide elements bromine, fluorine, and iodine, and the radioactive halide astatine.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>HydrocarbonWorldSC_Name</Label>
+    <String>Hydrocarbon World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>HydrocarbonWorldSC_Dec</Label>
+    <String>Hydrocarbon Worlds are planets with huge deposits of hydrocarbons and have light quantaties of the base metal tantalum and trace amounts of bismuth.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>InfraredWorldSC_Name</Label>
+    <String>Infrared World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>InfraredWorldSC_Dec</Label>
+    <String>Infrared Worlds feature large deposits of mercury.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>IodineWorldSC_Name</Label>
+    <String>Iodine World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>IodineWorldSC_Dec</Label>
+    <String>Iodine Worlds feature some base metals and corrosive elements, especially Iodine.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>LanthanideWorldSC_Name</Label>
+    <String>Lanthanide World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>LanthanideWorldSC_Dec</Label>
+    <String>Lanthanide Worlds are worlds composed of the heavy rare earth elements. They are rich in elements like ytterbium, cerium, and lanthanum.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>MagmaWorldSC_Name</Label>
+    <String>Magma World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>MagmaWorldSC_Dec</Label>
+    <String>[ICON=Active_Core_Icon] Magma Worlds are worlds with a very thin crust, and experience extremely frequent earthquakes as a result of the motion of the mantle.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>MagneticWorldSC_Name</Label>
+    <String>Magnetic World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>MagneticWorldSC_Dec</Label>
+    <String>Magnetic Worlds have ferromagnetic metals, especially nickel and niobium, and a small amount of exotic magnetic monopoles. Their strong magnetic fields cause the manifestation of vicious lightning storms.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>MaroonWorldSC_Name</Label>
+    <String>Maroon World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>MaroonWorldSC_Dec</Label>
+    <String>Maroon Worlds have base metals and common minerals.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>MetalWorldSC_Name</Label>
+    <String>Metal World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>MetalWorldSC_Dec</Label>
+    <String>Metal Worlds or Metallic Worlds are rich in all sorts of metals, including precious metals, corrosives, and base metals.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>NobleWorldSC_Name</Label>
+    <String>Noble World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>NobleWorldSC_Dec</Label>
+    <String>Noble Worlds are rich in noble gases, sometimes also having small deposits of common Helium.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>OoliteWorldSC_Name</Label>
+    <String>Oolite World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>OoliteWorldSC_Dec</Label>
+    <String>Oolite Worlds have moderate deposits of rare earth metals as well as small levels of precious metals.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>OpalescentWorldSC_Name</Label>
+    <String>Opalescent World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>OpalescentWorldSC_Dec</Label>
+    <String>Opalescent Worlds feature rare earth metals, noble gases, and base metals.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>OrganicWorldSC_Name</Label>
+    <String>Organic World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>OrganicWorldSC_Dec</Label>
+    <String>Organic Worlds feature organic compounds, common minerals like carbon dioxide, formaldehyde, and free radicals.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>PellucidWorldSC_Name</Label>
+    <String>Pellucid World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>PellucidWorldSC_Dec</Label>
+    <String>Pellucid Worlds are less opaque than most, and usually have very small amounts of exotic minerals, typically Tzo Crystals, if any minerals at all.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>PlutonicWorldSC_Name</Label>
+    <String>Plutonic World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>PlutonicWorldSC_Dec</Label>
+    <String>Plutonic Worlds are geologically active, but have little volcanism. Therefore, most rocks there formed deep beneath the crust, and frequently contain large deposits of base, rare earth, and radioactive metals.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>PrimordialWorldSC_Name</Label>
+    <String>Primordial World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>PrimordialWorldSC_Dec</Label>
+    <String>Primordial Worlds have common minerals and base metals. These planets are large and rocky, composed of a core of metal and a crust of silicate. Their atmosphere is composed of a super-thick layer of carbon dioxide at extremely hot temperatures.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>PurpleWorldSC_Name</Label>
+    <String>Purple World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>PurpleWorldSC_Dec</Label>
+    <String>Purple Worlds have some base metals.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>QuasiDegenerateWorldSC_Name</Label>
+    <String>Quasi-Degenerate World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>QuasiDegenerateWorldSC_Dec</Label>
+    <String>Quasi-Degenerate Worlds often have some exotic Degenerate Matter.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>RadioactiveWorldSC_Name</Label>
+    <String>Radioactive World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>RadioactiveWorldSC_Dec</Label>
+    <String>Radioactive Worlds possess good deals of radioactive minerals. The radioactive substances are either the result of an atypical gas composition of the atmosphere or unusual mantle convection processes.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>RainbowWorldSC_Name</Label>
+    <String>Rainbow World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>RainbowWorldSC_Dec</Label>
+    <String>[ICON=GhostWorldIcon] Rainbow Worlds are "worlds whose radiant energies defy all scanners producing a rainbow-like image".</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>ReduxWorldSC_Name</Label>
+    <String>Redux World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>ReduxWorldSC_Dec</Label>
+    <String>Redux Worlds or Reduction Worlds have base metals and corrosive minerals like Oxygen, Chlorine, and Sulfur. The atmosphere of these planets consists of methane and ammonia rather than oxygen.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>RubyWorldSC_Name</Label>
+    <String>Ruby World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>RubyWorldSC_Dec</Label>
+    <String>Ruby Worlds are a very rare type of planet, covered with the coveted exotic minerals, especially Neutronium and Tzo Crystals. Two prominent Ruby Worlds have a hellish surface temperature and lack an atmosphere.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>SapphireWorldSC_Name</Label>
+    <String>Sapphire World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>SapphireWorldSC_Dec</Label>
+    <String>Sapphire Worlds are rich in exotic minerals, such as Super Fluids and Reisburg Helices.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>SelenicWorldSC_Name</Label>
+    <String>Selenic World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>SelenicWorldSC_Dec</Label>
+    <String>Selenic Worlds are similar in most respects to our moon, and feature base metals like Selenium, Calcium, and Aluminum.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>ShatteredWorldSC_Name</Label>
+    <String>Shattered World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>ShatteredWorldSC_Dec</Label>
+    <String>Shattered are former Water or Telluric Worlds that had their crusts shattered by the Mycon Deep Children. They usually have very large quantities of base metals, precious and radioactive minerals, but also have very hostile tectonic conditions.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>SuperDenseWorldSC_Name</Label>
+    <String>Super-Dense World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>SuperDenseWorldSC_Dec</Label>
+    <String>Super-Dense Worlds, as their name implies, feature very dense base metals such as Lead. Their high density causes seismic instability and heavy gravity, making them dangerous and expensive to land on.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>TelluricWorldSC_Name</Label>
+    <String>Telluric World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>TelluricWorldSC_Dec</Label>
+    <String>Telluric Worlds have precious and base metals.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>TreasureWorldSC_Name</Label>
+    <String>Treasure World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>TreasureWorldSC_Dec</Label>
+    <String>Treasure Worlds are rich in precious minerals like Gold and Silver.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>UltramarineWorldSC_Name</Label>
+    <String>Ultramarine World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>UltramarineWorldSC_Dec</Label>
+    <String>Ultramarine Worlds are rich in rare earth minerals like Holmium, and sometimes feature life.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>UltravioletWorldSC_Name</Label>
+    <String>Ultraviolet World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>UltravioletWorldSC_Dec</Label>
+    <String>Ultraviolet Worlds have high concentrations of precious metals, moderate levels of corrosives and common elements, and trace amounts of base metals.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>UreaWorldSC_Name</Label>
+    <String>Urea World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>UreaWorldSC_Dec</Label>
+    <String>Urea Worlds have some common minerals like Ammonia, and can support life.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>VinylogousWorldSC_Name</Label>
+    <String>Vinylogous World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>VinylogousWorldSC_Dec</Label>
+    <String>Vinylogous Worlds have base metals and common minerals.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>WaterWorldSC_Name</Label>
+    <String>Water World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>WaterWorldSC_Dec</Label>
+    <String>Water Worlds are planetary bodies in which the majority of the surface is covered in water (or ice or vapours).</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>XenolithicWorldSC_Name</Label>
+    <String>Xenolithic World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>XenolithicWorldSC_Dec</Label>
+    <String>Xenolithic Worlds have scattered deposits of precious metals with trace amounts of base metals.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>YttricWorldSC_Name</Label>
+    <String>Yttric World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>YttricWorldSC_Dec</Label>
+    <String>Yttric Worlds are worlds composed of Yttrium and Ytterbium. They hold rare earth metals and base metals.</String>
+  </StringTable>
+
+</StringTableList>

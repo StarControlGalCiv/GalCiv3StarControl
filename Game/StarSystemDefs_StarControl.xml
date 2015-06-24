@@ -4,34 +4,29 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
 <!-- Created with the Gal Civ 3 Editor -->
 <!-- StarSystemDefs.xml -->
- 
+
   <!-- System Group -->
- 
+
   <StarSystemGroup>
     <InternalName>StarControl2FactionStart</InternalName>
- 
-    <!-- Made up -->
+
+    <!-- Chmmr Home Star System -->
     <StarSystem>
-      <InternalName>KzerSystem</InternalName>
-      <DisplayName>KzerSystem_Name</DisplayName>
-      <Description>KzerSystem_Dec</Description>
+      <InternalName>ProcyonSystem</InternalName>
+      <DisplayName>ProcyonSystem_Name</DisplayName>
+      <Description>ProcyonSystem_Dec</Description>
       <OrbitLane>
         <LaneType>Star</LaneType>
         <Body>
           <BodyType>UnaryStar</BodyType>
-          <BodyDef>KzerStar</BodyDef>
+          <BodyDef>ProcyonStar</BodyDef>
         </Body>
-      </OrbitLane>
-      <OrbitLane>
-        <LaneType>DeadZone</LaneType>
-        <MinPlanets>1</MinPlanets>
-        <MaxPlanets>1</MaxPlanets>
       </OrbitLane>
       <OrbitLane>
         <LaneType>HabitableZone</LaneType>
         <Body>
           <BodyType>Planet</BodyType>
-          <BodyDef>Kzer</BodyDef>
+          <BodyDef>PlanetProcyon2</BodyDef>
           <IsHomeworld>true</IsHomeworld>
           <Position>5</Position>
         </Body>
@@ -44,9 +39,155 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
           <BodyType>Asteroid</BodyType>
           <BodyDef>NormalAsteroid</BodyDef>
         </Body>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+        </Body>
       </OrbitLane>
     </StarSystem>
 
+    <!-- Druuge Home Star System -->
+    <StarSystem>
+      <InternalName>ZetaPerseiSystem</InternalName>
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>ZetaPerseiStar</BodyDef>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetZetaPersei1</BodyDef>
+          <IsHomeworld>true</IsHomeworld>
+          <Position>5</Position>
+        </Body>
+        <!-- <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetZetaPersei2</BodyDef>
+        </Body> -->
+      </OrbitLane>
+      <!-- <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetZetaPersei3</BodyDef>
+        </Body>
+      </OrbitLane> -->
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+          <Position>12</Position>
+        </Body>
+        <!-- <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetZetaPersei4</BodyDef>
+        </Body>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetZetaPersei5</BodyDef>
+          <Position/>
+        </Body> -->
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+      </OrbitLane>
+    </StarSystem>
+
+    <!-- Earthling Home Star System -->
+    <StarSystem>
+      <InternalName>SolSCSystem</InternalName>
+      <DisplayName>SolSystem_Name</DisplayName>
+      <Description>SolSystem_Dec</Description>
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>SolStarSC</BodyDef>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetEarthSC</BodyDef>
+          <IsHomeworld>true</IsHomeworld>
+          <Position>5</Position>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>OuterZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>2</MaxPlanets>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+        </Body>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+        </Body>
+      </OrbitLane>
+    </StarSystem>
+
+    <!-- Ilwrath Home Star System -->
+    <StarSystem>
+      <InternalName>AlphaTauriSystem</InternalName>
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>AlphaTauriStar</BodyDef>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetAlphaTauri1</BodyDef>
+          <IsHomeworld>true</IsHomeworld>
+          <Position>8</Position>
+        </Body>
+        <!-- <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetAlphaTauri2</BodyDef>
+        </Body>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetAlphaTauri3</BodyDef>
+          <Position/>
+        </Body> -->
+      </OrbitLane>
+      <!-- <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetAlphaTauri4</BodyDef>
+        </Body>
+      </OrbitLane> -->
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+          <Position>14</Position>
+        </Body>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+          <Position>4</Position>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+      </OrbitLane>
+    </StarSystem>
+
+    <!-- Kohr-Ah Home Star System -->
     <!-- Made up -->
     <StarSystem>
       <InternalName>KohrSystem</InternalName>
@@ -68,7 +209,7 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
         <LaneType>HabitableZone</LaneType>
         <Body>
           <BodyType>Planet</BodyType>
-          <BodyDef>Kohr</BodyDef>
+          <BodyDef>PlanetKohr3</BodyDef>
           <IsHomeworld>true</IsHomeworld>
           <Position>5</Position>
         </Body>
@@ -87,6 +228,681 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
         </Body>
       </OrbitLane>
     </StarSystem>
+
+    <!-- Kzer-Za Home Star System -->
+    <!-- Made up -->
+    <StarSystem>
+      <InternalName>KzerSystem</InternalName>
+      <DisplayName>KzerSystem_Name</DisplayName>
+      <Description>KzerSystem_Dec</Description>
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>KzerStar</BodyDef>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>DeadZone</LaneType>
+        <MinPlanets>1</MinPlanets>
+        <MaxPlanets>1</MaxPlanets>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetKzer2</BodyDef>
+          <IsHomeworld>true</IsHomeworld>
+          <Position>5</Position>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>OuterZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>2</MaxPlanets>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+        </Body>
+      </OrbitLane>
+    </StarSystem>
+
+    <!-- Mycon Home Star System -->
+    <StarSystem>
+      <InternalName>EpsilonScorpiiSystem</InternalName>
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>EpsilonScorpiiStar</BodyDef>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetEpsilonScorpii1</BodyDef>
+          <IsHomeworld>true</IsHomeworld>
+          <Position>8</Position>
+        </Body>
+        <!-- <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetEpsilonScorpii2</BodyDef>
+        </Body>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetEpsilonScorpii3</BodyDef>
+          <Position/>
+        </Body> -->
+      </OrbitLane>
+      <!-- <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetEpsilonScorpii4</BodyDef>
+        </Body>
+      </OrbitLane> -->
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+          <Position>14</Position>
+        </Body>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+          <Position>4</Position>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+      </OrbitLane>
+    </StarSystem>
+
+    <!-- Orz Home Star System -->
+    <StarSystem>
+      <InternalName>GammaVulpeculaeSystem</InternalName>
+      <DisplayName>GammaVulpeculaeSystem_Name</DisplayName>
+      <Description>GammaVulpeculaeSystem_Dec</Description>
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>GammaVulpeculaeStar</BodyDef>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetGammaVulpeculae1</BodyDef>
+          <IsHomeworld>true</IsHomeworld>
+          <Position>5</Position>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>OuterZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>2</MaxPlanets>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+        </Body>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+        </Body>
+      </OrbitLane>
+    </StarSystem>
+
+    <!-- Pkunk Home Star System -->
+    <StarSystem>
+      <InternalName>GammaKruegerSystem</InternalName>
+      <DisplayName>GammaKruegerSystem_Name</DisplayName>
+      <Description>GammaKruegerSystem_Dec</Description>
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>GammaKruegerStar</BodyDef>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetGammaKrueger1</BodyDef>
+          <IsHomeworld>true</IsHomeworld>
+          <Position>5</Position>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>OuterZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>2</MaxPlanets>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+        </Body>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+        </Body>
+      </OrbitLane>
+    </StarSystem>
+
+    <!-- Shofixti Home Star System -->
+    <StarSystem>
+      <InternalName>DeltaGornoSystem</InternalName>
+      <DisplayName>DeltaGornoSystem_Name</DisplayName>
+      <Description>DeltaGornoSystem_Dec</Description>
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>DeltaGornoStar</BodyDef>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetKyabetsu</BodyDef>
+          <IsHomeworld>true</IsHomeworld>
+          <Position>5</Position>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>OuterZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>2</MaxPlanets>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+        </Body>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+        </Body>
+      </OrbitLane>
+    </StarSystem>
+
+    <!-- Slylandro Home Star System -->
+    <StarSystem>
+      <InternalName>BetaCorviSystem</InternalName>
+      <DisplayName>BetaCorviSystem_Name</DisplayName>
+      <Description>BetaCorviSystem_Dec</Description>
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>BetaCorviStar</BodyDef>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetBetaCorvi4</BodyDef>
+          <IsHomeworld>true</IsHomeworld>
+          <Position>5</Position>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>OuterZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>2</MaxPlanets>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+        </Body>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+        </Body>
+      </OrbitLane>
+    </StarSystem>
+
+    <!-- Spathi Home Star System -->
+    <StarSystem>
+      <InternalName>EpsilonGruisSystem</InternalName>
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>EpsilonGruisStar</BodyDef>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetEpsilonGruis1</BodyDef>
+          <Position>5</Position>
+        </Body>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetEpsilonGruis1A</BodyDef>
+          <IsHomeworld>true</IsHomeworld>
+          <Position>6</Position>
+        </Body>
+        <!-- <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetEpsilonGruis2</BodyDef>
+        </Body>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetEpsilonGruis3</BodyDef>
+          <Position/>
+        </Body> -->
+      </OrbitLane>
+      <!-- <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetEpsilonGruis4</BodyDef>
+        </Body>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetEpsilonGruis5</BodyDef>
+        </Body>
+      </OrbitLane> -->
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+          <Position>14</Position>
+        </Body>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+          <Position>4</Position>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+      </OrbitLane>
+    </StarSystem>
+
+    <!-- Supox Home Star System -->
+    <StarSystem>
+      <InternalName>BetaLibraeSystem</InternalName>
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>AltarisStar</BodyDef>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetVlik</BodyDef>
+          <!-- <BodyDef>PlanetBetaLibrae1</BodyDef> -->
+          <IsHomeworld>true</IsHomeworld>
+          <Position>5</Position>
+        </Body>
+        <!-- <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetBetaLibrae1A</BodyDef>
+        </Body>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetBetaLibrae1B</BodyDef>
+        </Body> -->
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+          <Position>15</Position>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+      </OrbitLane>
+    </StarSystem>
+
+    <!-- Syreen Home Star System -->
+    <StarSystem>
+      <InternalName>BetelgeuseSystem</InternalName>
+      <DisplayName>BetelgeuseSystem_Name</DisplayName>
+      <Description>BetelgeuseSystem_Dec</Description>
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>BetelgeuseStar</BodyDef>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetGaia</BodyDef>
+          <IsHomeworld>true</IsHomeworld>
+          <Position>5</Position>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>OuterZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>2</MaxPlanets>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+        </Body>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+        </Body>
+      </OrbitLane>
+    </StarSystem>
+
+    <!-- Thraddash Home Star System -->
+    <StarSystem>
+      <InternalName>DeltaDraconisSystem</InternalName>
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>DeltaDraconisStar</BodyDef>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetDeltaDraconis1</BodyDef>
+          <IsHomeworld>true</IsHomeworld>
+          <Position>8</Position>
+        </Body>
+        <!-- <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetDeltaDraconis2</BodyDef>
+        </Body>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetDeltaDraconis3</BodyDef>
+          <Position/>
+        </Body> -->
+      </OrbitLane>
+      <!-- <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetDeltaDraconis4</BodyDef>
+        </Body>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetDeltaDraconis5</BodyDef>
+        </Body>
+      </OrbitLane> -->
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+          <Position>14</Position>
+        </Body>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+          <Position>4</Position>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+      </OrbitLane>
+    </StarSystem>
+
+    <!-- Umgah Home Star System -->
+    <StarSystem>
+      <InternalName>BetaOrionisSystem</InternalName>
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>BetaOrionisStar</BodyDef>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetBetaOrionis1</BodyDef>
+          <IsHomeworld>true</IsHomeworld>
+          <Position>5</Position>
+        </Body>
+        <!-- <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetBetaOrionis2</BodyDef>
+        </Body> -->
+      </OrbitLane>
+      <!-- <OrbitLane>
+        <LaneType>DeadZone</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetBetaOrionis3</BodyDef>
+        </Body>
+      </OrbitLane> -->
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+          <Position>15</Position>
+        </Body>
+        <!-- <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetBetaOrionis4</BodyDef>
+        </Body>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetBetaOrionis5</BodyDef>
+          <Position/>
+        </Body> -->
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+      </OrbitLane>
+    </StarSystem>
+
+    <!-- Utwig Home Star System -->
+    <StarSystem>
+      <InternalName>BetaAquariiSystem</InternalName>
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>BetaAquariiStar</BodyDef>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>DeadZone</LaneType>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetFahz</BodyDef>
+          <!-- <BodyDef>PlanetBetaAquarii1</BodyDef> -->
+          <IsHomeworld>true</IsHomeworld>
+          <Position>5</Position>
+        </Body>
+        <!-- <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetBetaAquarii2</BodyDef>
+        </Body>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetBetaAquarii3</BodyDef>
+          <Position/>
+        </Body> -->
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+          <Position>15</Position>
+        </Body>
+        <!-- <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetBetaAquarii4</BodyDef>
+          <Position/>
+        </Body> -->
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+      </OrbitLane>
+    </StarSystem>
+
+    <!-- VUX Home Star System -->
+    <StarSystem>
+      <InternalName>BetaLuytenSystem</InternalName>
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>BetaLuytenStar</BodyDef>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetBetaLuyten1</BodyDef>
+          <IsHomeworld>true</IsHomeworld>
+          <Position>8</Position>
+        </Body>
+        <!-- <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetBetaLuyten2</BodyDef>
+        </Body>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetBetaLuyten3</BodyDef>
+          <Position/>
+        </Body> -->
+      </OrbitLane>
+      <!-- <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetBetaLuyten4</BodyDef>
+        </Body>
+      </OrbitLane> -->
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+          <Position>14</Position>
+        </Body>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+          <Position>4</Position>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+      </OrbitLane>
+    </StarSystem>
+
+    <!-- Yehat Home Star System -->
+    <StarSystem>
+      <InternalName>GammaSerpentisSystem</InternalName>
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>GammaSerpentisStar</BodyDef>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetGammaSerpentis1</BodyDef>
+          <IsHomeworld>true</IsHomeworld>
+          <Position>8</Position>
+        </Body>
+        <!-- <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetGammaSerpentis2</BodyDef>
+        </Body>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetGammaSerpentis3</BodyDef>
+          <Position/>
+        </Body> -->
+      </OrbitLane>
+      <!-- <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetGammaSerpentis4</BodyDef>
+        </Body>
+      </OrbitLane> -->
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+          <Position>14</Position>
+        </Body>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+          <Position>4</Position>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>NoRandom</LaneType>
+      </OrbitLane>
+    </StarSystem>
+
+    <!-- Zoq-Fot-Pik Home Star System -->
+    <StarSystem>
+      <InternalName>AlphaTucanaeSystem</InternalName>
+      <DisplayName>AlphaTucanaeSystem_Name</DisplayName>
+      <Description>AlphaTucanaeSystem_Dec</Description>
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>AlphaTucanaeStar</BodyDef>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetAlphaTucanae1</BodyDef>
+          <IsHomeworld>true</IsHomeworld>
+          <Position>5</Position>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>OuterZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>2</MaxPlanets>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+        </Body>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+        </Body>
+      </OrbitLane>
+    </StarSystem>
+
   </StarSystemGroup>
- 
 </StarSystemList>

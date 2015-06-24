@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<StringTableList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
+
+	<!-- Star Control: -->
+	<!-- Ur-Quan: -->
+	<!-- Kzer-Za home system -->
+	<StringTable>
+		<Label>Kzer1Name</Label>
+		<String>Kzer I</String>
+	</StringTable>
+	<StringTable>
+		<Label>Kzer2Name</Label>
+		<String>Kzer II</String>
+	</StringTable>
+	<StringTable>
+		<Label>Kzer3Name</Label>
+		<String>Kzer III</String>
+	</StringTable>
+	<StringTable>
+		<Label>Kzer4Name</Label>
+		<String>Kzer IV</String>
+	</StringTable>
+	<StringTable>
+		<Label>Kzer5Name</Label>
+		<String>Kzer V</String>
+	</StringTable>
+	<StringTable>
+		<Label>Kzer6Name</Label>
+		<String>Kzer VI</String>
+	</StringTable>
+
+	<!-- Kohr-Ah home system -->
+	<StringTable>
+		<Label>Kohr1Name</Label>
+		<String>Kohr I</String>
+	</StringTable>
+	<StringTable>
+		<Label>Kohr2Name</Label>
+		<String>Kohr II</String>
+	</StringTable>
+	<StringTable>
+		<Label>Kohr3Name</Label>
+		<String>Kohr III</String>
+	</StringTable>
+	<StringTable>
+		<Label>Kohr4Name</Label>
+		<String>Kohr IV</String>
+	</StringTable>
+	<StringTable>
+		<Label>Kohr5Name</Label>
+		<String>Kohr V</String>
+	</StringTable>
+	<StringTable>
+		<Label>Kohr6Name</Label>
+		<String>Kohr VI</String>
+	</StringTable>
+
+
+
+	<!-- Battle Thralls: -->
+	<!-- Ilwrath home system -->
+	<!-- Planet I - Primordial World - Ilwrath homeworld -->
+	<StringTable>
+		<Label>AlphaTauri1Name</Label>
+		<String>Alpha Tauri I</String>
+	</StringTable>
+
+	<!-- Planet II - Lanthanide World -->
+	<StringTable>
+		<Label>AlphaTauri2Name</Label>
+		<String>Alpha Tauri II</String>
+	</StringTable>
+
+	<!-- Planet III - Gas Giant -->
+	<StringTable>
+		<Label>AlphaTauri3Name</Label>
+		<String>Alpha Tauri III</String>
+	</StringTable>
+	<!-- Moon III-A - Treasure World -->
+	<StringTable>
+		<Label>AlphaTauri3AName</Label>
+		<String>Alpha Tauri III A</String>
+	</StringTable>
+	<!-- Moon III-B - Halide World -->
+	<StringTable>
+		<Label>AlphaTauri3BName</Label>
+		<String>Alpha Tauri III B</String>
+	</StringTable>
+	<!-- Moon III-C - Halide World -->
+	<StringTable>
+		<Label>AlphaTauri3CName</Label>
+		<String>Alpha Tauri III C</String>
+	</StringTable>
+	<!-- Moon III-D - Super-Dense World -->
+	<StringTable>
+		<Label>AlphaTauri3DName</Label>
+		<String>Alpha Tauri III D</String>
+	</StringTable>
+
+	<!-- Planet IV - Gas Giant -->
+	<StringTable>
+		<Label>AlphaTauri4Name</Label>
+		<String>Alpha Tauri IV</String>
+	</StringTable>
+	<!-- Moon IV-A - Copper World -->
+	<StringTable>
+		<Label>AlphaTauri4AName</Label>
+		<String>Alpha Tauri IV A</String>
+	</StringTable>
+	<!-- Moon IV-B - Halide World -->
+	<StringTable>
+		<Label>AlphaTauri4BName</Label>
+		<String>Alpha Tauri IV B</String>
+	</StringTable>
+	
+	<!-- Planet V - Gas Giant -->
+	<StringTable>
+		<Label>AlphaTauri5Name</Label>
+		<String>Alpha Tauri V</String>
+	</StringTable>
+	<!-- Moon V-A - Green World -->
+	<StringTable>
+		<Label>AlphaTauri5AName</Label>
+		<String>Alpha Tauri V A</String>
+	</StringTable>
+	<!-- Moon V-B - Alkali World -->
+	<StringTable>
+		<Label>AlphaTauri5BName</Label>
+		<String>Alpha Tauri V B</String>
+	</StringTable>
+	<!-- Moon V-C - Halide World -->
+	<StringTable>
+		<Label>AlphaTauri5CName</Label>
+		<String>Alpha Tauri V C</String>
+	</StringTable>
+	<!-- Moon V-D - Carbide World -->
+	<StringTable>
+		<Label>AlphaTauri5DName</Label>
+		<String>Alpha Tauri V D</String>
+	</StringTable>
+
+
+	<!-- Mycon home system -->
+	<StringTable>
+		<Label>EpsilonScorpii1Name</Label>
+		<String>Epsilon Scorpii I</String>
+	</StringTable>
+	<StringTable>
+		<Label>EpsilonScorpii2Name</Label>
+		<String>Epsilon Scorpii II</String>
+	</StringTable>
+	<StringTable>
+		<Label>EpsilonScorpii3Name</Label>
+		<String>Epsilon Scorpii III</String>
+	</StringTable>
+	<StringTable>
+		<Label>EpsilonScorpii4Name</Label>
+		<String>Epsilon Scorpii IV</String>
+	</StringTable>
+	<StringTable>
+		<Label>EpsilonScorpii5Name</Label>
+		<String>Epsilon Scorpii V</String>
+	</StringTable>
+	<StringTable>
+		<Label>EpsilonScorpii6Name</Label>
+		<String>Epsilon Scorpii VI</String>
+	</StringTable>
+
+
+	<!-- Umgah home system -->
+	<!-- Planet I - Telluric World - Umgah homeworld -->
+	<StringTable>
+		<Label>BetaOrionis1Name</Label>
+		<String>Beta Orionis I</String>
+	</StringTable>
+
+	<!-- Planet II - Gas Giant -->
+	<StringTable>
+		<Label>BetaOrionis2Name</Label>
+		<String>Beta Orionis II</String>
+	</StringTable>
+	<!-- Moon II-A - Super-Dense World -->
+	<StringTable>
+		<Label>BetaOrionis2AName</Label>
+		<String>Beta Orionis II A</String>
+	</StringTable>
+	<!-- Moon II-B - Lanthanide World -->
+	<StringTable>
+		<Label>BetaOrionis2BName</Label>
+		<String>Beta Orionis II B</String>
+	</StringTable>
+	<!-- Moon II-C - Ultramarine World -->
+	<StringTable>
+		<Label>BetaOrionis2CName</Label>
+		<String>Beta Orionis II C</String>
+	</StringTable>
+
+	<!-- Planet III - Gas Giant -->
+	<StringTable>
+		<Label>BetaOrionis3Name</Label>
+		<String>Beta Orionis III</String>
+	</StringTable>
+	<!-- Moon III-A - Radioactive World -->
+	<StringTable>
+		<Label>BetaOrionis3AName</Label>
+		<String>Beta Orionis III A</String>
+	</StringTable>
+	<!-- Moon III-B - Radioactive World -->
+	<StringTable>
+		<Label>BetaOrionis3BName</Label>
+		<String>Beta Orionis III B</String>
+	</StringTable>
+	<!-- Moon III-C - Chondrite World -->
+	<StringTable>
+		<Label>BetaOrionis3CName</Label>
+		<String>Beta Orionis III C</String>
+	</StringTable>
+	<!-- Moon III-D - Alkali World -->
+	<StringTable>
+		<Label>BetaOrionis3DName</Label>
+		<String>Beta Orionis III D</String>
+	</StringTable>
+
+	<!-- Planet IV - Gas Giant -->
+	<StringTable>
+		<Label>BetaOrionis4Name</Label>
+		<String>Beta Orionis IV</String>
+	</StringTable>
+	<!-- Moon IV-A - Chondrite World -->
+	<StringTable>
+		<Label>BetaOrionis4AName</Label>
+		<String>Beta Orionis IV A</String>
+	</StringTable>
+	<!-- Moon IV-B - Copper World -->
+	<StringTable>
+		<Label>BetaOrionis4BName</Label>
+		<String>Beta Orionis IV B</String>
+	</StringTable>
+	<!-- Moon IV-C - Opalescent World -->
+	<StringTable>
+		<Label>BetaOrionis4CName</Label>
+		<String>Beta Orionis IV C</String>
+	</StringTable>
+	<!-- Moon IV-D - Quasi-Degenerate World -->
+	<StringTable>
+		<Label>BetaOrionis4DName</Label>
+		<String>Beta Orionis IV D</String>
+	</StringTable>
+
+	<!-- Planet V - Alkali World -->
+	<StringTable>
+		<Label>BetaOrionis5Name</Label>
+		<String>Beta Orionis V</String>
+	</StringTable>
+
+
+	<!-- Spathi home system -->
+	<StringTable>
+		<Label>EpsilonGruis1Name</Label>
+		<String>Epsilon Gruis I</String>
+	</StringTable>
+	<StringTable>
+		<Label>EpsilonGruis1AName</Label>
+		<String>Epsilon Gruis I A</String>
+	</StringTable>
+	<StringTable>
+		<Label>EpsilonGruis2Name</Label>
+		<String>Epsilon Gruis II</String>
+	</StringTable>
+	<StringTable>
+		<Label>EpsilonGruis3Name</Label>
+		<String>Epsilon Gruis III</String>
+	</StringTable>
+	<StringTable>
+		<Label>EpsilonGruis4Name</Label>
+		<String>Epsilon Gruis IV</String>
+	</StringTable>
+	<StringTable>
+		<Label>EpsilonGruis5Name</Label>
+		<String>Epsilon Gruis V</String>
+	</StringTable>
+	<StringTable>
+		<Label>EpsilonGruis6Name</Label>
+		<String>Epsilon Gruis VI</String>
+	</StringTable>
+
+	<!-- Thraddash home system -->
+	<!-- Planet I - Water World - Thraddash homeworld -->
+	<StringTable>
+		<Label>DeltaDraconis1Name</Label>
+		<String>Delta Draconis I</String>
+	</StringTable>
+
+	<!-- Planet II - Gas Giant -->
+	<StringTable>
+		<Label>DeltaDraconis2Name</Label>
+		<String>Delta Draconis II</String>
+	</StringTable>
+	<!-- Moon II-A - Infrared World -->
+	<StringTable>
+		<Label>DeltaDraconis2AName</Label>
+		<String>Delta Draconis II A</String>
+	</StringTable>
+	<!-- Moon II-B - Halide World -->
+	<StringTable>
+		<Label>DeltaDraconis2BName</Label>
+		<String>Delta Draconis II B</String>
+	</StringTable>
+	<!-- Moon II-C - Cyanic World -->
+	<StringTable>
+		<Label>DeltaDraconis2CName</Label>
+		<String>Delta Draconis II C</String>
+	</StringTable>
+
+	<!-- Planet III - Copper World -->
+	<StringTable>
+		<Label>DeltaDraconis3Name</Label>
+		<String>Delta Draconis III</String>
+	</StringTable>
+
+	<!-- Planet IV - Green World -->
+	<StringTable>
+		<Label>DeltaDraconis4Name</Label>
+		<String>Delta Draconis IV</String>
+	</StringTable>
+
+	<!-- Planet V - Gas Giant -->
+	<StringTable>
+		<Label>DeltaDraconis5Name</Label>
+		<String>Delta Draconis V</String>
+	</StringTable>
+	<!-- Moon V-A - Dust World -->
+	<StringTable>
+		<Label>DeltaDraconis5AName</Label>
+		<String>Delta Draconis V A</String>
+	</StringTable>
+
+	<!-- Planet VI - Redux World -->
+	<StringTable>
+		<Label>DeltaDraconis6Name</Label>
+		<String>Delta Draconis VI</String>
+	</StringTable>
+	<!-- Moon VI-A - Purple World -->
+	<StringTable>
+		<Label>DeltaDraconis6AName</Label>
+		<String>Delta Draconis VI A</String>
+	</StringTable>
+
+	<!-- Planet VII - Magma World -->
+	<StringTable>
+		<Label>DeltaDraconis7Name</Label>
+		<String>Delta Draconis VII</String>
+	</StringTable>
+	<!-- Moon VII-A - Super-Dense World -->
+	<StringTable>
+		<Label>DeltaDraconis7AName</Label>
+		<String>Delta Draconis VII A</String>
+	</StringTable>
+
+	<!-- Planet VIII - Copper World -->
+	<StringTable>
+		<Label>DeltaDraconis8Name</Label>
+		<String>Delta Draconis V</String>
+	</StringTable>
+
+	<!-- Planet IX - Gas Giant -->
+	<StringTable>
+		<Label>DeltaDraconis9Name</Label>
+		<String>Delta Draconis IX</String>
+	</StringTable>
+
+
+	<!-- VUX home system -->
+	<StringTable>
+		<Label>BetaLuyten1Name</Label>
+		<String>Beta Luyten I</String>
+	</StringTable>
+	<StringTable>
+		<Label>BetaLuyten1AName</Label>
+		<String>Beta Luyten I A</String>
+	</StringTable>
+	<StringTable>
+		<Label>BetaLuyten2Name</Label>
+		<String>Beta Luyten II</String>
+	</StringTable>
+	<StringTable>
+		<Label>BetaLuyten3Name</Label>
+		<String>Beta Luyten III</String>
+	</StringTable>
+	<StringTable>
+		<Label>BetaLuyten4Name</Label>
+		<String>Beta Luyten IV</String>
+	</StringTable>
+	<StringTable>
+		<Label>BetaLuyten5Name</Label>
+		<String>Beta Luyten V</String>
+	</StringTable>
+	<StringTable>
+		<Label>BetaLuyten6Name</Label>
+		<String>Beta Luyten VI</String>
+	</StringTable>
+
+
+	<!-- Pkunk home system -->
+	<!-- Planet I - Water World - Pkunk homeworld -->
+	<StringTable>
+		<Label>GammaKrueger1Name</Label>
+		<String>Gamma Krueger I</String>
+	</StringTable>
+
+	<!-- Moon I-A - Halide World -->
+	<StringTable>
+		<Label>GammaKrueger1AName</Label>
+		<String>Gamma Krueger I A</String>
+	</StringTable>
+
+	<!-- Planet II - Ultramarine World -->
+	<StringTable>
+		<Label>GammaKrueger2Name</Label>
+		<String>Gamma Krueger II</String>
+	</StringTable>
+
+	<!-- Planet III - Radioactive World -->
+	<StringTable>
+		<Label>GammaKrueger3Name</Label>
+		<String>Gamma Krueger III</String>
+	</StringTable>
+
+	<!-- Planet IV - Super-Dense World -->
+	<StringTable>
+		<Label>GammaKrueger4Name</Label>
+		<String>Gamma Krueger IV</String>
+	</StringTable>
+
+
+	<!-- Yehat home system -->
+	<!-- Planet I - Water World - Yehat homeworld -->
+	<StringTable>
+		<Label>GammaSerpentis1Name</Label>
+		<String>Gamma Serpentis I</String>
+	</StringTable>
+	<!-- Moon I-A - Azure World -->
+	<StringTable>
+		<Label>GammaSerpentis1AName</Label>
+		<String>Gamma Serpentis I A</String>
+	</StringTable>
+
+	<!-- Planet II - Primordial World -->
+	<StringTable>
+		<Label>GammaSerpentis2Name</Label>
+		<String>Gamma Serpentis II</String>
+	</StringTable>
+	<!-- Moon II-A - Pellucid World -->
+	<StringTable>
+		<Label>GammaSerpentis2AName</Label>
+		<String>Gamma Serpentis II A</String>
+	</StringTable>
+
+	<!-- Planet III - Halide World -->
+	<StringTable>
+		<Label>GammaSerpentis3Name</Label>
+		<String>Gamma Serpentis III</String>
+	</StringTable>
+
+	<!-- Planet IV - Cyanic World -->
+	<StringTable>
+		<Label>GammaSerpentis4Name</Label>
+		<String>Gamma Serpentis IV</String>
+	</StringTable>
+
+	<!-- Planet V - Carbide World -->
+	<StringTable>
+		<Label>GammaSerpentis5Name</Label>
+		<String>Gamma Serpentis V</String>
+	</StringTable>
+
+	<!-- Planet VI - Redux World -->
+	<StringTable>
+		<Label>GammaSerpentis6Name</Label>
+		<String>Gamma Serpentis VI</String>
+	</StringTable>
+
+	<!-- Planet VII - Telluric World -->
+	<StringTable>
+		<Label>GammaSerpentis7Name</Label>
+		<String>Gamma Serpentis VII</String>
+	</StringTable>
+	<!-- Moon VII-A - Halide World -->
+	<StringTable>
+		<Label>GammaSerpentis7AName</Label>
+		<String>Gamma Serpentis VII A</String>
+	</StringTable>
+	<!-- Moon VII-B - Opalescent World -->
+	<StringTable>
+		<Label>GammaSerpentis7BName</Label>
+		<String>Gamma Serpentis VII B</String>
+	</StringTable>
+
+
+	<!-- Supox home system -->
+	<StringTable>
+		<Label>BetaLibrae1Name</Label>
+		<String>Beta Librae I</String>
+	</StringTable>
+	<!-- Native name -->
+	<StringTable>
+		<Label>VlikName</Label>
+		<String>Vlik</String>
+	</StringTable>
+	<!-- Moons: -->
+	<StringTable>
+		<Label>BetaLibrae1AName</Label>
+		<String>Beta Librae I A</String>
+	</StringTable>
+	<StringTable>
+		<Label>BetaLibrae1BName</Label>
+		<String>Beta Librae I B</String>
+	</StringTable>
+
+	<!-- Druuge home system -->
+	<!-- Planet I - Dust World - Druuge homeworld -->
+	<StringTable>
+		<Label>ZetaPersei1Name</Label>
+		<String>Zeta Persei I</String>
+	</StringTable>
+
+	<!-- Planet II - Infrared World -->
+	<StringTable>
+		<Label>ZetaPersei2Name</Label>
+		<String>Zeta Persei II</String>
+	</StringTable>
+
+	<!-- Planet III - Selenic World -->
+	<StringTable>
+		<Label>ZetaPersei3Name</Label>
+		<String>Zeta Persei III</String>
+	</StringTable>
+
+	<!-- Planet IV - Super-Dense World -->
+	<StringTable>
+		<Label>ZetaPersei4Name</Label>
+		<String>Zeta Persei IV</String>
+	</StringTable>
+
+	<!-- Planet V - Gas Giant -->
+	<StringTable>
+		<Label>ZetaPersei5Name</Label>
+		<String>Zeta Persei V</String>
+	</StringTable>
+	<!-- Moon V-A - Pellucid World -->
+	<StringTable>
+		<Label>ZetaPersei5AName</Label>
+		<String>Zeta Persei V A</String>
+	</StringTable>
+	<!-- Moon V-B - Azure World -->
+	<StringTable>
+		<Label>ZetaPersei5BName</Label>
+		<String>Zeta Persei V B</String>
+	</StringTable>
+
+
+	<!-- Orz home system -->
+	<!-- Planet I - Water World - Orz homeworld -->
+	<StringTable>
+		<Label>GammaVulpeculae1Name</Label>
+		<String>Gamma Vulpeculae I</String>
+	</StringTable>
+
+	<!-- Planet II - Copper World -->
+	<StringTable>
+		<Label>GammaVulpeculae2Name</Label>
+		<String>Gamma Vulpeculae II</String>
+	</StringTable>
+
+	<!-- Planet III - Copper World -->
+	<StringTable>
+		<Label>GammaVulpeculae3Name</Label>
+		<String>Gamma Vulpeculae III</String>
+	</StringTable>
+
+	<!-- Planet IV - Emerald World -->
+	<StringTable>
+		<Label>GammaVulpeculae4Name</Label>
+		<String>Gamma Vulpeculae IV</String>
+	</StringTable>
+	<!-- Moon IV-A - Pellucid World -->
+	<StringTable>
+		<Label>GammaVulpeculae4AName</Label>
+		<String>Gamma Vulpeculae IV A</String>
+	</StringTable>
+
+	<!-- Planet V - Gas giant -->
+	<StringTable>
+		<Label>GammaVulpeculae5Name</Label>
+		<String>Gamma Vulpeculae V</String>
+	</StringTable>
+	<!-- Moon V-A - Selenic World -->
+	<StringTable>
+		<Label>GammaVulpeculae5AName</Label>
+		<String>Gamma Vulpeculae V A</String>
+	</StringTable>
+	<!-- Moon V-B - Chondrite World -->
+	<StringTable>
+		<Label>GammaVulpeculae5BName</Label>
+		<String>Gamma Vulpeculae V B</String>
+	</StringTable>
+	<!-- Moon V-C - Selenic World -->
+	<StringTable>
+		<Label>GammaVulpeculae5CName</Label>
+		<String>Gamma Vulpeculae V C</String>
+	</StringTable>
+	<!-- Moon V-D - Urea World -->
+	<StringTable>
+		<Label>GammaVulpeculae5DName</Label>
+		<String>Gamma Vulpeculae V D</String>
+	</StringTable>
+
+
+	<!-- Utwig home system -->
+	<!-- Planet I (Fahz) - Water World - Utwig homeworld -->
+	<StringTable>
+		<Label>BetaAquarii1Name</Label>
+		<String>Beta Aquarii I</String>
+	</StringTable>
+	<!-- Native name -->
+	<StringTable>
+		<Label>FahzName</Label>
+		<String>Fahz</String>
+	</StringTable>
+	<!-- Moon I-A - Carbide World -->
+	<StringTable>
+		<Label>BetaAquarii1AName</Label>
+		<String>Beta Aquarii I A</String>
+	</StringTable>
+
+	<!-- Planet II - Water World -->
+	<StringTable>
+		<Label>BetaAquarii2Name</Label>
+		<String>Beta Aquarii II</String>
+	</StringTable>
+
+	<!-- Planet III - Primordial World -->
+	<StringTable>
+		<Label>BetaAquarii3Name</Label>
+		<String>Beta Aquarii III</String>
+	</StringTable>
+
+	<!-- Planet IV - Azure World -->
+	<StringTable>
+		<Label>BetaAquarii4Name</Label>
+		<String>Beta Aquarii IV</String>
+	</StringTable>
+
+	<!-- Planet V - Gas Giant -->
+	<StringTable>
+		<Label>BetaAquarii5Name</Label>
+		<String>Beta Aquarii V</String>
+	</StringTable>
+	<!-- Moon V-A - Acid World -->
+	<StringTable>
+		<Label>BetaAquarii5AName</Label>
+		<String>Beta Aquarii V A</String>
+	</StringTable>
+	<!-- Moon V-B - Copper World -->
+	<StringTable>
+		<Label>BetaAquarii5BName</Label>
+		<String>Beta Aquarii V B</String>
+	</StringTable>
+	<!-- Moon V-C - Treasure World -->
+	<StringTable>
+		<Label>BetaAquarii5CName</Label>
+		<String>Beta Aquarii V C</String>
+	</StringTable>
+
+	<!-- Planet VI - Gas Giant -->
+	<StringTable>
+		<Label>BetaAquarii6Name</Label>
+		<String>Beta Aquarii VI</String>
+	</StringTable>
+	<!-- Moon VI-A - Copper World -->
+	<StringTable>
+		<Label>BetaAquarii6AName</Label>
+		<String>Beta Aquarii VI A</String>
+	</StringTable>
+	<!-- Moon VI-B - Pellucid World -->
+	<StringTable>
+		<Label>BetaAquarii6BName</Label>
+		<String>Beta Aquarii VI B</String>
+	</StringTable>
+	<!-- Moon VI-C - Carbide World -->
+	<StringTable>
+		<Label>BetaAquarii6CName</Label>
+		<String>Beta Aquarii VI C</String>
+	</StringTable>
+	<!-- Moon VI-D - Treasure World -->
+	<StringTable>
+		<Label>BetaAquarii6DName</Label>
+		<String>Beta Aquarii VI D</String>
+	</StringTable>
+
+	<!-- Planet VII - Gas Giant -->
+	<StringTable>
+		<Label>BetaAquarii7Name</Label>
+		<String>Beta Aquarii VII</String>
+	</StringTable>
+	<!-- Moon VII-A - Opalescent World -->
+	<StringTable>
+		<Label>BetaAquarii7AName</Label>
+		<String>Beta Aquarii VII A</String>
+	</StringTable>
+	<!-- Moon VII-B - Opalescent World -->
+	<StringTable>
+		<Label>BetaAquarii7BName</Label>
+		<String>Beta Aquarii VII B</String>
+	</StringTable>
+	<!-- Moon VII-C - Lanthanide World -->
+	<StringTable>
+		<Label>BetaAquarii7CName</Label>
+		<String>Beta Aquarii VII C</String>
+	</StringTable>
+	<!-- Moon VII-D - Opalescent World -->
+	<StringTable>
+		<Label>BetaAquarii7DName</Label>
+		<String>Beta Aquarii VII D</String>
+	</StringTable>
+
+	<!-- Planet VIII - Treasure World -->
+	<StringTable>
+		<Label>BetaAquarii8Name</Label>
+		<String>Beta Aquarii VIII</String>
+	</StringTable>
+
+
+	<!-- Slave-shielded races: -->
+	<!-- Chmmr home system -->
+	<!-- Planet I - Halide World -->
+	<StringTable>
+		<Label>Procyon1Name</Label>
+		<String>Procyon I</String>
+	</StringTable>
+
+	<!-- Planet II - Sapphire World - Chenjesu homeworld (slave-shielded) -->
+	<StringTable>
+		<Label>Procyon2Name</Label>
+		<String>Procyon II</String>
+	</StringTable>
+
+	<!-- Planet III - Gas Giant -->
+	<StringTable>
+		<Label>Procyon3Name</Label>
+		<String>Procyon III</String>
+	</StringTable>
+	<!-- Moon III-A - Alkali World -->
+	<StringTable>
+		<Label>Procyon3AName</Label>
+		<String>Procyon III A</String>
+	</StringTable>
+	<!-- Moon III-B - Dust World -->
+	<StringTable>
+		<Label>Procyon3BName</Label>
+		<String>Procyon III B</String>
+	</StringTable>
+
+	<!-- Planet IV - Azure World 3 -->
+	<StringTable>
+		<Label>Procyon4Name</Label>
+		<String>Procyon IV</String>
+	</StringTable>
+
+	<!-- Planet V - Copper World -->
+	<StringTable>
+		<Label>Procyon5Name</Label>
+		<String>Procyon V</String>
+	</StringTable>
+
+
+	<!-- Syreen home system -->
+	<!-- Planet I (Gaia) - Water World - New Syreen homeworld (slave-shielded) -->
+	<StringTable>
+		<Label>Betelgeuse1Name</Label>
+		<String>Betelgeuse I</String>
+	</StringTable>
+	<!-- Native name -->
+	<StringTable>
+		<Label>GaiaName</Label>
+		<String>Gaia</String>
+	</StringTable>
+	<!-- Planet II - Acid World -->
+	<StringTable>
+		<Label>Betelgeuse2Name</Label>
+		<String>Betelgeuse II</String>
+	</StringTable>
+	<!-- Planet III - Primordial World -->
+	<StringTable>
+		<Label>Betelgeuse3Name</Label>
+		<String>Betelgeuse III</String>
+	</StringTable>
+	<!-- Moons: -->
+	<!-- Moon III-A - Treasure World -->
+	<StringTable>
+		<Label>Betelgeuse3AName</Label>
+		<String>Betelgeuse III A</String>
+	</StringTable>
+	<!-- Moon III-B - Radioactive World -->
+	<StringTable>
+		<Label>Betelgeuse3BName</Label>
+		<String>Betelgeuse III B</String>
+	</StringTable>
+
+
+	<!-- Almost extinct races: -->
+	<!-- Shofixti home system -->
+	<!-- Planet I (Kyabetsu) - Selenic World - Shofixti homeworld -->
+	<StringTable>
+		<Label>DeltaGorno1Name</Label>
+		<String>Delta Gorno I</String>
+	</StringTable>
+	<!-- Native name -->
+	<StringTable>
+		<Label>KyabetsuName</Label>
+		<String>Kyabetsu</String>
+	</StringTable>
+
+	<!-- Planet II - Selenic World -->
+	<StringTable>
+		<Label>DeltaGorno2Name</Label>
+		<String>Delta Gorno II</String>
+	</StringTable>
+
+	<!-- Planet III - Selenic World -->
+	<StringTable>
+		<Label>DeltaGorno3Name</Label>
+		<String>Delta Gorno III</String>
+	</StringTable>
+
+	<!-- Planet IV - Metal World -->
+	<StringTable>
+		<Label>DeltaGorno4Name</Label>
+		<String>Delta Gorno IV</String>
+	</StringTable>
+
+	<!-- Planet V - Metal World -->
+	<StringTable>
+		<Label>DeltaGorno5Name</Label>
+		<String>Delta Gorno V</String>
+	</StringTable>
+
+	<!-- Planet VI - Metal World -->
+	<StringTable>
+		<Label>DeltaGorno6Name</Label>
+		<String>Delta Gorno VI</String>
+	</StringTable>
+
+
+	<!-- Other races: -->
+	<!-- Slylandro home system -->
+	<!-- Planet I - Acid World -->
+	<StringTable>
+		<Label>BetaCorvi1Name</Label>
+		<String>Beta Corvi I</String>
+	</StringTable>
+
+	<!-- Planet II - Carbide World -->
+	<StringTable>
+		<Label>BetaCorvi2Name</Label>
+		<String>Beta Corvi II</String>
+	</StringTable>
+
+	<!-- Planet III - Azure World -->
+	<StringTable>
+		<Label>BetaCorvi3Name</Label>
+		<String>Beta Corvi III</String>
+	</StringTable>
+
+	<!-- Planet IV (Source) - Gas Giant - Slylandro homeworld -->
+	<StringTable>
+		<Label>BetaCorvi4Name</Label>
+		<String>Beta Corvi IV</String>
+	</StringTable>
+	<!-- Native name -->
+	<StringTable>
+		<Label>SourceName</Label>
+		<String>Source</String>
+	</StringTable>
+	<!-- Moon IV-A - Urea World -->
+	<StringTable>
+		<Label>BetaCorvi4AName</Label>
+		<String>Beta Corvi IV A</String>
+	</StringTable>
+
+	<!-- Planet V - Alkali World -->
+	<StringTable>
+		<Label>BetaCorvi5Name</Label>
+		<String>Beta Corvi V</String>
+	</StringTable>
+
+	<!-- Planet VI - Primordial World -->
+	<StringTable>
+		<Label>BetaCorvi6Name</Label>
+		<String>Beta Corvi VI</String>
+	</StringTable>
+
+	<!-- Planet VII - Quasi-Degenerate World -->
+	<StringTable>
+		<Label>BetaCorvi7Name</Label>
+		<String>Beta Corvi VII</String>
+	</StringTable>
+
+
+	<!-- Zoq-Fot-Pik home system -->
+	<!-- Planet I - Redux World - Zoq-Fot-Pik homeworld -->
+	<StringTable>
+		<Label>AlphaTucanae1Name</Label>
+		<String>Alpha Tucanae I</String>
+	</StringTable>
+	<!-- Moon I-A - Auric World -->
+	<StringTable>
+		<Label>AlphaTucanae1AName</Label>
+		<String>Alpha Tucanae I A</String>
+	</StringTable>
+
+	<!-- Planet II - Primordial World -->
+	<StringTable>
+		<Label>AlphaTucanae2Name</Label>
+		<String>Alpha Tucanae II</String>
+	</StringTable>
+
+	<!-- Planet III - Treasure World -->
+	<StringTable>
+		<Label>AlphaTucanae3Name</Label>
+		<String>Alpha Tucanae III</String>
+	</StringTable>
+
+</StringTableList>

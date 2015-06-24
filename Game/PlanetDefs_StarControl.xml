@@ -3,276 +3,1705 @@
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 
-	<!--Star Control:-->
-	<!--BattleThralls:-->
-	<!--Ilwrath Homeworld-->
-	<Planet>
-		<InternalName>PlanetAlphaTauri1</InternalName>
-		<DisplayName>AlphaTauri1Name</DisplayName>
-		<PlanetType>Habitable</PlanetType>
-		<PlanetClass>12</PlanetClass>
-		<ArtDefine>IridiaArt</ArtDefine>
-	</Planet>
-	<Planet>
-		<InternalName>PlanetAlphaTauri2</InternalName>
-		<DisplayName>AlphaTauri2Name</DisplayName>
-		<PlanetType>Habitable</PlanetType>
-		<PlanetClass>5</PlanetClass>
-		<ArtDefine>TempOKPlanet02</ArtDefine>
-	</Planet>
-	<Planet>
-		<InternalName>PlanetAlphaTauri3</InternalName>
-		<DisplayName>AlphaTauri3Name</DisplayName>
-		<PlanetType>GasGiant</PlanetType>
-		<PlanetClass>0</PlanetClass>
-		<ArtDefine>SaturnArt</ArtDefine>
-	</Planet>
-	<Planet>
-		<InternalName>PlanetAlphaTauri4</InternalName>
-		<DisplayName>AlphaTauri4Name</DisplayName>
-		<PlanetType>Dead</PlanetType>
-		<PlanetClass>0</PlanetClass>
-		<ArtDefine>TempDeadPlanet02</ArtDefine>
-	</Planet>
-	<!--Supox Homeworld-->
-	<Planet>
-		<InternalName>PlanetBetaLibrae1</InternalName>
-		<DisplayName>VlikName</DisplayName>
-		<PlanetType>Habitable</PlanetType>
-		<PlanetClass>10</PlanetClass>
-		<ArtDefine>AltariaArt</ArtDefine>
-	</Planet>
-	<Planet>
-		<InternalName>PlanetBetaLibrae2</InternalName>
-		<DisplayName>BetaLibrae2Name</DisplayName>
-		<PlanetType>Habitable</PlanetType>
-		<PlanetClass>6</PlanetClass>
-		<ArtDefine>TempGoodPlanet03</ArtDefine>
-	</Planet>
-	<Planet>
-		<InternalName>PlanetBetaLibrae3</InternalName>
-		<DisplayName>BetaLibrae3Name</DisplayName>
-		<PlanetType>Dead</PlanetType>
-		<PlanetClass>0</PlanetClass>
-		<ArtDefine>TempOKPlanet04</ArtDefine>
-	</Planet>
-	<Planet>
-		<InternalName>PlanetBetaLibrae4</InternalName>
-		<DisplayName>BetaLibrae4Name</DisplayName>
-		<PlanetType>Dead</PlanetType>
-		<PlanetClass>0</PlanetClass>
-		<ArtDefine>TempBadPlanet03</ArtDefine>
-	</Planet>
-	<Planet>
-		<InternalName>PlanetBetaLibrae5</InternalName>
-		<DisplayName>BetaLibrae5Name</DisplayName>
-		<PlanetType>Dead</PlanetType>
-		<PlanetClass>0</PlanetClass>
-		<ArtDefine>TempBadPlanet04</ArtDefine>
-	</Planet>
-	<!--Druuge Homeworld-->
-	<Planet>
-		<InternalName>PlanetZetaPersei1</InternalName>
-		<DisplayName>ZetaPersei1Name</DisplayName>
-		<PlanetType>Habitable</PlanetType>
-		<PlanetClass>11</PlanetClass>
-		<ArtDefine>DrengiArt</ArtDefine>
-	</Planet>
-	<Planet>
-		<InternalName>PlanetZetaPersei2</InternalName>
-		<DisplayName>ZetaPersei2Name</DisplayName>
-		<PlanetType>Habitable</PlanetType>
-		<PlanetClass>5</PlanetClass>
-		<ArtDefine>TempOKPlanet07</ArtDefine>
-	</Planet>
-	<Planet>
-		<InternalName>PlanetZetaPersei3</InternalName>
-		<DisplayName>ZetaPersei3Name</DisplayName>
-		<PlanetType>Dead</PlanetType>
-		<PlanetClass>0</PlanetClass>
-		<ArtDefine>VenusArt</ArtDefine>
-	</Planet>
-	<Planet>
-		<InternalName>PlanetZetaPersei4</InternalName>
-		<DisplayName>ZetaPersei4Name</DisplayName>
-		<PlanetType>Dead</PlanetType>
-		<PlanetClass>0</PlanetClass>
-		<ArtDefine>MercuryArt</ArtDefine>
-	</Planet>
-	<Planet>
-		<InternalName>PlanetZetaPersei5</InternalName>
-		<DisplayName>ZetaPersei5Name</DisplayName>
-		<PlanetType>Dead</PlanetType>
-		<PlanetClass>0</PlanetClass>
-		<ArtDefine>TempOKPlanet04</ArtDefine>
-	</Planet>
-	<!--Syreen Homeworld-->
-	<Planet>
-		<InternalName>PlanetBetelgeuse1</InternalName>
-		<DisplayName>GaiaName</DisplayName>
-		<PlanetType>Habitable</PlanetType>
-		<PlanetClass>10</PlanetClass>
-		<ArtDefine>AltariaArt</ArtDefine>
-	</Planet>
-	<Planet>
-		<InternalName>PlanetBetelgeuse2</InternalName>
-		<DisplayName>Betelgeuse2Name</DisplayName>
-		<PlanetType>Habitable</PlanetType>
-		<PlanetClass>6</PlanetClass>
-		<ArtDefine>TempGoodPlanet03</ArtDefine>
-	</Planet>
-	<Planet>
-		<InternalName>PlanetBetelgeuse3</InternalName>
-		<DisplayName>Betelgeuse3Name</DisplayName>
-		<PlanetType>Dead</PlanetType>
-		<PlanetClass>0</PlanetClass>
-		<ArtDefine>TempOKPlanet04</ArtDefine>
-	</Planet>
-	<Planet>
-		<InternalName>PlanetBetelgeuse4</InternalName>
-		<DisplayName>Betelgeuse4Name</DisplayName>
-		<PlanetType>Dead</PlanetType>
-		<PlanetClass>0</PlanetClass>
-		<ArtDefine>TempBadPlanet03</ArtDefine>
-	</Planet>
-	<Planet>
-		<InternalName>PlanetBetelgeuse5</InternalName>
-		<DisplayName>Betelgeuse5Name</DisplayName>
-		<PlanetType>Dead</PlanetType>
-		<PlanetClass>0</PlanetClass>
-		<ArtDefine>TempBadPlanet04</ArtDefine>
-	</Planet>
-	<!--Chmmr Homeworld-->
-	<Planet>
-		<InternalName>PlanetProcyon2</InternalName>
-		<DisplayName>Procyon2Name</DisplayName>
-		<PlanetType>Habitable</PlanetType>
-		<PlanetClass>14</PlanetClass>
-		<ArtDefine>IconiaArt</ArtDefine>
-	</Planet>
+	<!-- Star Control: -->
+
+	<!-- Chmmr Home Solar System -->
+	<!-- Planet I - Halide World -->
 	<Planet>
 		<InternalName>PlanetProcyon1</InternalName>
 		<DisplayName>Procyon1Name</DisplayName>
 		<PlanetType>Dead</PlanetType>
 		<PlanetClass>0</PlanetClass>
-		<ArtDefine>Iconia2Art</ArtDefine>
+		<PlanetTrait>HalideWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
 	</Planet>
+
+	<!-- Planet II - Sapphire World - Chenjesu homeworld (slave-shielded) -->
+	<Planet>
+		<InternalName>PlanetProcyon2</InternalName>
+		<DisplayName>Procyon2Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>16</PlanetClass>
+		<PlanetTrait>SapphireWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet III - Gas Giant -->
 	<Planet>
 		<InternalName>PlanetProcyon3</InternalName>
 		<DisplayName>Procyon3Name</DisplayName>
 		<PlanetType>Dead</PlanetType>
 		<PlanetClass>0</PlanetClass>
-		<ArtDefine>Iconia3Art</ArtDefine>
+		<PlanetTrait>GasGiantSC</PlanetTrait>
+		<ArtDefine>JupiterArt</ArtDefine>
 	</Planet>
+	<!-- Moon III-A - Alkali World -->
+	<Planet>
+		<InternalName>PlanetProcyon3A</InternalName>
+		<DisplayName>Procyon3AName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>AlkaliWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon III-B - Dust World -->
+	<Planet>
+		<InternalName>PlanetProcyon3B</InternalName>
+		<DisplayName>Procyon3BName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>DustWorldSC</PlanetTrait>
+		<ArtDefine>MarsArt</ArtDefine>
+	</Planet>
+
+	<!-- Planet IV - Azure World 3 -->
 	<Planet>
 		<InternalName>PlanetProcyon4</InternalName>
 		<DisplayName>Procyon4Name</DisplayName>
 		<PlanetType>Dead</PlanetType>
 		<PlanetClass>0</PlanetClass>
-		<ArtDefine>Iconia4Art</ArtDefine>
+		<PlanetTrait>Azure World3</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
 	</Planet>
-	<!--Yehat Homeworld-->
+
+	<!-- Planet V - Copper World -->
 	<Planet>
-		<InternalName>PlanetGammaSerpentis1</InternalName>
-		<DisplayName>GammaSerpentis1Name</DisplayName>
-		<PlanetType>Habitable</PlanetType>
-		<PlanetClass>12</PlanetClass>
-		<ArtDefine>IridiaArt</ArtDefine>
-	</Planet>
-	<Planet>
-		<InternalName>PlanetGammaSerpentis2</InternalName>
-		<DisplayName>GammaSerpentis2Name</DisplayName>
-		<PlanetType>Habitable</PlanetType>
-		<PlanetClass>5</PlanetClass>
-		<ArtDefine>TempOKPlanet02</ArtDefine>
-	</Planet>
-	<Planet>
-		<InternalName>PlanetGammaSerpentis3</InternalName>
-		<DisplayName>GammaSerpentis3Name</DisplayName>
-		<PlanetType>GasGiant</PlanetType>
-		<PlanetClass>0</PlanetClass>
-		<ArtDefine>SaturnArt</ArtDefine>
-	</Planet>
-	<Planet>
-		<InternalName>PlanetGammaSerpentis4</InternalName>
-		<DisplayName>GammaSerpentis4Name</DisplayName>
+		<InternalName>PlanetProcyon5</InternalName>
+		<DisplayName>Procyon5Name</DisplayName>
 		<PlanetType>Dead</PlanetType>
 		<PlanetClass>0</PlanetClass>
-		<ArtDefine>TempDeadPlanet02</ArtDefine>
+		<PlanetTrait>CopperWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
 	</Planet>
-	<!--Utwig Homeworld-->
+	
+
+
+
+	<!-- Druuge Home Solar System -->
+	
+
+
+
+	<!-- Earthling Home Solar System -->
+	<!-- Planet I - Metal World -->
+	<Planet>
+		<InternalName>PlanetMercurySC</InternalName>
+		<DisplayName>MERCURY_NAME</DisplayName>
+		<PlanetType>Dead</PlanetType>		
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>MetalWorldSC</PlanetTrait>
+		<ArtDefine>MercuryArt</ArtDefine>
+	</Planet>
+
+	<!-- Planet II - Water World - Earthling homeworld (slave-shielded) -->
+	<Planet>
+		<InternalName>PlanetEarthSC</InternalName>
+		<DisplayName>EarthName</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>16</PlanetClass>		
+		<PlanetTrait>WaterWorldSC</PlanetTrait>
+    	<ArtDefine>EarthArt</ArtDefine>
+	</Planet>
+
+	<!-- Planet III - Dust World -->
+	<Planet>
+		<InternalName>PlanetMarsSC</InternalName>
+		<DisplayName>MarsName</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>5</PlanetClass>
+		<PlanetTrait>DustWorldSC</PlanetTrait>
+		<DisableColonizationEvent>true</DisableColonizationEvent>
+		<ArtDefine>MarsArt</ArtDefine>
+	</Planet>
+
+	<!-- Planet IV - Gas Giant -->
+	<Planet>
+		<InternalName>PlanetJupiterSC</InternalName>
+		<DisplayName>JupiterName</DisplayName>
+		<PlanetType>GasGiant</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>GasGiantSC</PlanetTrait>
+		<ArtDefine>JupiterArt</ArtDefine>
+	</Planet>
+
+	<!-- Planet V - Gas Giant -->
+	<Planet>
+		<InternalName>PlanetSaturnSC</InternalName>
+		<DisplayName>SaturnName</DisplayName>
+		<PlanetType>GasGiant</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>GasGiantSC</PlanetTrait>
+		<ArtDefine>SaturnArt</ArtDefine>
+	</Planet>
+	
+
+
+
+	<!-- Ilwrath Home Solar System -->
+	<!-- Planet I - Primordial World - Ilwrath homeworld -->
+	<Planet>
+		<InternalName>PlanetAlphaTauri1</InternalName>
+		<DisplayName>AlphaTauri1Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>8</PlanetClass>
+		<PlanetTrait>PrimordialWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet II - Lanthanide World -->
+	<Planet>
+		<InternalName>PlanetAlphaTauri2</InternalName>
+		<DisplayName>AlphaTauri2Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>LanthanideWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet III - Gas Giant -->
+	<Planet>
+		<InternalName>PlanetAlphaTauri3</InternalName>
+		<DisplayName>AlphaTauri3Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>GasGiantSC</PlanetTrait>
+		<ArtDefine>JupiterArt</ArtDefine>
+	</Planet>
+	<!-- Moon III-A - Treasure World -->
+	<Planet>
+		<InternalName>PlanetAlphaTauri3A</InternalName>
+		<DisplayName>AlphaTauri3AName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>TreasureWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon III-B - Halide World -->
+	<Planet>
+		<InternalName>PlanetAlphaTauri3B</InternalName>
+		<DisplayName>AlphaTauri3BName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>HalideWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon III-C - Halide World -->
+	<Planet>
+		<InternalName>PlanetAlphaTauri3C</InternalName>
+		<DisplayName>AlphaTauri3CName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>HalideWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon III-D - Super-Dense World -->
+	<Planet>
+		<InternalName>PlanetAlphaTauri3D</InternalName>
+		<DisplayName>AlphaTauri3DName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>SuperDenseWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet IV - Gas Giant -->
+	<Planet>
+		<InternalName>PlanetAlphaTauri4</InternalName>
+		<DisplayName>AlphaTauri4Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>GasGiantSC</PlanetTrait>
+		<ArtDefine>JupiterArt</ArtDefine>
+	</Planet>
+	<!-- Moon IV-A - Copper World -->
+	<Planet>
+		<InternalName>PlanetAlphaTauri4A</InternalName>
+		<DisplayName>AlphaTauri4AName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>CopperWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon IV-B - Halide World -->
+	<Planet>
+		<InternalName>PlanetAlphaTauri4B</InternalName>
+		<DisplayName>AlphaTauri4BName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>HalideWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	
+	<!-- Planet V - Gas Giant -->
+	<Planet>
+		<InternalName>PlanetAlphaTauri5</InternalName>
+		<DisplayName>AlphaTauri5Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>GasGiantSC</PlanetTrait>
+		<ArtDefine>JupiterArt</ArtDefine>
+	</Planet>
+	<!-- Moon V-A - Green World -->
+	<Planet>
+		<InternalName>PlanetAlphaTauri5A</InternalName>
+		<DisplayName>AlphaTauri5AName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>GreenWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon V-B - Alkali World -->
+	<Planet>
+		<InternalName>PlanetAlphaTauri5B</InternalName>
+		<DisplayName>AlphaTauri5BName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>AlkaliWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon V-C - Halide World -->
+	<Planet>
+		<InternalName>PlanetAlphaTauri5C</InternalName>
+		<DisplayName>AlphaTauri5CName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>HalideWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon V-D - Carbide World -->
+	<Planet>
+		<InternalName>PlanetAlphaTauri5D</InternalName>
+		<DisplayName>AlphaTauri5DName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>CarbideWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	
+
+
+
+	<!-- Kohr-Ah Home Solar System -->
+	<Planet>
+		<InternalName>PlanetKohr1</InternalName>
+		<DisplayName>Kohr1Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<!-- <PlanetTrait></PlanetTrait> -->
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetKohr2</InternalName>
+		<DisplayName>Kohr2Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<!-- <PlanetTrait></PlanetTrait> -->
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetKohr3</InternalName>
+		<DisplayName>Kohr3Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>15</PlanetClass>
+		<!-- <PlanetTrait></PlanetTrait> -->
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetKohr4</InternalName>
+		<DisplayName>Kohr4Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<!-- <PlanetTrait></PlanetTrait> -->
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetKohr5</InternalName>
+		<DisplayName>Kohr5Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<!-- <PlanetTrait></PlanetTrait> -->
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetKohr6</InternalName>
+		<DisplayName>Kohr6Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<!-- <PlanetTrait></PlanetTrait> -->
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	
+
+
+
+	<!-- Kzer-Za Home Solar System -->
+	<Planet>
+		<InternalName>PlanetKzer1</InternalName>
+		<DisplayName>Kzer1Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<!-- <PlanetTrait></PlanetTrait> -->
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetKzer2</InternalName>
+		<DisplayName>Kzer2Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>15</PlanetClass>
+		<!-- <PlanetTrait></PlanetTrait> -->
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetKzer3</InternalName>
+		<DisplayName>Kzer3Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<!-- <PlanetTrait></PlanetTrait> -->
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetKzer4</InternalName>
+		<DisplayName>Kzer4Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<!-- <PlanetTrait></PlanetTrait> -->
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetKzer5</InternalName>
+		<DisplayName>Kzer5Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<!-- <PlanetTrait></PlanetTrait> -->
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetKzer6</InternalName>
+		<DisplayName>Kzer6Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<!-- <PlanetTrait></PlanetTrait> -->
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	
+
+
+
+	<!-- Mycon Home Solar System -->
+	<!-- Homeworld -->
+	<Planet>
+		<InternalName>PlanetEpsilonScorpii1</InternalName>
+		<DisplayName>EpsilonScorpii1Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>8</PlanetClass>
+		<PlanetTrait>ShatteredWorldSC</PlanetTrait><!-- Lore unchecked -->
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetEpsilonScorpii2</InternalName>
+		<DisplayName>EpsilonScorpii2Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<!-- <PlanetTrait></PlanetTrait> -->
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetEpsilonScorpii3</InternalName>
+		<DisplayName>EpsilonScorpii3Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<!-- <PlanetTrait></PlanetTrait> -->
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetEpsilonScorpii4</InternalName>
+		<DisplayName>EpsilonScorpii4Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<!-- <PlanetTrait></PlanetTrait> -->
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetEpsilonScorpii5</InternalName>
+		<DisplayName>EpsilonScorpii5Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<!-- <PlanetTrait></PlanetTrait> -->
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetEpsilonScorpii6</InternalName>
+		<DisplayName>EpsilonScorpii6Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<!-- <PlanetTrait></PlanetTrait> -->
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	
+
+
+
+	<!-- Orz Home Solar System -->
+	<!-- Planet I - Water World - Orz homeworld -->
+	<Planet>
+		<InternalName>PlanetGammaVulpeculae1</InternalName>
+		<DisplayName>GammaVulpeculae1Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>7</PlanetClass>
+		<PlanetTrait>WaterWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet II - Copper World -->
+	<Planet>
+		<InternalName>PlanetGammaVulpeculae2</InternalName>
+		<DisplayName>GammaVulpeculae2Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>CopperWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet III - Copper World -->
+	<Planet>
+		<InternalName>PlanetGammaVulpeculae3</InternalName>
+		<DisplayName>GammaVulpeculae3Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>CopperWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet IV - Emerald World -->
+	<Planet>
+		<InternalName>PlanetGammaVulpeculae4</InternalName>
+		<DisplayName>GammaVulpeculae4Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>EmeraldWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon IV-A - Pellucid World -->
+	<Planet>
+		<InternalName>PlanetGammaVulpeculae4A</InternalName>
+		<DisplayName>GammaVulpeculae4AName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>PellucidWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet V - Gas giant -->
+	<Planet>
+		<InternalName>PlanetGammaVulpeculae5</InternalName>
+		<DisplayName>GammaVulpeculae5Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>GasGiantSC</PlanetTrait>
+		<ArtDefine>JupiterArt</ArtDefine>
+	</Planet>
+	<!-- Moon V-A - Selenic World -->
+	<Planet>
+		<InternalName>PlanetGammaVulpeculae5A</InternalName>
+		<DisplayName>GammaVulpeculae5AName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>SelenicWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon V-B - Chondrite World -->
+	<Planet>
+		<InternalName>PlanetGammaVulpeculae5B</InternalName>
+		<DisplayName>GammaVulpeculae5BName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>ChondriteWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon V-C - Selenic World -->
+	<Planet>
+		<InternalName>PlanetGammaVulpeculae5C</InternalName>
+		<DisplayName>GammaVulpeculae5CName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>SelenicWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon V-D - Urea World -->
+	<Planet>
+		<InternalName>PlanetGammaVulpeculae5D</InternalName>
+		<DisplayName>GammaVulpeculae5DName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>UreaWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	
+
+
+
+	<!-- Pkunk Home Solar System -->
+	<!-- Planet I - Water World - Pkunk homeworld -->
+	<Planet>
+		<InternalName>PlanetGammaKrueger1</InternalName>
+		<DisplayName>GammaKrueger1Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>6</PlanetClass>
+		<PlanetTrait>WaterWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Moon I-A - Halide World -->
+	<Planet>
+		<InternalName>PlanetGammaKrueger1A</InternalName>
+		<DisplayName>GammaKrueger1AName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>HalideWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet II - Ultramarine World -->
+	<Planet>
+		<InternalName>PlanetGammaKrueger2</InternalName>
+		<DisplayName>GammaKrueger2Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>UltramarineWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet III - Radioactive World -->
+	<Planet>
+		<InternalName>PlanetGammaKrueger3</InternalName>
+		<DisplayName>GammaKrueger3Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>RadioactiveWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet IV - Super-Dense World -->
+	<Planet>
+		<InternalName>PlanetGammaKrueger4</InternalName>
+		<DisplayName>GammaKrueger4Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>SuperDenseWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	
+
+
+
+	<!-- Shofixti Home Solar System -->
+	<!-- Planet I (Kyabetsu) - Selenic World - Shofixti homeworld -->
+	<Planet>
+		<InternalName>PlanetDeltaGorno1</InternalName>
+		<DisplayName>DeltaGorno1Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>6</PlanetClass>
+		<PlanetTrait>SelenicWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Native name -->
+	<Planet>
+		<InternalName>PlanetKyabetsu</InternalName>
+		<DisplayName>KyabetsuName</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>6</PlanetClass>
+		<PlanetTrait>SelenicWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet II - Selenic World -->
+	<Planet>
+		<InternalName>PlanetDeltaGorno2</InternalName>
+		<DisplayName>DeltaGorno2Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>SelenicWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet III - Selenic World -->
+	<Planet>
+		<InternalName>PlanetDeltaGorno3</InternalName>
+		<DisplayName>DeltaGorno3Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>SelenicWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet IV - Metal World -->
+	<Planet>
+		<InternalName>PlanetDeltaGorno4</InternalName>
+		<DisplayName>DeltaGorno4Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>MetalWorldSC</PlanetTrait>
+		<ArtDefine>MercuryArt</ArtDefine>
+	</Planet>
+
+	<!-- Planet V - Metal World -->
+	<Planet>
+		<InternalName>PlanetDeltaGorno5</InternalName>
+		<DisplayName>DeltaGorno5Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>MetalWorldSC</PlanetTrait>
+		<ArtDefine>MercuryArt</ArtDefine>
+	</Planet>
+
+	<!-- Planet VI - Metal World -->
+	<Planet>
+		<InternalName>PlanetDeltaGorno6</InternalName>
+		<DisplayName>DeltaGorno6Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>MetalWorldSC</PlanetTrait>
+		<ArtDefine>MercuryArt</ArtDefine>
+	</Planet>
+	
+
+
+
+	<!-- Slylandro Home Solar System -->
+
+	<!-- Planet I - Acid World -->
+	<Planet>
+		<InternalName>PlanetBetaCorvi1</InternalName>
+		<DisplayName>BetaCorvi1Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>AcidWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet II - Carbide World -->
+	<Planet>
+		<InternalName>PlanetBetaCorvi2</InternalName>
+		<DisplayName>BetaCorvi2Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>CarbideWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet III - Azure World -->
+	<Planet>
+		<InternalName>PlanetBetaCorvi3</InternalName>
+		<DisplayName>BetaCorvi3Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>AzureWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet IV (Source) - Gas Giant - Slylandro homeworld -->
+	<Planet>
+		<InternalName>PlanetBetaCorvi4</InternalName>
+		<DisplayName>BetaCorvi4Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>GasGiantSC</PlanetTrait>
+		<ArtDefine>JupiterArt</ArtDefine>
+	</Planet>
+	<!-- Native name -->
+	<Planet>
+		<InternalName>PlanetSource</InternalName>
+		<DisplayName>SourceName</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>GasGiantSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon IV-A - Urea World -->
+	<Planet>
+		<InternalName>PlanetBetaCorvi4A</InternalName>
+		<DisplayName>BetaCorvi4AName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>UreaWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet V - Alkali World -->
+	<Planet>
+		<InternalName>PlanetBetaCorvi5</InternalName>
+		<DisplayName>BetaCorvi5Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>AlkaliWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet VI - Primordial World -->
+	<Planet>
+		<InternalName>PlanetBetaCorvi6</InternalName>
+		<DisplayName>BetaCorvi6Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>PrimordialWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet VII - Quasi-Degenerate World -->
+	<Planet>
+		<InternalName>PlanetBetaCorvi7</InternalName>
+		<DisplayName>BetaCorvi7Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>QuasiDegenerateWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	
+
+
+
+	<!-- Spathi Home Solar System -->
+	<!-- Spathi homeworld -->
+	<Planet>
+		<InternalName>PlanetEpsilonGruis1</InternalName>
+		<DisplayName>EpsilonGruis1Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>10</PlanetClass>
+		<PlanetTrait>WaterWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Spathi starting world -->
+	<Planet>
+		<InternalName>PlanetEpsilonGruis1A</InternalName>
+		<DisplayName>EpsilonGruis1AName</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>3</PlanetClass>
+		<PlanetTrait>PellucidWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetEpsilonGruis2</InternalName>
+		<DisplayName>EpsilonGruis2Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<!-- <PlanetTrait></PlanetTrait> -->
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetEpsilonGruis3</InternalName>
+		<DisplayName>EpsilonGruis3Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<!-- <PlanetTrait></PlanetTrait> -->
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetEpsilonGruis4</InternalName>
+		<DisplayName>EpsilonGruis4Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<!-- <PlanetTrait></PlanetTrait> -->
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetEpsilonGruis5</InternalName>
+		<DisplayName>EpsilonGruis5Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<!-- <PlanetTrait></PlanetTrait> -->
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetEpsilonGruis6</InternalName>
+		<DisplayName>EpsilonGruis6Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<!-- <PlanetTrait></PlanetTrait> -->
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	
+
+
+
+	<!-- Supox Home Solar System -->
+	<Planet>
+		<InternalName>PlanetBetaLibrae1</InternalName>
+		<DisplayName>BetaLibrae1Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>16</PlanetClass>
+		<PlanetTrait>WaterWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Native name -->
+	<Planet>
+		<InternalName>PlanetVlik</InternalName>
+		<DisplayName>VlikName</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>16</PlanetClass>
+		<PlanetTrait>WaterWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moons: -->
+	<Planet>
+		<InternalName>PlanetBetaLibrae1A</InternalName>
+		<DisplayName>BetaLibrae1AName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<!-- <PlanetTrait></PlanetTrait> -->
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetBetaLibrae1B</InternalName>
+		<DisplayName>BetaLibrae1BName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<!-- <PlanetTrait></PlanetTrait> -->
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Druuge home system -->
+	<!-- Planet I - Dust World - Druuge homeworld -->
+	<Planet>
+		<InternalName>PlanetZetaPersei1</InternalName>
+		<DisplayName>ZetaPersei1Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>8</PlanetClass>
+		<PlanetTrait>DustWorldSC</PlanetTrait>
+		<ArtDefine>MarsArt</ArtDefine>
+	</Planet>
+
+	<!-- Planet II - Infrared World -->
+	<Planet>
+		<InternalName>PlanetZetaPersei2</InternalName>
+		<DisplayName>ZetaPersei2Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>InfraredWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet III - Selenic World -->
+	<Planet>
+		<InternalName>PlanetZetaPersei3</InternalName>
+		<DisplayName>ZetaPersei3Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>SelenicWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet IV - Super-Dense World -->
+	<Planet>
+		<InternalName>PlanetZetaPersei4</InternalName>
+		<DisplayName>ZetaPersei4Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>SuperDenseWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet V - Gas Giant -->
+	<Planet>
+		<InternalName>PlanetZetaPersei5</InternalName>
+		<DisplayName>ZetaPersei5Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>GasGiantSC</PlanetTrait>
+		<ArtDefine>JupiterArt</ArtDefine>
+	</Planet>
+	<!-- Moon V-A - Pellucid World -->
+	<Planet>
+		<InternalName>PlanetZetaPersei5A</InternalName>
+		<DisplayName>ZetaPersei5AName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>PellucidWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon V-B - Azure World -->
+	<Planet>
+		<InternalName>PlanetZetaPersei5B</InternalName>
+		<DisplayName>ZetaPersei5BName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>AzureWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	
+
+
+
+	<!-- Syreen Home Solar System -->
+	<!-- Planet I (Gaia) - Water World - New Syreen homeworld (slave-shielded) -->
+	<Planet>
+		<InternalName>PlanetBetelgeuse1</InternalName>
+		<DisplayName>Betelgeuse1Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>15</PlanetClass>
+		<PlanetTrait>WaterWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Native name -->
+	<Planet>
+		<InternalName>PlanetGaia</InternalName>
+		<DisplayName>GaiaName</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>15</PlanetClass>
+		<PlanetTrait>WaterWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Planet II - Acid World -->
+	<Planet>
+		<InternalName>PlanetBetelgeuse2</InternalName>
+		<DisplayName>Betelgeuse2Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>AcidWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Planet III - Primordial World -->
+	<Planet>
+		<InternalName>PlanetBetelgeuse3</InternalName>
+		<DisplayName>Betelgeuse3Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>PrimordialWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moons: -->
+	<!-- Moon III-A - Treasure World -->
+	<Planet>
+		<InternalName>PlanetBetelgeuse3A</InternalName>
+		<DisplayName>Betelgeuse3AName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>TreasureWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon III-B - Radioactive World -->
+	<Planet>
+		<InternalName>PlanetBetelgeuse3B</InternalName>
+		<DisplayName>Betelgeuse3BName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>RadioactiveWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	
+
+
+
+	<!-- Thraddash Home Solar System -->
+	<!-- Planet I - Water World - Thraddash homeworld -->
+	<Planet>
+		<InternalName>PlanetDeltaDraconis1</InternalName>
+		<DisplayName>DeltaDraconis1Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>8</PlanetClass>
+		<PlanetTrait>WaterWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet II - Gas Giant -->
+	<Planet>
+		<InternalName>PlanetDeltaDraconis2</InternalName>
+		<DisplayName>DeltaDraconis2Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>GasGiantSC</PlanetTrait>
+		<ArtDefine>JupiterArt</ArtDefine>
+	</Planet>
+	<!-- Moon II-A - Infrared World -->
+	<Planet>
+		<InternalName>PlanetDeltaDraconis2A</InternalName>
+		<DisplayName>DeltaDraconis2AName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>InfraredWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon II-B - Halide World -->
+	<Planet>
+		<InternalName>PlanetDeltaDraconis2B</InternalName>
+		<DisplayName>DeltaDraconis2BName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>HalideWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon II-C - Cyanic World -->
+	<Planet>
+		<InternalName>PlanetDeltaDraconis2C</InternalName>
+		<DisplayName>DeltaDraconis2CName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>CyanicWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet III - Copper World -->
+	<Planet>
+		<InternalName>PlanetDeltaDraconis3</InternalName>
+		<DisplayName>DeltaDraconis3Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>CopperWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet IV - Green World -->
+	<Planet>
+		<InternalName>PlanetDeltaDraconis4</InternalName>
+		<DisplayName>DeltaDraconis4Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>GreenWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet V - Gas Giant -->
+	<Planet>
+		<InternalName>PlanetDeltaDraconis5</InternalName>
+		<DisplayName>DeltaDraconis5Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>GasGiantSC</PlanetTrait>
+		<ArtDefine>JupiterArt</ArtDefine>
+	</Planet>
+	<!-- Moon V-A - Dust World -->
+	<Planet>
+		<InternalName>PlanetDeltaDraconis5A</InternalName>
+		<DisplayName>DeltaDraconis5AName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>DustWorldSC</PlanetTrait>
+		<ArtDefine>MarsArt</ArtDefine>
+	</Planet>
+
+	<!-- Planet VI - Redux World -->
+	<Planet>
+		<InternalName>PlanetDeltaDraconis6</InternalName>
+		<DisplayName>DeltaDraconis6Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>ReduxWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon VI-A - Purple World -->
+	<Planet>
+		<InternalName>PlanetDeltaDraconis6A</InternalName>
+		<DisplayName>DeltaDraconis6AName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>PurpleWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet VII - Magma World -->
+	<Planet>
+		<InternalName>PlanetDeltaDraconis7</InternalName>
+		<DisplayName>DeltaDraconis7Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>MagmaWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon VII-A - Super-Dense World -->
+	<Planet>
+		<InternalName>PlanetDeltaDraconis7A</InternalName>
+		<DisplayName>DeltaDraconis7AName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>SuperDenseWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet VIII - Copper World -->
+	<Planet>
+		<InternalName>PlanetDeltaDraconis8</InternalName>
+		<DisplayName>DeltaDraconis8Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>CopperWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet IX - Gas Giant -->
+	<Planet>
+		<InternalName>PlanetDeltaDraconis9</InternalName>
+		<DisplayName>DeltaDraconis9Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>GasGiantSC</PlanetTrait>
+		<ArtDefine>JupiterArt</ArtDefine>
+	</Planet>
+	
+
+
+
+	<!-- Umgah Home Solar System -->
+	<!-- Planet I - Telluric World - Umgah homeworld -->
+	<Planet>
+		<InternalName>PlanetBetaOrionis1</InternalName>
+		<DisplayName>BetaOrionis1Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>8</PlanetClass>
+		<PlanetTrait>TelluricWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet II - Gas Giant -->
+	<Planet>
+		<InternalName>PlanetBetaOrionis2</InternalName>
+		<DisplayName>BetaOrionis2Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>GasGiantSC</PlanetTrait>
+		<ArtDefine>JupiterArt</ArtDefine>
+	</Planet>
+	<!-- Moon II-A - Super-Dense World -->
+	<Planet>
+		<InternalName>PlanetBetaOrionis2A</InternalName>
+		<DisplayName>BetaOrionis2AName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>SuperDenseWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon II-B - Lanthanide World -->
+	<Planet>
+		<InternalName>PlanetBetaOrionis2B</InternalName>
+		<DisplayName>BetaOrionis2BName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>LanthanideWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon II-C - Ultramarine World -->
+	<Planet>
+		<InternalName>PlanetBetaOrionis2C</InternalName>
+		<DisplayName>BetaOrionis2CName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>UltramarineWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet III - Gas Giant -->
+	<Planet>
+		<InternalName>PlanetBetaOrionis3</InternalName>
+		<DisplayName>BetaOrionis3Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>GasGiantSC</PlanetTrait>
+		<ArtDefine>JupiterArt</ArtDefine>
+	</Planet>
+	<!-- Moon III-A - Radioactive World -->
+	<Planet>
+		<InternalName>PlanetBetaOrionis3A</InternalName>
+		<DisplayName>BetaOrionis3AName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>RadioactiveWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon III-B - Radioactive World -->
+	<Planet>
+		<InternalName>PlanetBetaOrionis3B</InternalName>
+		<DisplayName>BetaOrionis3BName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>RadioactiveWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon III-C - Chondrite World -->
+	<Planet>
+		<InternalName>PlanetBetaOrionis3C</InternalName>
+		<DisplayName>BetaOrionis3CName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>ChondriteWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon III-D - Alkali World -->
+	<Planet>
+		<InternalName>PlanetBetaOrionis3D</InternalName>
+		<DisplayName>BetaOrionis3DName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>AlkaliWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet IV - Gas Giant -->
+	<Planet>
+		<InternalName>PlanetBetaOrionis4</InternalName>
+		<DisplayName>BetaOrionis4Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>GasGiantSC</PlanetTrait>
+		<ArtDefine>JupiterArt</ArtDefine>
+	</Planet>
+	<!-- Moon IV-A - Chondrite World -->
+	<Planet>
+		<InternalName>PlanetBetaOrionis4A</InternalName>
+		<DisplayName>BetaOrionis4AName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>ChondriteWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon IV-B - Copper World -->
+	<Planet>
+		<InternalName>PlanetBetaOrionis4B</InternalName>
+		<DisplayName>BetaOrionis4BName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>CopperWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon IV-C - Opalescent World -->
+	<Planet>
+		<InternalName>PlanetBetaOrionis4C</InternalName>
+		<DisplayName>BetaOrionis4CName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>OpalescentWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon IV-D - Quasi-Degenerate World -->
+	<Planet>
+		<InternalName>PlanetBetaOrionis4D</InternalName>
+		<DisplayName>BetaOrionis4DName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>QuasiDegenerateWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet V - Alkali World -->
+	<Planet>
+		<InternalName>PlanetBetaOrionis5</InternalName>
+		<DisplayName>BetaOrionis5Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>AlkaliWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	
+
+
+
+	<!-- Utwig Home Solar System -->
+	<!-- Planet I (Fahz) - Water World - Utwig homeworld -->
 	<Planet>
 		<InternalName>PlanetBetaAquarii1</InternalName>
+		<DisplayName>BetaAquarii1Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>8</PlanetClass>
+		<PlanetTrait>WaterWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Native name -->
+	<Planet>
+		<InternalName>PlanetFahz</InternalName>
 		<DisplayName>FahzName</DisplayName>
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>8</PlanetClass>
-		<ArtDefine>KrysethArt</ArtDefine>
+		<PlanetTrait>WaterWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
 	</Planet>
+	<!-- Moon I-A - Carbide World -->
+	<Planet>
+		<InternalName>PlanetBetaAquarii1A</InternalName>
+		<DisplayName>BetaAquarii1AName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>CarbideWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet II - Water World -->
 	<Planet>
 		<InternalName>PlanetBetaAquarii2</InternalName>
 		<DisplayName>BetaAquarii2Name</DisplayName>
-		<PlanetType>Habitable</PlanetType>
-		<PlanetClass>4</PlanetClass>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>WaterWorldSC</PlanetTrait>
 		<ArtDefine>GenericWorld</ArtDefine>
 	</Planet>
+
+	<!-- Planet III - Primordial World -->
 	<Planet>
 		<InternalName>PlanetBetaAquarii3</InternalName>
 		<DisplayName>BetaAquarii3Name</DisplayName>
-		<PlanetType>Habitable</PlanetType>
-		<PlanetClass>4</PlanetClass>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>PrimordialWorldSC</PlanetTrait>
 		<ArtDefine>GenericWorld</ArtDefine>
 	</Planet>
+
+	<!-- Planet IV - Azure World -->
 	<Planet>
 		<InternalName>PlanetBetaAquarii4</InternalName>
 		<DisplayName>BetaAquarii4Name</DisplayName>
-		<PlanetType>GasGiant</PlanetType>
+		<PlanetType>Dead</PlanetType>
 		<PlanetClass>0</PlanetClass>
-		<ArtDefine>GasGiantArt</ArtDefine>
+		<PlanetTrait>AzureWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
 	</Planet>
-	<!--VUX Homeworld-->
+
+	<!-- Planet V - Gas Giant -->
+	<Planet>
+		<InternalName>PlanetBetaAquarii5</InternalName>
+		<DisplayName>BetaAquarii5Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>GasGiantSC</PlanetTrait>
+		<ArtDefine>JupiterArt</ArtDefine>
+	</Planet>
+	<!-- Moon V-A - Acid World -->
+	<Planet>
+		<InternalName>PlanetBetaAquarii5A</InternalName>
+		<DisplayName>BetaAquarii5AName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>AcidWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon V-B - Copper World -->
+	<Planet>
+		<InternalName>PlanetBetaAquarii5B</InternalName>
+		<DisplayName>BetaAquarii5BName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>CopperWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon V-C - Treasure World -->
+	<Planet>
+		<InternalName>PlanetBetaAquarii5C</InternalName>
+		<DisplayName>BetaAquarii5CName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>TreasureWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet VI - Gas Giant -->
+	<Planet>
+		<InternalName>PlanetBetaAquarii6</InternalName>
+		<DisplayName>BetaAquarii6Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>GasGiantSC</PlanetTrait>
+		<ArtDefine>JupiterArt</ArtDefine>
+	</Planet>
+	<!-- Moon VI-A - Copper World -->
+	<Planet>
+		<InternalName>PlanetBetaAquarii6A</InternalName>
+		<DisplayName>BetaAquarii6AName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>CopperWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon VI-B - Pellucid World -->
+	<Planet>
+		<InternalName>PlanetBetaAquarii6B</InternalName>
+		<DisplayName>BetaAquarii6BName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>PellucidWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon VI-C - Carbide World -->
+	<Planet>
+		<InternalName>PlanetBetaAquarii6C</InternalName>
+		<DisplayName>BetaAquarii6CName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>CarbideWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon VI-D - Treasure World -->
+	<Planet>
+		<InternalName>PlanetBetaAquarii6D</InternalName>
+		<DisplayName>BetaAquarii6DName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>TreasureWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet VII - Gas Giant -->
+	<Planet>
+		<InternalName>PlanetBetaAquarii7</InternalName>
+		<DisplayName>BetaAquarii7Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>GasGiantSC</PlanetTrait>
+		<ArtDefine>JupiterArt</ArtDefine>
+	</Planet>
+	<!-- Moon VII-A - Opalescent World -->
+	<Planet>
+		<InternalName>PlanetBetaAquarii7A</InternalName>
+		<DisplayName>BetaAquarii7AName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>OpalescentWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon VII-B - Opalescent World -->
+	<Planet>
+		<InternalName>PlanetBetaAquarii7B</InternalName>
+		<DisplayName>BetaAquarii7BName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>OpalescentWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon VII-C - Lanthanide World -->
+	<Planet>
+		<InternalName>PlanetBetaAquarii7C</InternalName>
+		<DisplayName>BetaAquarii7CName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>LanthanideWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon VII-D - Opalescent World -->
+	<Planet>
+		<InternalName>PlanetBetaAquarii7D</InternalName>
+		<DisplayName>BetaAquarii7DName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>OpalescentWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet VIII - Treasure World -->
+	<Planet>
+		<InternalName>PlanetBetaAquarii8</InternalName>
+		<DisplayName>BetaAquarii8Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>TreasureWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	
+
+
+
+	<!-- VUX Home Solar System -->
 	<Planet>
 		<InternalName>PlanetBetaLuyten1</InternalName>
 		<DisplayName>BetaLuyten1Name</DisplayName>
 		<PlanetType>Habitable</PlanetType>
-		<PlanetClass>12</PlanetClass>
-		<ArtDefine>IridiaArt</ArtDefine>
+		<PlanetClass>9</PlanetClass>
+		<PlanetTrait>ReduxWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetBetaLuyten1A</InternalName>
+		<DisplayName>BetaLuyten1AName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>SuperDenseWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
 	</Planet>
 	<Planet>
 		<InternalName>PlanetBetaLuyten2</InternalName>
 		<DisplayName>BetaLuyten2Name</DisplayName>
-		<PlanetType>Habitable</PlanetType>
-		<PlanetClass>5</PlanetClass>
-		<ArtDefine>TempOKPlanet02</ArtDefine>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<!-- <PlanetTrait></PlanetTrait> -->
+		<ArtDefine>GenericWorld</ArtDefine>
 	</Planet>
 	<Planet>
 		<InternalName>PlanetBetaLuyten3</InternalName>
 		<DisplayName>BetaLuyten3Name</DisplayName>
-		<PlanetType>GasGiant</PlanetType>
+		<PlanetType>Dead</PlanetType>
 		<PlanetClass>0</PlanetClass>
-		<ArtDefine>SaturnArt</ArtDefine>
+		<!-- <PlanetTrait></PlanetTrait> -->
+		<ArtDefine>GenericWorld</ArtDefine>
 	</Planet>
 	<Planet>
 		<InternalName>PlanetBetaLuyten4</InternalName>
 		<DisplayName>BetaLuyten4Name</DisplayName>
 		<PlanetType>Dead</PlanetType>
 		<PlanetClass>0</PlanetClass>
-		<ArtDefine>TempDeadPlanet02</ArtDefine>
+		<!-- <PlanetTrait></PlanetTrait> -->
+		<ArtDefine>GenericWorld</ArtDefine>
 	</Planet>
-
-	<!-- Ur-Quan -->
 	<Planet>
-		<InternalName>Kzer</InternalName>
-		<DisplayName>Kzer2Name</DisplayName>
+		<InternalName>PlanetBetaLuyten5</InternalName>
+		<DisplayName>BetaLuyten5Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<!-- <PlanetTrait></PlanetTrait> -->
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<Planet>
+		<InternalName>PlanetBetaLuyten6</InternalName>
+		<DisplayName>BetaLuyten6Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<!-- <PlanetTrait></PlanetTrait> -->
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	
+
+
+
+	<!-- Yehat Home Solar System -->
+	<!-- Planet I - Water World - Yehat homeworld -->
+	<Planet>
+		<InternalName>PlanetGammaSerpentis1</InternalName>
+		<DisplayName>GammaSerpentis1Name</DisplayName>
 		<PlanetType>Habitable</PlanetType>
-		<PlanetClass>15</PlanetClass>
+		<PlanetClass>7</PlanetClass>
+		<PlanetTrait>WaterWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon I-A - Azure World -->
+	<Planet>
+		<InternalName>PlanetGammaSerpentis1A</InternalName>
+		<DisplayName>GammaSerpentis1AName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>AzureWorldSC</PlanetTrait>
 		<ArtDefine>GenericWorld</ArtDefine>
 	</Planet>
 
+	<!-- Planet II - Primordial World -->
 	<Planet>
-		<InternalName>Kohr</InternalName>
-		<DisplayName>Kohr3Name</DisplayName>
-		<PlanetType>Habitable</PlanetType>
-		<PlanetClass>15</PlanetClass>
+		<InternalName>PlanetGammaSerpentis2</InternalName>
+		<DisplayName>GammaSerpentis2Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>PrimordialWorldSC</PlanetTrait>
 		<ArtDefine>GenericWorld</ArtDefine>
 	</Planet>
+	<!-- Moon II-A - Pellucid World -->
+	<Planet>
+		<InternalName>PlanetGammaSerpentis2A</InternalName>
+		<DisplayName>GammaSerpentis2AName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>PellucidWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet III - Halide World -->
+	<Planet>
+		<InternalName>PlanetGammaSerpentis3</InternalName>
+		<DisplayName>GammaSerpentis3Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>HalideWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet IV - Cyanic World -->
+	<Planet>
+		<InternalName>PlanetGammaSerpentis4</InternalName>
+		<DisplayName>GammaSerpentis4Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>CyanicWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet V - Carbide World -->
+	<Planet>
+		<InternalName>PlanetGammaSerpentis5</InternalName>
+		<DisplayName>GammaSerpentis5Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>CarbideWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet VI - Redux World -->
+	<Planet>
+		<InternalName>PlanetGammaSerpentis6</InternalName>
+		<DisplayName>GammaSerpentis6Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>ReduxWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet VII - Telluric World -->
+	<Planet>
+		<InternalName>PlanetGammaSerpentis7</InternalName>
+		<DisplayName>GammaSerpentis7Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>TelluricWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon VII-A - Halide World -->
+	<Planet>
+		<InternalName>PlanetGammaSerpentis7A</InternalName>
+		<DisplayName>GammaSerpentis7AName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>HalideWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon VII-B - Opalescent World -->
+	<Planet>
+		<InternalName>PlanetGammaSerpentis7B</InternalName>
+		<DisplayName>GammaSerpentis7BName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>OpalescentWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	
+
+
+
+	<!-- Zoq-Fot-Pik Home Solar System -->
+
+	<!-- Planet I - Redux World - Zoq-Fot-Pik homeworld -->
+	<Planet>
+		<InternalName>PlanetAlphaTucanae1</InternalName>
+		<DisplayName>AlphaTucanae1Name</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>9</PlanetClass>
+		<PlanetTrait>ReduxWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+	<!-- Moon I-A - Auric World -->
+	<Planet>
+		<InternalName>PlanetAlphaTucanae1A</InternalName>
+		<DisplayName>AlphaTucanae1AName</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>AuricWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet II - Primordial World -->
+	<Planet>
+		<InternalName>PlanetAlphaTucanae2</InternalName>
+		<DisplayName>AlphaTucanae2Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>PrimordialWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
+
+	<!-- Planet III - Treasure World -->
+	<Planet>
+		<InternalName>PlanetAlphaTucanae3</InternalName>
+		<DisplayName>AlphaTucanae3Name</DisplayName>
+		<PlanetType>Dead</PlanetType>
+		<PlanetClass>0</PlanetClass>
+		<PlanetTrait>TreasureWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>	
 </PlanetList>

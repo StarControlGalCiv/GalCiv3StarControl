@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<StringTableList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- IStarSystem.xml -->
+ 
+<!-- Tech Names and Descriptions -->
+ 
+  <StringTable>
+    <Label>ProcyonSystem_Name</Label>
+    <String>Procyon</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>ProcyonSystem_Dec</Label>
+    <String>!!!Lacks description!!!</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>ZetaPerseiSystem_Name</Label>
+    <String>Zeta Persei</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>ZetaPerseiSystem_Dec</Label>
+    <String>!!!Lacks description!!!</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>SolSCSystem_Name</Label>
+    <String>Sol</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>SolSCSystem_Dec</Label>
+    <String>!!!Lacks description!!!</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>AlphaTauriSystem_Name</Label>
+    <String>Alpha Tauri</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>AlphaTauriSystem_Dec</Label>
+    <String>!!!Lacks description!!!</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>KohrSystem_Name</Label>
+    <String>Kohr</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>KohrSystem_Dec</Label>
+    <String>!!!Lacks description!!!</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>KzerSystem_Name</Label>
+    <String>Kzer</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>KzerSystem_Dec</Label>
+    <String>!!!Lacks description!!!</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>EpsilonScorpiiSystem_Name</Label>
+    <String>Epsilon Scorpii</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>EpsilonScorpiiSystem_Dec</Label>
+    <String>!!!Lacks description!!!</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>GammaVulpeculaeSystem_Name</Label>
+    <String>Gamma Vulpeculae</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>GammaVulpeculaeSystem_Dec</Label>
+    <String>!!!Lacks description!!!</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>GammaKruegerSystem_Name</Label>
+    <String>Gamma Krueger</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>GammaKruegerSystem_Dec</Label>
+    <String>!!!Lacks description!!!</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>DeltaGornoSystem_Name</Label>
+    <String>Delta Gorno</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>DeltaGornoSystem_Dec</Label>
+    <String>!!!Lacks description!!!</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>BetaCorviSystem_Name</Label>
+    <String>Beta Corvi</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>BetaCorviSystem_Dec</Label>
+    <String>!!!Lacks description!!!</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>EpsilonGruisSystem_Name</Label>
+    <String>Epsilon Gruis</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>EpsilonGruisSystem_Dec</Label>
+    <String>!!!Lacks description!!!</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>BetaLibraeSystem_Name</Label>
+    <String>Beta Librae</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>BetaLibraeSystem_Dec</Label>
+    <String>!!!Lacks description!!!</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>BetelgeuseSystem_Name</Label>
+    <String>Betelgeuse</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>BetelgeuseSystem_Dec</Label>
+    <String>!!!Lacks description!!!</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>DeltaDraconisSystem_Name</Label>
+    <String>Delta Draconis</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>DeltaDraconisSystem_Dec</Label>
+    <String>!!!Lacks description!!!</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>BetaOrionisSystem_Name</Label>
+    <String>Beta Orionis</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>BetaOrionisSystem_Dec</Label>
+    <String>!!!Lacks description!!!</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>BetaAquariiSystem_Name</Label>
+    <String>Beta Aquarii</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>BetaAquariiSystem_Dec</Label>
+    <String>!!!Lacks description!!!</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>BetaLuytenSystem_Name</Label>
+    <String>Beta Luyten</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>BetaLuytenSystem_Dec</Label>
+    <String>!!!Lacks description!!!</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>GammaSerpentisSystem_Name</Label>
+    <String>Gamma Serpentis</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>GammaSerpentisSystem_Dec</Label>
+    <String>!!!Lacks description!!!</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>AlphaTucanaeSystem_Name</Label>
+    <String>Alpha Tucanae</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>AlphaTucanaeSystem_Dec</Label>
+    <String>!!!Lacks description!!!</String>
+  </StringTable>
+
+
+
+</StringTableList>

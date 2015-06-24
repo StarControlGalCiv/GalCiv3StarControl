@@ -3,116 +3,214 @@
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="../Schema/StarDefs.xsd">
 	<!--Star Control:-->
+
+	<!-- Chmmr Home Star System -->
 	<Star>
-		<InternalName>BetaLibraeStar</InternalName>
-		<DisplayName>BetaLibraeName</DisplayName>
+		<InternalName>ProcyonStar</InternalName>
+		<DisplayName>ProcyonName</DisplayName>
 		<ObjectType>Star</ObjectType>
-		<Type>YellowStar</Type>
-		<ArtDefine>SunArt</ArtDefine>
+		<Type>WhiteStar</Type>
+		<!-- <Type>OrangeStar</Type> --><!-- Doesn't exist within XSD schema -->
+		<ArtDefine>OrangeDwarfSCArt</ArtDefine>
 		<SFXDefine>STAR_AMBIENT</SFXDefine>
 	</Star>
+
+	<!-- Druuge Home Star System -->
 	<Star>
 		<InternalName>ZetaPerseiStar</InternalName>
 		<DisplayName>ZetaPerseiName</DisplayName>
 		<ObjectType>Star</ObjectType>
-		<Type>YellowStar</Type>
-		<ArtDefine>SunArt</ArtDefine>
+		<Type>WhiteStar</Type>
+		<!-- <Type>OrangeStar</Type> --><!-- Doesn't exist within XSD schema -->
+		<ArtDefine>OrangeDwarfSCArt</ArtDefine>
 		<SFXDefine>STAR_AMBIENT</SFXDefine>
 	</Star>
+
+	<!-- Earthling Home Star System -->
 	<Star>
-		<InternalName>BetelgeuseStar</InternalName>
-		<DisplayName>BetelgeuseName</DisplayName>
+		<InternalName>SolStarSC</InternalName>
+		<DisplayName>SolNameSC</DisplayName>
 		<ObjectType>Star</ObjectType>
 		<Type>YellowStar</Type>
-		<ArtDefine>SunArt</ArtDefine>
+		<ArtDefine>YellowDwarfSCArt</ArtDefine>
 		<SFXDefine>STAR_AMBIENT</SFXDefine>
 	</Star>
-	<Star>
-		<InternalName>GammaSerpentisStar</InternalName>
-		<DisplayName>GammaSerpentisName</DisplayName>
-		<ObjectType>Star</ObjectType>
-		<Type>YellowStar</Type>
-		<ArtDefine>OrangeStarArt</ArtDefine>
-		<SFXDefine>STAR_AMBIENT</SFXDefine>
-	</Star>
-	<Star>
-		<InternalName>BetaAquariiStar</InternalName>
-		<DisplayName>BetaAquariiName</DisplayName>
-		<ObjectType>Star</ObjectType>
-		<Type>BlueStar</Type>
-		<ArtDefine>BlueStarArt</ArtDefine>
-		<SFXDefine>STAR_AMBIENT</SFXDefine>
-	</Star>
+
+	<!-- Ilwrath Home Star System -->
 	<Star>
 		<InternalName>AlphaTauriStar</InternalName>
 		<DisplayName>AlphaTauriName</DisplayName>
 		<ObjectType>Star</ObjectType>
 		<Type>YellowStar</Type>
-		<ArtDefine>SunArt</ArtDefine>
+		<!-- <Type>GreenStar</Type> --><!-- Doesn't exist within XSD schema -->
+		<ArtDefine>GreenDwarfSCArt</ArtDefine>
 		<SFXDefine>STAR_AMBIENT</SFXDefine>
 	</Star>
-	<Star>
-		<InternalName>EpsilonScorpiiStar</InternalName>
-		<DisplayName>EpsilonScorpiiName</DisplayName>
-		<ObjectType>Star</ObjectType>
-		<Type>YellowStar</Type>
-		<ArtDefine>SunArt</ArtDefine>
-		<SFXDefine>STAR_AMBIENT</SFXDefine>
-	</Star>
-	<Star>
-		<InternalName>EpsilonGruisStar</InternalName>
-		<DisplayName>EpsilonGruisName</DisplayName>
-		<ObjectType>Star</ObjectType>
-		<Type>YellowStar</Type>
-		<ArtDefine>SunArt</ArtDefine>
-		<SFXDefine>STAR_AMBIENT</SFXDefine>
-	</Star>
-	<Star>
-		<InternalName>DeltaDraconisStar</InternalName>
-		<DisplayName>DeltaDraconisName</DisplayName>
-		<ObjectType>Star</ObjectType>
-		<Type>YellowStar</Type>
-		<ArtDefine>SunArt</ArtDefine>
-		<SFXDefine>STAR_AMBIENT</SFXDefine>
-	</Star>
-	<Star>
-		<InternalName>BetaOrionisStar</InternalName>
-		<DisplayName>BetaOrionisName</DisplayName>
-		<ObjectType>Star</ObjectType>
-		<Type>BlueStar</Type>
-		<ArtDefine>BlueStarArt</ArtDefine>
-		<SFXDefine>STAR_AMBIENT</SFXDefine>
-	</Star>
-	<Star>
-		<InternalName>ProcyonStar</InternalName>
-		<DisplayName>ProcyonName</DisplayName>
-		<ObjectType>Star</ObjectType>
-		<Type>YellowStar</Type>
-		<ArtDefine>SunArt</ArtDefine>
-		<SFXDefine>STAR_AMBIENT</SFXDefine>
-	</Star>
-	<Star>
-		<InternalName>BetaLuytenStar</InternalName>
-		<DisplayName>BetaLuytenName</DisplayName>
-		<ObjectType>Star</ObjectType>
-		<Type>YellowStar</Type>
-		<ArtDefine>SunArt</ArtDefine>
-		<SFXDefine>STAR_AMBIENT</SFXDefine>
-	</Star>
-	<Star>
-		<InternalName>KzerStar</InternalName>
-		<DisplayName>Kzer</DisplayName>
-		<ObjectType>Star</ObjectType>
-		<Type>BlueStar</Type>
-		<ArtDefine>RedGiantArt</ArtDefine>
-		<SFXDefine>STAR_AMBIENT</SFXDefine>
-	</Star>
+
+	<!-- Kohr-Ah Home Star System -->
 	<Star>
 		<InternalName>KohrStar</InternalName>
 		<DisplayName>Kohr</DisplayName>
 		<ObjectType>Star</ObjectType>
 		<Type>WhiteStar</Type>
-		<ArtDefine>WhiteDwarfArt</ArtDefine>
+		<ArtDefine>WhiteDwarfSCArt</ArtDefine>
+		<SFXDefine>STAR_AMBIENT</SFXDefine>
+	</Star>
+
+	<!-- Kzer-Za Home Star System -->
+	<Star>
+		<InternalName>KzerStar</InternalName>
+		<DisplayName>Kzer</DisplayName>
+		<ObjectType>Star</ObjectType>
+		<Type>BlueStar</Type>
+		<ArtDefine>RedGiantSCArt</ArtDefine>
+		<SFXDefine>STAR_AMBIENT</SFXDefine>
+	</Star>
+
+	<!-- Mycon Home Star System -->
+	<Star>
+		<InternalName>EpsilonScorpiiStar</InternalName>
+		<DisplayName>EpsilonScorpiiName</DisplayName>
+		<ObjectType>Star</ObjectType>
+		<Type>YellowStar</Type>
+		<ArtDefine>YellowDwarfSCArt</ArtDefine>
+		<SFXDefine>STAR_AMBIENT</SFXDefine>
+	</Star>
+
+	<!-- Orz Home Star System -->
+	<Star>
+		<InternalName>GammaVulpeculaeStar</InternalName>
+		<DisplayName>EpsilonScorpiiName</DisplayName>
+		<ObjectType>Star</ObjectType>
+		<Type>YellowStar</Type>
+		<!-- <Type>GreenStar</Type> --><!-- Doesn't exist within XSD schema -->
+		<ArtDefine>GreenDwarfSCArt</ArtDefine>
+		<SFXDefine>STAR_AMBIENT</SFXDefine>
+	</Star>
+
+	<!-- Pkunk Home Star System -->
+	<Star>
+		<InternalName>GammaKruegerStar</InternalName>
+		<DisplayName>EpsilonScorpiiName</DisplayName>
+		<ObjectType>Star</ObjectType>
+		<Type>YellowStar</Type>
+		<ArtDefine>YellowDwarfSCArt</ArtDefine>
+		<SFXDefine>STAR_AMBIENT</SFXDefine>
+	</Star>
+	
+
+	<!-- Shofixti Home Star System -->
+	<Star>
+		<InternalName>DeltaGornoStar</InternalName>
+		<DisplayName>EpsilonScorpiiName</DisplayName>
+		<ObjectType>Star</ObjectType>
+		<Type>BlueStar</Type>
+		<ArtDefine>BlueDwarfSCArt</ArtDefine>
+		<SFXDefine>STAR_AMBIENT</SFXDefine>
+	</Star>
+	
+
+	<!-- Slylandro Home Star System -->
+	<Star>
+		<InternalName>BetaCorviStar</InternalName>
+		<DisplayName>EpsilonScorpiiName</DisplayName>
+		<ObjectType>Star</ObjectType>
+		<Type>YellowStar</Type>
+		<!-- <Type>GreenStar</Type> --><!-- Doesn't exist within XSD schema -->
+		<ArtDefine>GreenDwarfSCArt</ArtDefine>
+		<SFXDefine>STAR_AMBIENT</SFXDefine>
+	</Star>
+
+	<!-- Spathi Home Star System -->
+	<Star>
+		<InternalName>EpsilonGruisStar</InternalName>
+		<DisplayName>EpsilonGruisName</DisplayName>
+		<ObjectType>Star</ObjectType>
+		<Type>YellowStar</Type>
+		<ArtDefine>YellowDwarfSCArt</ArtDefine>
+		<SFXDefine>STAR_AMBIENT</SFXDefine>
+	</Star>
+
+	<!-- Supox Home Star System -->
+	<Star>
+		<InternalName>BetaLibraeStar</InternalName>
+		<DisplayName>BetaLibraeName</DisplayName>
+		<ObjectType>Star</ObjectType>
+		<Type>YellowStar</Type>
+		<ArtDefine>YellowDwarfSCArt</ArtDefine>
+		<SFXDefine>STAR_AMBIENT</SFXDefine>
+	</Star>
+
+	<!-- Syreen Home Star System -->
+	<Star>
+		<InternalName>BetelgeuseStar</InternalName>
+		<DisplayName>BetelgeuseName</DisplayName>
+		<ObjectType>Star</ObjectType>
+		<Type>BlueStar</Type>
+		<ArtDefine>BlueDwarfSCArt</ArtDefine>
+		<SFXDefine>STAR_AMBIENT</SFXDefine>
+	</Star>
+
+	<!-- Thraddash Home Star System -->
+	<Star>
+		<InternalName>DeltaDraconisStar</InternalName>
+		<DisplayName>DeltaDraconisName</DisplayName>
+		<ObjectType>Star</ObjectType>
+		<Type>YellowStar</Type>
+		<ArtDefine>YellowDwarfSCArt</ArtDefine>
+		<SFXDefine>STAR_AMBIENT</SFXDefine>
+	</Star>
+
+	<!-- Umgah Home Star System -->
+	<Star>
+		<InternalName>BetaOrionisStar</InternalName>
+		<DisplayName>BetaOrionisName</DisplayName>
+		<ObjectType>Star</ObjectType>
+		<Type>YellowStar</Type>
+		<!-- <Type>GreenStar</Type> --><!-- Doesn't exist within XSD schema -->
+		<ArtDefine>GreenDwarfSCArt</ArtDefine>
+		<SFXDefine>STAR_AMBIENT</SFXDefine>
+	</Star>
+
+	<!-- Utwig Home Star System -->
+	<Star>
+		<InternalName>BetaAquariiStar</InternalName>
+		<DisplayName>BetaAquariiName</DisplayName>
+		<ObjectType>Star</ObjectType>
+		<Type>YellowStar</Type>
+		<!-- <Type>GreenStar</Type> --><!-- Doesn't exist within XSD schema -->
+		<ArtDefine>GreenDwarfSCArt</ArtDefine>
+		<SFXDefine>STAR_AMBIENT</SFXDefine>
+	</Star>
+
+	<!-- VUX Home Star System -->
+	<Star>
+		<InternalName>BetaLuytenStar</InternalName>
+		<DisplayName>BetaLuytenName</DisplayName>
+		<ObjectType>Star</ObjectType>
+		<Type>YellowStar</Type>
+		<ArtDefine>YellowDwarfSCArt</ArtDefine>
+		<SFXDefine>STAR_AMBIENT</SFXDefine>
+	</Star>
+
+	<!-- Yehat Home Star System -->
+	<Star>
+		<InternalName>GammaSerpentisStar</InternalName>
+		<DisplayName>GammaSerpentisName</DisplayName>
+		<ObjectType>Star</ObjectType>
+		<Type>YellowStar</Type>
+		<ArtDefine>YellowDwarfSCArt</ArtDefine>
+		<SFXDefine>STAR_AMBIENT</SFXDefine>
+	</Star>
+
+	<!-- Zoq-Fot-Pik Home Star System -->
+	<Star>
+		<InternalName>AlphaTucanaeStar</InternalName>
+		<DisplayName>AlphaTucanaeName</DisplayName>
+		<ObjectType>Star</ObjectType>
+		<Type>YellowStar</Type>
+		<!-- <Type>GreenStar</Type> --><!-- Doesn't exist within XSD schema -->
+		<ArtDefine>GreenDwarfSCArt</ArtDefine>
 		<SFXDefine>STAR_AMBIENT</SFXDefine>
 	</Star>
 </StarList>

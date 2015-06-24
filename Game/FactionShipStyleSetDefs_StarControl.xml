@@ -5,6 +5,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionShipStyleSetDefs.xsd">
 <!-- Created with the Gal Civ 3 Editor -->
 <!-- FactionShipStyleSetDefs.xml -->
 
+  <!-- Ur-Quan -->
   <ShipStyleSet>
     <InternalName>UrQuanShipStyleSet</InternalName>
     <DisplayName>DrenginShipStyleSet_Name</DisplayName>
@@ -20,8 +21,9 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionShipStyleSetDefs.xsd">
   
     <ShipClass>UrQuanStartingColony</ShipClass>
     <ShipClass>UrQuanStartingConstructor</ShipClass>
+    
     <ShipClass>DrenginStartingScout</ShipClass>
-    <!-- <ShipClass>DrenginStartingSurvey</ShipClass> -->
+    <ShipClass>DrenginStartingSurvey</ShipClass>
     <!-- <ShipClass>DrenginStartingColony</ShipClass> -->
     <ShipClass>ProtoTypeDrenginScout</ShipClass>
     <ShipClass>DrenginScout</ShipClass>
@@ -32,7 +34,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionShipStyleSetDefs.xsd">
     <ShipClass>DrenginGuardian</ShipClass>
     <ShipClass>ProtoTypeDrenginGuardian</ShipClass>
     <ShipClass>DrenginKnight</ShipClass>
-    <!-- <ShipClass>ProtoTypeDrenginSurvey</ShipClass> -->
+    <ShipClass>ProtoTypeDrenginSurvey</ShipClass>
     <ShipClass>DrenginExplorer</ShipClass>
     <ShipClass>DrenginCutter</ShipClass>
     <ShipClass>DrenginCutterL</ShipClass>
@@ -41,7 +43,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionShipStyleSetDefs.xsd">
     <ShipClass>DrenginGunboat</ShipClass>
     <ShipClass>DrenginGunboatL</ShipClass>
     <ShipClass>DrenginFury</ShipClass>
-    <!-- <ShipClass>DrenginSurvey</ShipClass> -->
+    <ShipClass>DrenginSurvey</ShipClass>
     <ShipClass>DrenginCorvette</ShipClass>
     <ShipClass>DrenginCorvetteL</ShipClass>
     <ShipClass>DrenginCorvetteP</ShipClass>
@@ -52,7 +54,6 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionShipStyleSetDefs.xsd">
     <ShipClass>DrenginRangerL</ShipClass>
     <ShipClass>DrenginRangerP</ShipClass>
     <ShipClass>DrenginPaladin</ShipClass>
-    <ShipClass>DrenginBlockadeRunner</ShipClass>
     <ShipClass>DrenginCruiser</ShipClass>
     <ShipClass>DrenginCruiserL</ShipClass>
     <ShipClass>DrenginCruiserP</ShipClass>
@@ -83,7 +84,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionShipStyleSetDefs.xsd">
     <ShipClass>DrenginConstructor</ShipClass>
     <!-- Temporary, can't invade -->
     <!-- <ShipClass>DrenginTransport</ShipClass> -->
-    <!-- Can't trade -->
+    <!-- Can never trade -->
     <!-- <ShipClass>DrenginFreighter</ShipClass> -->
     <ShipClass>DrenginDroneCarrier</ShipClass>
     <ShipClass>DrenginCarrier</ShipClass>
@@ -100,6 +101,18 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionShipStyleSetDefs.xsd">
     <ShipClass>AIDefenseDrenginBomber</ShipClass>
     <ShipClass>AIDefenseDrenginGuardian</ShipClass>
     <ShipClass>AIDefenseDrenginKnight</ShipClass>
+    <ShipClass>DrenginBasicConstructor</ShipClass>
+    <ShipClass>AwardDrenginScout</ShipClass>
+    <ShipClass>AwardDrenginCutter</ShipClass>
+    <ShipClass>AwardDrenginDefender</ShipClass>
+    <ShipClass>AwardDrenginGunboat</ShipClass>
+    <ShipClass>AwardDrenginSurvey</ShipClass>
+    <ShipClass>AwardDrenginFrigate</ShipClass>
+    <ShipClass>AwardDrenginOverlord</ShipClass>
+    <ShipClass>AwardDrenginColony</ShipClass>
+    <ShipClass>AwardDrenginConstructor</ShipClass>
+    <ShipClass>AwardDrenginFreighter</ShipClass>
+    <ShipClass>AwardDrenginTransport</ShipClass>
 
     <!-- <ShipClass>KzerZaLarge</ShipClass>
     <ShipClass>KzerZaHuge</ShipClass>
@@ -247,9 +260,10 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionShipStyleSetDefs.xsd">
   
   </ShipStyleSet>
 
+  <!-- Chmmr -->
   <ShipStyleSet>
-    <InternalName>EarthlingShipStyleSet</InternalName>
-    <DisplayName>EarthlingShipStyleSet_Name</DisplayName>
+    <InternalName>ChmmrShipStyleSet</InternalName>
+    <DisplayName>ChmmrShipStyleSet_Name</DisplayName>
     <Icon>GC3_S_Basic_Ship_Icon.png</Icon>
     <DisplaySampleObjGfxConfig>Terran_Survey_04S.objgfxcfg</DisplaySampleObjGfxConfig>
     <ShipStyle>Terran</ShipStyle>
@@ -292,7 +306,6 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionShipStyleSetDefs.xsd">
     <ShipClass>TerranFrigateL</ShipClass>
     <ShipClass>TerranFrigateP</ShipClass>
     <ShipClass>TerranPaladin</ShipClass>
-    <ShipClass>TerranBlockadeRunner</ShipClass>
     <ShipClass>TerranCruiser</ShipClass>
     <ShipClass>TerranCruiserL</ShipClass>
     <ShipClass>TerranCruiserP</ShipClass>
@@ -338,6 +351,18 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionShipStyleSetDefs.xsd">
     <ShipClass>AIDefenseTerranBomber</ShipClass>
     <ShipClass>AIDefenseTerranGuardian</ShipClass>
     <ShipClass>AIDefenseTerranKnight</ShipClass>
+    <ShipClass>TerranBasicConstructor</ShipClass>
+    <ShipClass>AwardTerranScout</ShipClass>
+    <ShipClass>AwardTerranCutter</ShipClass>
+    <ShipClass>AwardTerranDefender</ShipClass>
+    <ShipClass>AwardTerranGunboat</ShipClass>
+    <ShipClass>AwardTerranSurvey</ShipClass>
+    <ShipClass>AwardTerranFrigate</ShipClass>
+    <ShipClass>AwardTerranOverlord</ShipClass>
+    <ShipClass>AwardTerranColony</ShipClass>
+    <ShipClass>AwardTerranConstructor</ShipClass>
+    <ShipClass>AwardTerranFreighter</ShipClass>
+    <ShipClass>AwardTerranTransport</ShipClass>
   
     <ShipyardArtDefine>
       <ObjectGfxConfig>Terran_Shipyard_04.objgfxcfg</ObjectGfxConfig>
@@ -476,6 +501,738 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionShipStyleSetDefs.xsd">
     </StarbaseArtDefine>
   
     <StarbaseSFXDefine>TERRAN_STARBASE_AMBIENT</StarbaseSFXDefine>
+  
+  </ShipStyleSet>
+  
+  <!-- Earthlings -->
+  <ShipStyleSet>
+    <InternalName>EarthlingShipStyleSet</InternalName>
+    <DisplayName>EarthlingShipStyleSet_Name</DisplayName>
+    <Icon>GC3_S_Basic_Ship_Icon.png</Icon>
+    <DisplaySampleObjGfxConfig>Terran_Survey_04S.objgfxcfg</DisplaySampleObjGfxConfig>
+    <ShipStyle>Terran</ShipStyle>
+    <!-- <StartingShipyard>BasicShipyard</StartingShipyard> -->
+  
+    <InitialAssaultFighter>TerranAssaultFighter</InitialAssaultFighter>
+    <InitialInterceptorFighter>TerranDroneInterceptor</InitialInterceptorFighter>
+    <InitialEscortFighter>TerranEscortFighter</InitialEscortFighter>
+    <InitialGuardianFighter>TerranGuardianFighter</InitialGuardianFighter>
+  
+    <ShipClass>TerranStartingScout</ShipClass>
+    <ShipClass>TerranStartingSurvey</ShipClass>
+    <ShipClass>TerranStartingColony</ShipClass>
+    <ShipClass>ProtoTypeTerranScout</ShipClass>
+    <ShipClass>TerranScout</ShipClass>
+    <ShipClass>TerranSniper</ShipClass>
+    <ShipClass>ProtoTypeTerranSniper</ShipClass>
+    <ShipClass>TerranBomber</ShipClass>
+    <ShipClass>ProtoTypeTerranBomber</ShipClass>
+    <ShipClass>TerranGuardian</ShipClass>
+    <ShipClass>ProtoTypeTerranGuardian</ShipClass>
+    <ShipClass>TerranKnight</ShipClass>
+    <ShipClass>ProtoTypeTerranSurvey</ShipClass>
+    <ShipClass>TerranExplorer</ShipClass>
+    <ShipClass>TerranCutter</ShipClass>
+    <ShipClass>TerranCutterL</ShipClass>
+    <ShipClass>TerranDefender</ShipClass>
+    <ShipClass>TerranDefenderL</ShipClass>
+    <ShipClass>TerranGunboat</ShipClass>
+    <ShipClass>TerranGunboatL</ShipClass>
+    <ShipClass>TerranFury</ShipClass>
+    <ShipClass>TerranSurvey</ShipClass>
+    <ShipClass>TerranCorvette</ShipClass>
+    <ShipClass>TerranCorvetteL</ShipClass>
+    <ShipClass>TerranCorvetteP</ShipClass>
+    <ShipClass>TerranRanger</ShipClass>
+    <ShipClass>TerranRangerL</ShipClass>
+    <ShipClass>TerranRangerP</ShipClass>
+    <ShipClass>TerranFrigate</ShipClass>
+    <ShipClass>TerranFrigateL</ShipClass>
+    <ShipClass>TerranFrigateP</ShipClass>
+    <ShipClass>TerranPaladin</ShipClass>
+    <ShipClass>TerranCruiser</ShipClass>
+    <ShipClass>TerranCruiserL</ShipClass>
+    <ShipClass>TerranCruiserP</ShipClass>
+    <ShipClass>TerranCruiserD</ShipClass>
+    <ShipClass>TerranDestroyer</ShipClass>
+    <ShipClass>TerranDestroyerL</ShipClass>
+    <ShipClass>TerranDestroyerP</ShipClass>
+    <ShipClass>TerranDestroyerD</ShipClass>
+    <ShipClass>TerranBattleship</ShipClass>
+    <ShipClass>TerranBattleshipL</ShipClass>
+    <ShipClass>TerranBattleshipP</ShipClass>
+    <ShipClass>TerranBattleshipD</ShipClass>
+    <ShipClass>TerranOverlord</ShipClass>
+    <ShipClass>TerranAvatar</ShipClass>
+    <ShipClass>TerranAvatarL</ShipClass>
+    <ShipClass>TerranAvatarP</ShipClass>
+    <ShipClass>TerranAvatarD</ShipClass>
+    <ShipClass>TerranFortress</ShipClass>
+    <ShipClass>TerranFortressL</ShipClass>
+    <ShipClass>TerranFortressP</ShipClass>
+    <ShipClass>TerranFortressD</ShipClass>
+    <ShipClass>TerranDreadnought</ShipClass>
+    <ShipClass>TerranDreadnoughtL</ShipClass>
+    <ShipClass>TerranDreadnoughtP</ShipClass>
+    <ShipClass>TerranDreadnoughtD</ShipClass>
+    <ShipClass>TerranTitan</ShipClass>
+    <ShipClass>TerranColony</ShipClass>
+    <ShipClass>TerranConstructor</ShipClass>
+    <ShipClass>TerranTransport</ShipClass>
+    <ShipClass>TerranFreighter</ShipClass>
+    <ShipClass>TerranDroneCarrier</ShipClass>
+    <ShipClass>TerranCarrier</ShipClass>
+    <ShipClass>TerranAssaultCarrier</ShipClass>
+    <ShipClass>TerranBeamSupport</ShipClass>
+    <ShipClass>TerranDroneInterceptor</ShipClass>
+    <ShipClass>TerranGuardianFighter</ShipClass>
+    <ShipClass>TerranAssaultFighter</ShipClass>
+    <ShipClass>TerranBeamSupport</ShipClass>
+    <ShipClass>TerranMissileSupport</ShipClass>
+    <ShipClass>TerranKineticSupport</ShipClass>
+    <ShipClass>TerranTacticalSupport</ShipClass>
+    <ShipClass>AIDefenseTerranSniper</ShipClass>
+    <ShipClass>AIDefenseTerranBomber</ShipClass>
+    <ShipClass>AIDefenseTerranGuardian</ShipClass>
+    <ShipClass>AIDefenseTerranKnight</ShipClass>
+    <ShipClass>TerranBasicConstructor</ShipClass>
+    <ShipClass>AwardTerranScout</ShipClass>
+    <ShipClass>AwardTerranCutter</ShipClass>
+    <ShipClass>AwardTerranDefender</ShipClass>
+    <ShipClass>AwardTerranGunboat</ShipClass>
+    <ShipClass>AwardTerranSurvey</ShipClass>
+    <ShipClass>AwardTerranFrigate</ShipClass>
+    <ShipClass>AwardTerranOverlord</ShipClass>
+    <ShipClass>AwardTerranColony</ShipClass>
+    <ShipClass>AwardTerranConstructor</ShipClass>
+    <ShipClass>AwardTerranFreighter</ShipClass>
+    <ShipClass>AwardTerranTransport</ShipClass>
+  
+    <ShipyardArtDefine>
+      <ObjectGfxConfig>Terran_Shipyard_04.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>T_Shipyard_01.png</ThumbnailOverride>
+    </ShipyardArtDefine>
+  
+    <StarbaseArtDefine>
+      <ModuleType>Generic</ModuleType>
+      <ObjectGfxConfig>Terran_Level_01b.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Level_01b.png</ThumbnailOverride>
+      <StrategicIcon>Starbase</StrategicIcon>
+    </StarbaseArtDefine>
+  
+    <StarbaseArtDefine>
+      <ModuleType>Culture</ModuleType>
+      <ObjectGfxConfig>Terran_Culture_01b.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Culture_01b.png</ThumbnailOverride>
+      <StrategicIcon>Culturebase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Culture</ModuleType>
+      <ObjectGfxConfig>Terran_Culture_02.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Culture_02.png</ThumbnailOverride>
+      <StrategicIcon>Culturebase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Culture</ModuleType>
+      <ObjectGfxConfig>Terran_Culture_03.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Culture_03.png</ThumbnailOverride>
+      <StrategicIcon>Culturebase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Culture</ModuleType>
+      <ObjectGfxConfig>Terran_Culture_04.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Culture_04.png</ThumbnailOverride>
+      <StrategicIcon>Culturebase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Culture</ModuleType>
+      <ObjectGfxConfig>Terran_Culture_05.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Culture_05.png</ThumbnailOverride>
+      <StrategicIcon>Culturebase</StrategicIcon>
+    </StarbaseArtDefine>
+  
+    <StarbaseArtDefine>
+      <ModuleType>Economic</ModuleType>
+      <ObjectGfxConfig>Terran_Economic_01b.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Economic_01b.png</ThumbnailOverride>
+      <StrategicIcon>Economicbase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Economic</ModuleType>
+      <ObjectGfxConfig>Terran_Economic_02.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Economic_02.png</ThumbnailOverride>
+      <StrategicIcon>Economicbase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Economic</ModuleType>
+      <ObjectGfxConfig>Terran_Economic_03.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Economic_03.png</ThumbnailOverride>
+      <StrategicIcon>Economicbase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Economic</ModuleType>
+      <ObjectGfxConfig>Terran_Economic_04.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Economic_04.png</ThumbnailOverride>
+      <StrategicIcon>Economicbase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Economic</ModuleType>
+      <ObjectGfxConfig>Terran_Economic_05.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Economic_05.png</ThumbnailOverride>
+      <StrategicIcon>Economicbase</StrategicIcon>
+    </StarbaseArtDefine>
+  
+    <StarbaseArtDefine>
+      <ModuleType>Military</ModuleType>
+      <ObjectGfxConfig>Terran_Military_01b.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Military_01b.png</ThumbnailOverride>
+      <StrategicIcon>Militarybase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Military</ModuleType>
+      <ObjectGfxConfig>Terran_Military_02b.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Military_02b.png</ThumbnailOverride>
+      <StrategicIcon>Militarybase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Military</ModuleType>
+      <ObjectGfxConfig>Terran_Military_03.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Military_03.png</ThumbnailOverride>
+      <StrategicIcon>Militarybase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Military</ModuleType>
+      <ObjectGfxConfig>Terran_Military_04.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Military_04.png</ThumbnailOverride>
+      <StrategicIcon>Militarybase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Military</ModuleType>
+      <ObjectGfxConfig>Terran_Military_05.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Military_05.png</ThumbnailOverride>
+      <StrategicIcon>Militarybase</StrategicIcon>
+    </StarbaseArtDefine>
+  
+    <StarbaseArtDefine>
+      <ModuleType>Mining</ModuleType>
+      <ObjectGfxConfig>Terran_Mining_01b.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Mining_01b.png</ThumbnailOverride>
+      <StrategicIcon>Miningbase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Mining</ModuleType>
+      <ObjectGfxConfig>Terran_Mining_02b.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Mining_02b.png</ThumbnailOverride>
+      <StrategicIcon>Miningbase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Mining</ModuleType>
+      <ObjectGfxConfig>Terran_Mining_03b.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Mining_03b.png</ThumbnailOverride>
+      <StrategicIcon>Miningbase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Mining</ModuleType>
+      <ObjectGfxConfig>Terran_Mining_04b.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Mining_04b.png</ThumbnailOverride>
+      <StrategicIcon>Miningbase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Mining</ModuleType>
+      <ObjectGfxConfig>Terran_Mining_05a.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Terran_Mining_05a.png</ThumbnailOverride>
+      <StrategicIcon>Miningbase</StrategicIcon>
+    </StarbaseArtDefine>
+  
+    <StarbaseSFXDefine>TERRAN_STARBASE_AMBIENT</StarbaseSFXDefine>
+  
+  </ShipStyleSet>
+
+  <!-- Syreen -->
+  <ShipStyleSet>
+    <InternalName>SyreenShipStyleSet</InternalName>
+    <DisplayName>SyreenShipStyleSet_Name</DisplayName>
+    <Icon>GC3_S_Basic_Ship_Icon.png</Icon>
+    <DisplaySampleObjGfxConfig>Altarian_Survey_01S.objgfxcfg</DisplaySampleObjGfxConfig>
+    <ShipStyle>Altarian</ShipStyle>
+    <!-- <StartingShipyard>BasicShipyard</StartingShipyard> -->
+  
+    <InitialAssaultFighter>AltarianAssaultFighter</InitialAssaultFighter>
+    <InitialInterceptorFighter>AltarianDroneInterceptor</InitialInterceptorFighter>
+    <InitialEscortFighter>AltarianAssaultFighter</InitialEscortFighter>
+    <InitialGuardianFighter>AltarianGuardianFighter</InitialGuardianFighter>
+  
+    <ShipClass>AltarianStartingScout</ShipClass>
+    <ShipClass>AltarianStartingSurvey</ShipClass>
+    <ShipClass>AltarianStartingColony</ShipClass>
+    <ShipClass>ProtoTypeAltarianScout</ShipClass>
+    <ShipClass>AltarianScout</ShipClass>
+    <ShipClass>AltarianSniper</ShipClass>
+    <ShipClass>ProtoTypeAltarianSniper</ShipClass>
+    <ShipClass>AltarianBomber</ShipClass>
+    <ShipClass>ProtoTypeAltarianBomber</ShipClass>
+    <ShipClass>AltarianGuardian</ShipClass>
+    <ShipClass>ProtoTypeAltarianGuardian</ShipClass>
+    <ShipClass>AltarianKnight</ShipClass>
+    <ShipClass>ProtoTypeAltarianSurvey</ShipClass>
+    <ShipClass>AltarianExplorer</ShipClass>
+    <ShipClass>AltarianCutter</ShipClass>
+    <ShipClass>AltarianCutterL</ShipClass>
+    <ShipClass>AltarianDefender</ShipClass>
+    <ShipClass>AltarianDefenderL</ShipClass>
+    <ShipClass>AltarianGunboat</ShipClass>
+    <ShipClass>AltarianGunboatL</ShipClass>
+    <ShipClass>AltarianFury</ShipClass>
+    <ShipClass>AltarianSurvey</ShipClass>
+    <ShipClass>AltarianCorvette</ShipClass>
+    <ShipClass>AltarianCorvetteL</ShipClass>
+    <ShipClass>AltarianCorvetteP</ShipClass>
+    <ShipClass>AltarianRanger</ShipClass>
+    <ShipClass>AltarianRangerL</ShipClass>
+    <ShipClass>AltarianRangerP</ShipClass>
+    <ShipClass>AltarianFrigate</ShipClass>
+    <ShipClass>AltarianFrigateL</ShipClass>
+    <ShipClass>AltarianFrigateP</ShipClass>
+    <ShipClass>AltarianPaladin</ShipClass>
+    <ShipClass>AltarianCruiser</ShipClass>
+    <ShipClass>AltarianCruiserL</ShipClass>
+    <ShipClass>AltarianCruiserP</ShipClass>
+    <ShipClass>AltarianCruiserD</ShipClass>
+    <ShipClass>AltarianDestroyer</ShipClass>
+    <ShipClass>AltarianDestroyerL</ShipClass>
+    <ShipClass>AltarianDestroyerP</ShipClass>
+    <ShipClass>AltarianDestroyerD</ShipClass>
+    <ShipClass>AltarianBattleship</ShipClass>
+    <ShipClass>AltarianBattleshipL</ShipClass>
+    <ShipClass>AltarianBattleshipP</ShipClass>
+    <ShipClass>AltarianBattleshipD</ShipClass>
+    <ShipClass>AltarianOverlord</ShipClass>
+    <ShipClass>AltarianAvatar</ShipClass>
+    <ShipClass>AltarianAvatarL</ShipClass>
+    <ShipClass>AltarianAvatarP</ShipClass>
+    <ShipClass>AltarianAvatarD</ShipClass>
+    <ShipClass>AltarianFortress</ShipClass>
+    <ShipClass>AltarianFortressL</ShipClass>
+    <ShipClass>AltarianFortressP</ShipClass>
+    <ShipClass>AltarianFortressD</ShipClass>
+    <ShipClass>AltarianDreadnought</ShipClass>
+    <ShipClass>AltarianDreadnoughtL</ShipClass>
+    <ShipClass>AltarianDreadnoughtP</ShipClass>
+    <ShipClass>AltarianDreadnoughtD</ShipClass>
+    <ShipClass>AltarianTitan</ShipClass>
+    <ShipClass>AltarianColony</ShipClass>
+    <ShipClass>AltarianConstructor</ShipClass>
+    <ShipClass>AltarianTransport</ShipClass>
+    <ShipClass>AltarianFreighter</ShipClass>
+    <ShipClass>AltarianDroneCarrier</ShipClass>
+    <ShipClass>AltarianCarrier</ShipClass>
+    <ShipClass>AltarianAssaultCarrier</ShipClass>
+    <ShipClass>AltarianBeamSupport</ShipClass>
+    <ShipClass>AltarianDroneInterceptor</ShipClass>
+    <ShipClass>AltarianGuardianFighter</ShipClass>
+    <ShipClass>AltarianAssaultFighter</ShipClass>
+    <ShipClass>AltarianBeamSupport</ShipClass>
+    <ShipClass>AltarianMissileSupport</ShipClass>
+    <ShipClass>AltarianKineticSupport</ShipClass>
+    <ShipClass>AltarianTacticalSupport</ShipClass>
+    <ShipClass>AIDefenseAltarianSniper</ShipClass>
+    <ShipClass>AIDefenseAltarianBomber</ShipClass>
+    <ShipClass>AIDefenseAltarianGuardian</ShipClass>
+    <ShipClass>AIDefenseAltarianKnight</ShipClass>
+    <ShipClass>AltarianBasicConstructor</ShipClass>
+    <ShipClass>AwardAltarianScout</ShipClass>
+    <ShipClass>AwardAltarianCutter</ShipClass>
+    <ShipClass>AwardAltarianDefender</ShipClass>
+    <ShipClass>AwardAltarianGunboat</ShipClass>
+    <ShipClass>AwardAltarianSurvey</ShipClass>
+    <ShipClass>AwardAltarianFrigate</ShipClass>
+    <ShipClass>AwardAltarianOverlord</ShipClass>
+    <ShipClass>AwardAltarianColony</ShipClass>
+    <ShipClass>AwardAltarianConstructor</ShipClass>
+    <ShipClass>AwardAltarianFreighter</ShipClass>
+    <ShipClass>AwardAltarianTransport</ShipClass>
+  
+    <ShipyardArtDefine>
+      <ObjectGfxConfig>Altarian_Shipyard_01T.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>A_Shipyard_01.png</ThumbnailOverride>
+    </ShipyardArtDefine>
+  
+    <StarbaseArtDefine>
+      <ModuleType>Generic</ModuleType>
+      <ObjectGfxConfig>Altarean_Generic_Starbase_01.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Altarean_Generic_Starbase_01.png</ThumbnailOverride>
+      <StrategicIcon>Starbase</StrategicIcon>
+    </StarbaseArtDefine>
+  
+    <StarbaseArtDefine>
+      <ModuleType>Culture</ModuleType>
+      <ObjectGfxConfig>Altarean_Culture_Level_01.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Altarean_Culture_Level_01.png</ThumbnailOverride>
+      <StrategicIcon>Culturebase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Culture</ModuleType>
+      <ObjectGfxConfig>Altarean_Culture_Level_02.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Altarean_Culture_Level_02.png</ThumbnailOverride>
+      <StrategicIcon>Culturebase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Culture</ModuleType>
+      <ObjectGfxConfig>Altarean_Culture_Level_03.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Altarean_Culture_Level_03.png</ThumbnailOverride>
+      <StrategicIcon>Culturebase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Culture</ModuleType>
+      <ObjectGfxConfig>Altarean_Culture_Level_04.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Altarean_Culture_Level_04.png</ThumbnailOverride>
+      <StrategicIcon>Culturebase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Culture</ModuleType>
+      <ObjectGfxConfig>Altarean_Culture_Level_05.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Altarean_Culture_Level_05.png</ThumbnailOverride>
+      <StrategicIcon>Culturebase</StrategicIcon>
+    </StarbaseArtDefine>
+  
+    <StarbaseArtDefine>
+      <ModuleType>Economic</ModuleType>
+      <ObjectGfxConfig>Altarean_Economic_Level_01.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Altarean_Economic_Level_01.png</ThumbnailOverride>
+      <StrategicIcon>Economicbase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Economic</ModuleType>
+      <ObjectGfxConfig>Altarean_Economic_Level_02.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Altarean_Economic_Level_02.png</ThumbnailOverride>
+      <StrategicIcon>Economicbase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Economic</ModuleType>
+      <ObjectGfxConfig>Altarean_Economic_Level_03.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Altarean_Economic_Level_03.png</ThumbnailOverride>
+      <StrategicIcon>Economicbase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Economic</ModuleType>
+      <ObjectGfxConfig>Altarean_Economic_Level_04.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Altarean_Economic_Level_04.png</ThumbnailOverride>
+      <StrategicIcon>Economicbase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Economic</ModuleType>
+      <ObjectGfxConfig>Altarean_Economic_Level_05.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Altarean_Economic_Level_05.png</ThumbnailOverride>
+      <StrategicIcon>Economicbase</StrategicIcon>
+    </StarbaseArtDefine>
+  
+    <StarbaseArtDefine>
+      <ModuleType>Military</ModuleType>
+      <ObjectGfxConfig>Altarean_Military_Level_01.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Altarean_Military_Level_01.png</ThumbnailOverride>
+      <StrategicIcon>Militarybase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Military</ModuleType>
+      <ObjectGfxConfig>Altarean_Military_Level_02.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Altarean_Military_Level_02.png</ThumbnailOverride>
+      <StrategicIcon>Militarybase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Military</ModuleType>
+      <ObjectGfxConfig>Altarean_Military_Level_03.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Altarean_Military_Level_03.png</ThumbnailOverride>
+      <StrategicIcon>Militarybase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Military</ModuleType>
+      <ObjectGfxConfig>Altarean_Military_Level_04.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Altarean_Military_Level_04.png</ThumbnailOverride>
+      <StrategicIcon>Militarybase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Military</ModuleType>
+      <ObjectGfxConfig>Altarean_Military_Level_05.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Altarean_Military_Level_05.png</ThumbnailOverride>
+      <StrategicIcon>Militarybase</StrategicIcon>
+    </StarbaseArtDefine>
+  
+    <StarbaseArtDefine>
+      <ModuleType>Mining</ModuleType>
+      <ObjectGfxConfig>Altarean_Mining_Level_01.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Altarean_Mining_Level_01.png</ThumbnailOverride>
+      <StrategicIcon>Miningbase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Mining</ModuleType>
+      <ObjectGfxConfig>Altarean_Mining_Level_02.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Altarean_Mining_Level_02.png</ThumbnailOverride>
+      <StrategicIcon>Miningbase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Mining</ModuleType>
+      <ObjectGfxConfig>Altarean_Mining_Level_03.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Altarean_Mining_Level_03.png</ThumbnailOverride>
+      <StrategicIcon>Miningbase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Mining</ModuleType>
+      <ObjectGfxConfig>Altarean_Mining_Level_04.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Altarean_Mining_Level_04.png</ThumbnailOverride>
+      <StrategicIcon>Miningbase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Mining</ModuleType>
+      <ObjectGfxConfig>Altarean_Mining_Level_05.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Altarean_Mining_Level_05.png</ThumbnailOverride>
+      <StrategicIcon>Miningbase</StrategicIcon>
+    </StarbaseArtDefine>
+  
+    <StarbaseSFXDefine>ALTARIAN_STARBASE_AMBIENT</StarbaseSFXDefine>
+  
+  </ShipStyleSet>
+
+  <!-- Mycon -->
+  <ShipStyleSet>
+    <InternalName>MyconShipStyleSet</InternalName>
+    <DisplayName>MyconShipStyleSet_Name</DisplayName>
+    <Icon>GC3_S_Basic_Ship_Icon.png</Icon>
+    <DisplaySampleObjGfxConfig>Iconian_Survey_01S.objgfxcfg</DisplaySampleObjGfxConfig>
+    <ShipStyle>Iconian</ShipStyle>
+    <StartingShipyard>BasicShipyard</StartingShipyard>
+  
+    <InitialAssaultFighter>IconianAssaultFighter</InitialAssaultFighter>
+    <InitialInterceptorFighter>IconianDroneInterceptor</InitialInterceptorFighter>
+    <InitialEscortFighter>IconianAssaultFighter</InitialEscortFighter>
+    <InitialGuardianFighter>IconianGuardianFighter</InitialGuardianFighter>
+  
+    <ShipClass>IconianStartingScout</ShipClass>
+    <ShipClass>IconianStartingSurvey</ShipClass>
+    <ShipClass>IconianStartingColony</ShipClass>
+    <ShipClass>ProtoTypeIconianScout</ShipClass>
+    <ShipClass>IconianScout</ShipClass>
+    <ShipClass>IconianSniper</ShipClass>
+    <ShipClass>ProtoTypeIconianSniper</ShipClass>
+    <ShipClass>IconianBomber</ShipClass>
+    <ShipClass>ProtoTypeIconianBomber</ShipClass>
+    <ShipClass>IconianGuardian</ShipClass>
+    <ShipClass>ProtoTypeIconianGuardian</ShipClass>
+    <ShipClass>IconianKnight</ShipClass>
+    <ShipClass>ProtoTypeIconianSurvey</ShipClass>
+    <ShipClass>IconianExplorer</ShipClass>
+    <ShipClass>IconianCutter</ShipClass>
+    <ShipClass>IconianCutterL</ShipClass>
+    <ShipClass>IconianDefender</ShipClass>
+    <ShipClass>IconianDefenderL</ShipClass>
+    <ShipClass>IconianGunboat</ShipClass>
+    <ShipClass>IconianGunboatL</ShipClass>
+    <ShipClass>IconianFury</ShipClass>
+    <ShipClass>IconianSurvey</ShipClass>
+    <ShipClass>IconianCorvette</ShipClass>
+    <ShipClass>IconianCorvetteL</ShipClass>
+    <ShipClass>IconianCorvetteP</ShipClass>
+    <ShipClass>IconianRanger</ShipClass>
+    <ShipClass>IconianRangerL</ShipClass>
+    <ShipClass>IconianRangerP</ShipClass>
+    <ShipClass>IconianFrigate</ShipClass>
+    <ShipClass>IconianFrigateL</ShipClass>
+    <ShipClass>IconianFrigateP</ShipClass>
+    <ShipClass>IconianPaladin</ShipClass>
+    <ShipClass>IconianCruiser</ShipClass>
+    <ShipClass>IconianCruiserL</ShipClass>
+    <ShipClass>IconianCruiserP</ShipClass>
+    <ShipClass>IconianCruiserD</ShipClass>
+    <ShipClass>IconianDestroyer</ShipClass>
+    <ShipClass>IconianDestroyerL</ShipClass>
+    <ShipClass>IconianDestroyerP</ShipClass>
+    <ShipClass>IconianDestroyerD</ShipClass>
+    <ShipClass>IconianBattleship</ShipClass>
+    <ShipClass>IconianBattleshipL</ShipClass>
+    <ShipClass>IconianBattleshipP</ShipClass>
+    <ShipClass>IconianBattleshipD</ShipClass>
+    <ShipClass>IconianOverlord</ShipClass>
+    <ShipClass>IconianAvatar</ShipClass>
+    <ShipClass>IconianAvatarL</ShipClass>
+    <ShipClass>IconianAvatarP</ShipClass>
+    <ShipClass>IconianAvatarD</ShipClass>
+    <ShipClass>IconianFortress</ShipClass>
+    <ShipClass>IconianFortressL</ShipClass>
+    <ShipClass>IconianFortressP</ShipClass>
+    <ShipClass>IconianFortressD</ShipClass>
+    <ShipClass>IconianDreadnought</ShipClass>
+    <ShipClass>IconianDreadnoughtL</ShipClass>
+    <ShipClass>IconianDreadnoughtP</ShipClass>
+    <ShipClass>IconianDreadnoughtD</ShipClass>
+    <ShipClass>IconianTitan</ShipClass>
+    <!-- <ShipClass>IconianColony</ShipClass> -->
+    <ShipClass>IconianConstructor</ShipClass>
+    <ShipClass>IconianTransport</ShipClass>
+    <ShipClass>IconianFreighter</ShipClass>
+    <ShipClass>IconianDroneCarrier</ShipClass>
+    <ShipClass>IconianCarrier</ShipClass>
+    <ShipClass>IconianAssaultCarrier</ShipClass>
+    <ShipClass>IconianBeamSupport</ShipClass>
+    <ShipClass>IconianDroneInterceptor</ShipClass>
+    <ShipClass>IconianGuardianFighter</ShipClass>
+    <ShipClass>IconianAssaultFighter</ShipClass>
+    <ShipClass>IconianBeamSupport</ShipClass>
+    <ShipClass>IconianMissileSupport</ShipClass>
+    <ShipClass>IconianKineticSupport</ShipClass>
+    <ShipClass>IconianTacticalSupport</ShipClass>
+    <ShipClass>AIDefenseIconianSniper</ShipClass>
+    <ShipClass>AIDefenseIconianBomber</ShipClass>
+    <ShipClass>AIDefenseIconianGuardian</ShipClass>
+    <ShipClass>AIDefenseIconianKnight</ShipClass>
+    <ShipClass>IconianBasicConstructor</ShipClass>
+    <ShipClass>AwardIconianScout</ShipClass>
+    <ShipClass>AwardIconianCutter</ShipClass>
+    <ShipClass>AwardIconianDefender</ShipClass>
+    <ShipClass>AwardIconianGunboat</ShipClass>
+    <ShipClass>AwardIconianSurvey</ShipClass>
+    <ShipClass>AwardIconianFrigate</ShipClass>
+    <ShipClass>AwardIconianOverlord</ShipClass>
+    <ShipClass>AwardIconianColony</ShipClass>
+    <ShipClass>AwardIconianConstructor</ShipClass>
+    <ShipClass>AwardIconianFreighter</ShipClass>
+    <ShipClass>AwardIconianTransport</ShipClass>
+  
+    <ShipyardArtDefine>
+      <ObjectGfxConfig>Iconian_Shipyard_01.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Iconian_Shipyard_01.png</ThumbnailOverride>
+    </ShipyardArtDefine>
+  
+    <StarbaseArtDefine>
+      <ModuleType>Generic</ModuleType>
+      <ObjectGfxConfig>Iconian_Level_01.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Iconian_Level_01.png</ThumbnailOverride>
+      <StrategicIcon>Starbase</StrategicIcon>
+    </StarbaseArtDefine>
+  
+    <StarbaseArtDefine>
+      <ModuleType>Culture</ModuleType>
+      <ObjectGfxConfig>Iconian_Culture_Level_01.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Iconian_Culture_Level_01.png</ThumbnailOverride>
+      <StrategicIcon>Culturebase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Culture</ModuleType>
+      <ObjectGfxConfig>Iconian_Culture_Level_02.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Iconian_Culture_Level_02.png</ThumbnailOverride>
+      <StrategicIcon>Culturebase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Culture</ModuleType>
+      <ObjectGfxConfig>Iconian_Culture_Level_03.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Iconian_Culture_Level_03.png</ThumbnailOverride>
+      <StrategicIcon>Culturebase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Culture</ModuleType>
+      <ObjectGfxConfig>Iconian_Culture_Level_04.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Iconian_Culture_Level_04.png</ThumbnailOverride>
+      <StrategicIcon>Culturebase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Culture</ModuleType>
+      <ObjectGfxConfig>Iconian_Culture_Level_05.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Iconian_Culture_Level_05.png</ThumbnailOverride>
+      <StrategicIcon>Culturebase</StrategicIcon>
+    </StarbaseArtDefine>
+  
+    <StarbaseArtDefine>
+      <ModuleType>Economic</ModuleType>
+      <ObjectGfxConfig>Iconian_Economic_Level_01.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Iconian_Economic_Level_01.png</ThumbnailOverride>
+      <StrategicIcon>Economicbase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Economic</ModuleType>
+      <ObjectGfxConfig>Iconian_Economic_Level_02.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Iconian_Economic_Level_02.png</ThumbnailOverride>
+      <StrategicIcon>Economicbase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Economic</ModuleType>
+      <ObjectGfxConfig>Iconian_Economic_Level_03.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Iconian_Economic_Level_03.png</ThumbnailOverride>
+      <StrategicIcon>Economicbase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Economic</ModuleType>
+      <ObjectGfxConfig>Iconian_Economic_Level_04.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Iconian_Economic_Level_04.png</ThumbnailOverride>
+      <StrategicIcon>Economicbase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Economic</ModuleType>
+      <ObjectGfxConfig>Iconian_Economic_Level_05.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Iconian_Economic_Level_05.png</ThumbnailOverride>
+      <StrategicIcon>Economicbase</StrategicIcon>
+    </StarbaseArtDefine>
+  
+    <StarbaseArtDefine>
+      <ModuleType>Military</ModuleType>
+      <ObjectGfxConfig>Iconian_Military_Level_01.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Iconian_Military_Level_01.png</ThumbnailOverride>
+      <StrategicIcon>Militarybase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Military</ModuleType>
+      <ObjectGfxConfig>Iconian_Military_Level_02.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Iconian_Military_Level_02.png</ThumbnailOverride>
+      <StrategicIcon>Militarybase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Military</ModuleType>
+      <ObjectGfxConfig>Iconian_Military_Level_03.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Iconian_Military_Level_03.png</ThumbnailOverride>
+      <StrategicIcon>Militarybase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Military</ModuleType>
+      <ObjectGfxConfig>Iconian_Military_Level_04.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Iconian_Military_Level_04.png</ThumbnailOverride>
+      <StrategicIcon>Militarybase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Military</ModuleType>
+      <ObjectGfxConfig>Iconian_Military_Level_05.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Iconian_Military_Level_05.png</ThumbnailOverride>
+      <StrategicIcon>Militarybase</StrategicIcon>
+    </StarbaseArtDefine>
+  
+    <StarbaseArtDefine>
+      <ModuleType>Mining</ModuleType>
+      <ObjectGfxConfig>Iconian_Mining_Level_01.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Iconian_Mining_Level_01.png</ThumbnailOverride>
+      <StrategicIcon>Miningbase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Mining</ModuleType>
+      <ObjectGfxConfig>Iconian_Mining_Level_02.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Iconian_Mining_Level_02.png</ThumbnailOverride>
+      <StrategicIcon>Miningbase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Mining</ModuleType>
+      <ObjectGfxConfig>Iconian_Mining_Level_03.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Iconian_Mining_Level_03.png</ThumbnailOverride>
+      <StrategicIcon>Miningbase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Mining</ModuleType>
+      <ObjectGfxConfig>Iconian_Mining_Level_04.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Iconian_Mining_Level_04.png</ThumbnailOverride>
+      <StrategicIcon>Miningbase</StrategicIcon>
+    </StarbaseArtDefine>
+    <StarbaseArtDefine>
+      <ModuleType>Mining</ModuleType>
+      <ObjectGfxConfig>Iconian_Mining_Level_05.objgfxcfg</ObjectGfxConfig>
+      <ThumbnailOverride>Iconian_Mining_Level_05.png</ThumbnailOverride>
+      <StrategicIcon>Miningbase</StrategicIcon>
+    </StarbaseArtDefine>
+  
+    <StarbaseSFXDefine>ALTARIAN_STARBASE_AMBIENT</StarbaseSFXDefine>
   
   </ShipStyleSet>
 
