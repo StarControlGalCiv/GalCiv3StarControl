@@ -12,6 +12,29 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
 
     <!-- Chmmr Home Star System -->
     <StarSystem>
+      <InternalName>ArilouSystem</InternalName>
+      <DisplayName>ArilouSystem_Name</DisplayName>
+      <Description>ArilouSystem_Dec</Description>
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>ArilouStar</BodyDef>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetFalayalaralfali</BodyDef>
+          <IsHomeworld>true</IsHomeworld>
+          <Position>5</Position>
+        </Body>
+      </OrbitLane>
+    </StarSystem>
+
+    <!-- Chmmr Home Star System -->
+    <StarSystem>
       <InternalName>ProcyonSystem</InternalName>
       <DisplayName>ProcyonSystem_Name</DisplayName>
       <Description>ProcyonSystem_Dec</Description>

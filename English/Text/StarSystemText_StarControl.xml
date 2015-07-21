@@ -6,6 +6,17 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
 <!-- IStarSystem.xml -->
  
 <!-- Tech Names and Descriptions -->
+
+  <StringTable>
+    <Label>ArilouSystem_Name</Label>
+    <String>Falayalaralfali</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>ArilouSystem_Dec</Label>
+    <String>!!!Lacks description!!!</String>
+  </StringTable>
+
  
   <StringTable>
     <Label>ProcyonSystem_Name</Label>

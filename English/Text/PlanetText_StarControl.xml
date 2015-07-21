@@ -5,6 +5,12 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
 
 	<!-- Star Control: -->
+	<!-- Arilou home system -->
+	<StringTable>
+		<Label>FalayalaralfaliName</Label>
+		<String>Falayalaralfali</String>
+	</StringTable>
+
 	<!-- Ur-Quan: -->
 	<!-- Kzer-Za home system -->
 	<StringTable>

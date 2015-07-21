@@ -4,6 +4,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="../Schema/StarDefs.xsd">
 	<!--Star Control:-->
 
+	<!-- Arilou Home Star System -->
+	<Star>
+		<InternalName>ArilouStar</InternalName>
+		<DisplayName>ArilouName</DisplayName>
+		<ObjectType>Star</ObjectType>
+		<Type>YellowStar</Type>
+		<ArtDefine>YellowDwarfSCArt</ArtDefine>
+		<SFXDefine></SFXDefine>
+	</Star>
+
 	<!-- Chmmr Home Star System -->
 	<Star>
 		<InternalName>ProcyonStar</InternalName>
