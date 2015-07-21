@@ -1,13 +1,13 @@
 Galactic Civilizations 3 - Star Control Mod
 ==================
 
-This is a total conversion mod of Stardock's Galactic Civilizations III based on Star Control game series.
+This is almost if not a total conversion mod of Stardock's Galactic Civilizations III based on Star Control game series.
 
-At the moment of this writing Galactic Civilizations III is in final beta development stage. Mod support structure can be viewed in this thread and also in the ModdingReadme.txt under \<Window's user folder\>/Documents/My Games/GalCiv3/Mods/
+Mod support structure can be viewed in this thread and also in the ModdingReadme.txt under \<Window's user folder\>/Documents/My Games/GalCiv3/Mods/
 
 http://forums.galciv3.com/461766/page/1/
 
-Current version: 0.0.1 Pre-Alpha
+Current version: 0.0.9 Pre-Alpha
 
 ### Installation
 
@@ -58,72 +58,77 @@ Events:
 
 Star Control 1/2 races listed at Ultronomicon(Star Control Wikia):
 
-http://wiki.uqm.stack.nl/Main_Page
+http://wiki.uqm.stack.nl/List_of_races
 
-Ur-Quan Kohr-Ah:
-* Technology almost equal to Ur-Quan Kzer-Za, except in weapon technology.
-* At war with Ur-Quan Kzer-Za at the start of the game.
-* Offensive weapons consists mostly of mass drivers(blades), laser weapons(immolation) are secondary without any missile weapons.
-* While the Kohr-Ah are said to be powerful soldiers, they are not in it for the goods, they want to utterly annihilate their foes. Their invasion tactics destroy most of the infrastructure.
-* The only two cases the Kohr-Ah would make contact with a non-Ur-Quan race is to either explain their Doctrine or offer the other race to commit suicide, which has never happened with the 5000+ races they claim to have annihilated.
-* At war with other races if not at war with Ur-Quan Kzer-Za until the other races are annihilated.
-* Left the United Planets
+GitHub issue pages for races:
 
-Ur-Quan Kzer-Za:
-* Technology almost equal to Ur-Quan Kohr-Ah, except in weapon technology.
-* At war with Ur-Quan Kzer-Za at the start of the game.
-* Offensive weapons consists mostly of laser weapons(plasma), missile weapons are secondary(fighters).
-* Puts other races behind a Slave shield, if they refuse to become Battle Thralls.
-* Kzer-Za do not have slave buildings. While they do not by themselves own slaves, they demand Battle Thralls to man Ur-Quan Dreadnought's crew with one Ur-Quan captain. Since the Slave War is put on hold, the former has no notability for this mod.
-* Has 7 Battle Thralls, who have to go to war, if demanded by Kzer-Za.
-* Left the United Planets
+* [Arilou](https://github.com/Pendrokar/GalCiv3StarControl/issues/21)
+* [Chmmr](https://github.com/Pendrokar/GalCiv3StarControl/issues/17)
+* [Druuge](https://github.com/Pendrokar/GalCiv3StarControl/issues/23)
+* [Earthlings](https://github.com/Pendrokar/GalCiv3StarControl/issues/19)
+* [Ilwrath](https://github.com/Pendrokar/GalCiv3StarControl/issues/10)
+* [Melnorme](https://github.com/Pendrokar/GalCiv3StarControl/issues/22)
+* [Mycon](https://github.com/Pendrokar/GalCiv3StarControl/issues/13)
+* [Orz](https://github.com/Pendrokar/GalCiv3StarControl/issues/24)
+* [Pkunk](https://github.com/Pendrokar/GalCiv3StarControl/issues/16)
+* [Shofixti](https://github.com/Pendrokar/GalCiv3StarControl/issues/25)
+* [Slylandro](https://github.com/Pendrokar/GalCiv3StarControl/issues/20)
+* [Spathi](https://github.com/Pendrokar/GalCiv3StarControl/issues/8)
+* [Supox](https://github.com/Pendrokar/GalCiv3StarControl/issues/15)
+* [Syreen](https://github.com/Pendrokar/GalCiv3StarControl/issues/18)
+* [Thraddash](https://github.com/Pendrokar/GalCiv3StarControl/issues/9)
+* [Umgah](https://github.com/Pendrokar/GalCiv3StarControl/issues/26)
+* [Ur-Quan Kohr-Ah](https://github.com/Pendrokar/GalCiv3StarControl/issues/5)
+* [Ur-Quan Kzer-Za](https://github.com/Pendrokar/GalCiv3StarControl/issues/6)
+* [Utwig](https://github.com/Pendrokar/GalCiv3StarControl/issues/14)
+* [VUX](https://github.com/Pendrokar/GalCiv3StarControl/issues/12)
+* [Yehat](https://github.com/Pendrokar/GalCiv3StarControl/issues/11)
 
 ### Race List (Star Control 2):
 
 
-(race) (Ethical alignment(effect in GalCiv3, unknown))
+(race) (swayed ideology)
 
-Major (non-playable due to advanced tech):
+Superpowers:
 *	Ur-Quan:
-  *		Kohr-Ah (Pure Evil)
-  *		Kzer-Za (Chaotic Evil)
+  *		Kohr-Ah (Malevolent)
+  *		Kzer-Za (more Malevolent than Pragmatic)
 
 Major:
 *	Battle Thralls:
-  *		Ilwrath (Pure Evil)
-  *		Mycon (Pure Evil)
-  *		Spathi (Neutral)
-  *		Thraddash (Chaotic Evil)
-  *		Umgah (Chaotic Evil)
-  *		VUX (Chaotic Evil)
-  *		Yehat (Neutral)
+  *		Ilwrath (Malevolent)
+  *		Mycon (Malevolent)
+  *		Spathi (Pragmatic)
+  *		Thraddash (Malevolent)
+  *		Umgah (Malevolent)
+  *		VUX (Malevolent)
+  *		Yehat (Pragmatic)
 *	Independent:
-  *		Druuge (Chaotic Evil)
-  *		Orz (Neutral)
-  *		Pkunk (Chaotic Good)
-  *		Supox (Pure Good)
-  *		Utwig (Chaotic Good)
-  *		Zoq-Fot-Pik (Pure Good)
+  *		Druuge (more Malevolent than Pragmatic)
+  *		Orz (Pragmatic)
+  *		Pkunk (Benevolent)
+  *		Supox (Benevolent)
+  *		Utwig (more Benevolent than Pragmatic)
+  *		Zoq-Fot-Pik (Benevolent)
   
 Ascend to Major status:
-*	Slaveshielded, has shipyard:
-  *		Syreen (Pure Good) (Gaia)
 *	Slaveshielded:
-  *		Chmmr (Chaotic Good)
-  *		Humans (Chaotic Good) (Earth & Unzervalt)
-*	Stalled growth until event:
-  *		Shofixti (Chaotic Good)
+  *		Syreen (Benevolent) (Gaia)
+  *		Chmmr (more Pragmatic than Benevolent)
+  *		Humans (more Pragmatic than Benevolent) (Earth & Unzervalt)
+*	Stalled population growth until event:
+  *		Shofixti (more Pragmatic than Benevolent)
 
 Minor:
 *	Independent, with hidden homeworld:
-  *		Arilou Lalee'lay (Chaotic Good)
-  *		Melnorme (Neutral)
+  *		Arilou Lalee'lay (more Pragmatic than Benevolent)
+  *		Melnorme (Pragmatic)
 *	Independent, confined to homeworld without atbility to create buildings:
-  *		Slylandro (Neutral)
+  *		Slylandro (Benevolent)
 
 Special:
-* Pirates
-* Sylandro Drones
+* Pirates (default to GalCiv 3)
+* Slylandro Drones
 
 ## License:
 Creative Commons Attribution-NonCommercial 3.0 Unported License
