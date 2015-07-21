@@ -189,6 +189,26 @@ xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
     </Triggers>
   </RaceTrait> -->
 
+  <!-- Homeworld  -->
+  <RaceTrait>
+    <InternalName>TeleportationAbility</InternalName>
+    <DisplayName>TeleportationAbility_Name</DisplayName>
+    <DisplayNameShort>TeleportationAbility_ShortName</DisplayNameShort>
+    <Description>TeleportationAbility_Desc</Description>
+    <IsAbility>1</IsAbility>
+
+    <Triggers>
+      <OnEvent>OnStartTurn</OnEvent>
+      <Target>
+        <TargetType>Planet</TargetType>
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <PerformAction>
+        <Action>Wormhole</Action>
+      </PerformAction>
+    </Triggers>
+  </RaceTrait>
+
   <!-- All ships are equipped with the Point-defence Laser System. (few points to beam offence, small defense against all types of attacks) -->
   <RaceTrait>
     <InternalName>PDLSAbility</InternalName>
@@ -346,7 +366,7 @@ xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
         <Value>0.5</Value>
       </Modifier>
     </Triggers>
-  </RaceTrait>  
+  </RaceTrait>
 
   <!-- Instant ship repair every turn. -->
   <!-- Quick Starbase Shipyard repair. -->
