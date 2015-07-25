@@ -7,6 +7,10 @@ Mod support structure can be viewed in this thread and also in the ModdingReadme
 
 http://forums.galciv3.com/461766/page/1/
 
+### Status
+
+Stable with all races added, but lacks aesthetic assets, balance of Ur-Quan races(Kzer-Za using carriers), balance of non-Ur-Quan races, Sa-Matra, textual information.
+
 Current version: 0.0.9 Pre-Alpha
 
 ### Installation
