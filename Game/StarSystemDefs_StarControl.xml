@@ -10,18 +10,17 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
   <StarSystemGroup>
     <InternalName>StarControl2FactionStart</InternalName>
 
-    <!-- Chmmr Home Star System -->
+    <!-- Arilou Home Star System -->
     <StarSystem>
       <InternalName>ArilouSystem</InternalName>
       <DisplayName>ArilouSystem_Name</DisplayName>
-      <Description>ArilouSystem_Dec</Description>
-      <OrbitLane>
+      <!-- <OrbitLane>
         <LaneType>Star</LaneType>
         <Body>
           <BodyType>UnaryStar</BodyType>
           <BodyDef>ArilouStar</BodyDef>
         </Body>
-      </OrbitLane>
+      </OrbitLane> -->
       <OrbitLane>
         <LaneType>HabitableZone</LaneType>
         <Body>
@@ -37,7 +36,6 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
     <StarSystem>
       <InternalName>ProcyonSystem</InternalName>
       <DisplayName>ProcyonSystem_Name</DisplayName>
-      <Description>ProcyonSystem_Dec</Description>
       <OrbitLane>
         <LaneType>Star</LaneType>
         <Body>
@@ -72,6 +70,7 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
     <!-- Druuge Home Star System -->
     <StarSystem>
       <InternalName>ZetaPerseiSystem</InternalName>
+      <DisplayName>ZetaPerseiSystem_Name</DisplayName>
       <OrbitLane>
         <LaneType>Star</LaneType>
         <Body>
@@ -124,8 +123,7 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
     <!-- Earthling Home Star System -->
     <StarSystem>
       <InternalName>SolSCSystem</InternalName>
-      <DisplayName>SolSystem_Name</DisplayName>
-      <Description>SolSystem_Dec</Description>
+      <DisplayName>SolSCSystem_Name</DisplayName>
       <OrbitLane>
         <LaneType>Star</LaneType>
         <Body>
@@ -160,6 +158,7 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
     <!-- Ilwrath Home Star System -->
     <StarSystem>
       <InternalName>AlphaTauriSystem</InternalName>
+      <DisplayName>AlphaTauriSystem_Name</DisplayName>
       <OrbitLane>
         <LaneType>Star</LaneType>
         <Body>
@@ -215,7 +214,6 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
     <StarSystem>
       <InternalName>KohrSystem</InternalName>
       <DisplayName>KohrSystem_Name</DisplayName>
-      <Description>KohrSystem_Dec</Description>
       <OrbitLane>
         <LaneType>Star</LaneType>
         <Body>
@@ -257,7 +255,6 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
     <StarSystem>
       <InternalName>KzerSystem</InternalName>
       <DisplayName>KzerSystem_Name</DisplayName>
-      <Description>KzerSystem_Dec</Description>
       <OrbitLane>
         <LaneType>Star</LaneType>
         <Body>
@@ -293,6 +290,7 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
     <!-- Mycon Home Star System -->
     <StarSystem>
       <InternalName>EpsilonScorpiiSystem</InternalName>
+      <DisplayName>EpsilonScorpiiSystem_Name</DisplayName>
       <OrbitLane>
         <LaneType>Star</LaneType>
         <Body>
@@ -347,7 +345,6 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
     <StarSystem>
       <InternalName>GammaVulpeculaeSystem</InternalName>
       <DisplayName>GammaVulpeculaeSystem_Name</DisplayName>
-      <Description>GammaVulpeculaeSystem_Dec</Description>
       <OrbitLane>
         <LaneType>Star</LaneType>
         <Body>
@@ -383,7 +380,6 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
     <StarSystem>
       <InternalName>GammaKruegerSystem</InternalName>
       <DisplayName>GammaKruegerSystem_Name</DisplayName>
-      <Description>GammaKruegerSystem_Dec</Description>
       <OrbitLane>
         <LaneType>Star</LaneType>
         <Body>
@@ -419,7 +415,6 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
     <StarSystem>
       <InternalName>DeltaGornoSystem</InternalName>
       <DisplayName>DeltaGornoSystem_Name</DisplayName>
-      <Description>DeltaGornoSystem_Dec</Description>
       <OrbitLane>
         <LaneType>Star</LaneType>
         <Body>
@@ -455,7 +450,6 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
     <StarSystem>
       <InternalName>BetaCorviSystem</InternalName>
       <DisplayName>BetaCorviSystem_Name</DisplayName>
-      <Description>BetaCorviSystem_Dec</Description>
       <OrbitLane>
         <LaneType>Star</LaneType>
         <Body>
@@ -490,6 +484,7 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
     <!-- Spathi Home Star System -->
     <StarSystem>
       <InternalName>EpsilonGruisSystem</InternalName>
+      <DisplayName>EpsilonGruisSystem_Name</DisplayName>
       <OrbitLane>
         <LaneType>Star</LaneType>
         <Body>
@@ -501,7 +496,7 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
         <LaneType>HabitableZone</LaneType>
         <Body>
           <BodyType>Planet</BodyType>
-          <BodyDef>PlanetEpsilonGruis1</BodyDef>
+          <BodyDef>PlanetSpathiwa</BodyDef>
           <Position>5</Position>
         </Body>
         <Body>
@@ -510,27 +505,7 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
           <IsHomeworld>true</IsHomeworld>
           <Position>6</Position>
         </Body>
-        <!-- <Body>
-          <BodyType>Planet</BodyType>
-          <BodyDef>PlanetEpsilonGruis2</BodyDef>
-        </Body>
-        <Body>
-          <BodyType>Planet</BodyType>
-          <BodyDef>PlanetEpsilonGruis3</BodyDef>
-          <Position/>
-        </Body> -->
       </OrbitLane>
-      <!-- <OrbitLane>
-        <LaneType>NoRandom</LaneType>
-        <Body>
-          <BodyType>Planet</BodyType>
-          <BodyDef>PlanetEpsilonGruis4</BodyDef>
-        </Body>
-        <Body>
-          <BodyType>Planet</BodyType>
-          <BodyDef>PlanetEpsilonGruis5</BodyDef>
-        </Body>
-      </OrbitLane> -->
       <OrbitLane>
         <LaneType>NoRandom</LaneType>
         <Body>
@@ -552,11 +527,12 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
     <!-- Supox Home Star System -->
     <StarSystem>
       <InternalName>BetaLibraeSystem</InternalName>
+      <DisplayName>BetaLibraeSystem_Name</DisplayName>
       <OrbitLane>
         <LaneType>Star</LaneType>
         <Body>
           <BodyType>UnaryStar</BodyType>
-          <BodyDef>AltarisStar</BodyDef>
+          <BodyDef>BetaLibraeStar</BodyDef>
         </Body>
       </OrbitLane>
       <OrbitLane>
@@ -594,7 +570,6 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
     <StarSystem>
       <InternalName>BetelgeuseSystem</InternalName>
       <DisplayName>BetelgeuseSystem_Name</DisplayName>
-      <Description>BetelgeuseSystem_Dec</Description>
       <OrbitLane>
         <LaneType>Star</LaneType>
         <Body>
@@ -629,6 +604,7 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
     <!-- Thraddash Home Star System -->
     <StarSystem>
       <InternalName>DeltaDraconisSystem</InternalName>
+      <DisplayName>DeltaDraconisSystem_Name</DisplayName>
       <OrbitLane>
         <LaneType>Star</LaneType>
         <Body>
@@ -686,6 +662,7 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
     <!-- Umgah Home Star System -->
     <StarSystem>
       <InternalName>BetaOrionisSystem</InternalName>
+      <DisplayName>BetaOrionisSystem_Name</DisplayName>
       <OrbitLane>
         <LaneType>Star</LaneType>
         <Body>
@@ -738,6 +715,7 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
     <!-- Utwig Home Star System -->
     <StarSystem>
       <InternalName>BetaAquariiSystem</InternalName>
+      <DisplayName>BetaAquariiSystem_Name</DisplayName>
       <OrbitLane>
         <LaneType>Star</LaneType>
         <Body>
@@ -788,6 +766,7 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
     <!-- VUX Home Star System -->
     <StarSystem>
       <InternalName>BetaLuytenSystem</InternalName>
+      <DisplayName>BetaLuytenSystem_Name</DisplayName>
       <OrbitLane>
         <LaneType>Star</LaneType>
         <Body>
@@ -841,6 +820,7 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
     <!-- Yehat Home Star System -->
     <StarSystem>
       <InternalName>GammaSerpentisSystem</InternalName>
+      <DisplayName>GammaSerpentisSystem_Name</DisplayName>
       <OrbitLane>
         <LaneType>Star</LaneType>
         <Body>
@@ -895,7 +875,6 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
     <StarSystem>
       <InternalName>AlphaTucanaeSystem</InternalName>
       <DisplayName>AlphaTucanaeSystem_Name</DisplayName>
-      <Description>AlphaTucanaeSystem_Dec</Description>
       <OrbitLane>
         <LaneType>Star</LaneType>
         <Body>

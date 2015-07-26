@@ -17,7 +17,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<PersonalityTraits>Benevolent</PersonalityTraits>
 		<PersonalityTraits>Peaceful</PersonalityTraits>
 		<RaceTraits>StarfaringAbility</RaceTraits>
-		<!-- <RaceTraits>TeleportationAbility</RaceTraits> --><!-- Wormhole teleporation of homeworld/ships, unstable -->
+		<!-- <RaceTraits>TeleportationAbility</RaceTraits> -->
 
 		<RaceTraits>Spacefaring</RaceTraits>
 		<RaceTraits>Handy1</RaceTraits>
@@ -37,18 +37,17 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<ShipCallsign></ShipCallsign>
 		<!-- <ShipCallsign>FACTION_ARILOU_Callsign</ShipCallsign> -->
 		<LogoImage>ArilouLogo.png</LogoImage>
-		<LeaderThumbnail>GC3_Iconian_Small.png</LeaderThumbnail>
+		<LeaderThumbnail>ArilouPortrait.png</LeaderThumbnail>
+		<LeaderImageFG>arilou-000.png</LeaderImageFG>
 		<NewsRobotMovie_Approach>Iconian_NewsBot_Idle.bk2</NewsRobotMovie_Approach>
 		<NewsRobotMovie_Idle>Iconian_NewsBot_Idle.bk2</NewsRobotMovie_Idle>
-		<StartupImage>StartGameIconian.png</StartupImage>
+		<StartupImage>Arilou_StartGameScreen.png</StartupImage>
 		<StartupTitle>FACTION_ARILOU_StartupTitle</StartupTitle>
 		<StartupDescription>FACTION_ARILOU_StartupDescription</StartupDescription>
 		<StartupTraitsDescription>FACTION_ARILOU_StartupTraitsDescription</StartupTraitsDescription>
 		<ConquestMovie></ConquestMovie>
 		<MapColorDef>IconianMapColors</MapColorDef>
 		<UIColorDef>IconianUIColors</UIColorDef>
-		<FactionMoviesFGDef>IconianMoviesFG</FactionMoviesFGDef>
-		<FactionMoviesBGDef>IconianMoviesBG</FactionMoviesBGDef>
 		<FactionMusicDef>IconianMusic</FactionMusicDef>
 		<Material1>GC3_Ship_Material_IconianSteel</Material1>
 		<Material2>GC3_Ship_Material_IconianPainted</Material2>
@@ -118,18 +117,17 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<ShipCallsign></ShipCallsign>
 		<!-- <ShipCallsign>FACTION_CHMMR_Callsign</ShipCallsign> -->
 		<LogoImage>ChmmrLogo.png</LogoImage>
-		<LeaderThumbnail>GC3_Yor_Small.png</LeaderThumbnail>
+		<LeaderThumbnail>ChmmrPortrait.png</LeaderThumbnail>
+		<LeaderImageFG>chmmr-000.png</LeaderImageFG>
 		<NewsRobotMovie_Approach>Yor_NewsBot_Idle.bk2</NewsRobotMovie_Approach>
 		<NewsRobotMovie_Idle>Yor_NewsBot_Idle.bk2</NewsRobotMovie_Idle>
-		<StartupImage>StartGameYor.png</StartupImage>
+		<StartupImage></StartupImage>
 		<StartupTitle>FACTION_CHMMR_StartupTitle</StartupTitle>
 		<StartupDescription>FACTION_CHMMR_StartupDescription</StartupDescription>
 		<StartupTraitsDescription>FACTION_CHMMR_StartupTraitsDescription</StartupTraitsDescription>
 		<ConquestMovie>MilVic_YOR.bk2</ConquestMovie>
 		<MapColorDef>YorMapColors</MapColorDef>
 		<UIColorDef>YorUIColors</UIColorDef>
-		<FactionMoviesFGDef>YorMoviesFG</FactionMoviesFGDef>
-		<FactionMoviesBGDef>YorMoviesBG</FactionMoviesBGDef>
 		<FactionMusicDef>YorMusic</FactionMusicDef>
 		<Material1>GC3_Ship_Material_YorSteel</Material1>
 		<Material2>GC3_Ship_Material_YorPainted</Material2>
@@ -178,26 +176,27 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
         <RaceTraits>Brutal1</RaceTraits>
         <RaceTraits>Tough1</RaceTraits>
         <RequiresHomeworld>true</RequiresHomeworld>
-        <HomeStarSystem>DrengiSystem</HomeStarSystem>
+        <HomeStarSystem>ZetaPerseiSystem</HomeStarSystem>
+
         <StartingShips>ColonyStaticBlueprint</StartingShips>
         <StartingShips>SurveyStaticBlueprint</StartingShips>
         <StartingShips>ScoutStaticBlueprint</StartingShips>
+
         <TechTree>Drengin_Tree</TechTree>
         <ShipCallsign></ShipCallsign>
         <!-- <ShipCallsign>FACTION_DRUUGE_Callsign</ShipCallsign> -->
         <LogoImage>DruugeLogo.png</LogoImage>
-        <LeaderThumbnail>GC3_Lord_Kona_Small.png</LeaderThumbnail>
+        <LeaderThumbnail>DruugePortrait.png</LeaderThumbnail>
+        <LeaderImageFG>druuge-000.png</LeaderImageFG>
         <NewsRobotMovie_Approach>Drengin_NewsBot_Idle.bk2</NewsRobotMovie_Approach>
         <NewsRobotMovie_Idle>Drengin_NewsBot_Idle.bk2</NewsRobotMovie_Idle>
-        <StartupImage>StartGameDrengin.png</StartupImage>
+        <StartupImage></StartupImage>
         <StartupTitle>FACTION_DRUUGE_StartupTitle</StartupTitle>
         <StartupDescription>FACTION_DRUUGE_StartupDescription</StartupDescription>
         <StartupTraitsDescription>FACTION_DRUUGE_StartupTraitsDescription</StartupTraitsDescription>
         <ConquestMovie>MillVic_Drengin.bk2</ConquestMovie>
         <MapColorDef>DrenginMapColors</MapColorDef>
         <UIColorDef>DrenginUIColors</UIColorDef>
-        <FactionMoviesFGDef>DrenginMoviesFG</FactionMoviesFGDef>
-        <FactionMoviesBGDef>DrenginMoviesBG</FactionMoviesBGDef>
         <FactionMusicDef>DrenginMusic</FactionMusicDef>
         <Material1>GC3_Ship_Material_Gold</Material1>
         <Material2>GC3_Ship_Material_Brushed_Metal</Material2>
@@ -259,17 +258,15 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<!-- <ShipCallsign>FACTION_TERRAN_Callsign</ShipCallsign> -->
 		<LogoImage>EarthlingsLogo.png</LogoImage>
 		<LeaderThumbnail>EarthlingsPortrait.png</LeaderThumbnail>
-		<LeaderImageFG>EarthlingsLeader.png</LeaderImageFG>
+		<LeaderImageFG>commander-000.png</LeaderImageFG>
 		<NewsRobotMovie_Approach>Terran_ResearchAdviser_Approach.bk2</NewsRobotMovie_Approach>
 		<NewsRobotMovie_Idle>Terran_ResearchAdviser_Idle.bk2</NewsRobotMovie_Idle>
-		<StartupImage>StartGameTerran.png</StartupImage>
+		<StartupImage></StartupImage>
 		<StartupTitle>FACTION_TERRAN_StartupTitle</StartupTitle>
 		<StartupDescription>FACTION_TERRAN_StartupDescription</StartupDescription>
 		<StartupTraitsDescription>FACTION_TERRAN_StartupTraitsDescription</StartupTraitsDescription>
 		<MapColorDef>TerranMapColors</MapColorDef>
 		<UIColorDef>TerranUIColors</UIColorDef>
-		<!-- <FactionMoviesFGDef>TerranMoviesFG</FactionMoviesFGDef>
-		<FactionMoviesBGDef>TerranMoviesBG</FactionMoviesBGDef> -->
 		<FactionMusicDef>TerranMusic</FactionMusicDef>
 		<Material1>GC3_Ship_Material_01</Material1>
 		<Material2>GC3_Ship_Material_02</Material2>
@@ -331,18 +328,17 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<ShipCallsign></ShipCallsign>
 		<!-- <ShipCallsign>FACTION_ILWRATH_Callsign</ShipCallsign> -->
 		<LogoImage>IlwrathLogo.png</LogoImage>
-		<LeaderThumbnail>GC3_Thalan_Small.png</LeaderThumbnail>
+		<LeaderThumbnail>IlwrathPortrait.png</LeaderThumbnail>
+		<LeaderImageFG>ilwrath-000.png</LeaderImageFG>
 		<NewsRobotMovie_Approach>Thalan_NewsBot_Idle.bk2</NewsRobotMovie_Approach>
 		<NewsRobotMovie_Idle>Thalan_NewsBot_Idle.bk2</NewsRobotMovie_Idle>
-		<StartupImage>StartGameThalan.png</StartupImage>
+		<StartupImage></StartupImage>
 		<StartupTitle>FACTION_ILWRATH_StartupTitle</StartupTitle>
 		<StartupDescription>FACTION_ILWRATH_StartupDescription</StartupDescription>
 		<StartupTraitsDescription>FACTION_ILWRATH_StartupTraitsDescription</StartupTraitsDescription>
 		<ConquestMovie>MilVic_ILWRATH.bk2</ConquestMovie>
 		<MapColorDef>ThalanMapColors</MapColorDef>
 		<UIColorDef>ThalanUIColors</UIColorDef>
-		<FactionMoviesFGDef>ThalanMoviesFG</FactionMoviesFGDef>
-		<FactionMoviesBGDef>ThalanMoviesBG</FactionMoviesBGDef>
 		<FactionMusicDef>ThalanMusic</FactionMusicDef>
 		<Material1>GC3_Ship_Material_YorSteel</Material1>
 		<Material2>GC3_Ship_Material_YorPainted</Material2>
@@ -405,7 +401,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<RaceTraits>Fertile4</RaceTraits>
 		
 		<!-- <RequiresHomeworld>true</RequiresHomeworld> -->
-		<RequiresHomeworld>false</RequiresHomeworld><!-- Ur-Quan are wanderers -->
+		<RequiresHomeworld>false</RequiresHomeworld><!-- Ur-Quan are nomads/wanderers -->
 		<HomeStarSystem>KohrSystem</HomeStarSystem>
 		<StartingShips>UrQuanColonyStaticBlueprint</StartingShips>
 		<StartingShips>UrQuanColonyStaticBlueprint</StartingShips>
@@ -425,7 +421,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<StartingShips>WreckerDefenseBattleshipStaticBlueprint</StartingShips>
 		<StartingShips>MarauderCapitalStaticBlueprint</StartingShips>
 		<StartingShips>MarauderCapitalStaticBlueprint</StartingShips> -->
-		<TechTree>Drengin_Tree</TechTree>
+		<TechTree>UrQuan_Tree</TechTree>
 
 		<StartingTechs>InterstellarTravel</StartingTechs>
 		<StartingTechs>InterstellarSpecialization3</StartingTechs>
@@ -501,17 +497,15 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<ShipCallsign>FACTION_KOHR-AH_Callsign</ShipCallsign>
 		<LogoImage>KohrAhLogo.png</LogoImage>
 		<LeaderThumbnail>KohrAhPortrait.png</LeaderThumbnail>
-		<LeaderImageFG>KohrAhLeader.png</LeaderImageFG>
+		<LeaderImageFG>kohrah-000.png</LeaderImageFG>
 		<NewsRobotMovie_Approach>Drengin_NewsBot_Idle.bk2</NewsRobotMovie_Approach>
 		<NewsRobotMovie_Idle>Drengin_NewsBot_Idle.bk2</NewsRobotMovie_Idle>
-		<StartupImage>StartGameKohrAh.png</StartupImage>
+		<StartupImage></StartupImage>
 		<StartupTitle>FACTION_KOHR-AH_StartupTitle</StartupTitle>
 		<StartupDescription>FACTION_KOHR-AH_StartupDescription</StartupDescription>
 		<StartupTraitsDescription>FACTION_KOHR-AH_StartupTraitsDescription</StartupTraitsDescription>
 		<MapColorDef>GreyMapColors</MapColorDef>
 		<UIColorDef>DrenginUIColors</UIColorDef>
-		<!-- <FactionMoviesFGDef>DrenginMoviesFG</FactionMoviesFGDef>
-		<FactionMoviesBGDef>DrenginMoviesBG</FactionMoviesBGDef> -->
 		<FactionMusicDef>DrenginMusic</FactionMusicDef>
 		<Material1>GC3_Ship_Material_Kohr-Ah_Steel</Material1>
 		<Material2>GC3_Ship_Material_YorPainted</Material2>
@@ -570,7 +564,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<RaceTraits>Farmers3</RaceTraits>
 
 		<!-- <RequiresHomeworld>true</RequiresHomeworld> -->
-		<RequiresHomeworld>false</RequiresHomeworld><!-- Ur-Quan are wanderers -->
+		<RequiresHomeworld>false</RequiresHomeworld><!-- Ur-Quan are nomads/wanderers -->
 		<HomeStarSystem>KzerSystem</HomeStarSystem>
 		<StartingShips>UrQuanColonyStaticBlueprint</StartingShips>
 		<StartingShips>UrQuanColonyStaticBlueprint</StartingShips>
@@ -589,7 +583,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<StartingShips>DestroyerDefenseBattleshipStaticBlueprint</StartingShips>
 		<StartingShips>DestroyerDefenseBattleshipStaticBlueprint</StartingShips>
 		<StartingShips>DreadnaughtCapitalCarrierStaticBlueprint</StartingShips> -->
-		<TechTree>Drengin_Tree</TechTree>
+		<TechTree>UrQuan_Tree</TechTree>
 
 		<StartingTechs>EngineeringTech</StartingTechs>
 		<StartingTechs>InterstellarSpecialization3</StartingTechs>
@@ -669,17 +663,15 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<ShipCallsign>FACTION_KZER-ZA_Callsign</ShipCallsign>
 		<LogoImage>KzerZaLogo.png</LogoImage>
 		<LeaderThumbnail>KzerZaPortrait.png</LeaderThumbnail>
-		<LeaderImageFG>KzerZaLeader.png</LeaderImageFG>
+		<LeaderImageFG>urquan-000.png</LeaderImageFG>
 		<NewsRobotMovie_Approach>Drengin_NewsBot_Idle.bk2</NewsRobotMovie_Approach>
 		<NewsRobotMovie_Idle>Drengin_NewsBot_Idle.bk2</NewsRobotMovie_Idle>
-		<StartupImage>StartGameDrengin.png</StartupImage>
+		<StartupImage></StartupImage>
 		<StartupTitle>FACTION_THRADDASH_StartupTitle</StartupTitle>
 		<StartupDescription>FACTION_THRADDASH_StartupDescription</StartupDescription>
 		<StartupTraitsDescription>FACTION_THRADDASH_StartupTraitsDescription</StartupTraitsDescription>
 		<MapColorDef>AltDarkGreen</MapColorDef>
 		<UIColorDef>DrenginUIColors</UIColorDef>
-		<!-- <FactionMoviesFGDef>DrenginMoviesFG</FactionMoviesFGDef> -->
-		<!-- <FactionMoviesBGDef>DrenginMoviesBG</FactionMoviesBGDef> -->
 		<FactionMusicDef>DrenginMusic</FactionMusicDef>
 		<Material1>GC3_Asteroid_Material_01</Material1>
 		<Material2>GC3_Ship_Material_IconianPainted</Material2>
@@ -743,17 +735,16 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<ShipCallsign></ShipCallsign>
 		<!-- <ShipCallsign>FACTION_MYCON_Callsign</ShipCallsign> -->
 		<LogoImage>MyconLogo.png</LogoImage>
-		<LeaderThumbnail>GC3_Krynn_Small.png</LeaderThumbnail>
+		<LeaderThumbnail>MyconPortrait.png</LeaderThumbnail>
+		<LeaderImageFG>mycon-000.png</LeaderImageFG>
 		<NewsRobotMovie_Approach>Krynn_NewsBot_Idle.bk2</NewsRobotMovie_Approach>
 		<NewsRobotMovie_Idle>Krynn_NewsBot_Idle.bk2</NewsRobotMovie_Idle>
-		<StartupImage>StartGameKrynn.png</StartupImage>
+		<StartupImage></StartupImage>
 		<StartupTitle>FACTION_MYCON_StartupTitle</StartupTitle>
 		<StartupDescription>FACTION_MYCON_StartupDescription</StartupDescription>
 		<StartupTraitsDescription>FACTION_MYCON_StartupTraitsDescription</StartupTraitsDescription>
 		<MapColorDef>KrynnMapColors</MapColorDef>
 		<UIColorDef>KrynnUIColors</UIColorDef>
-		<FactionMoviesFGDef>KrynnMoviesFG</FactionMoviesFGDef>
-		<FactionMoviesBGDef>KrynnMoviesBG</FactionMoviesBGDef>
 		<FactionMusicDef>KrynnMusic</FactionMusicDef>
 		<Material1>GC3_Ship_Material_Gold</Material1>
 		<Material2>GC3_Ship_Material_Brushed_Metal</Material2>
@@ -810,18 +801,17 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
         <ShipCallsign></ShipCallsign>
         <!-- <ShipCallsign>FACTION_ORZ_Callsign</ShipCallsign> -->
         <LogoImage>OrzLogo.png</LogoImage>
-        <LeaderThumbnail>GC3_Thalan_Small.png</LeaderThumbnail>
+        <LeaderThumbnail>OrzPortrait.png</LeaderThumbnail>
+        <LeaderImageFG>orz-000.png</LeaderImageFG>
         <NewsRobotMovie_Approach>Thalan_NewsBot_Idle.bk2</NewsRobotMovie_Approach>
         <NewsRobotMovie_Idle>Thalan_NewsBot_Idle.bk2</NewsRobotMovie_Idle>
-        <StartupImage>StartGameThalan.png</StartupImage>
+        <StartupImage></StartupImage>
         <StartupTitle>FACTION_ORZ_StartupTitle</StartupTitle>
         <StartupDescription>FACTION_ORZ_StartupDescription</StartupDescription>
         <StartupTraitsDescription>FACTION_ORZ_StartupTraitsDescription</StartupTraitsDescription>
         <ConquestMovie>MilVic_ORZ.bk2</ConquestMovie>
         <MapColorDef>ThalanMapColors</MapColorDef>
         <UIColorDef>ThalanUIColors</UIColorDef>
-        <FactionMoviesFGDef>ThalanMoviesFG</FactionMoviesFGDef>
-        <FactionMoviesBGDef>ThalanMoviesBG</FactionMoviesBGDef>
         <FactionMusicDef>ThalanMusic</FactionMusicDef>
         <Material1>GC3_Ship_Material_ThalanSteel</Material1>
         <Material2>GC3_Ship_Material_ThalanPainted</Material2>
@@ -878,18 +868,17 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
         <ShipCallsign></ShipCallsign>
         <!-- <ShipCallsign>FACTION_PKUNK_Callsign</ShipCallsign> -->
         <LogoImage>PkunkLogo.png</LogoImage>
-        <LeaderThumbnail>GC3_Iconian_Small.png</LeaderThumbnail>
+        <LeaderThumbnail>PkunkPortrait.png</LeaderThumbnail>
+        <LeaderImageFG>pkunk-000.png</LeaderImageFG>
         <NewsRobotMovie_Approach>Iconian_NewsBot_Idle.bk2</NewsRobotMovie_Approach>
         <NewsRobotMovie_Idle>Iconian_NewsBot_Idle.bk2</NewsRobotMovie_Idle>
-        <StartupImage>StartGameIconian.png</StartupImage>
+        <StartupImage></StartupImage>
         <StartupTitle>FACTION_PKUNK_StartupTitle</StartupTitle>
         <StartupDescription>FACTION_PKUNK_StartupDescription</StartupDescription>
         <StartupTraitsDescription>FACTION_PKUNK_StartupTraitsDescription</StartupTraitsDescription>
         <ConquestMovie>MillVic_PKUNK.bk2</ConquestMovie>
         <MapColorDef>IconianMapColors</MapColorDef>
         <UIColorDef>IconianUIColors</UIColorDef>
-        <FactionMoviesFGDef>IconianMoviesFG</FactionMoviesFGDef>
-        <FactionMoviesBGDef>IconianMoviesBG</FactionMoviesBGDef>
         <FactionMusicDef>IconianMusic</FactionMusicDef>
         <Material1>GC3_Ship_Material_IconianSteel</Material1>
         <Material2>GC3_Ship_Material_IconianPainted</Material2>
@@ -944,18 +933,17 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 	    <ShipCallsign></ShipCallsign>
 	    <!-- <ShipCallsign>FACTION_SHOFIXTI_Callsign</ShipCallsign> -->
 	    <LogoImage>ShofixtiLogo.png</LogoImage>
-	    <LeaderThumbnail>GC3_Krynn_Small.png</LeaderThumbnail>
+	    <LeaderThumbnail>ShofixtiPortrait.png</LeaderThumbnail>
+	    <LeaderImageFG>shofixti-000.png</LeaderImageFG>
 	    <NewsRobotMovie_Approach>Krynn_NewsBot_Idle.bk2</NewsRobotMovie_Approach>
 	    <NewsRobotMovie_Idle>Krynn_NewsBot_Idle.bk2</NewsRobotMovie_Idle>
-	    <StartupImage>StartGameKrynn.png</StartupImage>
+	    <StartupImage></StartupImage>
 	    <StartupTitle>FACTION_SHOFIXTI_StartupTitle</StartupTitle>
 	    <StartupDescription>FACTION_SHOFIXTI_StartupDescription</StartupDescription>
 	    <StartupTraitsDescription>FACTION_SHOFIXTI_StartupTraitsDescription</StartupTraitsDescription>
 	    <ConquestMovie>MilVic_SHOFIXTI.bk2</ConquestMovie>
 	    <MapColorDef>KrynnMapColors</MapColorDef>
 	    <UIColorDef>KrynnUIColors</UIColorDef>
-	    <FactionMoviesFGDef>KrynnMoviesFG</FactionMoviesFGDef>
-	    <FactionMoviesBGDef>KrynnMoviesBG</FactionMoviesBGDef>
 	    <FactionMusicDef>KrynnMusic</FactionMusicDef>
 	    <Material1>GC3_Ship_Material_Steel</Material1>
 	    <Material2>GC3_Ship_Material_Bronze</Material2>
@@ -988,7 +976,8 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<LeaderName>FACTION_SLYLANDRO_LeaderName</LeaderName>
 		<Description>FACTION_SLYLANDRO_Dec</Description>
 		<LeaderDescription>FACTION_SLYLANDRO_LeaderDec</LeaderDescription>
-		<RaceType>Major</RaceType>
+		<!-- <RaceType>Major</RaceType> -->
+		<RaceType>Minor</RaceType>
 		<PersonalityTraits>Benevolent</PersonalityTraits>
 		<PersonalityTraits>Peaceful</PersonalityTraits>
 		<RaceTraits>StarfaringAbility</RaceTraits>
@@ -1007,18 +996,17 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<ShipCallsign></ShipCallsign>
 		<!-- <ShipCallsign>FACTION_SLYLANDRO_Callsign</ShipCallsign> -->
 		<LogoImage>SlylandroLogo.png</LogoImage>
-		<LeaderThumbnail>GC3_Iconian_Small.png</LeaderThumbnail>
+		<LeaderThumbnail>SlylandroPortrait.png</LeaderThumbnail>
+		<LeaderImageFG>slylandro-000.png</LeaderImageFG>
 		<NewsRobotMovie_Approach>Iconian_NewsBot_Idle.bk2</NewsRobotMovie_Approach>
 		<NewsRobotMovie_Idle>Iconian_NewsBot_Idle.bk2</NewsRobotMovie_Idle>
-		<StartupImage>StartGameIconian.png</StartupImage>
+		<StartupImage></StartupImage>
 		<StartupTitle>FACTION_PKUNK_StartupTitle</StartupTitle>
 		<StartupDescription>FACTION_PKUNK_StartupDescription</StartupDescription>
 		<StartupTraitsDescription>FACTION_PKUNK_StartupTraitsDescription</StartupTraitsDescription>
 		<ConquestMovie>MillVic_PKUNK.bk2</ConquestMovie>
 		<MapColorDef>IconianMapColors</MapColorDef>
 		<UIColorDef>IconianUIColors</UIColorDef>
-		<FactionMoviesFGDef>IconianMoviesFG</FactionMoviesFGDef>
-		<FactionMoviesBGDef>IconianMoviesBG</FactionMoviesBGDef>
 		<FactionMusicDef>IconianMusic</FactionMusicDef>
 		<Material1>GC3_Ship_Material_IconianSteel</Material1>
 		<Material2>GC3_Ship_Material_IconianPainted</Material2>
@@ -1075,18 +1063,17 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<ShipCallsign></ShipCallsign>
 		<!-- <ShipCallsign>FACTION_SPATHI_Callsign</ShipCallsign> -->
 		<LogoImage>SpathiLogo.png</LogoImage>
-		<LeaderThumbnail>GC3_Iconian_Small.png</LeaderThumbnail>
+		<LeaderThumbnail>SpathiPortrait.png</LeaderThumbnail>
+		<LeaderImageFG>safeones-000.png</LeaderImageFG>
 		<NewsRobotMovie_Approach>Iconian_NewsBot_Idle.bk2</NewsRobotMovie_Approach>
 		<NewsRobotMovie_Idle>Iconian_NewsBot_Idle.bk2</NewsRobotMovie_Idle>
-		<StartupImage>StartGameIconian.png</StartupImage>
+		<StartupImage></StartupImage>
 		<StartupTitle>FACTION_SPATHI_StartupTitle</StartupTitle>
 		<StartupDescription>FACTION_SPATHI_StartupDescription</StartupDescription>
 		<StartupTraitsDescription>FACTION_SPATHI_StartupTraitsDescription</StartupTraitsDescription>
 		<ConquestMovie>MillVic_SPATHI.bk2</ConquestMovie>
 		<MapColorDef>IconianMapColors</MapColorDef>
 		<UIColorDef>IconianUIColors</UIColorDef>
-		<FactionMoviesFGDef>IconianMoviesFG</FactionMoviesFGDef>
-		<FactionMoviesBGDef>IconianMoviesBG</FactionMoviesBGDef>
 		<FactionMusicDef>IconianMusic</FactionMusicDef>
 		<Material1>GC3_Ship_Material_IconianSteel</Material1>
 		<Material2>GC3_Ship_Material_IconianPainted</Material2>
@@ -1143,18 +1130,17 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<ShipCallsign></ShipCallsign>
 		<!-- <ShipCallsign>FACTION_SUPOX_Callsign</ShipCallsign> -->
 		<LogoImage>SupoxLogo.png</LogoImage>
-		<LeaderThumbnail>GC3_Iconian_Small.png</LeaderThumbnail>
+		<LeaderThumbnail>SupoxPortrait.png</LeaderThumbnail>
+		<LeaderImageFG>supox-000.png</LeaderImageFG>
 		<NewsRobotMovie_Approach>Iconian_NewsBot_Idle.bk2</NewsRobotMovie_Approach>
 		<NewsRobotMovie_Idle>Iconian_NewsBot_Idle.bk2</NewsRobotMovie_Idle>
-		<StartupImage>StartGameIconian.png</StartupImage>
+		<StartupImage></StartupImage>
 		<StartupTitle>FACTION_SUPOX_StartupTitle</StartupTitle>
 		<StartupDescription>FACTION_SUPOX_StartupDescription</StartupDescription>
 		<StartupTraitsDescription>FACTION_SUPOX_StartupTraitsDescription</StartupTraitsDescription>
 		<ConquestMovie></ConquestMovie>
 		<MapColorDef>IconianMapColors</MapColorDef>
 		<UIColorDef>IconianUIColors</UIColorDef>
-		<FactionMoviesFGDef>IconianMoviesFG</FactionMoviesFGDef>
-		<FactionMoviesBGDef>IconianMoviesBG</FactionMoviesBGDef>
 		<FactionMusicDef>IconianMusic</FactionMusicDef>
 		<Material1>GC3_Ship_Material_IconianSteel</Material1>
 		<Material2>GC3_Ship_Material_IconianPainted</Material2>
@@ -1219,18 +1205,17 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<ShipCallsign></ShipCallsign>
 		<!-- <ShipCallsign>FACTION_SYREEN_Callsign</ShipCallsign> -->
 		<LogoImage>SyreenLogo.png</LogoImage>
-		<LeaderThumbnail>GC3_Akari_Malara_Small.png</LeaderThumbnail>
+		<LeaderThumbnail>SyreenPortrait.png</LeaderThumbnail>
+		<LeaderImageFG>syreen-000.png</LeaderImageFG>
 		<NewsRobotMovie_Approach>Altarian_NewsBot_Idle.bk2</NewsRobotMovie_Approach>
 		<NewsRobotMovie_Idle>Altarian_NewsBot_Idle.bk2</NewsRobotMovie_Idle>
-		<StartupImage>StartGameAltarian.png</StartupImage>
+		<StartupImage></StartupImage>
 		<StartupTitle>FACTION_SYREEN_StartupTitle</StartupTitle>
 		<StartupDescription>FACTION_SYREEN_StartupDescription</StartupDescription>
 		<StartupTraitsDescription>FACTION_SYREEN_StartupTraitsDescription</StartupTraitsDescription>
 		<ConquestMovie>MilVic_ALTARIAN.bk2</ConquestMovie>
 		<MapColorDef>AltarianMapColors</MapColorDef>
 		<UIColorDef>AltarianUIColors</UIColorDef>
-		<FactionMoviesFGDef>AltarianMoviesFG</FactionMoviesFGDef>
-		<FactionMoviesBGDef>AltarianMoviesBG</FactionMoviesBGDef>
 		<FactionMusicDef>AltarianMusic</FactionMusicDef>
 		<Material1>GC3_Ship_Material_Chrome</Material1>
 		<Material2>GC3_Ship_Material_Painted_Metal</Material2>
@@ -1292,18 +1277,17 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<ShipCallsign></ShipCallsign>
 		<!-- <ShipCallsign>FACTION_THRADDASH_Callsign</ShipCallsign> -->
 		<LogoImage>ThraddashLogo.png</LogoImage>
-		<LeaderThumbnail>GC3_Lord_Kona_Small.png</LeaderThumbnail>
+		<LeaderThumbnail>ThraddashPortrait.png</LeaderThumbnail>
+		<LeaderImageFG>thraddash-000.png</LeaderImageFG>
 		<NewsRobotMovie_Approach>Drengin_NewsBot_Idle.bk2</NewsRobotMovie_Approach>
 		<NewsRobotMovie_Idle>Drengin_NewsBot_Idle.bk2</NewsRobotMovie_Idle>
-		<StartupImage>StartGameDrengin.png</StartupImage>
+		<StartupImage></StartupImage>
 		<StartupTitle>FACTION_THRADDASH_StartupTitle</StartupTitle>
 		<StartupDescription>FACTION_THRADDASH_StartupDescription</StartupDescription>
 		<StartupTraitsDescription>FACTION_THRADDASH_StartupTraitsDescription</StartupTraitsDescription>
 		<ConquestMovie>MillVic_Drengin.bk2</ConquestMovie>
 		<MapColorDef>DrenginMapColors</MapColorDef>
 		<UIColorDef>DrenginUIColors</UIColorDef>
-		<FactionMoviesFGDef>DrenginMoviesFG</FactionMoviesFGDef>
-		<FactionMoviesBGDef>DrenginMoviesBG</FactionMoviesBGDef>
 		<FactionMusicDef>DrenginMusic</FactionMusicDef>
 		<Material1>GC3_Ship_Material_Gold</Material1>
 		<Material2>GC3_Ship_Material_Brushed_Metal</Material2>
@@ -1360,17 +1344,16 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<ShipCallsign></ShipCallsign>
 		<!-- <ShipCallsign>FACTION_UMGAH_Callsign</ShipCallsign> -->
 		<LogoImage>UmgahLogo.png</LogoImage>
-		<LeaderThumbnail>GC3_Iconian_Small.png</LeaderThumbnail>
+		<LeaderThumbnail>UmgahPortrait.png</LeaderThumbnail>
+		<LeaderImageFG>umgah-000.png</LeaderImageFG>
 		<NewsRobotMovie_Approach>Iconian_NewsBot_Idle.bk2</NewsRobotMovie_Approach>
 		<NewsRobotMovie_Idle>Iconian_NewsBot_Idle.bk2</NewsRobotMovie_Idle>
-		<StartupImage>StartGameIconian.png</StartupImage>
+		<StartupImage></StartupImage>
 		<StartupTitle>FACTION_UMGAH_StartupTitle</StartupTitle>
 		<StartupDescription>FACTION_UMGAH_StartupDescription</StartupDescription>
 		<StartupTraitsDescription>FACTION_UMGAH_StartupTraitsDescription</StartupTraitsDescription>
 		<MapColorDef>IconianMapColors</MapColorDef>
 		<UIColorDef>IconianUIColors</UIColorDef>
-		<FactionMoviesFGDef>IconianMoviesFG</FactionMoviesFGDef>
-		<FactionMoviesBGDef>IconianMoviesBG</FactionMoviesBGDef>
 		<FactionMusicDef>IconianMusic</FactionMusicDef>
 		<Material1>GC3_Ship_Material_IconianSteel</Material1>
 		<Material2>GC3_Ship_Material_IconianPainted</Material2>
@@ -1428,18 +1411,17 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
         <ShipCallsign></ShipCallsign>
         <!-- <ShipCallsign>FACTION_UTWIG_Callsign</ShipCallsign> -->
         <LogoImage>UtwigLogo.png</LogoImage>
-        <LeaderThumbnail>GC3_Krynn_Small.png</LeaderThumbnail>
+        <LeaderThumbnail>UtwigPortrait.png</LeaderThumbnail>
+        <LeaderImageFG>utwig-000.png</LeaderImageFG>
         <NewsRobotMovie_Approach>Krynn_NewsBot_Idle.bk2</NewsRobotMovie_Approach>
         <NewsRobotMovie_Idle>Krynn_NewsBot_Idle.bk2</NewsRobotMovie_Idle>
-        <StartupImage>StartGameKrynn.png</StartupImage>
+        <StartupImage></StartupImage>
         <StartupTitle>FACTION_UTWIG_StartupTitle</StartupTitle>
         <StartupDescription>FACTION_UTWIG_StartupDescription</StartupDescription>
         <StartupTraitsDescription>FACTION_UTWIG_StartupTraitsDescription</StartupTraitsDescription>
         <ConquestMovie>MilVic_UTWIG.bk2</ConquestMovie>
         <MapColorDef>KrynnMapColors</MapColorDef>
         <UIColorDef>KrynnUIColors</UIColorDef>
-        <FactionMoviesFGDef>KrynnMoviesFG</FactionMoviesFGDef>
-        <FactionMoviesBGDef>KrynnMoviesBG</FactionMoviesBGDef>
         <FactionMusicDef>KrynnMusic</FactionMusicDef>
         <Material1>GC3_Ship_Material_Steel</Material1>
         <Material2>GC3_Ship_Material_Bronze</Material2>
@@ -1495,18 +1477,17 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
         <ShipCallsign></ShipCallsign>
         <!-- <ShipCallsign>FACTION_VUX_Callsign</ShipCallsign> -->
         <LogoImage>VuxLogo.png</LogoImage>
-        <LeaderThumbnail>GC3_Harondin_Gaul_Small.png</LeaderThumbnail>
+        <LeaderThumbnail>VuxPortrait.png</LeaderThumbnail>
+        <LeaderImageFG>vux-000.png</LeaderImageFG>
         <NewsRobotMovie_Approach>Iridium_Newsbot_Idle.bk2</NewsRobotMovie_Approach>
         <NewsRobotMovie_Idle>Iridium_Newsbot_Idle.bk2</NewsRobotMovie_Idle>
-        <StartupImage>StartGameIridium.png</StartupImage>
+        <StartupImage></StartupImage>
         <StartupTitle>FACTION_VUX_StartupTitle</StartupTitle>
         <StartupDescription>FACTION_VUX_StartupDescription</StartupDescription>
         <StartupTraitsDescription>FACTION_VUX_StartupTraitsDescription</StartupTraitsDescription>
         <ConquestMovie>MillVic_IRR.bk2</ConquestMovie>
         <MapColorDef>IridiumMapColors</MapColorDef>
         <UIColorDef>IridiumUIColors</UIColorDef>
-        <FactionMoviesFGDef>IridiumMoviesFG</FactionMoviesFGDef>
-        <FactionMoviesBGDef>IridiumMoviesBG</FactionMoviesBGDef>
         <FactionMusicDef>IridiumMusic</FactionMusicDef>
         <Material1>GC3_Ship_Material_Iridium</Material1>
         <Material2>GC3_Ship_Material_Iridium_Painted</Material2>
@@ -1564,18 +1545,17 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
         <ShipCallsign></ShipCallsign>
         <!-- <ShipCallsign>FACTION_YEHAT_Callsign</ShipCallsign> -->
         <LogoImage>YehatLogo.png</LogoImage>
-        <LeaderThumbnail>GC3_Harondin_Gaul_Small.png</LeaderThumbnail>
+        <LeaderThumbnail>YehatPortrait.png</LeaderThumbnail>
+        <LeaderImageFG>yehat-000.png</LeaderImageFG>
         <NewsRobotMovie_Approach>Iridium_Newsbot_Idle.bk2</NewsRobotMovie_Approach>
         <NewsRobotMovie_Idle>Iridium_Newsbot_Idle.bk2</NewsRobotMovie_Idle>
-        <StartupImage>StartGameIridium.png</StartupImage>
+        <StartupImage></StartupImage>
         <StartupTitle>FACTION_YEHAT_StartupTitle</StartupTitle>
         <StartupDescription>FACTION_YEHAT_StartupDescription</StartupDescription>
         <StartupTraitsDescription>FACTION_YEHAT_StartupTraitsDescription</StartupTraitsDescription>
         <ConquestMovie>MillVic_IRR.bk2</ConquestMovie>
         <MapColorDef>IridiumMapColors</MapColorDef>
         <UIColorDef>IridiumUIColors</UIColorDef>
-        <FactionMoviesFGDef>IridiumMoviesFG</FactionMoviesFGDef>
-        <FactionMoviesBGDef>IridiumMoviesBG</FactionMoviesBGDef>
         <FactionMusicDef>IridiumMusic</FactionMusicDef>
         <Material1>GC3_Ship_Material_Iridium</Material1>
         <Material2>GC3_Ship_Material_Iridium_Painted</Material2>
@@ -1631,18 +1611,17 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
         <ShipCallsign></ShipCallsign>
         <!-- <ShipCallsign>FACTION_ZOQ-FOT-PIK_Callsign</ShipCallsign> -->
         <LogoImage>ZoqFotPikLogo.png</LogoImage>
-        <LeaderThumbnail>GC3_Harondin_Gaul_Small.png</LeaderThumbnail>
+        <LeaderThumbnail>ZoqFotPikPortrait.png</LeaderThumbnail>
+        <LeaderImageFG>zoqfotpik-000.png</LeaderImageFG>
         <NewsRobotMovie_Approach>Iridium_Newsbot_Idle.bk2</NewsRobotMovie_Approach>
         <NewsRobotMovie_Idle>Iridium_Newsbot_Idle.bk2</NewsRobotMovie_Idle>
-        <StartupImage>StartGameIridium.png</StartupImage>
+        <StartupImage></StartupImage>
         <StartupTitle>FACTION_ZOQ-FOT-PIK_StartupTitle</StartupTitle>
         <StartupDescription>FACTION_ZOQ-FOT-PIK_StartupDescription</StartupDescription>
         <StartupTraitsDescription>FACTION_ZOQ-FOT-PIK_StartupTraitsDescription</StartupTraitsDescription>
         <ConquestMovie>MillVic_IRR.bk2</ConquestMovie>
         <MapColorDef>IridiumMapColors</MapColorDef>
         <UIColorDef>IridiumUIColors</UIColorDef>
-        <FactionMoviesFGDef>IridiumMoviesFG</FactionMoviesFGDef>
-        <FactionMoviesBGDef>IridiumMoviesBG</FactionMoviesBGDef>
         <FactionMusicDef>IridiumMusic</FactionMusicDef>
         <Material1>GC3_Ship_Material_Iridium</Material1>
         <Material2>GC3_Ship_Material_Iridium_Painted</Material2>

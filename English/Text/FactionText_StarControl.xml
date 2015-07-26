@@ -33,8 +33,9 @@
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_DRUUGE_LeaderName</Label>
-		<String>Moola</String>
-		<!-- Made up -->
+		<String>CEO of the Crimson Corporation</String>
+		<!-- Madeup, as the leader title is not mentioned -->
+		<!-- Source: Druuge dialogue "You have arrived at the Central Trade World of the Crimson Corporation Home of the Druuge." -->
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_DRUUGE_Dec</Label>
@@ -81,6 +82,7 @@
 	<StringTable>
 		<Label>FACTION_UTWIG_Name</Label>
 		<String>Utwig Technocracy</String>
+		<!-- Worship of technology. Specifically the Ultron. -->
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_UTWIG_ShortName</Label>
@@ -88,7 +90,7 @@
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_UTWIG_LeaderName</Label>
-		<String>Uuter</String>
+		<String>The Mask</String>
 		<!-- Made up -->
 	</StringTable>
 	<StringTable>
@@ -119,6 +121,7 @@
 	<StringTable>
 		<Label>FACTION_VUX_Name</Label>
 		<String>VUX</String>
+		<!-- Possibly republic -->
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_VUX_ShortName</Label>
@@ -126,8 +129,8 @@
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_VUX_LeaderName</Label>
-		<String>REX</String>
-		<!-- Made up -->
+		<String>High Council Speaker</String>
+		<!-- Source: VUX general ZEX's dialogue "the VUX high council, in recognition for my services granted me this planet" -->
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_VUX_Dec</Label>
@@ -145,8 +148,13 @@
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_ILWRATH_LeaderName</Label>
-		<String>Gorgon</String>
-		<!-- Made up -->
+		<String>Priest of the Cabal</String>
+		<!-- Source:
+			Ilwrath dialogue
+			Plural "Speak Directly To The Leaders At Homeworld!"
+			Cabal "This New Priestly Cabal Revealed That We Must Discard All Other Gods"
+			Priests that interpret messages from Channel 44 as voice of their twin gods Dogar and Kazon.
+		-->
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_ILWRATH_Dec</Label>
@@ -165,8 +173,9 @@
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_KOHR-AH_LeaderName</Label>
+		<!-- Kohr-Ah was a name of a individual. Afterwards it doesn't seem that names for individuals are ever used. -->
 		<String>Kohr-Ah Primat</String>
-		<!-- Source: Kzer-Za dialogue - "Perhaps we should contact the Kohr-Ah Primat, explain to her." -->
+		<!-- Source: Kzer-Za dialogue - "Perhaps we should contact the Kohr-Ah Primat, explain to her.", though 'Primat' is a title, not a name. -->
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_KOHR-AH_Dec</Label>
@@ -188,8 +197,9 @@
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_KZER-ZA_LeaderName</Label>
-		<String>Master Nine</String>
-		<!-- Source: Syreen dialogue - "Ur-Quan Master Nine explained that they had encountered this situation before..." -->
+		<!-- Kzer-Za was a name of a individual. Afterwards it doesn't seem that names for individuals are ever used. -->
+		<String>Ur-Quan Master #1</String>
+		<!-- Source: Star Control 2 Manual - "Ur-Quan Master #1 is the ultimate lord of the entire Hierarchy." -->
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_KZER-ZA_Dec</Label>
@@ -212,8 +222,9 @@
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_MYCON_LeaderName</Label>
-		<String>Spork</String>
+		<String>Agent of Juffo-Wup</String>
 		<!-- Made up -->
+		<!-- Source: Mycon dialogue: "We are the agents of Juffo-Wup." -->
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_MYCON_Dec</Label>
@@ -241,7 +252,9 @@
 
 	<StringTable>
 		<Label>FACTION_THRADDASH_Name</Label>
-		<String>Thraddash Culture 19</String>
+		<String>Thraddash Culture 19</String><!-- Thraddash Empire -->
+		<!-- Source: Thraddash dialogue "We, the Nineteenth Culture of the Thraddash Empire" -->
+		<!-- SC2 player can establish Culture 20 -->
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_THRADDASH_ShortName</Label>
@@ -251,6 +264,7 @@
 		<Label>FACTION_THRADDASH_LeaderName</Label>
 		<String>Knarg</String>
 		<!-- Made up -->
+		<!-- Battlemaster seems to be the highest noted rank... in a previous culture -->
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_THRADDASH_Dec</Label>
@@ -270,6 +284,7 @@
 		<Label>FACTION_UMGAH_LeaderName</Label>
 		<String>Bob</String>
 		<!-- Made up -->
+		<!-- At the start of SC2 timeline Umgah leader was not an Umgah -->
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_UMGAH_Dec</Label>
@@ -289,6 +304,8 @@
 		<Label>FACTION_ORZ_LeaderName</Label>
 		<String>*fat* *fingers*</String>
 		<!-- Made up -->
+		<!-- *fat* - Important, serious "These are *fat* words." -->
+		<!-- *fingers* - An "individual" Orz; see *many bubbles*. -->
 	</StringTable>
 	<StringTable>
 		<Label>FACTION_ORZ_Dec</Label>

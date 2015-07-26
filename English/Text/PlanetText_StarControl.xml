@@ -4,6 +4,8 @@
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
 
+	<!-- TODO: Perhaps add a dash(-) between the roman numers and the letter for moon names -->
+
 	<!-- Star Control: -->
 	<!-- Arilou home system -->
 	<StringTable>
@@ -264,34 +266,22 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
 
 
 	<!-- Spathi home system -->
+	<!-- Planet I - Water World - Spathi original homeworld -->
 	<StringTable>
 		<Label>EpsilonGruis1Name</Label>
 		<String>Epsilon Gruis I</String>
 	</StringTable>
+	<!-- Native name -->
+	<StringTable>
+		<Label>SpathiwaName</Label>
+		<String>Spathiwa</String>
+	</StringTable>
+	<!-- Moon I-A - Pellucid World - Spathi homeworld -->
 	<StringTable>
 		<Label>EpsilonGruis1AName</Label>
 		<String>Epsilon Gruis I A</String>
 	</StringTable>
-	<StringTable>
-		<Label>EpsilonGruis2Name</Label>
-		<String>Epsilon Gruis II</String>
-	</StringTable>
-	<StringTable>
-		<Label>EpsilonGruis3Name</Label>
-		<String>Epsilon Gruis III</String>
-	</StringTable>
-	<StringTable>
-		<Label>EpsilonGruis4Name</Label>
-		<String>Epsilon Gruis IV</String>
-	</StringTable>
-	<StringTable>
-		<Label>EpsilonGruis5Name</Label>
-		<String>Epsilon Gruis V</String>
-	</StringTable>
-	<StringTable>
-		<Label>EpsilonGruis6Name</Label>
-		<String>Epsilon Gruis VI</String>
-	</StringTable>
+
 
 	<!-- Thraddash home system -->
 	<!-- Planet I - Water World - Thraddash homeworld -->
@@ -794,11 +784,13 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
 		<Label>GaiaName</Label>
 		<String>Gaia</String>
 	</StringTable>
+
 	<!-- Planet II - Acid World -->
 	<StringTable>
 		<Label>Betelgeuse2Name</Label>
 		<String>Betelgeuse II</String>
 	</StringTable>
+	
 	<!-- Planet III - Primordial World -->
 	<StringTable>
 		<Label>Betelgeuse3Name</Label>

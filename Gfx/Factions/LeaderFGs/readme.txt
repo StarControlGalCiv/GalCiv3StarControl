@@ -1,0 +1,1 @@
+Files with "-000" suffix come directly from the repository of The Ur-Quan Masters HD project. Lead designed promised to export higher(1080p) resolution images, when he has the time.

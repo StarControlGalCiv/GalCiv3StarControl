@@ -60,7 +60,7 @@ xsi:noNamespaceSchemaLocation="../Schema/StarDefs.xsd">
 	<!-- Kohr-Ah Home Star System -->
 	<Star>
 		<InternalName>KohrStar</InternalName>
-		<DisplayName>Kohr</DisplayName>
+		<DisplayName>KohrName</DisplayName>
 		<ObjectType>Star</ObjectType>
 		<Type>WhiteStar</Type>
 		<ArtDefine>WhiteDwarfSCArt</ArtDefine>
@@ -70,7 +70,7 @@ xsi:noNamespaceSchemaLocation="../Schema/StarDefs.xsd">
 	<!-- Kzer-Za Home Star System -->
 	<Star>
 		<InternalName>KzerStar</InternalName>
-		<DisplayName>Kzer</DisplayName>
+		<DisplayName>KzerName</DisplayName>
 		<ObjectType>Star</ObjectType>
 		<Type>BlueStar</Type>
 		<ArtDefine>RedGiantSCArt</ArtDefine>
@@ -90,7 +90,7 @@ xsi:noNamespaceSchemaLocation="../Schema/StarDefs.xsd">
 	<!-- Orz Home Star System -->
 	<Star>
 		<InternalName>GammaVulpeculaeStar</InternalName>
-		<DisplayName>EpsilonScorpiiName</DisplayName>
+		<DisplayName>GammaVulpeculaeName</DisplayName>
 		<ObjectType>Star</ObjectType>
 		<Type>YellowStar</Type>
 		<!-- <Type>GreenStar</Type> --><!-- Doesn't exist within XSD schema -->
@@ -101,7 +101,7 @@ xsi:noNamespaceSchemaLocation="../Schema/StarDefs.xsd">
 	<!-- Pkunk Home Star System -->
 	<Star>
 		<InternalName>GammaKruegerStar</InternalName>
-		<DisplayName>EpsilonScorpiiName</DisplayName>
+		<DisplayName>GammaKruegerName</DisplayName>
 		<ObjectType>Star</ObjectType>
 		<Type>YellowStar</Type>
 		<ArtDefine>YellowDwarfSCArt</ArtDefine>
@@ -112,7 +112,7 @@ xsi:noNamespaceSchemaLocation="../Schema/StarDefs.xsd">
 	<!-- Shofixti Home Star System -->
 	<Star>
 		<InternalName>DeltaGornoStar</InternalName>
-		<DisplayName>EpsilonScorpiiName</DisplayName>
+		<DisplayName>DeltaGornoName</DisplayName>
 		<ObjectType>Star</ObjectType>
 		<Type>BlueStar</Type>
 		<ArtDefine>BlueDwarfSCArt</ArtDefine>
@@ -123,7 +123,7 @@ xsi:noNamespaceSchemaLocation="../Schema/StarDefs.xsd">
 	<!-- Slylandro Home Star System -->
 	<Star>
 		<InternalName>BetaCorviStar</InternalName>
-		<DisplayName>EpsilonScorpiiName</DisplayName>
+		<DisplayName>BetaCorviName</DisplayName>
 		<ObjectType>Star</ObjectType>
 		<Type>YellowStar</Type>
 		<!-- <Type>GreenStar</Type> --><!-- Doesn't exist within XSD schema -->

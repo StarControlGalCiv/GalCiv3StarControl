@@ -780,6 +780,15 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<PlanetTrait>WaterWorldSC</PlanetTrait>
 		<ArtDefine>GenericWorld</ArtDefine>
 	</Planet>
+	<!-- Native name -->
+	<Planet>
+		<InternalName>PlanetSpathiwa</InternalName>
+		<DisplayName>SpathiwaName</DisplayName>
+		<PlanetType>Habitable</PlanetType>
+		<PlanetClass>10</PlanetClass>
+		<PlanetTrait>WaterWorldSC</PlanetTrait>
+		<ArtDefine>GenericWorld</ArtDefine>
+	</Planet>
 	<!-- Spathi starting world -->
 	<Planet>
 		<InternalName>PlanetEpsilonGruis1A</InternalName>
@@ -787,46 +796,6 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>3</PlanetClass>
 		<PlanetTrait>PellucidWorldSC</PlanetTrait>
-		<ArtDefine>GenericWorld</ArtDefine>
-	</Planet>
-	<Planet>
-		<InternalName>PlanetEpsilonGruis2</InternalName>
-		<DisplayName>EpsilonGruis2Name</DisplayName>
-		<PlanetType>Dead</PlanetType>
-		<PlanetClass>0</PlanetClass>
-		<!-- <PlanetTrait></PlanetTrait> -->
-		<ArtDefine>GenericWorld</ArtDefine>
-	</Planet>
-	<Planet>
-		<InternalName>PlanetEpsilonGruis3</InternalName>
-		<DisplayName>EpsilonGruis3Name</DisplayName>
-		<PlanetType>Dead</PlanetType>
-		<PlanetClass>0</PlanetClass>
-		<!-- <PlanetTrait></PlanetTrait> -->
-		<ArtDefine>GenericWorld</ArtDefine>
-	</Planet>
-	<Planet>
-		<InternalName>PlanetEpsilonGruis4</InternalName>
-		<DisplayName>EpsilonGruis4Name</DisplayName>
-		<PlanetType>Dead</PlanetType>
-		<PlanetClass>0</PlanetClass>
-		<!-- <PlanetTrait></PlanetTrait> -->
-		<ArtDefine>GenericWorld</ArtDefine>
-	</Planet>
-	<Planet>
-		<InternalName>PlanetEpsilonGruis5</InternalName>
-		<DisplayName>EpsilonGruis5Name</DisplayName>
-		<PlanetType>Dead</PlanetType>
-		<PlanetClass>0</PlanetClass>
-		<!-- <PlanetTrait></PlanetTrait> -->
-		<ArtDefine>GenericWorld</ArtDefine>
-	</Planet>
-	<Planet>
-		<InternalName>PlanetEpsilonGruis6</InternalName>
-		<DisplayName>EpsilonGruis6Name</DisplayName>
-		<PlanetType>Dead</PlanetType>
-		<PlanetClass>0</PlanetClass>
-		<!-- <PlanetTrait></PlanetTrait> -->
 		<ArtDefine>GenericWorld</ArtDefine>
 	</Planet>
 	

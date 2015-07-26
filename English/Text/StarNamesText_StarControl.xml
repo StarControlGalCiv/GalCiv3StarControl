@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StringTableList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- StarNamesText.xml -->
+ 
+  <!-- Star names -->
+
+  <StringTable>
+    <Label>ArilouName</Label>
+    <String>Falayalaralfali</String>
+  </StringTable>
+
+ 
+  <StringTable>
+    <Label>ProcyonName</Label>
+    <String>Procyon</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>ZetaPerseiName</Label>
+    <String>Zeta Persei</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>SolSCName</Label>
+    <String>Sol</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>AlphaTauriName</Label>
+    <String>Alpha Tauri</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>KohrName</Label>
+    <String>Kohr</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>KzerName</Label>
+    <String>Kzer</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>EpsilonScorpiiName</Label>
+    <String>Epsilon Scorpii</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>GammaVulpeculaeName</Label>
+    <String>Gamma Vulpeculae</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>GammaKruegerName</Label>
+    <String>Gamma Krueger</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>DeltaGornoName</Label>
+    <String>Delta Gorno</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>BetaCorviName</Label>
+    <String>Beta Corvi</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>EpsilonGruisName</Label>
+    <String>Epsilon Gruis</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>BetaLibraeName</Label>
+    <String>Beta Librae</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>BetelgeuseName</Label>
+    <String>Betelgeuse</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>DeltaDraconisName</Label>
+    <String>Delta Draconis</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>BetaOrionisName</Label>
+    <String>Beta Orionis</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>BetaAquariiName</Label>
+    <String>Beta Aquarii</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>BetaLuytenName</Label>
+    <String>Beta Luyten</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>GammaSerpentisName</Label>
+    <String>Gamma Serpentis</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>AlphaTucanaeName</Label>
+    <String>Alpha Tucanae</String>
+  </StringTable>
+</StringTableList>

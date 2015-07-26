@@ -189,7 +189,9 @@ xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
     </Triggers>
   </RaceTrait> -->
 
-  <!-- Homeworld  -->
+  <!-- Arilou specific -->
+  <!-- Mimicking quasispace portal opening each turn, revealing the homeworld -->
+  <!-- Doesn't work -->
   <RaceTrait>
     <InternalName>TeleportationAbility</InternalName>
     <DisplayName>TeleportationAbility_Name</DisplayName>
@@ -199,8 +201,12 @@ xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
 
     <Triggers>
       <OnEvent>OnStartTurn</OnEvent>
+      <CriteriaTurnNum>1</CriteriaTurnNum>
+      <Scope>Global</Scope>
       <Target>
         <TargetType>Planet</TargetType>
+        <!-- Only first (ie homeworld), if lost might affect next planet: -->
+        <TargetOrdinalConstraint>1</TargetOrdinalConstraint>
       </Target>
       <Lifetime>Instant</Lifetime>
       <PerformAction>
@@ -209,6 +215,7 @@ xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
     </Triggers>
   </RaceTrait>
 
+  <!-- Earthling specific -->
   <!-- All ships are equipped with the Point-defence Laser System. (few points to beam offence, small defense against all types of attacks) -->
   <RaceTrait>
     <InternalName>PDLSAbility</InternalName>
@@ -265,6 +272,7 @@ xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
     </Triggers>
   </RaceTrait>
 
+  <!-- Earthling specific -->
   <!-- Long range missiles -->
   <RaceTrait>
     <InternalName>ICBMAbility</InternalName>
@@ -291,6 +299,7 @@ xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
     </Triggers>
   </RaceTrait>
 
+  <!-- Syreen specific -->
   <!-- Cannot repair ships in outer space, except shipyards and starbases. -->
   <!-- Ships start with double hitpoints -->
   <!-- Slowly repair during combat -->
@@ -342,7 +351,8 @@ xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
     </Triggers>
   </RaceTrait>
 
-  <!-- Harder to hit -->
+  <!-- Ilwrath specific -->
+  <!-- Cloaking mechanic unsupported in GalCiv3, mimicking as harder to hit -->
   <RaceTrait>
     <InternalName>CloakingAbility</InternalName>
     <DisplayName>CloakingAbility_Name</DisplayName>
@@ -368,6 +378,7 @@ xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
     </Triggers>
   </RaceTrait>
 
+  <!-- Mycon specific -->
   <!-- Instant ship repair every turn. -->
   <!-- Quick Starbase Shipyard repair. -->
   <!-- Repairs during combat -->
@@ -471,6 +482,7 @@ xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
     <IsAbility>1</IsAbility>
   </RaceTrait>
 
+  <!-- Thraddash specific -->
   <RaceTrait>
     <InternalName>AfterburnersAbility</InternalName>
     <DisplayName>AfterburnersAbility_Name</DisplayName>
@@ -495,6 +507,7 @@ xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
     </Triggers>
   </RaceTrait>
 
+  <!-- Umgah specific -->
   <!-- Powerful close range kinetic attack -->
   <RaceTrait>
     <InternalName>HazardAtbility</InternalName>
