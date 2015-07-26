@@ -13,7 +13,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FlavorText.xsd">
         <SpeakerFaction>FACTION_KZER-ZA</SpeakerFaction>
         <ListenerHasUniversalTranslator>false</ListenerHasUniversalTranslator>
       </Requirements>
-      <Text>There is something wrong here... something which makes my sheath retract and my talons ooze. I sense the ugliness of a thousand evil thoughts and I have located the source of these fetid emanations. They come from aboard one of your vessels! Foolish renegade [LISTENING_RACE_LEADER], why have you come here? All that you have found is your inevitable punishment.</Text>
+      <Text>There is something wrong here... something which makes my sheath retract and my talons ooze. I sense the ugliness of a thousand evil thoughts and I have located the source of these fetid emanations. They come from aboard one of your vessels! Foolish {LEADERNAME:2}, why have you come here? All that you have found is your inevitable punishment.</Text>
       <PreferenceWeight>1</PreferenceWeight>
     </FlavorTextOption>
 
@@ -31,7 +31,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FlavorText.xsd">
       <Requirements>
         <SpeakerFaction>FACTION_KZER-ZA</SpeakerFaction>
       </Requirements>
-      <Text>There is something wrong here... something which makes my sheath retract and my talons ooze. I sense the ugliness of a thousand evil thoughts and I have located the source of these fetid emanations. They come from aboard one of your vessels! Foolish renegade [LISTENING_RACE_LEADER], why have you come here? All that you have found is your inevitable punishment.</Text>
+      <Text>There is something wrong here... something which makes my sheath retract and my talons ooze. I sense the ugliness of a thousand evil thoughts and I have located the source of these fetid emanations. They come from aboard one of your vessels! Foolish {LEADERNAME:2}, why have you come here? All that you have found is your inevitable punishment.</Text>
       <PreferenceWeight>1</PreferenceWeight>
     </FlavorTextOption>
 
