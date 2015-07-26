@@ -7,6 +7,10 @@ Mod support structure can be viewed in this thread and also in the ModdingReadme
 
 http://forums.galciv3.com/461766/page/1/
 
+### Status
+
+Stable with all races added, but lacks aesthetic assets, balance of Ur-Quan races(Kzer-Za using carriers), balance of non-Ur-Quan races, Sa-Matra, textual information.
+
 Current version: 0.0.9 Pre-Alpha
 
 ### Installation
@@ -16,7 +20,7 @@ Clone or unarchive this repository under the following directory:
 \<Window's user folder\>/Documents/My Games/GalCiv3/Mods/
 
 Cloning:
-$ git clone https://github.com/Pendrokar/GalCiv3StarControl.git StarControl
+$ git clone https://github.com/StarControlGalCiv/GalCiv3StarControl.git StarControl
 
 ### ModDB mod page
 Does not exist yet, not enought to show.
@@ -62,27 +66,27 @@ http://wiki.uqm.stack.nl/List_of_races
 
 GitHub issue pages for races:
 
-* [Arilou](https://github.com/Pendrokar/GalCiv3StarControl/issues/21)
-* [Chmmr](https://github.com/Pendrokar/GalCiv3StarControl/issues/17)
-* [Druuge](https://github.com/Pendrokar/GalCiv3StarControl/issues/23)
-* [Earthlings](https://github.com/Pendrokar/GalCiv3StarControl/issues/19)
-* [Ilwrath](https://github.com/Pendrokar/GalCiv3StarControl/issues/10)
-* [Melnorme](https://github.com/Pendrokar/GalCiv3StarControl/issues/22)
-* [Mycon](https://github.com/Pendrokar/GalCiv3StarControl/issues/13)
-* [Orz](https://github.com/Pendrokar/GalCiv3StarControl/issues/24)
-* [Pkunk](https://github.com/Pendrokar/GalCiv3StarControl/issues/16)
-* [Shofixti](https://github.com/Pendrokar/GalCiv3StarControl/issues/25)
-* [Slylandro](https://github.com/Pendrokar/GalCiv3StarControl/issues/20)
-* [Spathi](https://github.com/Pendrokar/GalCiv3StarControl/issues/8)
-* [Supox](https://github.com/Pendrokar/GalCiv3StarControl/issues/15)
-* [Syreen](https://github.com/Pendrokar/GalCiv3StarControl/issues/18)
-* [Thraddash](https://github.com/Pendrokar/GalCiv3StarControl/issues/9)
-* [Umgah](https://github.com/Pendrokar/GalCiv3StarControl/issues/26)
-* [Ur-Quan Kohr-Ah](https://github.com/Pendrokar/GalCiv3StarControl/issues/5)
-* [Ur-Quan Kzer-Za](https://github.com/Pendrokar/GalCiv3StarControl/issues/6)
-* [Utwig](https://github.com/Pendrokar/GalCiv3StarControl/issues/14)
-* [VUX](https://github.com/Pendrokar/GalCiv3StarControl/issues/12)
-* [Yehat](https://github.com/Pendrokar/GalCiv3StarControl/issues/11)
+* [Arilou](https://github.com/StarControlGalCiv/GalCiv3StarControl/issues/21)
+* [Chmmr](https://github.com/StarControlGalCiv/GalCiv3StarControl/issues/17)
+* [Druuge](https://github.com/StarControlGalCiv/GalCiv3StarControl/issues/23)
+* [Earthlings](https://github.com/StarControlGalCiv/GalCiv3StarControl/issues/19)
+* [Ilwrath](https://github.com/StarControlGalCiv/GalCiv3StarControl/issues/10)
+* [Melnorme](https://github.com/StarControlGalCiv/GalCiv3StarControl/issues/22)
+* [Mycon](https://github.com/StarControlGalCiv/GalCiv3StarControl/issues/13)
+* [Orz](https://github.com/StarControlGalCiv/GalCiv3StarControl/issues/24)
+* [Pkunk](https://github.com/StarControlGalCiv/GalCiv3StarControl/issues/16)
+* [Shofixti](https://github.com/StarControlGalCiv/GalCiv3StarControl/issues/25)
+* [Slylandro](https://github.com/StarControlGalCiv/GalCiv3StarControl/issues/20)
+* [Spathi](https://github.com/StarControlGalCiv/GalCiv3StarControl/issues/8)
+* [Supox](https://github.com/StarControlGalCiv/GalCiv3StarControl/issues/15)
+* [Syreen](https://github.com/StarControlGalCiv/GalCiv3StarControl/issues/18)
+* [Thraddash](https://github.com/StarControlGalCiv/GalCiv3StarControl/issues/9)
+* [Umgah](https://github.com/StarControlGalCiv/GalCiv3StarControl/issues/26)
+* [Ur-Quan Kohr-Ah](https://github.com/StarControlGalCiv/GalCiv3StarControl/issues/5)
+* [Ur-Quan Kzer-Za](https://github.com/StarControlGalCiv/GalCiv3StarControl/issues/6)
+* [Utwig](https://github.com/StarControlGalCiv/GalCiv3StarControl/issues/14)
+* [VUX](https://github.com/StarControlGalCiv/GalCiv3StarControl/issues/12)
+* [Yehat](https://github.com/StarControlGalCiv/GalCiv3StarControl/issues/11)
 
 ### Race List (Star Control 2):
 
