@@ -363,4 +363,17 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
 		<RelativeWeight>0</RelativeWeight>
 	</PlanetTrait>
 
+	<PlanetTrait>
+		<InternalName>EvilOnesWaterWorldSC</InternalName>
+		<DisplayName>EvilOnesWaterWorldSC_Name</DisplayName>
+		<Description>EvilOnesWaterWorldSC_Dec</Description>
+		<IsExtreme>1</IsExtreme>
+		<RelativeWeight>0</RelativeWeight>
+	    <ColonizationPrerequ>
+			<Stat>
+				<Option>CanColonizeExtremeWorld</Option>
+			</Stat>
+	    </ColonizationPrerequ>
+	</PlanetTrait>
+
 </PlanetTraitList>

@@ -12,7 +12,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>26</PlanetClass>
 		<PlanetTrait>WaterWorldSC</PlanetTrait>
-		<ArtDefine>GenericWorld</ArtDefine>
+		<ArtDefine>WaterWorldSC</ArtDefine>
 	</Planet>
 
 	<!-- Chmmr Home Solar System -->
@@ -405,7 +405,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>8</PlanetClass>
 		<PlanetTrait>ShatteredWorldSC</PlanetTrait><!-- Lore unchecked -->
-		<ArtDefine>GenericWorld</ArtDefine>
+		<ArtDefine>ActiveCore</ArtDefine>
 	</Planet>
 	<Planet>
 		<InternalName>PlanetEpsilonScorpii2</InternalName>
@@ -459,7 +459,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>7</PlanetClass>
 		<PlanetTrait>WaterWorldSC</PlanetTrait>
-		<ArtDefine>GenericWorld</ArtDefine>
+		<ArtDefine>OceanicWorld</ArtDefine>
 	</Planet>
 
 	<!-- Planet II - Copper World -->
@@ -558,7 +558,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>6</PlanetClass>
 		<PlanetTrait>WaterWorldSC</PlanetTrait>
-		<ArtDefine>GenericWorld</ArtDefine>
+		<ArtDefine>WaterWorldSC</ArtDefine>
 	</Planet>
 
 	<!-- Moon I-A - Halide World -->
@@ -621,7 +621,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>6</PlanetClass>
 		<PlanetTrait>SelenicWorldSC</PlanetTrait>
-		<ArtDefine>GenericWorld</ArtDefine>
+		<ArtDefine>GhostWorld</ArtDefine>
 	</Planet>
 
 	<!-- Planet II - Selenic World -->
@@ -778,7 +778,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>10</PlanetClass>
 		<PlanetTrait>WaterWorldSC</PlanetTrait>
-		<ArtDefine>GenericWorld</ArtDefine>
+		<ArtDefine>WaterWorldSC</ArtDefine>
 	</Planet>
 	<!-- Native name -->
 	<Planet>
@@ -786,8 +786,8 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<DisplayName>SpathiwaName</DisplayName>
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>10</PlanetClass>
-		<PlanetTrait>WaterWorldSC</PlanetTrait>
-		<ArtDefine>GenericWorld</ArtDefine>
+		<PlanetTrait>EvilOnesWaterWorldSC</PlanetTrait>
+		<ArtDefine>EvilOnesWaterWorldSC</ArtDefine>
 	</Planet>
 	<!-- Spathi starting world -->
 	<Planet>
@@ -796,7 +796,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>3</PlanetClass>
 		<PlanetTrait>PellucidWorldSC</PlanetTrait>
-		<ArtDefine>GenericWorld</ArtDefine>
+		<ArtDefine>PellucidWorldSC</ArtDefine>
 	</Planet>
 	
 
@@ -809,7 +809,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>16</PlanetClass>
 		<PlanetTrait>WaterWorldSC</PlanetTrait>
-		<ArtDefine>GenericWorld</ArtDefine>
+		<ArtDefine>WaterWorldSC</ArtDefine>
 	</Planet>
 	<!-- Native name -->
 	<Planet>
@@ -818,7 +818,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>16</PlanetClass>
 		<PlanetTrait>WaterWorldSC</PlanetTrait>
-		<ArtDefine>GenericWorld</ArtDefine>
+		<ArtDefine>WaterWorldSC</ArtDefine>
 	</Planet>
 	<!-- Moons: -->
 	<Planet>
@@ -918,7 +918,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>15</PlanetClass>
 		<PlanetTrait>WaterWorldSC</PlanetTrait>
-		<ArtDefine>GenericWorld</ArtDefine>
+		<ArtDefine>WaterWorldSC</ArtDefine>
 	</Planet>
 	<!-- Native name -->
 	<Planet>
@@ -927,7 +927,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>15</PlanetClass>
 		<PlanetTrait>WaterWorldSC</PlanetTrait>
-		<ArtDefine>GenericWorld</ArtDefine>
+		<ArtDefine>WaterWorldSC</ArtDefine>
 	</Planet>
 	<!-- Planet II - Acid World -->
 	<Planet>
@@ -978,7 +978,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>8</PlanetClass>
 		<PlanetTrait>WaterWorldSC</PlanetTrait>
-		<ArtDefine>GenericWorld</ArtDefine>
+		<ArtDefine>WaterWorldSC</ArtDefine>
 	</Planet>
 
 	<!-- Planet II - Gas Giant -->
@@ -1279,7 +1279,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>8</PlanetClass>
 		<PlanetTrait>WaterWorldSC</PlanetTrait>
-		<ArtDefine>GenericWorld</ArtDefine>
+		<ArtDefine>WaterWorldSC</ArtDefine>
 	</Planet>
 	<!-- Native name -->
 	<Planet>
@@ -1288,7 +1288,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>8</PlanetClass>
 		<PlanetTrait>WaterWorldSC</PlanetTrait>
-		<ArtDefine>GenericWorld</ArtDefine>
+		<ArtDefine>WaterWorldSC</ArtDefine>
 	</Planet>
 	<!-- Moon I-A - Carbide World -->
 	<Planet>
@@ -1307,7 +1307,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<PlanetType>Dead</PlanetType>
 		<PlanetClass>0</PlanetClass>
 		<PlanetTrait>WaterWorldSC</PlanetTrait>
-		<ArtDefine>GenericWorld</ArtDefine>
+		<ArtDefine>WaterWorldSC</ArtDefine>
 	</Planet>
 
 	<!-- Planet III - Primordial World -->
@@ -1541,7 +1541,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>7</PlanetClass>
 		<PlanetTrait>WaterWorldSC</PlanetTrait>
-		<ArtDefine>GenericWorld</ArtDefine>
+		<ArtDefine>WaterWorldSC</ArtDefine>
 	</Planet>
 	<!-- Moon I-A - Azure World -->
 	<Planet>

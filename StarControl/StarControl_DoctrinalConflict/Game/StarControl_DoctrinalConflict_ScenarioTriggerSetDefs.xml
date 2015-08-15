@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<ScenarioTriggerSetList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../../../../Schema/ScenarioTriggerSetDefs.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- DoctrinalConflict_ScenarioTriggerSetDefs.xml -->
+ 
+  <ScenarioTriggerSetDef>
+    <InternalName>StarControl_DoctrinalConflict_TriggerSet</InternalName>
+  
+    <ScenarioTrigger>
+      <InternalName>StarControl_DoctrinalConflict_Filler Triger_Trigger</InternalName>
+      <StartEnabled>true</StartEnabled>
+    </ScenarioTrigger>
+ 
+ 
+  </ScenarioTriggerSetDef>
+ 
+</ScenarioTriggerSetList>

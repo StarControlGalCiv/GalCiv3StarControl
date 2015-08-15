@@ -10663,6 +10663,10 @@ xsi:noNamespaceSchemaLocation="../Schema/TechDefs.xsd">
       <Fortification>1</Fortification>
     </AICategoryWeight>
     <Prerequ>
+      <Unavailable>true</Unavailable>
+      <Techs>
+        <Option>CommunicationsTech</Option>
+      </Techs>
       <TechAge>
         <Option>AgeOfExpansion</Option>
       </TechAge>

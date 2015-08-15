@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<CampaignList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/CampaignDefs.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- Tutorial_CampaignDefs.xml -->
+<!-- Three player game with Ur-Quan subraces at war to test balance -->
+
+  <Campaign>
+    <InternalName>StarControl</InternalName>
+    <DisplayName>StarControl_DoctrinalConflict_Name</DisplayName>
+    <IsTutorial>0</IsTutorial>
+ 
+    <Scenario>
+      <InternalName>StarControl_DoctrinalConflict</InternalName>
+      <DisplayName>StarControl_DoctrinalConflict_Name</DisplayName>
+      <Description>StarControl_DoctrinalConflict_Dec</Description>
+      <ShortDescription>StarControl_DoctrinalConflict_ShortDec</ShortDescription>
+      <Image>GC3_End.png</Image>
+      <VictoryConditions>
+        <Conquest>1</Conquest>
+        <Research>1</Research>
+        <Alliance>1</Alliance>
+        <Influence>1</Influence>
+        <Ascension>0</Ascension>
+        <TurnLimit>0</TurnLimit>
+        <UnitedPlanets>0</UnitedPlanets>
+      </VictoryConditions>
+      <EndGameOverviewFlavorText_Success></EndGameOverviewFlavorText_Success>
+      <EndGameOverviewFlavorText_Failure></EndGameOverviewFlavorText_Failure>
+      <DisableMinorRaces>true</DisableMinorRaces>
+      <DisableUnitedPlanets>true</DisableUnitedPlanets>
+      <DisableAISurrender>true</DisableAISurrender>
+      <DisableAIPeaceCheck>false</DisableAIPeaceCheck>
+      <TurnsWithoutAIInteraction>1</TurnsWithoutAIInteraction>
+      <ScenarioTriggerSet>StarControl_DoctrinalConflict_TriggerSet</ScenarioTriggerSet>
+      <Player>
+        <Faction>FACTION_HUMANS</Faction>
+        <PreviewDisplayName>FACTION_HUMANS_Name</PreviewDisplayName>
+        <IsHuman>1</IsHuman>
+        <CampaignID>DoctrinalConflict_FACTION_HUMANS</CampaignID>
+      </Player>
+      <Player>
+        <Faction>FACTION_KZER-ZA</Faction>
+        <PreviewDisplayName>FACTION_KZER-ZA_Name</PreviewDisplayName>
+        <IsHuman>0</IsHuman>
+        <CampaignID>DoctrinalConflict_FACTION_KZER-ZA</CampaignID>
+        <WarPlayer>DoctrinalConflict_FACTION_KOHR-AH</WarPlayer>
+      </Player>
+      <Player>
+        <Faction>FACTION_KOHR-AH</Faction>
+        <PreviewDisplayName>FACTION_KOHR-AH_Name</PreviewDisplayName>
+        <IsHuman>0</IsHuman>
+        <CampaignID>DoctrinalConflict_FACTION_KOHR-AH</CampaignID>
+        <WarPlayer>DoctrinalConflict_FACTION_KZER-ZA</WarPlayer>
+      </Player>
+      <Objective>
+        <InternalName>DoctrinalConflict_Win_Objective</InternalName>
+        <Description>DoctrinalConflict_Win_Message</Description>
+        <StartEnabled>true</StartEnabled>
+        <VictoryObjective>false</VictoryObjective>
+        <FailureObjective>false</FailureObjective>
+      </Objective>
+    </Scenario>
+ 
+  </Campaign>
+ 
+</CampaignList>

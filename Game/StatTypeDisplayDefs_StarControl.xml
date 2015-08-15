@@ -2,7 +2,7 @@
 <StatTypeDisplayDefs
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="../Schema/StatTypeDisplayDefs.xsd">
-
+	<!-- Slave shielded world -->
 	<StatTypeDisplayDef>
 		<UniqueID>IsImmuneToInvasion0</UniqueID>
 		<DisplayName>STATNAME_IsImmuneToInvasion0</DisplayName>

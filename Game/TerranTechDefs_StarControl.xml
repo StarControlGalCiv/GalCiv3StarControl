@@ -29,12 +29,13 @@ xsi:noNamespaceSchemaLocation="../Schema/TechDefs.xsd">
       <Fortification>5</Fortification>
     </AICategoryWeight>
     <Prerequ>
-      <!-- <Techs>
-        <Option>ColonizationTech</Option>
+      <Unavailable>true</Unavailable>
+      <Techs>
+        <Option>TechTree</Option>
       </Techs>
       <TechAge>
         <Option>AgeOfExpansion</Option>
-      </TechAge> -->
+      </TechAge>
     </Prerequ>
   </Tech>
 

@@ -3,7 +3,7 @@
 <StringTableList
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
-
+	<!-- Slave shielded world -->
 	<StringTable>
 		<Label>STATNAME_IsImmuneToInvasion0</Label>
 		<String>[ICON=Military_Priority_Icon] Immune to Invasion</String>

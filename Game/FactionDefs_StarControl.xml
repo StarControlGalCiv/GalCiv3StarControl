@@ -797,7 +797,11 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
         <StartingShips>ColonyStaticBlueprint</StartingShips>
         <StartingShips>SurveyStaticBlueprint</StartingShips>
         <StartingShips>ScoutStaticBlueprint</StartingShips>
+
         <TechTree>Thalan_Tree</TechTree>
+        <!-- Able to colonize Aquatic(GC3) extreme worlds -->
+        <StartingTechs>ColonizationFocus1</StartingTechs>
+
         <ShipCallsign></ShipCallsign>
         <!-- <ShipCallsign>FACTION_ORZ_Callsign</ShipCallsign> -->
         <LogoImage>OrzLogo.png</LogoImage>

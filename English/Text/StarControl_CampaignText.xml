@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<StringTableList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- CampaignText.XML -->
+  <StringTable>
+    <Label>StarControl_Name</Label>
+    <String>Star Control</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>StarControl_DoctrinalConflict_Name</Label>
+    <String>Doctrinal Conflict</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>StarControl_DoctrinalConflict_Dec</Label>
+    <String>Play as the Earthlings, watching as the Ur-Quan subraces perform their Doctrinal Conflict.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>StarControl_DoctrinalConflict_ShortDec</Label>
+    <String>Play as the Earthlings, watching as the Ur-Quan subraces perform their Doctrinal Conflict.</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>StarControl_DoctrinalConflict_FACTION_HUMANS_Name</Label>
+    <String>Earthlings</String>
+  </StringTable>
+
+  <!-- <StringTable>
+    <Label>StarControl_DoctrinalConflict_FACTION_K_Name</Label>
+    <String>Drengin Empire</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>StarControl_DoctrinalConflict_FACTION_ALTARIAN_Name</Label>
+    <String>Altarian Resistance</String>
+  </StringTable> -->
+</StringTableList>

@@ -190,7 +190,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipyardDefs.xsd">
         <TargetType>Shipyard</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>12</Value>
+      <Value>24</Value>
     </Stats>
     <Stats>
       <EffectType>MissileWeapon</EffectType>
@@ -206,7 +206,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipyardDefs.xsd">
         <TargetType>Shipyard</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>16</Value>
+      <Value>30</Value>
     </Stats>
     <Stats>
       <EffectType>KineticWeapon</EffectType>
@@ -222,7 +222,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipyardDefs.xsd">
         <TargetType>Shipyard</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>10</Value>
+      <Value>20</Value>
     </Stats>
     <Stats>
       <EffectType>ShieldStrength</EffectType>

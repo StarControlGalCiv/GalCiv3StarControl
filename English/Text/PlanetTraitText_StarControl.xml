@@ -567,4 +567,15 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
     <String>Yttric Worlds are worlds composed of Yttrium and Ytterbium. They hold rare earth metals and base metals.</String>
   </StringTable>
 
+
+  <StringTable>
+    <Label>EvilOnesWaterWorldSC_Name</Label>
+    <String>Evil Ones World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>EvilOnesWaterWorldSC_Dec</Label>
+    <String>This Water World has inhabitants that the Spathi call the 'Evil Ones'.</String>
+  </StringTable>
+
 </StringTableList>
