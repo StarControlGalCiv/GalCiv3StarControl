@@ -2681,7 +2681,7 @@ xsi:noNamespaceSchemaLocation="../Schema/TechDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>-0.2</Value>
+      <Value>-0.25</Value>
     </Stats>
     <Prerequ>
       <Techs>
@@ -11091,12 +11091,12 @@ xsi:noNamespaceSchemaLocation="../Schema/TechDefs.xsd">
       <Value>0.15</Value>
     </Stats>
     <Stats>
-			<EffectType>TradeRouteValueRaw</EffectType>
-			<Scope>Global</Scope>
-			<Target>
-				<TargetType>TradeRoute</TargetType>
-			</Target>
-			<BonusType>Multiplier</BonusType>
+      <EffectType>TradeRouteValueRaw</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>TradeRoute</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
       <Value>0.15</Value>
     </Stats>
     <Prerequ>
@@ -12756,12 +12756,12 @@ xsi:noNamespaceSchemaLocation="../Schema/TechDefs.xsd">
       <Fortification>10</Fortification>
     </AICategoryWeight>
     <Stats>
-			<EffectType>TradeRouteValueRaw</EffectType>
-			<Scope>Global</Scope>
-			<Target>
-				<TargetType>TradeRoute</TargetType>
-			</Target>
-			<BonusType>Multiplier</BonusType>
+      <EffectType>TradeRouteValueRaw</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>TradeRoute</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
       <Value>0.1</Value>
     </Stats>
     <Prerequ>
