@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FactionMusicList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/FactionMusicDefs.xsd">
+
+  <FactionMusicDef>
+    <InternalName>ArilouMusic</InternalName>
+    <WarEventMusic>battle-Kohr-Ah.ogg</WarEventMusic>
+    <PeaceEventMusic>arilou.mp3</PeaceEventMusic>
+    <BattleMusic>battle.mp3</BattleMusic>
+    <InvasionMusic>Super_Melee_Menu__Fight!.mp3</InvasionMusic>
+    <DiplomacyMusic_Neutral>arilou.mp3</DiplomacyMusic_Neutral>
+    <DiplomacyMusic_Happy>arilou.mp3</DiplomacyMusic_Happy>
+    <DiplomacyMusic_Angry>Super_Melee_Menu__Fight!.mp3</DiplomacyMusic_Angry>
+  </FactionMusicDef>
+
+  <FactionMusicDef>
+    <InternalName>ChmmrMusic</InternalName>
+    <WarEventMusic>battle-Kohr-Ah.ogg</WarEventMusic>
+    <PeaceEventMusic>Chmmr__Photosynthesis.mp3</PeaceEventMusic>
+    <BattleMusic>battle.mp3</BattleMusic>
+    <InvasionMusic>Super_Melee_Menu__Fight!.mp3</InvasionMusic>
+    <DiplomacyMusic_Neutral>Chmmr__Photosynthesis.mp3</DiplomacyMusic_Neutral>
+    <DiplomacyMusic_Happy>Chmmr__Photosynthesis.mp3</DiplomacyMusic_Happy>
+    <DiplomacyMusic_Angry>Super_Melee_Menu__Fight!.mp3</DiplomacyMusic_Angry>
+  </FactionMusicDef>
+
+  <FactionMusicDef>
+    <InternalName>DruugeMusic</InternalName>
+    <WarEventMusic>battle-Kohr-Ah.ogg</WarEventMusic>
+    <PeaceEventMusic>druuge.mp3</PeaceEventMusic>
+    <BattleMusic>battle.mp3</BattleMusic>
+    <InvasionMusic>Super_Melee_Menu__Fight!.mp3</InvasionMusic>
+    <DiplomacyMusic_Neutral>druuge.mp3</DiplomacyMusic_Neutral>
+    <DiplomacyMusic_Happy>druuge.mp3</DiplomacyMusic_Happy>
+    <DiplomacyMusic_Angry>Super_Melee_Menu__Fight!.mp3</DiplomacyMusic_Angry>
+  </FactionMusicDef>
+
+  <FactionMusicDef>
+    <InternalName>HumansMusic</InternalName>
+    <WarEventMusic>battle-Kohr-Ah.ogg</WarEventMusic>
+    <PeaceEventMusic>comandr.ogg</PeaceEventMusic>
+    <BattleMusic>battle.mp3</BattleMusic>
+    <InvasionMusic>Super_Melee_Menu__Fight!.mp3</InvasionMusic>
+    <DiplomacyMusic_Neutral>comandr.ogg</DiplomacyMusic_Neutral>
+    <DiplomacyMusic_Happy>comandr.ogg</DiplomacyMusic_Happy>
+    <DiplomacyMusic_Angry>Super_Melee_Menu__Fight!.mp3</DiplomacyMusic_Angry>
+  </FactionMusicDef>
+
+  <FactionMusicDef>
+    <InternalName>IlwrathMusic</InternalName>
+    <WarEventMusic>battle-Kohr-Ah.ogg</WarEventMusic>
+    <PeaceEventMusic>ilwrath.mp3</PeaceEventMusic>
+    <BattleMusic>battle.mp3</BattleMusic>
+    <InvasionMusic>Super_Melee_Menu__Fight!.mp3</InvasionMusic>
+    <DiplomacyMusic_Neutral>ilwrath.mp3</DiplomacyMusic_Neutral>
+    <DiplomacyMusic_Happy>ilwrath.mp3</DiplomacyMusic_Happy>
+    <DiplomacyMusic_Angry>Super_Melee_Menu__Fight!.mp3</DiplomacyMusic_Angry>
+  </FactionMusicDef>
+
+  <FactionMusicDef>
+    <InternalName>KohrAhMusic</InternalName>
+    <WarEventMusic>battle-Kohr-Ah.ogg</WarEventMusic>
+    <!-- Using this theme in particular due to the more earie feel to it, after all Kohr-Ah have silenced around half of the whole galaxy -->
+    <PeaceEventMusic>blackur-the_eternal_doctrine.ogg</PeaceEventMusic>
+    <BattleMusic>battle.mp3</BattleMusic>
+    <InvasionMusic>Super_Melee_Menu__Fight!.mp3</InvasionMusic>
+    <DiplomacyMusic_Neutral>blackur-the_eternal_doctrine.ogg</DiplomacyMusic_Neutral>
+    <DiplomacyMusic_Happy>blackur-the_eternal_doctrine.ogg</DiplomacyMusic_Happy>
+    <DiplomacyMusic_Angry>blackur-the_eternal_doctrine.ogg</DiplomacyMusic_Angry>
+  </FactionMusicDef>
+
+  <FactionMusicDef>
+    <InternalName>KzerZaMusic</InternalName>
+    <WarEventMusic>battle-Kohr-Ah.ogg</WarEventMusic>
+    <PeaceEventMusic>urquan.mp3</PeaceEventMusic>
+    <BattleMusic>battle.mp3</BattleMusic>
+    <InvasionMusic>Super_Melee_Menu__Fight!.mp3</InvasionMusic>
+    <DiplomacyMusic_Neutral>urquan.mp3</DiplomacyMusic_Neutral>
+    <DiplomacyMusic_Happy>urquan.mp3</DiplomacyMusic_Happy>
+    <DiplomacyMusic_Angry>urquan.mp3</DiplomacyMusic_Angry>
+  </FactionMusicDef>
+
+  <FactionMusicDef>
+    <InternalName>MyconMusic</InternalName>
+    <WarEventMusic>battle-Kohr-Ah.ogg</WarEventMusic>
+    <PeaceEventMusic>mycon.mp3</PeaceEventMusic>
+    <BattleMusic>battle.mp3</BattleMusic>
+    <InvasionMusic>Super_Melee_Menu__Fight!.mp3</InvasionMusic>
+    <DiplomacyMusic_Neutral>mycon.mp3</DiplomacyMusic_Neutral>
+    <DiplomacyMusic_Happy>mycon.mp3</DiplomacyMusic_Happy>
+    <DiplomacyMusic_Angry>Super_Melee_Menu__Fight!.mp3</DiplomacyMusic_Angry>
+  </FactionMusicDef>
+
+  <FactionMusicDef>
+    <InternalName>OrzMusic</InternalName>
+    <WarEventMusic>battle-Kohr-Ah.ogg</WarEventMusic>
+    <PeaceEventMusic>GC3_Orz__Squeezing_the_Juice.mp3</PeaceEventMusic>
+    <BattleMusic>battle.mp3</BattleMusic>
+    <InvasionMusic>Super_Melee_Menu__Fight!.mp3</InvasionMusic>
+    <DiplomacyMusic_Neutral>Orz__Squeezing_the_Juice.mp3</DiplomacyMusic_Neutral>
+    <DiplomacyMusic_Happy>Orz__Squeezing_the_Juice.mp3</DiplomacyMusic_Happy>
+    <DiplomacyMusic_Angry>Super_Melee_Menu__Fight!.mp3</DiplomacyMusic_Angry>
+  </FactionMusicDef>
+
+  <FactionMusicDef>
+    <InternalName>PkunkMusic</InternalName>
+    <WarEventMusic>battle-Kohr-Ah.ogg</WarEventMusic>
+    <PeaceEventMusic>GC3_Pkunk__Pkunks_Not_Dead.mp3</PeaceEventMusic>
+    <BattleMusic>battle.mp3</BattleMusic>
+    <InvasionMusic>Super_Melee_Menu__Fight!.mp3</InvasionMusic>
+    <DiplomacyMusic_Neutral>Pkunk__Pkunks_Not_Dead.mp3</DiplomacyMusic_Neutral>
+    <DiplomacyMusic_Happy>Pkunk__Pkunks_Not_Dead.mp3</DiplomacyMusic_Happy>
+    <DiplomacyMusic_Angry>Super_Melee_Menu__Fight!.mp3</DiplomacyMusic_Angry>
+  </FactionMusicDef>
+
+  <FactionMusicDef>
+    <InternalName>ShofixtiMusic</InternalName>
+    <WarEventMusic>battle-Kohr-Ah.ogg</WarEventMusic>
+    <PeaceEventMusic>GC3_Shofixti__Bonsai!.mp3</PeaceEventMusic>
+    <BattleMusic>battle.mp3</BattleMusic>
+    <InvasionMusic>Super_Melee_Menu__Fight!.mp3</InvasionMusic>
+    <DiplomacyMusic_Neutral>Shofixti__Bonsai!.mp3</DiplomacyMusic_Neutral>
+    <DiplomacyMusic_Happy>Shofixti__Bonsai!.mp3</DiplomacyMusic_Happy>
+    <DiplomacyMusic_Angry>Super_Melee_Menu__Fight!.mp3</DiplomacyMusic_Angry>
+  </FactionMusicDef>
+
+  <FactionMusicDef>
+    <InternalName>SlylandroMusic</InternalName>
+    <WarEventMusic>battle-Kohr-Ah.ogg</WarEventMusic>
+    <PeaceEventMusic>GC3_slyhome.mp3</PeaceEventMusic>
+    <BattleMusic>battle.mp3</BattleMusic>
+    <InvasionMusic>Super_Melee_Menu__Fight!.mp3</InvasionMusic>
+    <DiplomacyMusic_Neutral>slyhome.mp3</DiplomacyMusic_Neutral>
+    <DiplomacyMusic_Happy>slyhome.mp3</DiplomacyMusic_Happy>
+    <DiplomacyMusic_Angry>Super_Melee_Menu__Fight!.mp3</DiplomacyMusic_Angry>
+  </FactionMusicDef>
+
+  <FactionMusicDef>
+    <InternalName>SpathiMusic</InternalName>
+    <WarEventMusic>battle-Kohr-Ah.ogg</WarEventMusic>
+    <!-- Using the original theme. What... you've got a problem with my taste in music? Prepare for war! Or just replace all occurences with spathi.ogg -->
+    <PeaceEventMusic>16_Star Control 2 OST - spathi.mp3</PeaceEventMusic>
+    <BattleMusic>battle.mp3</BattleMusic>
+    <InvasionMusic>Super_Melee_Menu__Fight!.mp3</InvasionMusic>
+    <DiplomacyMusic_Neutral>16_Star Control 2 OST - spathi.mp3</DiplomacyMusic_Neutral>
+    <DiplomacyMusic_Happy>16_Star Control 2 OST - spathi.mp3</DiplomacyMusic_Happy>
+    <DiplomacyMusic_Angry>Super_Melee_Menu__Fight!.mp3</DiplomacyMusic_Angry>
+  </FactionMusicDef>
+
+  <FactionMusicDef>
+    <InternalName>SupoxMusic</InternalName>
+    <WarEventMusic>battle-Kohr-Ah.ogg</WarEventMusic>
+    <PeaceEventMusic>Supox__Shake_Yer_Rootz.mp3</PeaceEventMusic>
+    <BattleMusic>battle.mp3</BattleMusic>
+    <InvasionMusic>Super_Melee_Menu__Fight!.mp3</InvasionMusic>
+    <DiplomacyMusic_Neutral>Supox__Shake_Yer_Rootz.mp3</DiplomacyMusic_Neutral>
+    <DiplomacyMusic_Happy>Supox__Shake_Yer_Rootz.mp3</DiplomacyMusic_Happy>
+    <DiplomacyMusic_Angry>Super_Melee_Menu__Fight!.mp3</DiplomacyMusic_Angry>
+  </FactionMusicDef>
+
+  <FactionMusicDef>
+    <InternalName>SyreenMusic</InternalName>
+    <WarEventMusic>battle-Kohr-Ah.ogg</WarEventMusic>
+    <PeaceEventMusic>Syreen__Close_Encounters_of_the_Seventh_Kind.mp3</PeaceEventMusic>
+    <BattleMusic>battle.mp3</BattleMusic>
+    <InvasionMusic>Super_Melee_Menu__Fight!.mp3</InvasionMusic>
+    <DiplomacyMusic_Neutral>Syreen__Close_Encounters_of_the_Seventh_Kind.mp3</DiplomacyMusic_Neutral>
+    <DiplomacyMusic_Happy>Syreen__Close_Encounters_of_the_Seventh_Kind.mp3</DiplomacyMusic_Happy>
+    <DiplomacyMusic_Angry>Super_Melee_Menu__Fight!.mp3</DiplomacyMusic_Angry>
+  </FactionMusicDef>
+
+  <FactionMusicDef>
+    <InternalName>ThraddashMusic</InternalName>
+    <WarEventMusic>battle-Kohr-Ah.ogg</WarEventMusic>
+    <PeaceEventMusic>GC3_thradd.ogg</PeaceEventMusic>
+    <BattleMusic>battle.mp3</BattleMusic>
+    <InvasionMusic>Super_Melee_Menu__Fight!.mp3</InvasionMusic>
+    <DiplomacyMusic_Neutral>thradd.ogg</DiplomacyMusic_Neutral>
+    <DiplomacyMusic_Happy>thradd.ogg</DiplomacyMusic_Happy>
+    <DiplomacyMusic_Angry>Super_Melee_Menu__Fight!.mp3</DiplomacyMusic_Angry>
+  </FactionMusicDef>
+
+  <FactionMusicDef>
+    <InternalName>UmgahMusic</InternalName>
+    <WarEventMusic>battle-Kohr-Ah.ogg</WarEventMusic>
+    <PeaceEventMusic>GC3_Iridium_Peace.1.mp3</PeaceEventMusic>
+    <BattleMusic>battle.mp3</BattleMusic>
+    <InvasionMusic>Super_Melee_Menu__Fight!.mp3</InvasionMusic>
+    <DiplomacyMusic_Neutral>GC3_Iridium_Peace.1.mp3</DiplomacyMusic_Neutral>
+    <DiplomacyMusic_Happy>GC3_Iridium_Peace.1.mp3</DiplomacyMusic_Happy>
+    <DiplomacyMusic_Angry>Super_Melee_Menu__Fight!.mp3</DiplomacyMusic_Angry>
+  </FactionMusicDef>
+
+  <FactionMusicDef>
+    <InternalName>UtwigMusic</InternalName>
+    <WarEventMusic>battle-Kohr-Ah.ogg</WarEventMusic>
+    <PeaceEventMusic>umgah.ogg</PeaceEventMusic>
+    <BattleMusic>battle.mp3</BattleMusic>
+    <InvasionMusic>Super_Melee_Menu__Fight!.mp3</InvasionMusic>
+    <DiplomacyMusic_Neutral>umgah.ogg</DiplomacyMusic_Neutral>
+    <DiplomacyMusic_Happy>umgah.ogg</DiplomacyMusic_Happy>
+    <DiplomacyMusic_Angry>Super_Melee_Menu__Fight!.mp3</DiplomacyMusic_Angry>
+  </FactionMusicDef>
+
+  <FactionMusicDef>
+    <InternalName>VuxMusic</InternalName>
+    <WarEventMusic>battle-Kohr-Ah.ogg</WarEventMusic>
+    <PeaceEventMusic>vux.mp3</PeaceEventMusic>
+    <BattleMusic>battle.mp3</BattleMusic>
+    <InvasionMusic>Super_Melee_Menu__Fight!.mp3</InvasionMusic>
+    <DiplomacyMusic_Neutral>vux.mp3</DiplomacyMusic_Neutral>
+    <DiplomacyMusic_Happy>vux.mp3</DiplomacyMusic_Happy>
+    <DiplomacyMusic_Angry>Super_Melee_Menu__Fight!.mp3</DiplomacyMusic_Angry>
+  </FactionMusicDef>
+
+  <FactionMusicDef>
+    <InternalName>YehatMusic</InternalName>
+    <WarEventMusic>battle-Kohr-Ah.ogg</WarEventMusic>
+    <PeaceEventMusic>Yehat__Years_Late_Mix.mp3</PeaceEventMusic>
+    <BattleMusic>battle.mp3</BattleMusic>
+    <InvasionMusic>Super_Melee_Menu__Fight!.mp3</InvasionMusic>
+    <DiplomacyMusic_Neutral>Yehat__Years_Late_Mix.mp3</DiplomacyMusic_Neutral>
+    <DiplomacyMusic_Happy>Yehat__Years_Late_Mix.mp3</DiplomacyMusic_Happy>
+    <DiplomacyMusic_Angry>Super_Melee_Menu__Fight!.mp3</DiplomacyMusic_Angry>
+  </FactionMusicDef>
+
+  <FactionMusicDef>
+    <InternalName>ZoqFotPikMusic</InternalName>
+    <WarEventMusic>battle-Kohr-Ah.ogg</WarEventMusic>
+    <PeaceEventMusic>GC3_Zoq-Fot-Pik__Frungy_Party.mp3</PeaceEventMusic>
+    <BattleMusic>battle.mp3</BattleMusic>
+    <InvasionMusic>Super_Melee_Menu__Fight!.mp3</InvasionMusic>
+    <DiplomacyMusic_Neutral>Zoq-Fot-Pik__Frungy_Party.mp3</DiplomacyMusic_Neutral>
+    <DiplomacyMusic_Happy>Zoq-Fot-Pik__Frungy_Party.mp3</DiplomacyMusic_Happy>
+    <DiplomacyMusic_Angry>Super_Melee_Menu__Fight!.mp3</DiplomacyMusic_Angry>
+  </FactionMusicDef>
+
+
+</FactionMusicList>
