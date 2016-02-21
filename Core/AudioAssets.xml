@@ -297,7 +297,7 @@ xsi:noNamespaceSchemaLocation="../Schema/Lib/AssetTableDef.xsd">
 
   <Asset>
     <Tag>EARLY_GAME_AMBIENT_MUSIC_7</Tag>
-    <Filename>Space01_New01.mp3</Filename>
+    <Filename>.</Filename>
   </Asset>
 	
 	<Asset>

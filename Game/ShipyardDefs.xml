@@ -142,7 +142,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipyardDefs.xsd">
 
   <Shipyard>
     <InternalName>PirateMapShipyard</InternalName>
-    <DisplayName>BasicShipyardName</DisplayName>
+    <DisplayName>PirateShipyardName</DisplayName>
     <Icon>GC3_Starport_Icon.png</Icon>
     <Stats>
       <EffectType>HitPointsCap</EffectType>
@@ -158,7 +158,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipyardDefs.xsd">
         <TargetType>Shipyard</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>6</Value>
+      <Value>1</Value>
     </Stats>
     <Stats>
       <EffectType>BeamAttack</EffectType>
@@ -166,7 +166,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipyardDefs.xsd">
         <TargetType>Shipyard</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>3</Value>
+      <Value>6</Value>
     </Stats>
     <Stats>
       <EffectType>MissileWeapon</EffectType>
@@ -174,7 +174,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipyardDefs.xsd">
         <TargetType>Shipyard</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>8</Value>
+      <Value>1</Value>
     </Stats>
     <Stats>
       <EffectType>MissileAttack</EffectType>
@@ -182,7 +182,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipyardDefs.xsd">
         <TargetType>Shipyard</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>3</Value>
+      <Value>8</Value>
     </Stats>
     <Stats>
       <EffectType>KineticWeapon</EffectType>
@@ -190,7 +190,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipyardDefs.xsd">
         <TargetType>Shipyard</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>5</Value>
+      <Value>1</Value>
     </Stats>
     <Stats>
       <EffectType>KineticAttack</EffectType>
@@ -198,7 +198,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipyardDefs.xsd">
         <TargetType>Shipyard</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>3</Value>
+      <Value>5</Value>
     </Stats>
     <Stats>
       <EffectType>ShieldStrength</EffectType>
@@ -238,7 +238,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipyardDefs.xsd">
         <TargetType>Shipyard</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>5</Value>
+      <Value>10</Value>
     </Stats>
     <Stats>
       <EffectType>MovesCap</EffectType>
@@ -256,7 +256,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipyardDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>3</Value>
+      <Value>5</Value>
     </Stats>
 
     <Stats>

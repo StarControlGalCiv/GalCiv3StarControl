@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<StringTableList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- AbilityText.xml -->
+ 
+<!-- Abilities Traits -->
+  <StringTable>
+    <Label>UnderSlaveShield_Name</Label>
+    <String>Under Slave Shield</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>UnderSlaveShield_ShortName</Label>
+    <String>Confined</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>UnderSlaveShield_Desc</Label>
+    <String>[COLOR=UIDefaultHot]Confined to home planet.[/COLOR]</String>
+  </StringTable>
+
+<!-- Abilities Traits -->
+  <StringTable>
+    <Label>KzerZa_Name</Label>
+    <String>Advanced</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>KzerZa_ShortName</Label>
+    <String>Advanced</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>KzerZa_Desc</Label>
+    <String>[COLOR=UIDefaultHot]Have been travelling and enslaving the galaxy for thousands of years.[/COLOR]</String>
+  </StringTable>
+
+<!-- Abilities Traits -->
+  <StringTable>
+    <Label>KohrAh_Name</Label>
+    <String>Advanced</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>KohrAh_ShortName</Label>
+    <String>Advanced</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>KohrAh_Desc</Label>
+    <String>[COLOR=UIDefaultHot]Have been travelling and cleansing the galaxy for thousands of years.[/COLOR]</String>
+  </StringTable>
+
+<!-- Abilities Traits -->
+  <StringTable>
+    <Label>TeleportationAbility_Name</Label>
+    <String>Teleportation</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>TeleportationAbility_ShortName</Label>
+    <String>Teleportation</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>TeleportationAbility_Desc</Label>
+    <String>[COLOR=UIDefaultHot]Homeworld and starbases can teleport. Shipyards not affected by sponsor distance.[/COLOR]</String>
+  </StringTable>
+</StringTableList>

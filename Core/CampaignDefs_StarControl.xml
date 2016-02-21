@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<CampaignList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/CampaignDefs.xsd">
+
+	<Campaign>
+		<InternalName>StarControl_2</InternalName>
+		<DisplayName>StarControl_2_Name</DisplayName>
+    <IsTutorial>0</IsTutorial>
+    
+    <Scenario>
+      <InternalName>StarControl_2_Scenario_01</InternalName>
+      <DisplayName>StarControl_2_Scenario_01_Name</DisplayName>
+      <Description>StarControl_2_Scenario_01_Description</Description>
+      <ShortDescription>StarControl_2_Scenario_01_ShortDescription</ShortDescription>
+      <Image>Campaign_01_Scenario_01_Image.png</Image>
+      <VictoryConditions>
+        <Conquest>1</Conquest>
+        <Research>1</Research>
+        <Alliance>1</Alliance>
+        <Influence>1</Influence>
+        <Ascension>0</Ascension>
+        <TurnLimit>0</TurnLimit>
+        <UnitedPlanets>1</UnitedPlanets>
+      </VictoryConditions>
+      <StartingCutscene></StartingCutscene>
+      <EndGameOverviewFlavorText_Success></EndGameOverviewFlavorText_Success>
+      <EndGameOverviewFlavorText_Failure></EndGameOverviewFlavorText_Failure>
+      <DisableMinorRaces>true</DisableMinorRaces>
+      <DisableUnitedPlanets>true</DisableUnitedPlanets>
+      <DisableAISurrender>true</DisableAISurrender>
+      <DisableAIPeaceCheck>true</DisableAIPeaceCheck>
+      <DisableMercenaries>true</DisableMercenaries>
+      <TurnsWithoutAIInteraction>8</TurnsWithoutAIInteraction>
+      <ScenarioTriggerSet></ScenarioTriggerSet>
+      <Player>
+        <Faction>FACTION_KZER-ZA</Faction>
+        <PreviewDisplayName>FACTION_DRENGIN_Name</PreviewDisplayName>
+        <IsHuman>1</IsHuman>
+        <CampaignID>Campaign1_KzerZaPlayer</CampaignID>
+        <WarPlayer>Campaign1_KohrAhPlayer</WarPlayer>
+      </Player>
+      <Player>
+        <Faction>FACTION_KOHR-AH</Faction>
+        <PreviewDisplayName>FACTION_TERRAN_Name</PreviewDisplayName>
+        <IsHuman>0</IsHuman>
+        <CampaignID>Campaign1_KohrAhPlayer</CampaignID>
+        <WarPlayer>Campaign1_KzerZaPlayer</WarPlayer>
+      </Player>     
+    </Scenario>
+	</Campaign>
+
+</CampaignList>

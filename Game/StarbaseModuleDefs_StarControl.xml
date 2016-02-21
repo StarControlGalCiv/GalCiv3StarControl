@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<StarbaseModuleList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/StarbaseModuleDefs.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- StarbaseModuleDefs.xml -->
+ 
+<!-- Module -->
+  <!-- Core module -->
+  <StarbaseModule>
+    <InternalName>QuasiSpacePortalModule</InternalName>
+    <DisplayName>QuasiSpacePortalModule_Name</DisplayName>
+    <Description>QuasiSpacePortalModule_Dec</Description>
+    <Icon>GC3_Starbase_Military_Ring.png</Icon>
+    <SpecializationType>Military</SpecializationType>
+ 
+    <Stats>
+      <EffectType>ModuleConstructionPoints</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>StarbaseModule</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>2</Value>
+    </Stats>
+
+    <Triggers>
+      <OnEvent>OnConstructModule</OnEvent>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Starbase</TargetType>
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <PerformAction>
+        <Action>Wormhole</Action>
+      </PerformAction>
+    </Triggers>
+    <Triggers>
+      <OnEvent>OnConstructModule</OnEvent>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Starbase</TargetType>
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <PerformAction>
+        <Action>Wormhole</Action>
+      </PerformAction>
+    </Triggers>
+ 
+    <Prerequ>
+      <!-- Doesn't work, OnConstructModule is not triggered and it is not used anywhere by Stardock, only defined within XML schema -->
+      <!-- <RaceTrait>
+        <Option>TeleportationAbility</Option>
+      </RaceTrait> -->
+      <Unavailable>true</Unavailable>
+    </Prerequ>
+    <Preclusions>
+      <StarbaseModule>CultureRingModule</StarbaseModule>
+      <StarbaseModule>EconomicRingModule</StarbaseModule>
+      <StarbaseModule>MiningRingModule</StarbaseModule>
+    </Preclusions>
+  </StarbaseModule>
+</StarbaseModuleList>

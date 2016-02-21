@@ -4,7 +4,16 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
 <!-- Created with the Gal Civ 3 Editor -->
 <!-- AbilityDefs.xml -->
+      
+  <RaceTrait>
+    <InternalName>Spacefaring</InternalName>
+    <DisplayName>Spacefaring_Name</DisplayName>
+    <DisplayNameShort>Spacefaring_ShortName</DisplayNameShort>
+    <Description>Spacefaring_Desc</Description>
+    <IsAbility>1</IsAbility>
+  </RaceTrait>
 
+  <!-- Ur-Quan traits: -->
   <RaceTrait>
     <InternalName>MundaneAbility</InternalName>
     <DisplayName>MundaneAbility_Name</DisplayName>
@@ -25,7 +34,15 @@ xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
         <TargetType>Faction</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>-10</Value>
+      <Value>-2</Value>
+    </Mod>
+    <Mod>
+      <EffectType>TradeLicensesMax</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-100</Value>
     </Mod>
     <Mod>
       <EffectType>InterceptorFightersCap</EffectType>
@@ -34,7 +51,7 @@ xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
         <TargetType>Starbase</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>2</Value>
+      <Value>6</Value>
     </Mod>
     <Mod>
       <EffectType>InterceptorFightersCap</EffectType>
@@ -43,7 +60,7 @@ xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
         <TargetType>Shipyard</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>2</Value>
+      <Value>6</Value>
     </Mod>
   </RaceTrait>
 
@@ -53,6 +70,7 @@ xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
     <DisplayNameShort>KohrAh_ShortName</DisplayNameShort>
     <Description>KohrAh_Desc</Description>
     <IsAbility>1</IsAbility>
+    <!-- Diplomacy not found in their dictionary and everyone hates them -->
     <Mod>
       <EffectType>Diplomacy</EffectType>
       <Target>
@@ -61,6 +79,26 @@ xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
       <BonusType>Flat</BonusType>
       <Value>-10</Value>
     </Mod>
+    <!-- "We are self-sufficient. We need nothing. We want nothing" -->
+    <!-- Achieved by having insane trade value level and them not having a universal translator to exploit this -->
+    <Mod>
+      <EffectType>DiplomaticTradeOfferValueMult</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1000</Value>
+    </Mod>
+    <Mod>
+      <EffectType>TradeLicensesMax</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-100</Value>
+    </Mod>
+    <!-- Kinetic range judged from their "saw" indefinate range in Star Control melee -->
     <Mod>
       <EffectType>KineticRange</EffectType>
       <Scope>Global</Scope>
@@ -70,6 +108,7 @@ xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
       <BonusType>Multiplier</BonusType>
       <Value>0.75</Value>
     </Mod>
+    <!-- Kinetic accuracy judged from their "saw" projectile slow homing on ship ability -->
     <Mod>
       <EffectType>KineticAccuracy</EffectType>
       <Scope>Global</Scope>
@@ -77,7 +116,7 @@ xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
         <TargetType>Ship</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>0.75</Value>
+      <Value>0.5</Value>
     </Mod>
     <Mod>
       <EffectType>KineticRange</EffectType>
@@ -97,6 +136,25 @@ xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
       <BonusType>Multiplier</BonusType>
       <Value>1</Value>
     </Mod>
+    <!-- CanGenocide -->
+    <!-- <Mod>
+      <EffectType>CanGenocidePlanet</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Mod> -->
+  </RaceTrait>
+
+  <!-- Slave shield traits: -->
+  <RaceTrait>
+    <InternalName>UnderSlaveShield</InternalName>
+    <DisplayName>UnderSlaveShield_Name</DisplayName>
+    <DisplayNameShort>UnderSlaveShield_ShortName</DisplayNameShort>
+    <Description>UnderSlaveShield_Desc</Description>
+    <IsAbility>1</IsAbility>
   </RaceTrait>
 
 <!--   <RaceTrait>
@@ -199,20 +257,16 @@ xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
     <Description>TeleportationAbility_Desc</Description>
     <IsAbility>1</IsAbility>
 
-    <Triggers>
-      <OnEvent>OnStartTurn</OnEvent>
-      <CriteriaTurnNum>1</CriteriaTurnNum>
+    <!-- Have to still be able to build ships, so decay has to be removed alltogether -->
+    <Mod>
+      <EffectType>SponsorDecay</EffectType>
       <Scope>Global</Scope>
       <Target>
-        <TargetType>Planet</TargetType>
-        <!-- Only first (ie homeworld), if lost might affect next planet: -->
-        <TargetOrdinalConstraint>1</TargetOrdinalConstraint>
+        <TargetType>Colony</TargetType>
       </Target>
-      <Lifetime>Instant</Lifetime>
-      <PerformAction>
-        <Action>Wormhole</Action>
-      </PerformAction>
-    </Triggers>
+      <BonusType>Multiplier</BonusType>
+      <Value>-100</Value>
+    </Mod>
   </RaceTrait>
 
   <!-- Earthling specific -->
@@ -289,12 +343,20 @@ xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
       <Lifetime>Target</Lifetime>
 
       <Modifier>
-        <EffectType>KineticRange</EffectType>
+        <EffectType>MissileRange</EffectType>
         <Target>
           <TargetType>Ship</TargetType>
         </Target>
         <BonusType>Multiplier</BonusType>
         <Value>1</Value>
+      </Modifier>
+      <Modifier>
+        <EffectType>MissileAccuracy</EffectType>
+        <Target>
+          <TargetType>Ship</TargetType>
+        </Target>
+        <BonusType>Multiplier</BonusType>
+        <Value>0.25</Value>
       </Modifier>
     </Triggers>
   </RaceTrait>
@@ -346,7 +408,7 @@ xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
           <TargetType>Ship</TargetType>
         </Target>
         <BonusType>Flat</BonusType>
-        <Value>1</Value>
+        <Value>4</Value>
       </Modifier>
     </Triggers>
   </RaceTrait>
@@ -367,19 +429,19 @@ xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
       </Target>
       <Lifetime>Target</Lifetime>
     
-        <Modifier>
+      <Modifier>
         <EffectType>Jamming</EffectType>
         <Target>
           <TargetType>Ship</TargetType>
         </Target>
-        <BonusType>Multiplier</BonusType>
+        <BonusType>Flat</BonusType>
         <Value>0.5</Value>
       </Modifier>
     </Triggers>
   </RaceTrait>
 
   <!-- Mycon specific -->
-  <!-- Instant ship repair every turn. -->
+  <!-- Instant ship repair every turn/week. -->
   <!-- Quick Starbase Shipyard repair. -->
   <!-- Repairs during combat -->
   <RaceTrait>
@@ -433,7 +495,7 @@ xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
           <TargetType>Ship</TargetType>
         </Target>
         <BonusType>Multiplier</BonusType>
-        <Value>0.1</Value>
+        <Value>0.25</Value>
       </Modifier>
     </Triggers>
 
@@ -510,10 +572,10 @@ xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
   <!-- Umgah specific -->
   <!-- Powerful close range kinetic attack -->
   <RaceTrait>
-    <InternalName>HazardAtbility</InternalName>
-    <DisplayName>HazardAtbility_Name</DisplayName>
-    <DisplayNameShort>HazardAtbility_ShortName</DisplayNameShort>
-    <Description>HazardAtbility_Desc</Description>
+    <InternalName>HazardAbility</InternalName>
+    <DisplayName>HazardAbility_Name</DisplayName>
+    <DisplayNameShort>HazardAbility_ShortName</DisplayNameShort>
+    <Description>HazardAbility_Desc</Description>
     <IsAbility>1</IsAbility>
 
     <Triggers>
@@ -548,5 +610,31 @@ xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
         <Value>1</Value>
       </Modifier>
     </Triggers>
+  </RaceTrait>
+
+  <!-- Dynarri mind control -->
+  <RaceTrait>
+    <InternalName>MindControl</InternalName>
+    <DisplayName>MindControl_Name</DisplayName>
+    <DisplayNameShort>MindControl_ShortName</DisplayNameShort>
+    <Description>MindControl_Desc</Description>
+    <IsAbility>1</IsAbility>
+    <Mod>
+      <EffectType>Diplomacy</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1000</Value>
+    </Mod>
+    <Mod>
+      <EffectType>DiplomaticTradeOfferValueMult</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>100000</Value>
+    </Mod>
   </RaceTrait>
 </RaceTraitList>

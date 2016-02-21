@@ -4,6 +4,25 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="../Schema/ShipBlueprintDefs.xsd">
 <!-- Created with the Gal Civ 3 Editor -->
 <!-- ShipBlueprintDefs.xml -->
+
+  <!-- Kohr-Ah ship that can do stat named CanGenocide -->
+  <!-- Begin Blueprint -->
+ 
+  <ShipBlueprint>
+    <InternalName>IncinderatorBlueprint</InternalName>
+    <ShipHullType>Cargo</ShipHullType>
+    <Role>Support</Role>
+    <RequiredComponentType>TransportModule</RequiredComponentType>
+    <!-- GenocideModule hasn't been added and isn't in schema -->
+    <ComponentType>LifeSupport</ComponentType>
+    <ComponentType>LifeSupport</ComponentType>
+    <ComponentType>InterstellarDrive</ComponentType>
+    <ComponentType>LifeSupport</ComponentType>
+    <ComponentType>LifeSupport</ComponentType>
+    <ComponentType>Sensor</ComponentType>
+    <FillerComponentType>LifeSupport</FillerComponentType>
+    <FillerComponentType>LifeSupport</FillerComponentType>
+  </ShipBlueprint>
  
 
   <!-- Begin Blueprint -->

@@ -376,4 +376,11 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
 	    </ColonizationPrerequ>
 	</PlanetTrait>
 
+	<PlanetTrait>
+		<InternalName>WithinQuasiSpaceSC</InternalName>
+		<DisplayName>WithinQuasiSpaceSC_Name</DisplayName>
+		<Description>WithinQuasiSpaceSC_Dec</Description>
+		<RelativeWeight>0</RelativeWeight>
+	</PlanetTrait>
+
 </PlanetTraitList>

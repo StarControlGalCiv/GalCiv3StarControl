@@ -12,18 +12,19 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionShipStyleSetDefs.xsd">
     <Icon>GC3_S_Basic_Ship_Icon.png</Icon>
     <DisplaySampleObjGfxConfig>Drengin_Survey_01S.objgfxcfg</DisplaySampleObjGfxConfig>
     <ShipStyle>Drengin</ShipStyle>
+    <PartsStyle>Drengin</PartsStyle>
     <StartingShipyard>UrQuanShipyard</StartingShipyard>
   
     <InitialAssaultFighter>DrenginAssaultFighter</InitialAssaultFighter>
     <InitialInterceptorFighter>DrenginDroneInterceptor</InitialInterceptorFighter>
-    <InitialEscortFighter>DrenginEscortFighter</InitialEscortFighter>
+    <InitialEscortFighter>DrenginAssaultFighter</InitialEscortFighter>
     <InitialGuardianFighter>DrenginGuardianFighter</InitialGuardianFighter>
   
     <ShipClass>UrQuanStartingColony</ShipClass>
     <ShipClass>UrQuanStartingConstructor</ShipClass>
-    
+
     <ShipClass>DrenginStartingScout</ShipClass>
-    <ShipClass>DrenginStartingSurvey</ShipClass>
+    <!-- <ShipClass>DrenginStartingSurvey</ShipClass> -->
     <!-- <ShipClass>DrenginStartingColony</ShipClass> -->
     <ShipClass>ProtoTypeDrenginScout</ShipClass>
     <ShipClass>DrenginScout</ShipClass>
@@ -37,45 +38,65 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionShipStyleSetDefs.xsd">
     <ShipClass>ProtoTypeDrenginSurvey</ShipClass>
     <ShipClass>DrenginExplorer</ShipClass>
     <ShipClass>DrenginCutter</ShipClass>
+    <ShipClass>ProtoTypeDrenginCutter</ShipClass>
     <ShipClass>DrenginCutterL</ShipClass>
     <ShipClass>DrenginDefender</ShipClass>
+    <ShipClass>ProtoTypeDrenginDefender</ShipClass>
     <ShipClass>DrenginDefenderL</ShipClass>
     <ShipClass>DrenginGunboat</ShipClass>
+    <ShipClass>ProtoTypeDrenginGunboat</ShipClass>
     <ShipClass>DrenginGunboatL</ShipClass>
     <ShipClass>DrenginFury</ShipClass>
     <ShipClass>DrenginSurvey</ShipClass>
     <ShipClass>DrenginCorvette</ShipClass>
+    <ShipClass>ProtoTypeDrenginCorvette</ShipClass>
     <ShipClass>DrenginCorvetteL</ShipClass>
     <ShipClass>DrenginCorvetteP</ShipClass>
     <ShipClass>DrenginFrigate</ShipClass>
+    <ShipClass>ProtoTypeDrenginFrigate</ShipClass>
     <ShipClass>DrenginFrigateL</ShipClass>
     <ShipClass>DrenginFrigateP</ShipClass>
     <ShipClass>DrenginRanger</ShipClass>
+    <ShipClass>ProtoTypeDrenginRanger</ShipClass>
     <ShipClass>DrenginRangerL</ShipClass>
     <ShipClass>DrenginRangerP</ShipClass>
     <ShipClass>DrenginPaladin</ShipClass>
+    <ShipClass>AIDefenseDrenginCutter</ShipClass>
+    <ShipClass>AIDefenseDrenginDefender</ShipClass>
+    <ShipClass>AIDefenseDrenginGunboat</ShipClass>
+    <ShipClass>AIDefenseDrenginFury</ShipClass>
+    <ShipClass>AIDefenseDrenginCorvette</ShipClass>
+    <ShipClass>AIDefenseDrenginFrigate</ShipClass>
+    <ShipClass>AIDefenseDrenginRanger</ShipClass>
+    <ShipClass>AIDefenseDrenginPaladin</ShipClass>
     <ShipClass>DrenginCruiser</ShipClass>
+    <ShipClass>ProtoTypeDrenginCruiser</ShipClass>
     <ShipClass>DrenginCruiserL</ShipClass>
     <ShipClass>DrenginCruiserP</ShipClass>
     <ShipClass>DrenginCruiserD</ShipClass>
     <ShipClass>DrenginDestroyer</ShipClass>
+    <ShipClass>ProtoTypeDrenginDestroyer</ShipClass>
     <ShipClass>DrenginDestroyerL</ShipClass>
     <ShipClass>DrenginDestroyerP</ShipClass>
     <ShipClass>DrenginDestroyerD</ShipClass>
     <ShipClass>DrenginBattleship</ShipClass>
+    <ShipClass>ProtoTypeDrenginBattleship</ShipClass>
     <ShipClass>DrenginBattleshipL</ShipClass>
     <ShipClass>DrenginBattleshipP</ShipClass>
     <ShipClass>DrenginBattleshipD</ShipClass>
     <ShipClass>DrenginOverlord</ShipClass>
     <ShipClass>DrenginAvatar</ShipClass>
+    <ShipClass>ProtoTypeDrenginAvatar</ShipClass>
     <ShipClass>DrenginAvatarL</ShipClass>
     <ShipClass>DrenginAvatarP</ShipClass>
     <ShipClass>DrenginAvatarD</ShipClass>
     <ShipClass>DrenginFortress</ShipClass>
+    <ShipClass>ProtoTypeDrenginFortress</ShipClass>
     <ShipClass>DrenginFortressL</ShipClass>
     <ShipClass>DrenginFortressP</ShipClass>
     <ShipClass>DrenginFortressD</ShipClass>
     <ShipClass>DrenginDreadnought</ShipClass>
+    <ShipClass>ProtoTypeDrenginDreadnought</ShipClass>
     <ShipClass>DrenginDreadnoughtL</ShipClass>
     <ShipClass>DrenginDreadnoughtP</ShipClass>
     <ShipClass>DrenginDreadnoughtD</ShipClass>
@@ -119,7 +140,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionShipStyleSetDefs.xsd">
     
     <ShipClass>KohrAhLarge</ShipClass>
     <ShipClass>KohrAhHuge</ShipClass> -->
-  
+
     <ShipyardArtDefine>
       <ObjectGfxConfig>Drengin_Shipyard_01.objgfxcfg</ObjectGfxConfig>
       <ThumbnailOverride>Drengin_Shipyard_01.PNG</ThumbnailOverride>
@@ -260,254 +281,13 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionShipStyleSetDefs.xsd">
   
   </ShipStyleSet>
 
+  <!-- Races under slave shield -->
+  <!-- Terran style -->
   <!-- Chmmr -->
-  <ShipStyleSet>
-    <InternalName>ChmmrShipStyleSet</InternalName>
-    <DisplayName>ChmmrShipStyleSet_Name</DisplayName>
-    <Icon>GC3_S_Basic_Ship_Icon.png</Icon>
-    <DisplaySampleObjGfxConfig>Terran_Survey_04S.objgfxcfg</DisplaySampleObjGfxConfig>
-    <ShipStyle>Terran</ShipStyle>
-    <!-- <StartingShipyard>BasicShipyard</StartingShipyard> -->
-  
-    <InitialAssaultFighter>TerranAssaultFighter</InitialAssaultFighter>
-    <InitialInterceptorFighter>TerranDroneInterceptor</InitialInterceptorFighter>
-    <InitialEscortFighter>TerranEscortFighter</InitialEscortFighter>
-    <InitialGuardianFighter>TerranGuardianFighter</InitialGuardianFighter>
-  
-    <ShipClass>TerranStartingScout</ShipClass>
-    <ShipClass>TerranStartingSurvey</ShipClass>
-    <ShipClass>TerranStartingColony</ShipClass>
-    <ShipClass>ProtoTypeTerranScout</ShipClass>
-    <ShipClass>TerranScout</ShipClass>
-    <ShipClass>TerranSniper</ShipClass>
-    <ShipClass>ProtoTypeTerranSniper</ShipClass>
-    <ShipClass>TerranBomber</ShipClass>
-    <ShipClass>ProtoTypeTerranBomber</ShipClass>
-    <ShipClass>TerranGuardian</ShipClass>
-    <ShipClass>ProtoTypeTerranGuardian</ShipClass>
-    <ShipClass>TerranKnight</ShipClass>
-    <ShipClass>ProtoTypeTerranSurvey</ShipClass>
-    <ShipClass>TerranExplorer</ShipClass>
-    <ShipClass>TerranCutter</ShipClass>
-    <ShipClass>TerranCutterL</ShipClass>
-    <ShipClass>TerranDefender</ShipClass>
-    <ShipClass>TerranDefenderL</ShipClass>
-    <ShipClass>TerranGunboat</ShipClass>
-    <ShipClass>TerranGunboatL</ShipClass>
-    <ShipClass>TerranFury</ShipClass>
-    <ShipClass>TerranSurvey</ShipClass>
-    <ShipClass>TerranCorvette</ShipClass>
-    <ShipClass>TerranCorvetteL</ShipClass>
-    <ShipClass>TerranCorvetteP</ShipClass>
-    <ShipClass>TerranRanger</ShipClass>
-    <ShipClass>TerranRangerL</ShipClass>
-    <ShipClass>TerranRangerP</ShipClass>
-    <ShipClass>TerranFrigate</ShipClass>
-    <ShipClass>TerranFrigateL</ShipClass>
-    <ShipClass>TerranFrigateP</ShipClass>
-    <ShipClass>TerranPaladin</ShipClass>
-    <ShipClass>TerranCruiser</ShipClass>
-    <ShipClass>TerranCruiserL</ShipClass>
-    <ShipClass>TerranCruiserP</ShipClass>
-    <ShipClass>TerranCruiserD</ShipClass>
-    <ShipClass>TerranDestroyer</ShipClass>
-    <ShipClass>TerranDestroyerL</ShipClass>
-    <ShipClass>TerranDestroyerP</ShipClass>
-    <ShipClass>TerranDestroyerD</ShipClass>
-    <ShipClass>TerranBattleship</ShipClass>
-    <ShipClass>TerranBattleshipL</ShipClass>
-    <ShipClass>TerranBattleshipP</ShipClass>
-    <ShipClass>TerranBattleshipD</ShipClass>
-    <ShipClass>TerranOverlord</ShipClass>
-    <ShipClass>TerranAvatar</ShipClass>
-    <ShipClass>TerranAvatarL</ShipClass>
-    <ShipClass>TerranAvatarP</ShipClass>
-    <ShipClass>TerranAvatarD</ShipClass>
-    <ShipClass>TerranFortress</ShipClass>
-    <ShipClass>TerranFortressL</ShipClass>
-    <ShipClass>TerranFortressP</ShipClass>
-    <ShipClass>TerranFortressD</ShipClass>
-    <ShipClass>TerranDreadnought</ShipClass>
-    <ShipClass>TerranDreadnoughtL</ShipClass>
-    <ShipClass>TerranDreadnoughtP</ShipClass>
-    <ShipClass>TerranDreadnoughtD</ShipClass>
-    <ShipClass>TerranTitan</ShipClass>
-    <ShipClass>TerranColony</ShipClass>
-    <ShipClass>TerranConstructor</ShipClass>
-    <ShipClass>TerranTransport</ShipClass>
-    <ShipClass>TerranFreighter</ShipClass>
-    <ShipClass>TerranDroneCarrier</ShipClass>
-    <ShipClass>TerranCarrier</ShipClass>
-    <ShipClass>TerranAssaultCarrier</ShipClass>
-    <ShipClass>TerranBeamSupport</ShipClass>
-    <ShipClass>TerranDroneInterceptor</ShipClass>
-    <ShipClass>TerranGuardianFighter</ShipClass>
-    <ShipClass>TerranAssaultFighter</ShipClass>
-    <ShipClass>TerranBeamSupport</ShipClass>
-    <ShipClass>TerranMissileSupport</ShipClass>
-    <ShipClass>TerranKineticSupport</ShipClass>
-    <ShipClass>TerranTacticalSupport</ShipClass>
-    <ShipClass>AIDefenseTerranSniper</ShipClass>
-    <ShipClass>AIDefenseTerranBomber</ShipClass>
-    <ShipClass>AIDefenseTerranGuardian</ShipClass>
-    <ShipClass>AIDefenseTerranKnight</ShipClass>
-    <ShipClass>TerranBasicConstructor</ShipClass>
-    <ShipClass>AwardTerranScout</ShipClass>
-    <ShipClass>AwardTerranCutter</ShipClass>
-    <ShipClass>AwardTerranDefender</ShipClass>
-    <ShipClass>AwardTerranGunboat</ShipClass>
-    <ShipClass>AwardTerranSurvey</ShipClass>
-    <ShipClass>AwardTerranFrigate</ShipClass>
-    <ShipClass>AwardTerranOverlord</ShipClass>
-    <ShipClass>AwardTerranColony</ShipClass>
-    <ShipClass>AwardTerranConstructor</ShipClass>
-    <ShipClass>AwardTerranFreighter</ShipClass>
-    <ShipClass>AwardTerranTransport</ShipClass>
-  
-    <ShipyardArtDefine>
-      <ObjectGfxConfig>Terran_Shipyard_04.objgfxcfg</ObjectGfxConfig>
-      <ThumbnailOverride>T_Shipyard_01.png</ThumbnailOverride>
-    </ShipyardArtDefine>
-  
-    <StarbaseArtDefine>
-      <ModuleType>Generic</ModuleType>
-      <ObjectGfxConfig>Terran_Level_01b.objgfxcfg</ObjectGfxConfig>
-      <ThumbnailOverride>Terran_Level_01b.png</ThumbnailOverride>
-      <StrategicIcon>Starbase</StrategicIcon>
-    </StarbaseArtDefine>
-  
-    <StarbaseArtDefine>
-      <ModuleType>Culture</ModuleType>
-      <ObjectGfxConfig>Terran_Culture_01b.objgfxcfg</ObjectGfxConfig>
-      <ThumbnailOverride>Terran_Culture_01b.png</ThumbnailOverride>
-      <StrategicIcon>Culturebase</StrategicIcon>
-    </StarbaseArtDefine>
-    <StarbaseArtDefine>
-      <ModuleType>Culture</ModuleType>
-      <ObjectGfxConfig>Terran_Culture_02.objgfxcfg</ObjectGfxConfig>
-      <ThumbnailOverride>Terran_Culture_02.png</ThumbnailOverride>
-      <StrategicIcon>Culturebase</StrategicIcon>
-    </StarbaseArtDefine>
-    <StarbaseArtDefine>
-      <ModuleType>Culture</ModuleType>
-      <ObjectGfxConfig>Terran_Culture_03.objgfxcfg</ObjectGfxConfig>
-      <ThumbnailOverride>Terran_Culture_03.png</ThumbnailOverride>
-      <StrategicIcon>Culturebase</StrategicIcon>
-    </StarbaseArtDefine>
-    <StarbaseArtDefine>
-      <ModuleType>Culture</ModuleType>
-      <ObjectGfxConfig>Terran_Culture_04.objgfxcfg</ObjectGfxConfig>
-      <ThumbnailOverride>Terran_Culture_04.png</ThumbnailOverride>
-      <StrategicIcon>Culturebase</StrategicIcon>
-    </StarbaseArtDefine>
-    <StarbaseArtDefine>
-      <ModuleType>Culture</ModuleType>
-      <ObjectGfxConfig>Terran_Culture_05.objgfxcfg</ObjectGfxConfig>
-      <ThumbnailOverride>Terran_Culture_05.png</ThumbnailOverride>
-      <StrategicIcon>Culturebase</StrategicIcon>
-    </StarbaseArtDefine>
-  
-    <StarbaseArtDefine>
-      <ModuleType>Economic</ModuleType>
-      <ObjectGfxConfig>Terran_Economic_01b.objgfxcfg</ObjectGfxConfig>
-      <ThumbnailOverride>Terran_Economic_01b.png</ThumbnailOverride>
-      <StrategicIcon>Economicbase</StrategicIcon>
-    </StarbaseArtDefine>
-    <StarbaseArtDefine>
-      <ModuleType>Economic</ModuleType>
-      <ObjectGfxConfig>Terran_Economic_02.objgfxcfg</ObjectGfxConfig>
-      <ThumbnailOverride>Terran_Economic_02.png</ThumbnailOverride>
-      <StrategicIcon>Economicbase</StrategicIcon>
-    </StarbaseArtDefine>
-    <StarbaseArtDefine>
-      <ModuleType>Economic</ModuleType>
-      <ObjectGfxConfig>Terran_Economic_03.objgfxcfg</ObjectGfxConfig>
-      <ThumbnailOverride>Terran_Economic_03.png</ThumbnailOverride>
-      <StrategicIcon>Economicbase</StrategicIcon>
-    </StarbaseArtDefine>
-    <StarbaseArtDefine>
-      <ModuleType>Economic</ModuleType>
-      <ObjectGfxConfig>Terran_Economic_04.objgfxcfg</ObjectGfxConfig>
-      <ThumbnailOverride>Terran_Economic_04.png</ThumbnailOverride>
-      <StrategicIcon>Economicbase</StrategicIcon>
-    </StarbaseArtDefine>
-    <StarbaseArtDefine>
-      <ModuleType>Economic</ModuleType>
-      <ObjectGfxConfig>Terran_Economic_05.objgfxcfg</ObjectGfxConfig>
-      <ThumbnailOverride>Terran_Economic_05.png</ThumbnailOverride>
-      <StrategicIcon>Economicbase</StrategicIcon>
-    </StarbaseArtDefine>
-  
-    <StarbaseArtDefine>
-      <ModuleType>Military</ModuleType>
-      <ObjectGfxConfig>Terran_Military_01b.objgfxcfg</ObjectGfxConfig>
-      <ThumbnailOverride>Terran_Military_01b.png</ThumbnailOverride>
-      <StrategicIcon>Militarybase</StrategicIcon>
-    </StarbaseArtDefine>
-    <StarbaseArtDefine>
-      <ModuleType>Military</ModuleType>
-      <ObjectGfxConfig>Terran_Military_02b.objgfxcfg</ObjectGfxConfig>
-      <ThumbnailOverride>Terran_Military_02b.png</ThumbnailOverride>
-      <StrategicIcon>Militarybase</StrategicIcon>
-    </StarbaseArtDefine>
-    <StarbaseArtDefine>
-      <ModuleType>Military</ModuleType>
-      <ObjectGfxConfig>Terran_Military_03.objgfxcfg</ObjectGfxConfig>
-      <ThumbnailOverride>Terran_Military_03.png</ThumbnailOverride>
-      <StrategicIcon>Militarybase</StrategicIcon>
-    </StarbaseArtDefine>
-    <StarbaseArtDefine>
-      <ModuleType>Military</ModuleType>
-      <ObjectGfxConfig>Terran_Military_04.objgfxcfg</ObjectGfxConfig>
-      <ThumbnailOverride>Terran_Military_04.png</ThumbnailOverride>
-      <StrategicIcon>Militarybase</StrategicIcon>
-    </StarbaseArtDefine>
-    <StarbaseArtDefine>
-      <ModuleType>Military</ModuleType>
-      <ObjectGfxConfig>Terran_Military_05.objgfxcfg</ObjectGfxConfig>
-      <ThumbnailOverride>Terran_Military_05.png</ThumbnailOverride>
-      <StrategicIcon>Militarybase</StrategicIcon>
-    </StarbaseArtDefine>
-  
-    <StarbaseArtDefine>
-      <ModuleType>Mining</ModuleType>
-      <ObjectGfxConfig>Terran_Mining_01b.objgfxcfg</ObjectGfxConfig>
-      <ThumbnailOverride>Terran_Mining_01b.png</ThumbnailOverride>
-      <StrategicIcon>Miningbase</StrategicIcon>
-    </StarbaseArtDefine>
-    <StarbaseArtDefine>
-      <ModuleType>Mining</ModuleType>
-      <ObjectGfxConfig>Terran_Mining_02b.objgfxcfg</ObjectGfxConfig>
-      <ThumbnailOverride>Terran_Mining_02b.png</ThumbnailOverride>
-      <StrategicIcon>Miningbase</StrategicIcon>
-    </StarbaseArtDefine>
-    <StarbaseArtDefine>
-      <ModuleType>Mining</ModuleType>
-      <ObjectGfxConfig>Terran_Mining_03b.objgfxcfg</ObjectGfxConfig>
-      <ThumbnailOverride>Terran_Mining_03b.png</ThumbnailOverride>
-      <StrategicIcon>Miningbase</StrategicIcon>
-    </StarbaseArtDefine>
-    <StarbaseArtDefine>
-      <ModuleType>Mining</ModuleType>
-      <ObjectGfxConfig>Terran_Mining_04b.objgfxcfg</ObjectGfxConfig>
-      <ThumbnailOverride>Terran_Mining_04b.png</ThumbnailOverride>
-      <StrategicIcon>Miningbase</StrategicIcon>
-    </StarbaseArtDefine>
-    <StarbaseArtDefine>
-      <ModuleType>Mining</ModuleType>
-      <ObjectGfxConfig>Terran_Mining_05a.objgfxcfg</ObjectGfxConfig>
-      <ThumbnailOverride>Terran_Mining_05a.png</ThumbnailOverride>
-      <StrategicIcon>Miningbase</StrategicIcon>
-    </StarbaseArtDefine>
-  
-    <StarbaseSFXDefine>TERRAN_STARBASE_AMBIENT</StarbaseSFXDefine>
-  
-  </ShipStyleSet>
-  
   <!-- Earthlings -->
   <ShipStyleSet>
-    <InternalName>EarthlingShipStyleSet</InternalName>
-    <DisplayName>EarthlingShipStyleSet_Name</DisplayName>
+    <InternalName>StarControlTerranShipStyleSet</InternalName>
+    <DisplayName>TerranShipStyleSet_Name</DisplayName>
     <Icon>GC3_S_Basic_Ship_Icon.png</Icon>
     <DisplaySampleObjGfxConfig>Terran_Survey_04S.objgfxcfg</DisplaySampleObjGfxConfig>
     <ShipStyle>Terran</ShipStyle>
@@ -515,7 +295,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionShipStyleSetDefs.xsd">
   
     <InitialAssaultFighter>TerranAssaultFighter</InitialAssaultFighter>
     <InitialInterceptorFighter>TerranDroneInterceptor</InitialInterceptorFighter>
-    <InitialEscortFighter>TerranEscortFighter</InitialEscortFighter>
+    <InitialEscortFighter>TerranAsAssaultFighter</InitialEscortFighter>
     <InitialGuardianFighter>TerranGuardianFighter</InitialGuardianFighter>
   
     <ShipClass>TerranStartingScout</ShipClass>
@@ -747,7 +527,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionShipStyleSetDefs.xsd">
     <StarbaseSFXDefine>TERRAN_STARBASE_AMBIENT</StarbaseSFXDefine>
   
   </ShipStyleSet>
-
+  
   <!-- Syreen -->
   <ShipStyleSet>
     <InternalName>SyreenShipStyleSet</InternalName>

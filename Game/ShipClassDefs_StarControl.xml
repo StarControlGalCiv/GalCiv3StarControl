@@ -4,6 +4,22 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="../Schema/ShipClassDefs.xsd">
 <!-- Created with the Gal Civ 3 Editor -->
 <!-- ShipClassDefs.xml -->
+ 
+  <!-- Kohr-Ah ship that can do stat named CanGenocide -->
+  <!-- Begin Ship -->
+ 
+  <ShipClass>
+    <InternalName>KohrAhIncinderator</InternalName>
+    <DisplayName>DrenginTransport_Class_Name</DisplayName>
+    <Description>DrenginTransport_Dec</Description>
+    <ThumbnailOverride>Temp_Drengin_Transport_Alpha_01.png</ThumbnailOverride>
+    <ShipHullType>Cargo</ShipHullType>
+    <ShipRule>Transport</ShipRule>
+    <ShipDesign>Drengin_Transport_01T</ShipDesign>
+    <AIShipClass>Transport</AIShipClass>
+    <StrategicIcon>Transport</StrategicIcon>
+    <BlueprintDef>IncinderatorBlueprint</BlueprintDef>
+  </ShipClass>
 
   <ShipClass>
     <InternalName>UrQuanStartingColony</InternalName>

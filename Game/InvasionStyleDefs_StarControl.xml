@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<InvasionStyleList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/InvasionStyleDefs.xsd">
+
+<!-- Kohr-Ah specific that also allows invasion of worlds under a slave shield -->
+<!-- "They will crack the slave shield around Earth and reduce the surface of your blue world to cinders." - Ur-Quan Kzer-Za -->
+  <InvasionStyle>
+	<InternalName>MercilessWarfare</InternalName>
+    <Title>IMPLOSION_WARFARE_TITLE</Title>
+    <Description>IMPLOSION_WARFARE_DESCRIPTION</Description>
+    <!-- TODO: Allow the use of this only after the defeat of Ur-Quan Kzer-Za -->
+    <Prerequ>
+      <RaceTrait>
+        <Option>MercilessAbility</Option>
+      </RaceTrait>
+    </Prerequ>
+    <ImmunityStat>IsImmuneToInvasion19</ImmunityStat>
+    <ImmunityDescription>IsImmuneToInvasion19_Label</ImmunityDescription>
+
+    <Cost>0</Cost>    
+    <DefenseMod>-1.0</DefenseMod>
+    <ResistanceMod>-1.0</ResistanceMod>
+    <SoldieringMod>0.0</SoldieringMod>
+    <InvaderCasualtyMin>0.01</InvaderCasualtyMin>
+    <InvaderCasualtyMax>0.02</InvaderCasualtyMax>
+    <DefenderCasualtyMin>1.0</DefenderCasualtyMin>
+    <DefenderCasualtyMax>1.0</DefenderCasualtyMax>
+    <ImprovementDamageThreshold>0.95</ImprovementDamageThreshold>
+    <SurfaceDamageThreshold>0.1</SurfaceDamageThreshold>
+  </InvasionStyle>
+</InvasionStyleList>

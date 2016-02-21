@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<ScenarioTriggerSetList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/ScenarioTriggerSetDefs.xsd">
+
+  <ScenarioTriggerSetDef>
+    <InternalName>StarControl2_Scenario_Triggers</InternalName>
+  </ScenarioTriggerSetDef>
+</ScenarioTriggerSetList>

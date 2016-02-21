@@ -6,7 +6,37 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
 <!-- ImprovementText.xml -->
  
 <!-- Tech Names and Descriptions -->
+
+  <StringTable>
+    <Label>QuasiSpaceCivilizationCapital_Name</Label>
+    <String>[ICON=WobbleWorldIcon] QuasiSpace Civilization Capital</String>
+  </StringTable>
  
+  <StringTable>
+    <Label>QuasiSpaceCivilizationCapital_ShortDec</Label>
+    <String>Colony capital that is imprisoned under an Ur-Quan slave shield.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>QuasiSpaceCivilizationCapital_Dec</Label>
+    <String>Disallows building a shipyard. Colonial capital does a little bit of everything and serves as a stepping stone to greater things.</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>TeleportPlanet_Name</Label>
+    <String>[ICON=ShieldedWorldIcon] Realign QuasiSpace Portals</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>TeleportPlanet_ShortDec</Label>
+    <String>Realigns QuasiSpace Portal nodes seemingly teleporting the planet.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>TeleportPlanet_Dec</Label>
+    <String>Realigns QuasiSpace Portal nodes that causes QuasiSpace Portals to appear at different positions in TrueSpace with the planet having a random entry point.</String>
+  </StringTable>
+
   <StringTable>
     <Label>EnslavedColonyCapital_Name</Label>
     <String>[ICON=ShieldedWorldIcon] Enslaved Colony Capital</String>
@@ -19,7 +49,38 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>EnslavedColonyCapital_Dec</Label>
-    <String>Colony capital that is imprisoned under an Ur-Quan slaveshield. Disallows building a shipyard. Colonial capital does a little bit of everything and serves as a stepping stone to greater things.</String>
+    <String>Colony capital that is imprisoned under an Ur-Quan slave shield. Disallows building a shipyard. Colonial capital does a little bit of everything and serves as a stepping stone to greater things.</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>EnslavedCivilizationCapital_Name</Label>
+    <String>[ICON=ShieldedWorldIcon] Enslaved Civilization Capital</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>EnslavedCivilizationCapital_ShortDec</Label>
+    <String>Colony capital that is imprisoned under an Ur-Quan slave shield.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>EnslavedCivilizationCapital_Dec</Label>
+    <String>Disallows building a shipyard. Colonial capital does a little bit of everything and serves as a stepping stone to greater things.</String>
+  </StringTable>
+
+
+  <StringTable>
+    <Label>SpathiCivilizationCapital_Name</Label>
+    <String>[ICON=ShieldedWorldIcon] Spathi Civilization Capital</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>SpathiCivilizationCapital_ShortDec</Label>
+    <String>The Ur-Quan slave shield was set up by the Spathi themselves.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>SpathiCivilizationCapital_Dec</Label>
+    <String>Civilization capital that is imprisoned under an Ur-Quan slave shield. Disallows building a shipyard.</String>
   </StringTable>
 
   <StringTable>
@@ -29,12 +90,30 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>FreeColonyCapital_ShortDec</Label>
-    <String>Colony that has had its Ur-Quan slaveshield removed.</String>
+    <String>Colony that has had its Ur-Quan slave shield removed.</String>
   </StringTable>
  
   <StringTable>
     <Label>FreeColonyCapital_Dec</Label>
-    <String>Colony that has had its Ur-Quan slaveshield removed. The population feels uplifted after this event. Colonial capital does a little bit of everything and serves as a stepping stone to greater things.</String>
+    <String>Colony that has had its Ur-Quan slave shield removed. The population feels uplifted after this event.</String>
   </StringTable>
+
+  <!-- Fun added non-canon twist -->
+  <!-- Har! Har! Har! -->
+  <StringTable>
+    <Label>FreeSpathiColonyCapital_Name</Label>
+    <String>Free Colony Capital</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FreeSpathiColonyCapital_ShortDec</Label>
+    <String>Pranked nomad Spathi removed the slave shield.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>FreeSpathiColonyCapital_Dec</Label>
+    <String>Umgah have done it again. Spathi that were left outside Spathiwa's slave shield were given false directions on how to get inside.</String>
+  </StringTable>
+  <!-- A more canon twist would probably be Chmmr going on a spree of slave shield removal -->
 
 </StringTableList>

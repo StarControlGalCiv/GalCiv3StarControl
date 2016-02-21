@@ -11,7 +11,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<DisplayName>FalayalaralfaliName</DisplayName>
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>26</PlanetClass>
-		<PlanetTrait>WaterWorldSC</PlanetTrait>
+		<PlanetTrait>WithinQuasiSpaceSC</PlanetTrait>
 		<ArtDefine>WaterWorldSC</ArtDefine>
 	</Planet>
 

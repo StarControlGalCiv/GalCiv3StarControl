@@ -578,4 +578,15 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
     <String>This Water World has inhabitants that the Spathi call the 'Evil Ones'.</String>
   </StringTable>
 
+
+  <StringTable>
+    <Label>WithinQuasiSpaceSC_Name</Label>
+    <String>In QuasiSpace</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>WithinQuasiSpaceSC_Dec</Label>
+    <String>A TrueSpace planet within QuasiSpace</String>
+  </StringTable>
+
 </StringTableList>

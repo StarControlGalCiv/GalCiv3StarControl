@@ -127,7 +127,7 @@ Minor:
 *	Independent, with hidden homeworld:
   *		Arilou Lalee'lay (more Pragmatic than Benevolent)
   *		Melnorme (Pragmatic)
-*	Independent, confined to homeworld without atbility to create buildings:
+*	Independent, confined to homeworld without ability to create buildings:
   *		Slylandro (Benevolent)
 
 Special:
