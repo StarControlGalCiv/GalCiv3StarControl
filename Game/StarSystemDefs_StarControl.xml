@@ -120,7 +120,7 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
       </OrbitLane>
     </StarSystem>
 
-    <!-- Earthling Home Star System -->
+    <!-- Human Home Star System -->
     <StarSystem>
       <InternalName>SolSCSystem</InternalName>
       <DisplayName>SolSCSystem_Name</DisplayName>
@@ -128,7 +128,14 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
         <LaneType>Star</LaneType>
         <Body>
           <BodyType>UnaryStar</BodyType>
-          <BodyDef>SolStarSC</BodyDef>
+          <BodyDef>SolStar</BodyDef>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>DeadZone</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetMercurySC</BodyDef>
         </Body>
       </OrbitLane>
       <OrbitLane>
@@ -139,18 +146,25 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
           <IsHomeworld>true</IsHomeworld>
           <Position>5</Position>
         </Body>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetMarsSC</BodyDef>
+        </Body>
       </OrbitLane>
       <OrbitLane>
-        <LaneType>OuterZone</LaneType>
-        <MinPlanets>0</MinPlanets>
-        <MaxPlanets>2</MaxPlanets>
+        <LaneType>NoRandom</LaneType>
         <Body>
           <BodyType>Asteroid</BodyType>
           <BodyDef>NormalAsteroid</BodyDef>
+          <Position>0</Position>
         </Body>
         <Body>
-          <BodyType>Asteroid</BodyType>
-          <BodyDef>NormalAsteroid</BodyDef>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetJupiterSC</BodyDef>
+        </Body>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetSaturnSC</BodyDef>
         </Body>
       </OrbitLane>
     </StarSystem>
