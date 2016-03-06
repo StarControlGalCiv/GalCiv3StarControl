@@ -8,9 +8,9 @@ xsi:noNamespaceSchemaLocation="../Schema/StatTypeDisplayDefs.xsd">
 		<DisplayName>STATNAME_IsImmuneToInvasion0</DisplayName>
 	</StatTypeDisplayDef>
 
-	<StatTypeDisplayDef>
+	<!-- <StatTypeDisplayDef>
 		<UniqueID>IsImmuneToInvasion19</UniqueID>
 		<DisplayName></DisplayName>
-	</StatTypeDisplayDef>
+	</StatTypeDisplayDef> -->
 
 </StatTypeDisplayDefs>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<ConversationTopicDefs
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/ConversationDefs.xsd">
+
+  <ConversationTopicDef>
+    <InternalName>SandboxConversation_FirstContact</InternalName>
+    <TopicID>FirstContact</TopicID>
+
+    <!-- Player Kzer-Za starts by being at war with Kohr-Ah -->
+    <ConversationDef>
+      <Requirements>
+        <SpeakerFaction>FACTION_KOHR-AH</SpeakerFaction>
+        <ListenerFaction>FACTION_KZER-ZA</ListenerFaction>
+      </Requirements>
+      <PreferenceWeight>100</PreferenceWeight>
+      <FlavorText>FIRST_CONTACT_MAIN</FlavorText>
+      <Response>
+        <InternalName>FirstContact_Response_Kohr_Kzer_War_Star_Control</InternalName>
+        <ResponseFlavorText>DECLARE_WAR_RESPONSE_AGGRESSIVE</ResponseFlavorText>
+        <SetDiplomaticState>Enemy</SetDiplomaticState>
+      </Response>
+    </ConversationDef>
+
+    <!-- Player Kohr-Ah starts by being at war with everyone -->
+    <ConversationDef>
+      <Requirements>
+        <ListenerFaction>FACTION_KOHR-AH</ListenerFaction>
+      </Requirements>
+      <PreferenceWeight>95</PreferenceWeight>
+      <FlavorText>FIRST_CONTACT_MAIN</FlavorText>
+      <Response>
+        <InternalName>FirstContact_Response_Player_Kohr_War_Star_Control</InternalName>
+        <ResponseFlavorText>DECLARE_WAR_RESPONSE_AGGRESSIVE</ResponseFlavorText>
+        <SetDiplomaticState>Enemy</SetDiplomaticState>
+      </Response>
+    </ConversationDef>
+
+    <!-- <ConversationDef>
+      <Requirements>
+        <SpeakerFaction>FACTION_KOHR-AH</SpeakerFaction>
+      </Requirements>
+      <PreferenceWeight>90</PreferenceWeight>
+      <FlavorText>FIRST_CONTACT_MAIN</FlavorText>
+      <Response>
+        <InternalName>FirstContact_Response_Kohr_War_Star_Control</InternalName>
+        <ResponseFlavorText>DECLARE_WAR_RESPONSE_AGGRESSIVE</ResponseFlavorText>
+        <SetDiplomaticState>Enemy</SetDiplomaticState>
+      </Response>
+    </ConversationDef> -->
+
+    <ConversationDef>
+      <FlavorText>FIRST_CONTACT_MAIN</FlavorText>
+      <Response>
+        <InternalName>FirstContact_Response_1</InternalName>
+        <ResponseFlavorText>FIRST_CONTACT_RESPONSE_PEACEFUL</ResponseFlavorText>
+      </Response>
+      <Response>
+        <InternalName>FirstContact_Response_2</InternalName>
+        <ResponseFlavorText>FIRST_CONTACT_RESPONSE_NEUTRAL</ResponseFlavorText>
+      </Response>
+    </ConversationDef>
+  </ConversationTopicDef>
+
+  <ConversationTopicDef>
+    <InternalName>SandboxConversation_MercenaryFirstContact</InternalName>
+    <TopicID>MercenaryFirstContact</TopicID>
+    <ConversationDef>
+      <FlavorText>MERC_FIRST_CONTACT_MAIN</FlavorText>
+      <OverrideMovie>korx_intro_screen_00.bk2</OverrideMovie>
+      <Response>
+        <InternalName>MercFirstContact_Response_1</InternalName>
+        <ResponseFlavorText>MERC_FIRST_CONTACT_RESPONSE_ACCEPT</ResponseFlavorText>
+      </Response>
+      <Response>
+        <InternalName>MercFirstContact_Response_2</InternalName>
+        <ResponseFlavorText>MERC_FIRST_CONTACT_RESPONSE_NOTNOW</ResponseFlavorText>
+      </Response>
+    </ConversationDef>
+  </ConversationTopicDef>
+
+</ConversationTopicDefs>

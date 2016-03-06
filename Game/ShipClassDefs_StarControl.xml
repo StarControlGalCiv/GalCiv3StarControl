@@ -99,4 +99,19 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipClassDefs.xsd">
     <StaticBlueprintDef>MarauderCapitalStaticBlueprint</StaticBlueprintDef>
   </ShipClass>
 
+  <!-- Sa-Matra -->
+
+  <ShipClass>
+    <InternalName>SaMatra</InternalName>
+    <DisplayName>SaMatra_Class_Name</DisplayName>
+    <Description>SaMatra_Dec</Description>
+    <ThumbnailOverride>Drengin_Dreadnought_01T.PNG</ThumbnailOverride>
+    <ShipHullType>Huge</ShipHullType>
+    <ShipRule>FavorBeam</ShipRule>
+    <ShipDesign>Drengin_Battleship_02T</ShipDesign>
+    <AIShipClass>Assault</AIShipClass>
+    <StrategicIcon>Dreadnought</StrategicIcon>
+    <StaticBlueprintDef>SaMatraStaticBlueprint</StaticBlueprintDef>
+  </ShipClass>
+
 </ShipClassList>

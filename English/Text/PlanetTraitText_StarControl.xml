@@ -575,7 +575,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
 
   <StringTable>
     <Label>EvilOnesWaterWorldSC_Dec</Label>
-    <String>This Water World has inhabitants that the Spathi call the 'Evil Ones'.</String>
+    <String>Colonizers of this Water World bring about extinction of the 'Evil Ones'.</String>
   </StringTable>
 
 

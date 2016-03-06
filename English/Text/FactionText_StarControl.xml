@@ -372,23 +372,23 @@
 
 	<StringTable>
 		<Label>FACTION_HUMANS_Name</Label>
-		<String>Earthlings</String>
+		<String>UN Star Control</String>
 	</StringTable>
 
 	<StringTable>
 		<Label>FACTION_HUMANS_ShortName</Label>
-		<String>Earthlings</String>
+		<String>Humans</String>
 	</StringTable>
 
 	<StringTable>
 		<Label>FACTION_HUMANS_LeaderName</Label>
 		<String>Commander Hayes</String>
-		<!-- In command of the starbase, which means he is in charge of the remaining Earthling space forces -->
+		<!-- In command of the starbase, which means he is in charge of the remaining Human space forces -->
 	</StringTable>
 
 	<StringTable>
 		<Label>FACTION_HUMANS_Dec</Label>
-		<String>After the Alliance of Free Stars was defeated by the Ur-Quan Kzer-Za, most of the Earth population voted to live under a slaveshielded Earth rather than joining the Ur-Quan Kzer-Za as Battle Thralls.</String>
+		<String>United Nations Star Control. After the Alliance of Free Stars was defeated by the Ur-Quan Kzer-Za, most of the Earth population voted to live under a slaveshielded Earth rather than joining the Ur-Quan Kzer-Za as Battle Thralls.</String>
 	</StringTable>
 
 	<StringTable>

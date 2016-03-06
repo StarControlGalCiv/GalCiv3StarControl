@@ -165,4 +165,33 @@ xsi:noNamespaceSchemaLocation="../Schema/StaticShipBlueprintDefs.xsd">
     <ShipComponents>Immolator</ShipComponents>
   </StaticShipBlueprint>
 
+  <!-- Sa-Matra -->
+
+  <StaticShipBlueprint>
+    <InternalName>SaMatraStaticBlueprint</InternalName>
+    <ShipHullType>Huge</ShipHullType>
+    <!-- Set to starbase so it could fire from the longest distance possible -->
+    <Role>Starbase</Role>
+    <CanBeBuilt>false</CanBeBuilt>
+    <ShipComponents>SaMatra</ShipComponents>
+    <ShipComponents>IonDrive</ShipComponents>
+    <ShipComponents>EnvironmentalSupport</ShipComponents>
+    <ShipComponents>InterstellerSensors</ShipComponents>
+    <ShipComponents>DoomRay</ShipComponents>
+    <ShipComponents>DoomRay</ShipComponents>
+    <ShipComponents>DoomRay</ShipComponents>
+    <ShipComponents>DoomRay</ShipComponents>
+    <ShipComponents>DoomRay</ShipComponents>
+    <ShipComponents>DoomRay</ShipComponents>
+    <ShipComponents>DoomRay</ShipComponents>
+    <ShipComponents>DoomRay</ShipComponents>
+    <ShipComponents>DoomRay</ShipComponents>
+    <ShipComponents>DoomRay</ShipComponents>
+    <ShipComponents>DoomRay</ShipComponents>
+    <ShipComponents>DoomRay</ShipComponents>
+    <ShipComponents>DroneCarrierModule</ShipComponents>
+    <ShipComponents>DroneCarrierModule</ShipComponents>
+    <ShipComponents>DroneCarrierModule</ShipComponents>
+  </StaticShipBlueprint>
+
 </StaticShipBlueprintList>

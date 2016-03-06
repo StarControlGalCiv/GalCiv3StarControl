@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<ScenarioConversationDefs
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../../../../Schema/ScenarioConversationDefs.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+    <ScenarioConversationDef>
+      <InternalName>StarControl_DoctrinalConflict_EternalDoctrine_Conversation</InternalName>
+      <ConversationTopic>Eternal_Doctrine_Topic</ConversationTopic>
+    </ScenarioConversationDef>
+</ScenarioConversationDefs>

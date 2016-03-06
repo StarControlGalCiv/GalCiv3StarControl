@@ -5,7 +5,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
 <!-- Created with the Gal Civ 3 Editor -->
 <!-- IStarSystem.xml -->
  
-<!-- Star system names and Descriptions -->
+<!-- Star system names and Descriptions(used when creating custom faction) -->
 
   <StringTable>
     <Label>ArilouSystem_Name</Label>

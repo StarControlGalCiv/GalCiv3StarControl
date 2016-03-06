@@ -12,8 +12,11 @@ xsi:noNamespaceSchemaLocation="../Schema/InvasionStyleDefs.xsd">
     <!-- TODO: Allow the use of this only after the defeat of Ur-Quan Kzer-Za -->
     <Prerequ>
       <RaceTrait>
-        <Option>MercilessAbility</Option>
+        <Option>KohrAh</Option>
       </RaceTrait>
+      <TechAge>
+        <Option>AgeOfAscension</Option>
+      </TechAge>
     </Prerequ>
     <ImmunityStat>IsImmuneToInvasion19</ImmunityStat>
     <ImmunityDescription>IsImmuneToInvasion19_Label</ImmunityDescription>

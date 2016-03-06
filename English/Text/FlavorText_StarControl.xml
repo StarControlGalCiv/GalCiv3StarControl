@@ -2,7 +2,7 @@
 
 <FlavorTextDefs
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:noNamespaceSchemaLocation="../Schema/FlavorText.xsd">
+xsi:noNamespaceSchemaLocation="../../Schema/FlavorText.xsd">
 
   <FlavorTextDef>
     <InternalName>FIRST_CONTACT_MAIN_STAR_CONTROL</InternalName>
@@ -10,7 +10,6 @@ xsi:noNamespaceSchemaLocation="../Schema/FlavorText.xsd">
     <!-- Ur-Quan posses talking pets in place of universal translators, so all Ur-Quan flavor text must be comprehensible. -->
 
     <FlavorTextOption>
-      <ResponseTag>GARBLED_TEXT</ResponseTag>
       <Requirements>
         <SpeakerFaction>FACTION_KZER-ZA</SpeakerFaction>
         <ListenerHasUniversalTranslator>false</ListenerHasUniversalTranslator>
@@ -20,7 +19,6 @@ xsi:noNamespaceSchemaLocation="../Schema/FlavorText.xsd">
     </FlavorTextOption>
 
     <FlavorTextOption>
-      <ResponseTag>GARBLED_TEXT</ResponseTag>
       <Requirements>
         <SpeakerFaction>FACTION_KOHR-AH</SpeakerFaction>
         <ListenerHasUniversalTranslator>false</ListenerHasUniversalTranslator>
@@ -30,7 +28,6 @@ xsi:noNamespaceSchemaLocation="../Schema/FlavorText.xsd">
     </FlavorTextOption>
 
     <FlavorTextOption>
-      <ResponseTag>GARBLED_TEXT</ResponseTag>
       <Requirements>
         <ListenerHasUniversalTranslator>false</ListenerHasUniversalTranslator>
       </Requirements>
@@ -42,13 +39,6 @@ xsi:noNamespaceSchemaLocation="../Schema/FlavorText.xsd">
     </FlavorTextOption>
 
     <FlavorTextOption>
-      <Text>Greetings, {PLAYERFACTION:2}. May the universe be large enough for both of us.</Text>
-      <Text>Greetings, {PLAYERFACTION:2}. If you share our values we will be loyal friends, if not...</Text>
-      <Text>Greetings, {PLAYERFACTION:2}. Choose solar systems to explore, choose how to colonize new worlds, and choose your allies most carefully of all.</Text>
-      <Text>Greetings, {PLAYERFACTION:2}. Will you fill your worlds with advanced labs or industrial factories? Either is fine with us, as long as you leave them undefended.</Text>
-    </FlavorTextOption>
-
-    <FlavorTextOption>
       <Requirements>
         <SpeakerFaction>FACTION_KZER-ZA</SpeakerFaction>
       </Requirements>
@@ -63,9 +53,54 @@ xsi:noNamespaceSchemaLocation="../Schema/FlavorText.xsd">
       <Text>We sense... something... something ancient... a sickly smell... a chilling wind. My ancestors scream from within their chambers in my mind. But, I cannot understand their words. This feeling... a memory? It sickens us. We are the Ur-Quan Kohr-Ah. Your presence here is premature. Our nature, the fulfillment of our fate requires your destruction.</Text>
       <PreferenceWeight>1</PreferenceWeight>
     </FlavorTextOption>
+
+    <FlavorTextOption>
+      <Text>Greetings, {PLAYERFACTION:2}. May the universe be large enough for both of us.</Text>
+      <Text>Greetings, {PLAYERFACTION:2}. If you share our values we will be loyal friends, if not...</Text>
+      <Text>Greetings, {PLAYERFACTION:2}. Choose solar systems to explore, choose how to colonize new worlds, and choose your allies most carefully of all.</Text>
+      <Text>Greetings, {PLAYERFACTION:2}. Will you fill your worlds with advanced labs or industrial factories? Either is fine with us, as long as you leave them undefended.</Text>
+    </FlavorTextOption>
   </FlavorTextDef>
 
+  <!-- Peaceful-->
+  <FlavorTextDef>
 
+    <InternalName>FIRST_CONTACT_RESPONSE_PEACEFUL_STAR_CONTROL</InternalName>
+
+    <FlavorTextOption>
+      <Requirements>
+        <ListenerHasUniversalTranslator>false</ListenerHasUniversalTranslator>
+        <ResponseTo>FACTION_KZER-ZA</ResponseTo>
+      </Requirements>
+      <Text>Look, ah... this was all a mistake. A weird mistake. Bye!</Text>
+      <PreferenceWeight>1000</PreferenceWeight>
+    </FlavorTextOption>
+
+    <FlavorTextOption>
+      <Requirements>
+        <ResponseTo>FACTION_KZER-ZA</ResponseTo>
+      </Requirements>
+      <Text>Look, ah... this was all a mistake. A weird mistake. Bye!</Text>
+      <PreferenceWeight>1000</PreferenceWeight>
+    </FlavorTextOption>
+
+    <FlavorTextOption>
+      <Requirements>
+        <ListenerHasUniversalTranslator>false</ListenerHasUniversalTranslator>
+        <ResponseTo>FACTION_KOHR-AH</ResponseTo>
+      </Requirements>
+      <Text>Look, ah... this was all a mistake. A weird mistake. Bye!</Text>
+      <PreferenceWeight>1000</PreferenceWeight>
+    </FlavorTextOption>
+
+    <FlavorTextOption>
+      <Requirements>
+        <ResponseTo>FACTION_KOHR-AH</ResponseTo>
+      </Requirements>
+      <Text>Look, ah... this was all a mistake. A weird mistake. Bye!</Text>
+      <PreferenceWeight>1000</PreferenceWeight>
+    </FlavorTextOption>
+  </FlavorTextDef>
 
   <FlavorTextDef>
     <InternalName>GENERIC_GREETING_STAR_CONTROL</InternalName>

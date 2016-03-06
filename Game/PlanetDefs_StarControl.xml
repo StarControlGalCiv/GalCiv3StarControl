@@ -92,7 +92,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 
 
 
-	<!-- Earthling Home Solar System -->
+	<!-- Human Home Solar System -->
 	<!-- Planet I - Metal World -->
 	<Planet>
 		<InternalName>PlanetMercurySC</InternalName>
@@ -103,7 +103,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<ArtDefine>MercuryArt</ArtDefine>
 	</Planet>
 
-	<!-- Planet II - Water World - Earthling homeworld (slave-shielded) -->
+	<!-- Planet II - Water World - Human homeworld (slave-shielded) -->
 	<Planet>
 		<InternalName>PlanetEarthSC</InternalName>
 		<DisplayName>EarthName</DisplayName>
@@ -119,8 +119,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<DisplayName>MarsName</DisplayName>
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>5</PlanetClass>
-		<PlanetTrait>DustWorldSC</PlanetTrait>
-		<DisableColonizationEvent>true</DisableColonizationEvent>
+		<PlanetTrait>DustWorldMarsSC</PlanetTrait>
 		<ArtDefine>MarsArt</ArtDefine>
 	</Planet>
 
@@ -787,7 +786,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<PlanetType>Habitable</PlanetType>
 		<PlanetClass>10</PlanetClass>
 		<PlanetTrait>EvilOnesWaterWorldSC</PlanetTrait>
-		<ArtDefine>EvilOnesWaterWorldSC</ArtDefine>
+		<ArtDefine>GenericWorld16-18</ArtDefine>
 	</Planet>
 	<!-- Spathi starting world -->
 	<Planet>

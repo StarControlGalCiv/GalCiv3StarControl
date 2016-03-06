@@ -16,17 +16,17 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>StarControl_DoctrinalConflict_Dec</Label>
-    <String>Play as the Earthlings, watching as the Ur-Quan subraces perform their Doctrinal Conflict.</String>
+    <String>Play as the Humans, watching as the Ur-Quan subraces perform their Doctrinal Conflict.</String>
   </StringTable>
  
   <StringTable>
     <Label>StarControl_DoctrinalConflict_ShortDec</Label>
-    <String>Play as the Earthlings, watching as the Ur-Quan subraces perform their Doctrinal Conflict.</String>
+    <String>Play as the Humans, watching as the Ur-Quan subraces perform their Doctrinal Conflict.</String>
   </StringTable>
 
   <StringTable>
     <Label>StarControl_DoctrinalConflict_FACTION_HUMANS_Name</Label>
-    <String>Earthlings</String>
+    <String>Humans</String>
   </StringTable>
 
   <!-- <StringTable>

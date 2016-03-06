@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<DiplomaticModifiers
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/DiplomaticModifiers.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- DiplomaticModifiers.xml -->
+
+    <DiplomaticModifier>
+      <UniqueID>DontLikeYourFace</UniqueID>
+      <RelationEffect>-5</RelationEffect>
+      <Query>false</Query>
+      <Description>DoctrinalConflict_Dec</Description>
+    </DiplomaticModifier>
+
+    <DiplomaticModifier>
+      <UniqueID>YourAlrightKid</UniqueID>
+      <RelationEffect>5</RelationEffect>
+      <Query>false</Query>
+      <Description>BusyWithDoctrinalConflict_Dec</Description>
+    </DiplomaticModifier>
+</DiplomaticModifiers>

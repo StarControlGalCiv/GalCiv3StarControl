@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<TechList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/TechDefs.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- TechDefs.xml-->
+<!-- Begin Tech test -->
+ 
+  <Tech>
+    <InternalName>MarsColonization</InternalName>
+    <GenericName>MarsColonization</GenericName>
+    <DisplayName>GenericColonizationTech_Name</DisplayName>
+    <TechTree>Colonyless_Tree</TechTree>
+    <ShortDescription>GenericColonizationTech_ShortDec</ShortDescription>
+    <Description>GenericColonizationTech_Dec</Description>
+    <ColorDef>TechGreen</ColorDef>
+    <Icon>GC3_Colonization_Icon.png</Icon>
+    <Bink>GC3_Colonization_Temp.bk2</Bink>
+    <ResearchCost>1</ResearchCost>
+    <Tags>NonMilitary</Tags>
+    <AICategoryWeight>
+      <Military>12</Military>
+      <Growth>20</Growth>
+      <Tech>18</Tech>
+      <Diplomacy>6</Diplomacy>
+      <Expansion>16</Expansion>
+      <Wealth>8</Wealth>
+      <Influence>10</Influence>
+      <Fortification>14</Fortification>
+    </AICategoryWeight>
+    <Prerequ>
+      <Unavailable>true</Unavailable>
+    </Prerequ>
+  </Tech>
+
+</TechList>

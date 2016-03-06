@@ -1,0 +1,1552 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<DefaultImprovementList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
+<!-- ImprovementDefs.xml -->
+
+<!-- Slave shield related: -->
+<!-- Enslaved Civilization Capital -->
+<!-- Begin Improvement -->
+ 
+  <Improvement>
+    <InternalName>EnslavedCivilizationCapital</InternalName>
+    <DisplayName>EnslavedCivilizationCapital_Name</DisplayName>
+    <ShortDescription>EnslavedCivilizationCapital_ShortDec</ShortDescription>
+    <Description>EnslavedCivilizationCapital_Dec</Description>
+    <Icon>EnslavedCivilizationCapital.png</Icon>
+    <BuildIcon>CivilizationCapital_Build.png</BuildIcon>
+    <ListIcon>EnslavedCivilizationCapital_Icon.png</ListIcon>
+    <ImprovementType>Special</ImprovementType>
+    <PlacementType>Special</PlacementType>
+    <IsIndestructible>true</IsIndestructible>
+    <IsColonyUnique>true</IsColonyUnique>
+ 
+    <!-- Stats -->
+ 
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>ProductionPoints</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>5</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>GoodsAndServices</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>5</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>Food</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>10</Value>
+    </Stats>
+ 
+    
+ 
+    <!-- Slave shield effects: -->
+    <!-- Colony -->
+    
+    <!-- "We are under a slave shield" -->
+    <Stats>
+      <EffectType>GoodsAndServices</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.2</Value>
+    </Stats>
+    <!-- "We are safe under a slave shield" -->
+    <Stats>
+      <EffectType>GoodsAndServices</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.1</Value>
+    </Stats>
+ 
+    <!-- Loses all influence -->
+    <Stats>
+      <EffectType>InfluencePerTurn</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-100</Value>
+    </Stats>
+
+    <!-- No interstellar tourism, dunno if it works -->
+    <Stats>
+      <EffectType>CanTourism</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-1</Value>
+    </Stats>
+
+    <!-- No possible interaction with the outside -->
+    <Stats>
+      <EffectType>SensorRange</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-100</Value>
+    </Stats>
+
+    <!-- Cannot aid shipyards -->
+    <Stats>
+      <EffectType>SponsorDecay</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <!-- ... might as well try -->
+    <Stats>
+      <EffectType>Military</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-100</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>Research</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.1</Value>
+    </Stats>
+
+    <!-- Deny gain from foreign trade routes -->
+    <Stats>
+      <EffectType>TradeRouteValueRaw</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-100</Value>
+    </Stats>
+
+    <!-- Faction wide -->
+    <!-- No docked or ships in orbit, to deny ships with population from adding to world's population; only TargetType Faction works -->
+    <Stats>
+      <EffectType>StationLogisticsCap</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-100</Value>
+    </Stats>
+    <!-- previous Stat only removes the additional cap added to stations, plain LogisticsCap still remains, lets remove all of it => makes it impossible for this faction to have fleets -->
+    <Stats>
+      <EffectType>LogisticsCap</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-100</Value>
+    </Stats>
+    <!-- "Our homeworld is under a slave shield" -->
+    <Stats>
+      <EffectType>GoodsAndServices</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.1</Value>
+    </Stats>
+
+    <!-- Deny interstellar trading, denying to all is the only way to deny to worlds under a slave shield -->
+    <Stats>
+      <EffectType>TradeLicensesMax</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-100</Value>
+    </Stats>
+
+    <!-- Disable Ideology point gains as they allow to acquire ships, doesn't help much -->
+    <!-- <Stats>
+      <EffectType>CulturePerTurnBenevolent</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-100</Value>
+    </Stats>
+    
+     <Stats>
+      <EffectType>CulturePerTurnNeutral</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-100</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>CulturePerTurnMerciless</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-100</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>CulturePerTurnBenevolent</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>-100</Value>
+    </Stats>
+ 
+     <Stats>
+      <EffectType>CulturePerTurnNeutral</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>-100</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>CulturePerTurnMerciless</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>-100</Value>
+    </Stats> -->
+
+    <!-- Leave them alone, AI -->
+    <!-- Immunity to war so that they don't mess with AI behavior -->
+    <!-- <Stats>
+      <EffectType>ImmuneToWar</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats> -->
+
+    <Stats>
+      <EffectType>Diplomacy</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>3</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>ImmuneToCultureFlip</EffectType>
+      <Target>
+        <!-- <TargetType>Colony</TargetType> -->
+        <!-- Target type Colony does not work -->
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <!-- Immunity to any and all future invasions added by Stardock -->
+    <Stats>
+      <EffectType>IsImmuneToInvasion0</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion1</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion2</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion3</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion4</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion5</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion6</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion7</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion8</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion9</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion10</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion11</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion12</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion13</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion14</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion15</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion16</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion17</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion18</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <!-- Invasion 19 left for the Kohr-Ah's Merciless Warfare invasion -->
+
+
+    <!-- Triggers -->
+    <Triggers>
+      <OnEvent>OnConstructImprovment</OnEvent>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <PerformAction>
+        <Action>DoActionPlayerCancelAllRebellion</Action>
+      </PerformAction>
+    </Triggers>
+ 
+    <!-- Level Effect Trigers -->
+ 
+    <!-- Level Effect Stats -->
+ 
+    <!-- Adjacency Bonuses -->
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Research</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Approval</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Population</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Manufacturing</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Influence</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Tourism</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Wealth</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Military</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <!-- Prerequisites -->
+ 
+    <Prerequ>
+      <RaceTrait>
+        <Option>UnderSlaveShield</Option>
+      </RaceTrait>
+      <UpgradesFrom>CivilizationCapital</UpgradesFrom>
+    </Prerequ>
+ 
+  </Improvement>
+<!-- End Improvement -->
+
+<!-- Free Civilization Capital -->
+<!-- Begin Improvement -->
+ 
+  <Improvement>
+    <InternalName>FreeCivilizationCapital</InternalName>
+    <DisplayName>FreeCivilizationCapital_Name</DisplayName>
+    <ShortDescription>FreeCivilizationCapital_ShortDec</ShortDescription>
+    <Description>FreeCivilizationCapital_Dec</Description>
+    <Icon>CivilizationCapital.png</Icon>
+    <BuildIcon>CivilizationCapital_Build.png</BuildIcon>
+    <ListIcon>CivilizationCapital_Icon.png</ListIcon>
+    <ImprovementType>Special</ImprovementType>
+    <PlacementType>Special</PlacementType>
+    <IsIndestructible>true</IsIndestructible>
+    <IsColonyUnique>true</IsColonyUnique>
+ 
+    <!-- Stats -->
+ 
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>ProductionPoints</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>5</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>Food</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>10</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>SensorRange</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>9</Value>
+    </Stats>
+
+    <!-- Free -->
+    <!-- Happy now -->
+    <Stats>
+      <EffectType>GoodsAndServices</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>6</Value>
+    </Stats>
+
+    <!-- Never shall this happen again -->
+    <Stats>
+      <EffectType>ResistanceBonus</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>0.5</Value>
+    </Stats>
+
+    <!-- Triggers -->
+    <Triggers>
+      <OnEvent>OnConstructImprovment</OnEvent>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <PerformAction>
+        <Action>DoActionPlayerCancelAllRebellion</Action>
+      </PerformAction>
+    </Triggers>
+ 
+    <!-- Level Effect Trigers -->
+ 
+    <!-- Level Effect Stats -->
+ 
+    <!-- Adjacency Bonuses -->
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Research</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Approval</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Population</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Manufacturing</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Influence</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Tourism</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Wealth</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Military</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <!-- Prerequisites -->
+ 
+    <Prerequ>
+      <!-- <Techs>
+        <Option>InternalSlaveShieldRemover</Option>
+      </Techs> -->
+      <RaceTrait>
+        <Option>UnderSlaveShield</Option>
+      </RaceTrait>
+      <TechAge>
+        <Option>AgeOfWar</Option>
+      </TechAge>
+      <UpgradesFrom>EnslavedCivilizationCapital</UpgradesFrom>
+    </Prerequ>
+ 
+  </Improvement>
+<!-- End Improvement -->
+
+<!-- Enslaved Colony Capital -->
+<!-- Obsolete as Civilization Capitals got re-implemented, but still useful case of Unzervalt -->
+<!-- Begin Improvement -->
+ 
+  <Improvement>
+    <InternalName>EnslavedColonyCapital</InternalName>
+    <DisplayName>EnslavedColonyCapital_Name</DisplayName>
+    <ShortDescription>EnslavedColonyCapital_ShortDec</ShortDescription>
+    <Description>EnslavedColonyCapital_Dec</Description>
+    <Icon>EnslavedColonyCapital.png</Icon>
+    <BuildIcon>ColonyCapital_Build.png</BuildIcon>
+    <ListIcon>EnslavedColonyCapital_Icon.png</ListIcon>
+    <ImprovementType>Special</ImprovementType>
+    <PlacementType>Special</PlacementType>
+    <IsIndestructible>true</IsIndestructible>
+    <IsColonyUnique>true</IsColonyUnique>
+ 
+    <!-- Stats -->
+ 
+    <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>ProductionPoints</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>4</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>GoodsAndServices</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>2</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>InfluencePerTurn</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-100</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>Food</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>5</Value>
+    </Stats>
+ 
+    <!-- Slave shield effects: -->
+    <!-- Colony -->
+
+    <!-- Cannot aid shipyards -->
+    <Stats>
+      <EffectType>SponsorDecay</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <!-- ... might as well try -->
+    <Stats>
+      <EffectType>Military</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-100</Value>
+    </Stats>
+
+    <!-- Disconnected research -->
+    <Stats>
+      <EffectType>Research</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-100</Value>
+    </Stats>
+
+    <!-- No interstellar tourism; will still show 'Enables Tourism' in label -->
+    <Stats>
+      <EffectType>CanTourism</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>ImmuneToCultureFlip</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+        <!-- Target type Colony does not work, here's hoping it someday does for Unzervalt -->
+        <!-- <TargetType>Faction</TargetType> -->
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <!-- Immunity to any and all future invasions added by Stardock -->
+    <Stats>
+      <EffectType>IsImmuneToInvasion0</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion1</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion2</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion3</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion4</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion5</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion6</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion7</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion8</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion9</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion10</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion11</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion12</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion13</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion14</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion15</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion16</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion17</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion18</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <!-- Invasion 19 left for the Kohr-Ah's Merciless Warfare invasion -->
+
+
+    <!-- Triggers -->
+ 
+    <!-- Level Effect Trigers -->
+ 
+    <!-- Level Effect Stats -->
+ 
+    <!-- Adjacency Bonuses -->
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Research</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Approval</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Population</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Manufacturing</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Influence</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Tourism</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Wealth</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Military</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <!-- Prerequisites -->
+ 
+    <Prerequ>
+      <RaceTrait>
+        <Option>UnderSlaveShield</Option>
+      </RaceTrait>
+      <UpgradesFrom>ColonyCapital</UpgradesFrom>
+    </Prerequ>
+ 
+  </Improvement>
+
+<!-- Spathi Enslaved Colony Capital -->
+<!-- For Spatiwa -->
+<!-- Begin Improvement -->
+ 
+  <Improvement>
+    <InternalName>SpathiCivilizationCapital</InternalName>
+    <DisplayName>SpathiCivilizationCapital_Name</DisplayName>
+    <ShortDescription>SpathiCivilizationCapital_ShortDec</ShortDescription>
+    <Description>SpathiCivilizationCapital_Dec</Description>
+    <Icon>EnslavedCivilizationCapital.png</Icon>
+    <BuildIcon>ColonyCivilization_Build.png</BuildIcon>
+    <ListIcon>CivilizationCapital_Icon.png</ListIcon>
+    <ImprovementType>Special</ImprovementType>
+    <PlacementType>Special</PlacementType>
+    <IsIndestructible>true</IsIndestructible>
+    <IsColonyUnique>true</IsColonyUnique>
+ 
+    <!-- Stats -->
+ 
+    <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>ProductionPoints</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>4</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>Food</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>5</Value>
+    </Stats>
+ 
+    <!-- Slave shield effects: -->
+    <!-- Colony -->
+    <!-- "We are safe under a slave shield!" -->
+    <Stats>
+      <EffectType>GoodsAndServices</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>14</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>InfluencePerTurn</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-100</Value>
+    </Stats>
+
+    <!-- Cannot aid shipyards -->
+    <Stats>
+      <EffectType>SponsorDecay</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <!-- ... might as well try -->
+    <Stats>
+      <EffectType>Military</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-100</Value>
+    </Stats>
+
+    <!-- No interstellar tourism; will still show 'Enables Tourism' in label -->
+    <Stats>
+      <EffectType>CanTourism</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>ImmuneToCultureFlip</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+        <!-- Target type Colony does not work, here's hoping it someday does for Unzervalt -->
+        <!-- <TargetType>Faction</TargetType> -->
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <!-- Immunity to any and all future invasions added by Stardock -->
+    <Stats>
+      <EffectType>IsImmuneToInvasion0</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion1</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion2</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion3</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion4</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion5</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion6</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion7</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion8</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion9</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion10</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion11</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion12</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion13</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion14</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion15</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion16</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion17</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion18</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <!-- Invasion 19 left for the Kohr-Ah's Merciless Warfare invasion -->
+
+    <!-- Faction wide: -->
+    <!-- "Our homeworld is safe under a slave shield!" -->
+    <Stats>
+      <EffectType>GoodsAndServices</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+    <!-- "We are left outside our homeworld's slave shield!" -->
+    <!-- Third person: "Some Spathi are outside our homeworld's slave shield." -->
+    <Stats>
+      <EffectType>GoodsAndServices</EffectType>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>-5</Value>
+    </Stats>
+
+
+    <!-- Triggers -->
+ 
+    <!-- Level Effect Trigers -->
+ 
+    <!-- Level Effect Stats -->
+ 
+    <!-- Adjacency Bonuses -->
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Research</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Approval</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Population</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Manufacturing</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Influence</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Tourism</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Wealth</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Military</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <!-- Prerequisites -->
+ 
+    <Prerequ>
+      <RaceTrait>
+        <Option>Spathi</Option>
+      </RaceTrait>
+      <TechAge>
+        <Option>AgeOfAscension</Option>
+      </TechAge>
+      <UpgradesFrom>ColonyCapital</UpgradesFrom>
+    </Prerequ>
+ 
+  </Improvement>
+
+<!-- Free Colony Capital -->
+<!-- End Improvement -->
+<!-- Begin Improvement -->
+  <Improvement>
+    <InternalName>FreeColonyCapital</InternalName>
+    <DisplayName>EnslavedColonyCapital_Name</DisplayName>
+    <ShortDescription>EnslavedColonyCapital_ShortDec</ShortDescription>
+    <Description>EnslavedColonyCapital_Dec</Description>
+    <Icon>ColonyCapital.png</Icon>
+    <BuildIcon>ColonyCapital_Build.png</BuildIcon>
+    <ListIcon>ColonyCapital_Icon.png</ListIcon>
+    <ImprovementType>Special</ImprovementType>
+    <PlacementType>Special</PlacementType>
+    <IsIndestructible>true</IsIndestructible>
+    <IsColonyUnique>true</IsColonyUnique>
+ 
+    <!-- Stats -->
+ 
+    <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>227</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>ProductionPoints</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>5</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>GoodsAndServices</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>4</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>InfluenceTally</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>9</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>InfluencePerTurn</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>5</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>Food</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>6</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>SensorRange</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>5</Value>
+    </Stats>
+
+    <!-- Free -->
+
+    <!-- Never shall this happen again -->
+    <Stats>
+      <EffectType>ResistanceBonus</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>0.5</Value>
+    </Stats>
+
+    <!-- Triggers -->
+ 
+    <!-- Level Effect Trigers -->
+ 
+    <!-- Level Effect Stats -->
+ 
+    <!-- Adjacency Bonuses -->
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Research</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Approval</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Population</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Manufacturing</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Influence</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Tourism</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Wealth</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <NeighborBonuses>
+      <GiveBonusToNeighborType>Military</GiveBonusToNeighborType>
+      <NeighborBonusValue>1</NeighborBonusValue>
+    </NeighborBonuses>
+ 
+    <!-- Prerequisites -->
+ 
+    <Prerequ>
+      <!-- <Techs>
+        <Option>InternalSlaveShieldRemover</Option>
+      </Techs> -->
+      <RaceTrait>
+        <Option>UnderSlaveShield</Option>
+      </RaceTrait>
+      <TechAge>
+        <Option>AgeOfWar</Option>
+      </TechAge>
+      <UpgradesFrom>EnslavedColonyCapital</UpgradesFrom>
+    </Prerequ>
+ 
+  </Improvement>
+
+</DefaultImprovementList>

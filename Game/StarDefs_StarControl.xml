@@ -36,10 +36,10 @@ xsi:noNamespaceSchemaLocation="../Schema/StarDefs.xsd">
 		<SFXDefine>STAR_AMBIENT</SFXDefine>
 	</Star>
 
-	<!-- Earthling Home Star System -->
+	<!-- Human Home Star System -->
 	<Star>
 		<InternalName>SolStarSC</InternalName>
-		<DisplayName>SolNameSC</DisplayName>
+		<DisplayName>SolSCName</DisplayName>
 		<ObjectType>Star</ObjectType>
 		<Type>YellowStar</Type>
 		<ArtDefine>YellowDwarfSCArt</ArtDefine>

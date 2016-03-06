@@ -2,7 +2,7 @@
 <ShipyardList
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="../Schema/ShipyardDefs.xsd">
-	<Shipyard>
+  <Shipyard>
     <InternalName>BasicShipyard</InternalName>
     <DisplayName>BasicShipyardName</DisplayName>
     <Icon>GC3_Starport_Icon.png</Icon>

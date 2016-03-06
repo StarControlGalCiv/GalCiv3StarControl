@@ -6,7 +6,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
 	<!-- Slave shielded world -->
 	<StringTable>
 		<Label>STATNAME_IsImmuneToInvasion0</Label>
-		<String>[ICON=Military_Priority_Icon] Immune to Invasion</String>
+		<String>[ICON=Military_Priority_Icon] Immune to Conventional Invasion</String>
 	</StringTable>
   
 </StringTableList>

@@ -5,15 +5,15 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetArtDefs.xsd">
 <!-- Created with the Gal Civ 3 Editor -->
 <!-- PlanetArtDefs.xml -->
 
-  <!-- Based on GenericWorld1-5 -->
+  <!-- Water World -->
+  <!-- Based on GenericWorld13-15 -->
   <ArtDefine>
     <InternalName>WaterWorldSC</InternalName>
     <PlanetType>Habitable</PlanetType>
     <PlanetTrait>WaterWorldSC</PlanetTrait>
-    <MinClass>1</MinClass>
-    <MaxClass>5</MaxClass>
-    <Radius>8</Radius>
-    <Radius>9</Radius>
+    <Radius>13</Radius>
+    <Radius>14</Radius>
+    <Radius>15</Radius>
     <RotationSpeed>-0.01</RotationSpeed>
     <RotationSpeed>-0.03</RotationSpeed>
     <RotationSpeed>-0.04</RotationSpeed>
@@ -26,18 +26,20 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetArtDefs.xsd">
     <AxisTilt>0.3</AxisTilt>
     <AxisTilt>0.4</AxisTilt>
     <AxisTilt>0.5</AxisTilt>
-    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_01.dds</AtmosphereTextureFile>
     <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_03.dds</AtmosphereTextureFile>
-    <BaseLayerTextureFile>Planet_Base_Rock_Generic_01_Merged.dds</BaseLayerTextureFile>
-    <BaseLayerTextureFile>Planet_Base_Rock_Generic_02_Merged.dds</BaseLayerTextureFile>
-    <BaseLayerTextureFile>Planet_Base_Dead_Generic_01_Merged.dds</BaseLayerTextureFile>
-    <BaseLayerTextureFile>Planet_Base_Dead_Generic_02_Merged.dds</BaseLayerTextureFile>
-    <BaseLayerGradientFile>Planet_Base_Brown_Gradient_01.png</BaseLayerGradientFile>
-    <BaseLayerGradientFile>Planet_Base_Dead_Gradient_01.png</BaseLayerGradientFile>
-    <BaseLayerGradientFile>Planet_Base_Olive_Gradient_01.png</BaseLayerGradientFile>
-    <AltLatGradientTextureFile>Planet_Generic_Continent_Gradient_Brown_01.png</AltLatGradientTextureFile>
-    <AltLatGradientTextureFile>Planet_Generic_Continent_Gradient_Brown_03.png</AltLatGradientTextureFile>
-    <AltLatGradientTextureFile>Planet_Generic_Continent_Gradient_Shrouded_02.png</AltLatGradientTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_01_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_02_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_03_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_04_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerGradientFile>Planet_Base_Blue_Gradient_01.png</BaseLayerGradientFile>
+    <BaseLayerGradientFile>Planet_Base_Green_Gradient_03.png</BaseLayerGradientFile>
+    <BaseLayerGradientFile>Planet_Base_Blue_Gradient_01.png</BaseLayerGradientFile>
+    <BaseLayerGradientFile>Planet_Base_Blue_Gradient_03.png</BaseLayerGradientFile>
+    <BaseLayerGradientFile>Planet_Base_Blue_Gradient_04.png</BaseLayerGradientFile>
+    <BaseLayerGradientFile>Planet_Base_Blue_Purple_02.png</BaseLayerGradientFile>
+    <AltLatGradientTextureFile>Planet_Generic_Continent_Gradient_Green_01.png</AltLatGradientTextureFile>
+    <AltLatGradientTextureFile>Planet_Generic_Continent_Gradient_Green_02.png</AltLatGradientTextureFile>
+    <AltLatGradientTextureFile>Planet_Generic_Continent_Gradient_Green_04.png</AltLatGradientTextureFile>
     <PolarCapTextureFile>Planet_Cap_Generic_Ice_01.dds</PolarCapTextureFile>
     <PolarCapTextureFile>Planet_Cap_Generic_Ice_02.dds</PolarCapTextureFile>
     <PolarCapTextureFile>Planet_Cap_Generic_Ice_03.dds</PolarCapTextureFile>
@@ -54,22 +56,21 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetArtDefs.xsd">
       <Alpha>255</Alpha>
     </EmissiveColor>
     <PolarCapTintColor>
-      <Red>245</Red>
-      <Green>245</Green>
-      <Blue>220</Blue>
-      <Alpha>60</Alpha>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>255</Alpha>
     </PolarCapTintColor>
     <AtmosphereColor>
-      <Red>189</Red>
-      <Green>183</Green>
-      <Blue>107</Blue>
-      <Alpha>140</Alpha>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>255</Alpha>
     </AtmosphereColor>
+    <PolarCapSize>0.2</PolarCapSize>
+    <PolarCapSize>0.25</PolarCapSize>
     <PolarCapSize>0.35</PolarCapSize>
     <PolarCapSize>0.45</PolarCapSize>
-    <PolarCapSize>0.45</PolarCapSize>
-    <PolarCapSize>0.45</PolarCapSize>
-    <PolarCapSize>0.65</PolarCapSize>
     <ContinentSqueezeFactor>0</ContinentSqueezeFactor>
     <BaseGloss>1</BaseGloss>
     <BaseSpecularIntensity>0</BaseSpecularIntensity>
@@ -78,6 +79,15 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetArtDefs.xsd">
     <TerrainSpecularIntensity>0</TerrainSpecularIntensity>
     <TerrainMetal>0</TerrainMetal>
     <Ambient>0.05</Ambient>
+    <MoonModelFile>gfx/planets/planet_globe_with_seams.sdf</MoonModelFile>
+    <MoonEffectFile>gfx/fx/sm4/compiled/Planet4.fxo</MoonEffectFile>
+    <MoonSurfaceTexture>Moon_Iridia.dds</MoonSurfaceTexture>
+    <MoonRadius>3</MoonRadius>
+    <MoonRotationSpeed>0</MoonRotationSpeed>
+    <MoonAxisTilt>1</MoonAxisTilt>
+    <MoonOrbitRadius>26</MoonOrbitRadius>
+    <MoonOrbitSpeed>-0.2</MoonOrbitSpeed>
+    <MoonShadowBuffer>0.1</MoonShadowBuffer>
     <HaloIntensity>0.5</HaloIntensity>
     <HaloEffect>
       <RotationSpeed>5</RotationSpeed>
@@ -93,19 +103,22 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetArtDefs.xsd">
       <MinIntensity>0.2</MinIntensity>
       <MaxIntensity>0.7</MaxIntensity>
       <Alternating>false</Alternating>
-      <Scale>1.05</Scale>
+      <Scale>1.25</Scale>
     </HaloEffect>
   </ArtDefine>
 
-  <!-- Based on GenericWorld1-5 -->
+  <!-- Gas Giant World -->
+  <!-- Based on GasGiantArt -->
   <ArtDefine>
-    <InternalName>EvilOnesWaterWorldSC</InternalName>
-    <PlanetType>Habitable</PlanetType>
-    <PlanetTrait>EvilOnesWaterWorldSC</PlanetTrait>
-    <MinClass>1</MinClass>
-    <MaxClass>5</MaxClass>
-    <Radius>8</Radius>
-    <Radius>9</Radius>
+    <InternalName>GasGiantWorldSC</InternalName>
+    <PlanetType>GasGiant</PlanetType>
+    <PlanetTrait>GasGiantWorldSC</PlanetTrait>
+    <Radius>20</Radius>
+    <Radius>21</Radius>
+    <Radius>22</Radius>
+    <Radius>23</Radius>
+    <Radius>24</Radius>
+    <Radius>25</Radius>
     <RotationSpeed>-0.01</RotationSpeed>
     <RotationSpeed>-0.03</RotationSpeed>
     <RotationSpeed>-0.04</RotationSpeed>
@@ -114,54 +127,47 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetArtDefs.xsd">
     <RotationSpeed>-0.07</RotationSpeed>
     <RotationSpeed>-0.08</RotationSpeed>
     <ModelFile>gfx/planets/planet_globe_with_seams.sdf</ModelFile>
-    <AxisTilt>0.2</AxisTilt>
-    <AxisTilt>0.3</AxisTilt>
-    <AxisTilt>0.4</AxisTilt>
-    <AxisTilt>0.5</AxisTilt>
-    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_01.dds</AtmosphereTextureFile>
-    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_03.dds</AtmosphereTextureFile>
-    <BaseLayerTextureFile>Planet_Base_Rock_Generic_01_Merged.dds</BaseLayerTextureFile>
-    <BaseLayerTextureFile>Planet_Base_Rock_Generic_02_Merged.dds</BaseLayerTextureFile>
-    <BaseLayerTextureFile>Planet_Base_Dead_Generic_01_Merged.dds</BaseLayerTextureFile>
-    <BaseLayerTextureFile>Planet_Base_Dead_Generic_02_Merged.dds</BaseLayerTextureFile>
+    <AxisTilt>0.05</AxisTilt>
+    <AxisTilt>0.03</AxisTilt>
+    <AxisTilt>0.03</AxisTilt>
+    <AxisTilt>0.02</AxisTilt>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_Orange_01.dds</AtmosphereTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Jupiter_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Jupiter_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Saturn_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerGradientFile>Planet_Base_Cyan_Gradient_01.png</BaseLayerGradientFile>
     <BaseLayerGradientFile>Planet_Base_Brown_Gradient_01.png</BaseLayerGradientFile>
     <BaseLayerGradientFile>Planet_Base_Dead_Gradient_01.png</BaseLayerGradientFile>
-    <BaseLayerGradientFile>Planet_Base_Olive_Gradient_01.png</BaseLayerGradientFile>
-    <AltLatGradientTextureFile>Planet_Generic_Continent_Gradient_Brown_01.png</AltLatGradientTextureFile>
-    <AltLatGradientTextureFile>Planet_Generic_Continent_Gradient_Brown_03.png</AltLatGradientTextureFile>
-    <AltLatGradientTextureFile>Planet_Generic_Continent_Gradient_Shrouded_02.png</AltLatGradientTextureFile>
-    <PolarCapTextureFile>Planet_Cap_Generic_Ice_01.dds</PolarCapTextureFile>
-    <PolarCapTextureFile>Planet_Cap_Generic_Ice_02.dds</PolarCapTextureFile>
-    <PolarCapTextureFile>Planet_Cap_Generic_Ice_03.dds</PolarCapTextureFile>
+    <BaseLayerGradientFile>Planet_Base_Blue_Gradient_03.png</BaseLayerGradientFile>
+    <BaseLayerGradientFile>Planet_Base_Ice_Gradient_01.png</BaseLayerGradientFile>
+    <BaseLayerGradientFile>Planet_Base_Red_Gradient_01.png</BaseLayerGradientFile>
+    <BaseLayerGradientFile>Planet_Base_Dead_Gradient_02.png</BaseLayerGradientFile>
+    <BaseLayerGradientFile>Planet_Base_Dead_Gradient_03.png</BaseLayerGradientFile>
     <BaseLayerDiffuseColor>
       <Red>255</Red>
       <Green>255</Green>
       <Blue>255</Blue>
-      <Alpha>150</Alpha>
+      <Alpha>255</Alpha>
     </BaseLayerDiffuseColor>
     <EmissiveColor>
       <Red>255</Red>
       <Green>255</Green>
-      <Blue>225</Blue>
+      <Blue>255</Blue>
       <Alpha>255</Alpha>
     </EmissiveColor>
     <PolarCapTintColor>
-      <Red>245</Red>
-      <Green>245</Green>
-      <Blue>220</Blue>
-      <Alpha>60</Alpha>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>255</Alpha>
     </PolarCapTintColor>
     <AtmosphereColor>
-      <Red>189</Red>
-      <Green>183</Green>
-      <Blue>107</Blue>
-      <Alpha>140</Alpha>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>0</Alpha>
     </AtmosphereColor>
-    <PolarCapSize>0.35</PolarCapSize>
-    <PolarCapSize>0.45</PolarCapSize>
-    <PolarCapSize>0.45</PolarCapSize>
-    <PolarCapSize>0.45</PolarCapSize>
-    <PolarCapSize>0.65</PolarCapSize>
+    <PolarCapSize>0</PolarCapSize>
     <ContinentSqueezeFactor>0</ContinentSqueezeFactor>
     <BaseGloss>1</BaseGloss>
     <BaseSpecularIntensity>0</BaseSpecularIntensity>
@@ -169,26 +175,13 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetArtDefs.xsd">
     <TerrainGloss>0</TerrainGloss>
     <TerrainSpecularIntensity>0</TerrainSpecularIntensity>
     <TerrainMetal>0</TerrainMetal>
+    <CustomContinent>Empty</CustomContinent>
     <Ambient>0.05</Ambient>
+    <RingLikelihood>0.5</RingLikelihood>
     <HaloIntensity>0.5</HaloIntensity>
-    <HaloEffect>
-      <RotationSpeed>5</RotationSpeed>
-      <FadeSpeed>4</FadeSpeed>
-      <MinIntensity>0.7</MinIntensity>
-      <MaxIntensity>1</MaxIntensity>
-      <Alternating>false</Alternating>
-      <Scale>1.15</Scale>
-    </HaloEffect>
-    <HaloEffect>
-      <RotationSpeed>2</RotationSpeed>
-      <FadeSpeed>2</FadeSpeed>
-      <MinIntensity>0.2</MinIntensity>
-      <MaxIntensity>0.7</MaxIntensity>
-      <Alternating>false</Alternating>
-      <Scale>1.05</Scale>
-    </HaloEffect>
   </ArtDefine>
 
+  <!-- Sapphire World -->
   <!-- Based on LowGravityWorld -->
   <ArtDefine>
     <InternalName>SapphireWorldSC</InternalName>
@@ -282,6 +275,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetArtDefs.xsd">
     </HaloEffect>
   </ArtDefine>
 
+  <!-- Primordial World -->
   <!-- Based on Low Gravity World -->
   <ArtDefine>
     <InternalName>PrimordialWorldSC</InternalName>
@@ -375,6 +369,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetArtDefs.xsd">
     </HaloEffect>
   </ArtDefine>
 
+  <!-- Pellucid World -->
   <!-- Based on Low Gravity World -->
   <ArtDefine>
     <InternalName>PellucidWorldSC</InternalName>
@@ -468,6 +463,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetArtDefs.xsd">
     </HaloEffect>
   </ArtDefine>
 
+  <!-- Shattered World -->
   <!-- Base on Active Core World -->
   <ArtDefine>
     <InternalName>ShatteredWorldSC</InternalName>
@@ -559,6 +555,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetArtDefs.xsd">
     </HaloEffect>
   </ArtDefine>
 
+  <!-- Selenic World -->
   <!-- Based on Ghost World -->
   <ArtDefine>
     <InternalName>SelenicWorldSC</InternalName>
@@ -659,6 +656,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetArtDefs.xsd">
     </HaloEffect>
   </ArtDefine>
 
+  <!-- Telluric World -->
   <!-- Based on Low Gravity World -->
   <ArtDefine>
     <InternalName>TelluricWorldSC</InternalName>
@@ -752,6 +750,7 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetArtDefs.xsd">
     </HaloEffect>
   </ArtDefine>
 
+  <!-- Dust World -->
   <!-- Based on Low Gravity World -->
   <ArtDefine>
     <InternalName>DustWorldSC</InternalName>
@@ -845,11 +844,1328 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetArtDefs.xsd">
     </HaloEffect>
   </ArtDefine>
 
+  <!-- Redux World -->
   <!-- Based on Low Gravity World -->
   <ArtDefine>
     <InternalName>ReduxWorldSC</InternalName>
     <PlanetType>Habitable</PlanetType>
     <PlanetTrait>ReduxWorldSC</PlanetTrait>
+    <Radius>12</Radius>
+    <Radius>13</Radius>
+    <Radius>14</Radius>
+    <Radius>15</Radius>
+    <RotationSpeed>-0.01</RotationSpeed>
+    <RotationSpeed>-0.03</RotationSpeed>
+    <RotationSpeed>-0.04</RotationSpeed>
+    <RotationSpeed>-0.05</RotationSpeed>
+    <RotationSpeed>-0.06</RotationSpeed>
+    <RotationSpeed>-0.07</RotationSpeed>
+    <RotationSpeed>-0.08</RotationSpeed>
+    <ModelFile>gfx/planets/planet_globe_with_seams.sdf</ModelFile>
+    <AxisTilt>0.2</AxisTilt>
+    <AxisTilt>0.3</AxisTilt>
+    <AxisTilt>0.4</AxisTilt>
+    <AxisTilt>0.5</AxisTilt>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_01.dds</AtmosphereTextureFile>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_Green_01.dds</AtmosphereTextureFile>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_Dark_01.dds</AtmosphereTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_01_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_02_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_03_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_01.png</BaseLayerGradientFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_02.png</BaseLayerGradientFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_03.png</BaseLayerGradientFile>
+    <AltLatGradientTextureFile>Planet_Generic_Continent_Gradient_Purple_01.png</AltLatGradientTextureFile>
+    <AltLatGradientTextureFile>Planet_Generic_Continent_Gradient_Purple_02.png</AltLatGradientTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_01.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_02.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_03.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_01.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_02.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_03.dds</PolarCapTextureFile>
+    <BaseLayerDiffuseColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>150</Alpha>
+    </BaseLayerDiffuseColor>
+    <EmissiveColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>225</Blue>
+      <Alpha>255</Alpha>
+    </EmissiveColor>
+    <PolarCapTintColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>255</Alpha>
+    </PolarCapTintColor>
+    <AtmosphereColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>255</Alpha>
+    </AtmosphereColor>
+    <PolarCapSize>0.5</PolarCapSize>
+    <PolarCapSize>0.25</PolarCapSize>
+    <PolarCapSize>0.35</PolarCapSize>
+    <PolarCapSize>0.45</PolarCapSize>
+    <ContinentSqueezeFactor>0.2</ContinentSqueezeFactor>
+    <BaseGloss>1</BaseGloss>
+    <BaseSpecularIntensity>0</BaseSpecularIntensity>
+    <BaseMetal>0</BaseMetal>
+    <TerrainGloss>0</TerrainGloss>
+    <TerrainSpecularIntensity>0</TerrainSpecularIntensity>
+    <TerrainMetal>0</TerrainMetal>
+    <Ambient>0.05</Ambient>
+    <HaloIntensity>0.5</HaloIntensity>
+    <HaloEffect>
+      <RotationSpeed>5</RotationSpeed>
+      <FadeSpeed>4</FadeSpeed>
+      <MinIntensity>0.7</MinIntensity>
+      <MaxIntensity>1</MaxIntensity>
+      <Alternating>false</Alternating>
+      <Scale>1.15</Scale>
+    </HaloEffect>
+    <HaloEffect>
+      <RotationSpeed>2</RotationSpeed>
+      <FadeSpeed>2</FadeSpeed>
+      <MinIntensity>0.2</MinIntensity>
+      <MaxIntensity>0.7</MaxIntensity>
+      <Alternating>false</Alternating>
+      <Scale>1.25</Scale>
+    </HaloEffect>
+  </ArtDefine>
+
+  <!-- Worlds with life: -->
+  <!-- Based on Low Gravity World -->
+  <ArtDefine>
+    <InternalName>AlkaliWorldSC</InternalName>
+    <PlanetType>Habitable</PlanetType>
+    <PlanetTrait>AlkaliWorldSC</PlanetTrait>
+    <Radius>12</Radius>
+    <Radius>13</Radius>
+    <Radius>14</Radius>
+    <Radius>15</Radius>
+    <RotationSpeed>-0.01</RotationSpeed>
+    <RotationSpeed>-0.03</RotationSpeed>
+    <RotationSpeed>-0.04</RotationSpeed>
+    <RotationSpeed>-0.05</RotationSpeed>
+    <RotationSpeed>-0.06</RotationSpeed>
+    <RotationSpeed>-0.07</RotationSpeed>
+    <RotationSpeed>-0.08</RotationSpeed>
+    <ModelFile>gfx/planets/planet_globe_with_seams.sdf</ModelFile>
+    <AxisTilt>0.2</AxisTilt>
+    <AxisTilt>0.3</AxisTilt>
+    <AxisTilt>0.4</AxisTilt>
+    <AxisTilt>0.5</AxisTilt>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_01.dds</AtmosphereTextureFile>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_Green_01.dds</AtmosphereTextureFile>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_Dark_01.dds</AtmosphereTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_01_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_02_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_03_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_01.png</BaseLayerGradientFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_02.png</BaseLayerGradientFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_03.png</BaseLayerGradientFile>
+    <AltLatGradientTextureFile>Planet_Generic_Continent_Gradient_Purple_01.png</AltLatGradientTextureFile>
+    <AltLatGradientTextureFile>Planet_Generic_Continent_Gradient_Purple_02.png</AltLatGradientTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_01.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_02.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_03.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_01.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_02.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_03.dds</PolarCapTextureFile>
+    <BaseLayerDiffuseColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>150</Alpha>
+    </BaseLayerDiffuseColor>
+    <EmissiveColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>225</Blue>
+      <Alpha>255</Alpha>
+    </EmissiveColor>
+    <PolarCapTintColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>255</Alpha>
+    </PolarCapTintColor>
+    <AtmosphereColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>255</Alpha>
+    </AtmosphereColor>
+    <PolarCapSize>0.5</PolarCapSize>
+    <PolarCapSize>0.25</PolarCapSize>
+    <PolarCapSize>0.35</PolarCapSize>
+    <PolarCapSize>0.45</PolarCapSize>
+    <ContinentSqueezeFactor>0.2</ContinentSqueezeFactor>
+    <BaseGloss>1</BaseGloss>
+    <BaseSpecularIntensity>0</BaseSpecularIntensity>
+    <BaseMetal>0</BaseMetal>
+    <TerrainGloss>0</TerrainGloss>
+    <TerrainSpecularIntensity>0</TerrainSpecularIntensity>
+    <TerrainMetal>0</TerrainMetal>
+    <Ambient>0.05</Ambient>
+    <HaloIntensity>0.5</HaloIntensity>
+    <HaloEffect>
+      <RotationSpeed>5</RotationSpeed>
+      <FadeSpeed>4</FadeSpeed>
+      <MinIntensity>0.7</MinIntensity>
+      <MaxIntensity>1</MaxIntensity>
+      <Alternating>false</Alternating>
+      <Scale>1.15</Scale>
+    </HaloEffect>
+    <HaloEffect>
+      <RotationSpeed>2</RotationSpeed>
+      <FadeSpeed>2</FadeSpeed>
+      <MinIntensity>0.2</MinIntensity>
+      <MaxIntensity>0.7</MaxIntensity>
+      <Alternating>false</Alternating>
+      <Scale>1.25</Scale>
+    </HaloEffect>
+  </ArtDefine>
+  
+  <!-- Auric World SC -->
+  <!-- TODO: Find appropriate art. Based on Low Gravity World -->
+  <ArtDefine>
+    <InternalName>AuricWorldSC</InternalName>
+    <PlanetType>Habitable</PlanetType>
+    <PlanetTrait>AuricWorldSC</PlanetTrait>
+    <Radius>12</Radius>
+    <Radius>13</Radius>
+    <Radius>14</Radius>
+    <Radius>15</Radius>
+    <RotationSpeed>-0.01</RotationSpeed>
+    <RotationSpeed>-0.03</RotationSpeed>
+    <RotationSpeed>-0.04</RotationSpeed>
+    <RotationSpeed>-0.05</RotationSpeed>
+    <RotationSpeed>-0.06</RotationSpeed>
+    <RotationSpeed>-0.07</RotationSpeed>
+    <RotationSpeed>-0.08</RotationSpeed>
+    <ModelFile>gfx/planets/planet_globe_with_seams.sdf</ModelFile>
+    <AxisTilt>0.2</AxisTilt>
+    <AxisTilt>0.3</AxisTilt>
+    <AxisTilt>0.4</AxisTilt>
+    <AxisTilt>0.5</AxisTilt>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_01.dds</AtmosphereTextureFile>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_Green_01.dds</AtmosphereTextureFile>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_Dark_01.dds</AtmosphereTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_01_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_02_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_03_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_01.png</BaseLayerGradientFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_02.png</BaseLayerGradientFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_03.png</BaseLayerGradientFile>
+    <AltLatGradientTextureFile>Planet_Generic_Continent_Gradient_Purple_01.png</AltLatGradientTextureFile>
+    <AltLatGradientTextureFile>Planet_Generic_Continent_Gradient_Purple_02.png</AltLatGradientTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_01.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_02.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_03.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_01.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_02.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_03.dds</PolarCapTextureFile>
+    <BaseLayerDiffuseColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>150</Alpha>
+    </BaseLayerDiffuseColor>
+    <EmissiveColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>225</Blue>
+      <Alpha>255</Alpha>
+    </EmissiveColor>
+    <PolarCapTintColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>255</Alpha>
+    </PolarCapTintColor>
+    <AtmosphereColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>255</Alpha>
+    </AtmosphereColor>
+    <PolarCapSize>0.5</PolarCapSize>
+    <PolarCapSize>0.25</PolarCapSize>
+    <PolarCapSize>0.35</PolarCapSize>
+    <PolarCapSize>0.45</PolarCapSize>
+    <ContinentSqueezeFactor>0.2</ContinentSqueezeFactor>
+    <BaseGloss>1</BaseGloss>
+    <BaseSpecularIntensity>0</BaseSpecularIntensity>
+    <BaseMetal>0</BaseMetal>
+    <TerrainGloss>0</TerrainGloss>
+    <TerrainSpecularIntensity>0</TerrainSpecularIntensity>
+    <TerrainMetal>0</TerrainMetal>
+    <Ambient>0.05</Ambient>
+    <HaloIntensity>0.5</HaloIntensity>
+    <HaloEffect>
+      <RotationSpeed>5</RotationSpeed>
+      <FadeSpeed>4</FadeSpeed>
+      <MinIntensity>0.7</MinIntensity>
+      <MaxIntensity>1</MaxIntensity>
+      <Alternating>false</Alternating>
+      <Scale>1.15</Scale>
+    </HaloEffect>
+    <HaloEffect>
+      <RotationSpeed>2</RotationSpeed>
+      <FadeSpeed>2</FadeSpeed>
+      <MinIntensity>0.2</MinIntensity>
+      <MaxIntensity>0.7</MaxIntensity>
+      <Alternating>false</Alternating>
+      <Scale>1.25</Scale>
+    </HaloEffect>
+  </ArtDefine>
+  
+  <!-- Azure World SC -->
+  <!-- TODO: Find appropriate art. Based on Low Gravity World -->
+  <ArtDefine>
+    <InternalName>AzureWorldSC</InternalName>
+    <PlanetType>Habitable</PlanetType>
+    <PlanetTrait>AzureWorldSC</PlanetTrait>
+    <Radius>12</Radius>
+    <Radius>13</Radius>
+    <Radius>14</Radius>
+    <Radius>15</Radius>
+    <RotationSpeed>-0.01</RotationSpeed>
+    <RotationSpeed>-0.03</RotationSpeed>
+    <RotationSpeed>-0.04</RotationSpeed>
+    <RotationSpeed>-0.05</RotationSpeed>
+    <RotationSpeed>-0.06</RotationSpeed>
+    <RotationSpeed>-0.07</RotationSpeed>
+    <RotationSpeed>-0.08</RotationSpeed>
+    <ModelFile>gfx/planets/planet_globe_with_seams.sdf</ModelFile>
+    <AxisTilt>0.2</AxisTilt>
+    <AxisTilt>0.3</AxisTilt>
+    <AxisTilt>0.4</AxisTilt>
+    <AxisTilt>0.5</AxisTilt>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_01.dds</AtmosphereTextureFile>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_Green_01.dds</AtmosphereTextureFile>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_Dark_01.dds</AtmosphereTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_01_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_02_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_03_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_01.png</BaseLayerGradientFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_02.png</BaseLayerGradientFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_03.png</BaseLayerGradientFile>
+    <AltLatGradientTextureFile>Planet_Generic_Continent_Gradient_Purple_01.png</AltLatGradientTextureFile>
+    <AltLatGradientTextureFile>Planet_Generic_Continent_Gradient_Purple_02.png</AltLatGradientTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_01.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_02.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_03.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_01.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_02.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_03.dds</PolarCapTextureFile>
+    <BaseLayerDiffuseColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>150</Alpha>
+    </BaseLayerDiffuseColor>
+    <EmissiveColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>225</Blue>
+      <Alpha>255</Alpha>
+    </EmissiveColor>
+    <PolarCapTintColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>255</Alpha>
+    </PolarCapTintColor>
+    <AtmosphereColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>255</Alpha>
+    </AtmosphereColor>
+    <PolarCapSize>0.5</PolarCapSize>
+    <PolarCapSize>0.25</PolarCapSize>
+    <PolarCapSize>0.35</PolarCapSize>
+    <PolarCapSize>0.45</PolarCapSize>
+    <ContinentSqueezeFactor>0.2</ContinentSqueezeFactor>
+    <BaseGloss>1</BaseGloss>
+    <BaseSpecularIntensity>0</BaseSpecularIntensity>
+    <BaseMetal>0</BaseMetal>
+    <TerrainGloss>0</TerrainGloss>
+    <TerrainSpecularIntensity>0</TerrainSpecularIntensity>
+    <TerrainMetal>0</TerrainMetal>
+    <Ambient>0.05</Ambient>
+    <HaloIntensity>0.5</HaloIntensity>
+    <HaloEffect>
+      <RotationSpeed>5</RotationSpeed>
+      <FadeSpeed>4</FadeSpeed>
+      <MinIntensity>0.7</MinIntensity>
+      <MaxIntensity>1</MaxIntensity>
+      <Alternating>false</Alternating>
+      <Scale>1.15</Scale>
+    </HaloEffect>
+    <HaloEffect>
+      <RotationSpeed>2</RotationSpeed>
+      <FadeSpeed>2</FadeSpeed>
+      <MinIntensity>0.2</MinIntensity>
+      <MaxIntensity>0.7</MaxIntensity>
+      <Alternating>false</Alternating>
+      <Scale>1.25</Scale>
+    </HaloEffect>
+  </ArtDefine>
+  
+  <!-- Chondrite World SC -->
+  <!-- TODO: Find appropriate art. Based on Low Gravity World -->
+  <ArtDefine>
+    <InternalName>ChondriteWorldSC</InternalName>
+    <PlanetType>Habitable</PlanetType>
+    <PlanetTrait>ChondriteWorldSC</PlanetTrait>
+    <Radius>12</Radius>
+    <Radius>13</Radius>
+    <Radius>14</Radius>
+    <Radius>15</Radius>
+    <RotationSpeed>-0.01</RotationSpeed>
+    <RotationSpeed>-0.03</RotationSpeed>
+    <RotationSpeed>-0.04</RotationSpeed>
+    <RotationSpeed>-0.05</RotationSpeed>
+    <RotationSpeed>-0.06</RotationSpeed>
+    <RotationSpeed>-0.07</RotationSpeed>
+    <RotationSpeed>-0.08</RotationSpeed>
+    <ModelFile>gfx/planets/planet_globe_with_seams.sdf</ModelFile>
+    <AxisTilt>0.2</AxisTilt>
+    <AxisTilt>0.3</AxisTilt>
+    <AxisTilt>0.4</AxisTilt>
+    <AxisTilt>0.5</AxisTilt>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_01.dds</AtmosphereTextureFile>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_Green_01.dds</AtmosphereTextureFile>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_Dark_01.dds</AtmosphereTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_01_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_02_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_03_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_01.png</BaseLayerGradientFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_02.png</BaseLayerGradientFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_03.png</BaseLayerGradientFile>
+    <AltLatGradientTextureFile>Planet_Generic_Continent_Gradient_Purple_01.png</AltLatGradientTextureFile>
+    <AltLatGradientTextureFile>Planet_Generic_Continent_Gradient_Purple_02.png</AltLatGradientTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_01.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_02.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_03.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_01.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_02.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_03.dds</PolarCapTextureFile>
+    <BaseLayerDiffuseColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>150</Alpha>
+    </BaseLayerDiffuseColor>
+    <EmissiveColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>225</Blue>
+      <Alpha>255</Alpha>
+    </EmissiveColor>
+    <PolarCapTintColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>255</Alpha>
+    </PolarCapTintColor>
+    <AtmosphereColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>255</Alpha>
+    </AtmosphereColor>
+    <PolarCapSize>0.5</PolarCapSize>
+    <PolarCapSize>0.25</PolarCapSize>
+    <PolarCapSize>0.35</PolarCapSize>
+    <PolarCapSize>0.45</PolarCapSize>
+    <ContinentSqueezeFactor>0.2</ContinentSqueezeFactor>
+    <BaseGloss>1</BaseGloss>
+    <BaseSpecularIntensity>0</BaseSpecularIntensity>
+    <BaseMetal>0</BaseMetal>
+    <TerrainGloss>0</TerrainGloss>
+    <TerrainSpecularIntensity>0</TerrainSpecularIntensity>
+    <TerrainMetal>0</TerrainMetal>
+    <Ambient>0.05</Ambient>
+    <HaloIntensity>0.5</HaloIntensity>
+    <HaloEffect>
+      <RotationSpeed>5</RotationSpeed>
+      <FadeSpeed>4</FadeSpeed>
+      <MinIntensity>0.7</MinIntensity>
+      <MaxIntensity>1</MaxIntensity>
+      <Alternating>false</Alternating>
+      <Scale>1.15</Scale>
+    </HaloEffect>
+    <HaloEffect>
+      <RotationSpeed>2</RotationSpeed>
+      <FadeSpeed>2</FadeSpeed>
+      <MinIntensity>0.2</MinIntensity>
+      <MaxIntensity>0.7</MaxIntensity>
+      <Alternating>false</Alternating>
+      <Scale>1.25</Scale>
+    </HaloEffect>
+  </ArtDefine>
+  
+  <!-- Crimson World SC -->
+  <!-- TODO: Find appropriate art. Based on Low Gravity World -->
+  <ArtDefine>
+    <InternalName>CrimsonWorldSC</InternalName>
+    <PlanetType>Habitable</PlanetType>
+    <PlanetTrait>CrimsonWorldSC</PlanetTrait>
+    <Radius>12</Radius>
+    <Radius>13</Radius>
+    <Radius>14</Radius>
+    <Radius>15</Radius>
+    <RotationSpeed>-0.01</RotationSpeed>
+    <RotationSpeed>-0.03</RotationSpeed>
+    <RotationSpeed>-0.04</RotationSpeed>
+    <RotationSpeed>-0.05</RotationSpeed>
+    <RotationSpeed>-0.06</RotationSpeed>
+    <RotationSpeed>-0.07</RotationSpeed>
+    <RotationSpeed>-0.08</RotationSpeed>
+    <ModelFile>gfx/planets/planet_globe_with_seams.sdf</ModelFile>
+    <AxisTilt>0.2</AxisTilt>
+    <AxisTilt>0.3</AxisTilt>
+    <AxisTilt>0.4</AxisTilt>
+    <AxisTilt>0.5</AxisTilt>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_01.dds</AtmosphereTextureFile>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_Green_01.dds</AtmosphereTextureFile>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_Dark_01.dds</AtmosphereTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_01_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_02_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_03_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_01.png</BaseLayerGradientFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_02.png</BaseLayerGradientFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_03.png</BaseLayerGradientFile>
+    <AltLatGradientTextureFile>Planet_Generic_Continent_Gradient_Purple_01.png</AltLatGradientTextureFile>
+    <AltLatGradientTextureFile>Planet_Generic_Continent_Gradient_Purple_02.png</AltLatGradientTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_01.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_02.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_03.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_01.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_02.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_03.dds</PolarCapTextureFile>
+    <BaseLayerDiffuseColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>150</Alpha>
+    </BaseLayerDiffuseColor>
+    <EmissiveColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>225</Blue>
+      <Alpha>255</Alpha>
+    </EmissiveColor>
+    <PolarCapTintColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>255</Alpha>
+    </PolarCapTintColor>
+    <AtmosphereColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>255</Alpha>
+    </AtmosphereColor>
+    <PolarCapSize>0.5</PolarCapSize>
+    <PolarCapSize>0.25</PolarCapSize>
+    <PolarCapSize>0.35</PolarCapSize>
+    <PolarCapSize>0.45</PolarCapSize>
+    <ContinentSqueezeFactor>0.2</ContinentSqueezeFactor>
+    <BaseGloss>1</BaseGloss>
+    <BaseSpecularIntensity>0</BaseSpecularIntensity>
+    <BaseMetal>0</BaseMetal>
+    <TerrainGloss>0</TerrainGloss>
+    <TerrainSpecularIntensity>0</TerrainSpecularIntensity>
+    <TerrainMetal>0</TerrainMetal>
+    <Ambient>0.05</Ambient>
+    <HaloIntensity>0.5</HaloIntensity>
+    <HaloEffect>
+      <RotationSpeed>5</RotationSpeed>
+      <FadeSpeed>4</FadeSpeed>
+      <MinIntensity>0.7</MinIntensity>
+      <MaxIntensity>1</MaxIntensity>
+      <Alternating>false</Alternating>
+      <Scale>1.15</Scale>
+    </HaloEffect>
+    <HaloEffect>
+      <RotationSpeed>2</RotationSpeed>
+      <FadeSpeed>2</FadeSpeed>
+      <MinIntensity>0.2</MinIntensity>
+      <MaxIntensity>0.7</MaxIntensity>
+      <Alternating>false</Alternating>
+      <Scale>1.25</Scale>
+    </HaloEffect>
+  </ArtDefine>
+  
+  <!-- Green World SC -->
+  <!-- TODO: Find appropriate art. Based on Low Gravity World -->
+  <ArtDefine>
+    <InternalName>GreenWorldSC</InternalName>
+    <PlanetType>Habitable</PlanetType>
+    <PlanetTrait>GreenWorldSC</PlanetTrait>
+    <Radius>12</Radius>
+    <Radius>13</Radius>
+    <Radius>14</Radius>
+    <Radius>15</Radius>
+    <RotationSpeed>-0.01</RotationSpeed>
+    <RotationSpeed>-0.03</RotationSpeed>
+    <RotationSpeed>-0.04</RotationSpeed>
+    <RotationSpeed>-0.05</RotationSpeed>
+    <RotationSpeed>-0.06</RotationSpeed>
+    <RotationSpeed>-0.07</RotationSpeed>
+    <RotationSpeed>-0.08</RotationSpeed>
+    <ModelFile>gfx/planets/planet_globe_with_seams.sdf</ModelFile>
+    <AxisTilt>0.2</AxisTilt>
+    <AxisTilt>0.3</AxisTilt>
+    <AxisTilt>0.4</AxisTilt>
+    <AxisTilt>0.5</AxisTilt>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_01.dds</AtmosphereTextureFile>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_Green_01.dds</AtmosphereTextureFile>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_Dark_01.dds</AtmosphereTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_01_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_02_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_03_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_01.png</BaseLayerGradientFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_02.png</BaseLayerGradientFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_03.png</BaseLayerGradientFile>
+    <AltLatGradientTextureFile>Planet_Generic_Continent_Gradient_Purple_01.png</AltLatGradientTextureFile>
+    <AltLatGradientTextureFile>Planet_Generic_Continent_Gradient_Purple_02.png</AltLatGradientTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_01.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_02.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_03.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_01.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_02.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_03.dds</PolarCapTextureFile>
+    <BaseLayerDiffuseColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>150</Alpha>
+    </BaseLayerDiffuseColor>
+    <EmissiveColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>225</Blue>
+      <Alpha>255</Alpha>
+    </EmissiveColor>
+    <PolarCapTintColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>255</Alpha>
+    </PolarCapTintColor>
+    <AtmosphereColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>255</Alpha>
+    </AtmosphereColor>
+    <PolarCapSize>0.5</PolarCapSize>
+    <PolarCapSize>0.25</PolarCapSize>
+    <PolarCapSize>0.35</PolarCapSize>
+    <PolarCapSize>0.45</PolarCapSize>
+    <ContinentSqueezeFactor>0.2</ContinentSqueezeFactor>
+    <BaseGloss>1</BaseGloss>
+    <BaseSpecularIntensity>0</BaseSpecularIntensity>
+    <BaseMetal>0</BaseMetal>
+    <TerrainGloss>0</TerrainGloss>
+    <TerrainSpecularIntensity>0</TerrainSpecularIntensity>
+    <TerrainMetal>0</TerrainMetal>
+    <Ambient>0.05</Ambient>
+    <HaloIntensity>0.5</HaloIntensity>
+    <HaloEffect>
+      <RotationSpeed>5</RotationSpeed>
+      <FadeSpeed>4</FadeSpeed>
+      <MinIntensity>0.7</MinIntensity>
+      <MaxIntensity>1</MaxIntensity>
+      <Alternating>false</Alternating>
+      <Scale>1.15</Scale>
+    </HaloEffect>
+    <HaloEffect>
+      <RotationSpeed>2</RotationSpeed>
+      <FadeSpeed>2</FadeSpeed>
+      <MinIntensity>0.2</MinIntensity>
+      <MaxIntensity>0.7</MaxIntensity>
+      <Alternating>false</Alternating>
+      <Scale>1.25</Scale>
+    </HaloEffect>
+  </ArtDefine>
+  
+  <!-- Halide World SC -->
+  <!-- TODO: Find appropriate art. Based on Low Gravity World -->
+  <ArtDefine>
+    <InternalName>HalideWorldSC</InternalName>
+    <PlanetType>Habitable</PlanetType>
+    <PlanetTrait>HalideWorldSC</PlanetTrait>
+    <Radius>12</Radius>
+    <Radius>13</Radius>
+    <Radius>14</Radius>
+    <Radius>15</Radius>
+    <RotationSpeed>-0.01</RotationSpeed>
+    <RotationSpeed>-0.03</RotationSpeed>
+    <RotationSpeed>-0.04</RotationSpeed>
+    <RotationSpeed>-0.05</RotationSpeed>
+    <RotationSpeed>-0.06</RotationSpeed>
+    <RotationSpeed>-0.07</RotationSpeed>
+    <RotationSpeed>-0.08</RotationSpeed>
+    <ModelFile>gfx/planets/planet_globe_with_seams.sdf</ModelFile>
+    <AxisTilt>0.2</AxisTilt>
+    <AxisTilt>0.3</AxisTilt>
+    <AxisTilt>0.4</AxisTilt>
+    <AxisTilt>0.5</AxisTilt>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_01.dds</AtmosphereTextureFile>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_Green_01.dds</AtmosphereTextureFile>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_Dark_01.dds</AtmosphereTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_01_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_02_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_03_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_01.png</BaseLayerGradientFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_02.png</BaseLayerGradientFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_03.png</BaseLayerGradientFile>
+    <AltLatGradientTextureFile>Planet_Generic_Continent_Gradient_Purple_01.png</AltLatGradientTextureFile>
+    <AltLatGradientTextureFile>Planet_Generic_Continent_Gradient_Purple_02.png</AltLatGradientTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_01.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_02.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_03.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_01.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_02.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_03.dds</PolarCapTextureFile>
+    <BaseLayerDiffuseColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>150</Alpha>
+    </BaseLayerDiffuseColor>
+    <EmissiveColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>225</Blue>
+      <Alpha>255</Alpha>
+    </EmissiveColor>
+    <PolarCapTintColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>255</Alpha>
+    </PolarCapTintColor>
+    <AtmosphereColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>255</Alpha>
+    </AtmosphereColor>
+    <PolarCapSize>0.5</PolarCapSize>
+    <PolarCapSize>0.25</PolarCapSize>
+    <PolarCapSize>0.35</PolarCapSize>
+    <PolarCapSize>0.45</PolarCapSize>
+    <ContinentSqueezeFactor>0.2</ContinentSqueezeFactor>
+    <BaseGloss>1</BaseGloss>
+    <BaseSpecularIntensity>0</BaseSpecularIntensity>
+    <BaseMetal>0</BaseMetal>
+    <TerrainGloss>0</TerrainGloss>
+    <TerrainSpecularIntensity>0</TerrainSpecularIntensity>
+    <TerrainMetal>0</TerrainMetal>
+    <Ambient>0.05</Ambient>
+    <HaloIntensity>0.5</HaloIntensity>
+    <HaloEffect>
+      <RotationSpeed>5</RotationSpeed>
+      <FadeSpeed>4</FadeSpeed>
+      <MinIntensity>0.7</MinIntensity>
+      <MaxIntensity>1</MaxIntensity>
+      <Alternating>false</Alternating>
+      <Scale>1.15</Scale>
+    </HaloEffect>
+    <HaloEffect>
+      <RotationSpeed>2</RotationSpeed>
+      <FadeSpeed>2</FadeSpeed>
+      <MinIntensity>0.2</MinIntensity>
+      <MaxIntensity>0.7</MaxIntensity>
+      <Alternating>false</Alternating>
+      <Scale>1.25</Scale>
+    </HaloEffect>
+  </ArtDefine>
+  
+  <!-- Hydrocarbon World SC -->
+  <!-- TODO: Find appropriate art. Based on Low Gravity World -->
+  <ArtDefine>
+    <InternalName>HydrocarbonWorldSC</InternalName>
+    <PlanetType>Habitable</PlanetType>
+    <PlanetTrait>HydrocarbonWorldSC</PlanetTrait>
+    <Radius>12</Radius>
+    <Radius>13</Radius>
+    <Radius>14</Radius>
+    <Radius>15</Radius>
+    <RotationSpeed>-0.01</RotationSpeed>
+    <RotationSpeed>-0.03</RotationSpeed>
+    <RotationSpeed>-0.04</RotationSpeed>
+    <RotationSpeed>-0.05</RotationSpeed>
+    <RotationSpeed>-0.06</RotationSpeed>
+    <RotationSpeed>-0.07</RotationSpeed>
+    <RotationSpeed>-0.08</RotationSpeed>
+    <ModelFile>gfx/planets/planet_globe_with_seams.sdf</ModelFile>
+    <AxisTilt>0.2</AxisTilt>
+    <AxisTilt>0.3</AxisTilt>
+    <AxisTilt>0.4</AxisTilt>
+    <AxisTilt>0.5</AxisTilt>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_01.dds</AtmosphereTextureFile>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_Green_01.dds</AtmosphereTextureFile>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_Dark_01.dds</AtmosphereTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_01_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_02_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_03_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_01.png</BaseLayerGradientFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_02.png</BaseLayerGradientFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_03.png</BaseLayerGradientFile>
+    <AltLatGradientTextureFile>Planet_Generic_Continent_Gradient_Purple_01.png</AltLatGradientTextureFile>
+    <AltLatGradientTextureFile>Planet_Generic_Continent_Gradient_Purple_02.png</AltLatGradientTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_01.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_02.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_03.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_01.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_02.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_03.dds</PolarCapTextureFile>
+    <BaseLayerDiffuseColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>150</Alpha>
+    </BaseLayerDiffuseColor>
+    <EmissiveColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>225</Blue>
+      <Alpha>255</Alpha>
+    </EmissiveColor>
+    <PolarCapTintColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>255</Alpha>
+    </PolarCapTintColor>
+    <AtmosphereColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>255</Alpha>
+    </AtmosphereColor>
+    <PolarCapSize>0.5</PolarCapSize>
+    <PolarCapSize>0.25</PolarCapSize>
+    <PolarCapSize>0.35</PolarCapSize>
+    <PolarCapSize>0.45</PolarCapSize>
+    <ContinentSqueezeFactor>0.2</ContinentSqueezeFactor>
+    <BaseGloss>1</BaseGloss>
+    <BaseSpecularIntensity>0</BaseSpecularIntensity>
+    <BaseMetal>0</BaseMetal>
+    <TerrainGloss>0</TerrainGloss>
+    <TerrainSpecularIntensity>0</TerrainSpecularIntensity>
+    <TerrainMetal>0</TerrainMetal>
+    <Ambient>0.05</Ambient>
+    <HaloIntensity>0.5</HaloIntensity>
+    <HaloEffect>
+      <RotationSpeed>5</RotationSpeed>
+      <FadeSpeed>4</FadeSpeed>
+      <MinIntensity>0.7</MinIntensity>
+      <MaxIntensity>1</MaxIntensity>
+      <Alternating>false</Alternating>
+      <Scale>1.15</Scale>
+    </HaloEffect>
+    <HaloEffect>
+      <RotationSpeed>2</RotationSpeed>
+      <FadeSpeed>2</FadeSpeed>
+      <MinIntensity>0.2</MinIntensity>
+      <MaxIntensity>0.7</MaxIntensity>
+      <Alternating>false</Alternating>
+      <Scale>1.25</Scale>
+    </HaloEffect>
+  </ArtDefine>
+  
+  <!-- Infrared World SC -->
+  <!-- TODO: Find appropriate art. Based on Low Gravity World -->
+  <ArtDefine>
+    <InternalName>InfraredWorldSC</InternalName>
+    <PlanetType>Habitable</PlanetType>
+    <PlanetTrait>InfraredWorldSC</PlanetTrait>
+    <Radius>12</Radius>
+    <Radius>13</Radius>
+    <Radius>14</Radius>
+    <Radius>15</Radius>
+    <RotationSpeed>-0.01</RotationSpeed>
+    <RotationSpeed>-0.03</RotationSpeed>
+    <RotationSpeed>-0.04</RotationSpeed>
+    <RotationSpeed>-0.05</RotationSpeed>
+    <RotationSpeed>-0.06</RotationSpeed>
+    <RotationSpeed>-0.07</RotationSpeed>
+    <RotationSpeed>-0.08</RotationSpeed>
+    <ModelFile>gfx/planets/planet_globe_with_seams.sdf</ModelFile>
+    <AxisTilt>0.2</AxisTilt>
+    <AxisTilt>0.3</AxisTilt>
+    <AxisTilt>0.4</AxisTilt>
+    <AxisTilt>0.5</AxisTilt>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_01.dds</AtmosphereTextureFile>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_Green_01.dds</AtmosphereTextureFile>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_Dark_01.dds</AtmosphereTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_01_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_02_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_03_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_01.png</BaseLayerGradientFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_02.png</BaseLayerGradientFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_03.png</BaseLayerGradientFile>
+    <AltLatGradientTextureFile>Planet_Generic_Continent_Gradient_Purple_01.png</AltLatGradientTextureFile>
+    <AltLatGradientTextureFile>Planet_Generic_Continent_Gradient_Purple_02.png</AltLatGradientTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_01.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_02.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_03.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_01.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_02.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_03.dds</PolarCapTextureFile>
+    <BaseLayerDiffuseColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>150</Alpha>
+    </BaseLayerDiffuseColor>
+    <EmissiveColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>225</Blue>
+      <Alpha>255</Alpha>
+    </EmissiveColor>
+    <PolarCapTintColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>255</Alpha>
+    </PolarCapTintColor>
+    <AtmosphereColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>255</Alpha>
+    </AtmosphereColor>
+    <PolarCapSize>0.5</PolarCapSize>
+    <PolarCapSize>0.25</PolarCapSize>
+    <PolarCapSize>0.35</PolarCapSize>
+    <PolarCapSize>0.45</PolarCapSize>
+    <ContinentSqueezeFactor>0.2</ContinentSqueezeFactor>
+    <BaseGloss>1</BaseGloss>
+    <BaseSpecularIntensity>0</BaseSpecularIntensity>
+    <BaseMetal>0</BaseMetal>
+    <TerrainGloss>0</TerrainGloss>
+    <TerrainSpecularIntensity>0</TerrainSpecularIntensity>
+    <TerrainMetal>0</TerrainMetal>
+    <Ambient>0.05</Ambient>
+    <HaloIntensity>0.5</HaloIntensity>
+    <HaloEffect>
+      <RotationSpeed>5</RotationSpeed>
+      <FadeSpeed>4</FadeSpeed>
+      <MinIntensity>0.7</MinIntensity>
+      <MaxIntensity>1</MaxIntensity>
+      <Alternating>false</Alternating>
+      <Scale>1.15</Scale>
+    </HaloEffect>
+    <HaloEffect>
+      <RotationSpeed>2</RotationSpeed>
+      <FadeSpeed>2</FadeSpeed>
+      <MinIntensity>0.2</MinIntensity>
+      <MaxIntensity>0.7</MaxIntensity>
+      <Alternating>false</Alternating>
+      <Scale>1.25</Scale>
+    </HaloEffect>
+  </ArtDefine>
+  
+  <!-- Metal World SC -->
+  <!-- TODO: Find appropriate art. Based on Low Gravity World -->
+  <ArtDefine>
+    <InternalName>MetalWorldSC</InternalName>
+    <PlanetType>Habitable</PlanetType>
+    <PlanetTrait>MetalWorldSC</PlanetTrait>
+    <Radius>12</Radius>
+    <Radius>13</Radius>
+    <Radius>14</Radius>
+    <Radius>15</Radius>
+    <RotationSpeed>-0.01</RotationSpeed>
+    <RotationSpeed>-0.03</RotationSpeed>
+    <RotationSpeed>-0.04</RotationSpeed>
+    <RotationSpeed>-0.05</RotationSpeed>
+    <RotationSpeed>-0.06</RotationSpeed>
+    <RotationSpeed>-0.07</RotationSpeed>
+    <RotationSpeed>-0.08</RotationSpeed>
+    <ModelFile>gfx/planets/planet_globe_with_seams.sdf</ModelFile>
+    <AxisTilt>0.2</AxisTilt>
+    <AxisTilt>0.3</AxisTilt>
+    <AxisTilt>0.4</AxisTilt>
+    <AxisTilt>0.5</AxisTilt>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_01.dds</AtmosphereTextureFile>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_Green_01.dds</AtmosphereTextureFile>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_Dark_01.dds</AtmosphereTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_01_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_02_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_03_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_01.png</BaseLayerGradientFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_02.png</BaseLayerGradientFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_03.png</BaseLayerGradientFile>
+    <AltLatGradientTextureFile>Planet_Generic_Continent_Gradient_Purple_01.png</AltLatGradientTextureFile>
+    <AltLatGradientTextureFile>Planet_Generic_Continent_Gradient_Purple_02.png</AltLatGradientTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_01.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_02.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_03.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_01.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_02.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_03.dds</PolarCapTextureFile>
+    <BaseLayerDiffuseColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>150</Alpha>
+    </BaseLayerDiffuseColor>
+    <EmissiveColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>225</Blue>
+      <Alpha>255</Alpha>
+    </EmissiveColor>
+    <PolarCapTintColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>255</Alpha>
+    </PolarCapTintColor>
+    <AtmosphereColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>255</Alpha>
+    </AtmosphereColor>
+    <PolarCapSize>0.5</PolarCapSize>
+    <PolarCapSize>0.25</PolarCapSize>
+    <PolarCapSize>0.35</PolarCapSize>
+    <PolarCapSize>0.45</PolarCapSize>
+    <ContinentSqueezeFactor>0.2</ContinentSqueezeFactor>
+    <BaseGloss>1</BaseGloss>
+    <BaseSpecularIntensity>0</BaseSpecularIntensity>
+    <BaseMetal>0</BaseMetal>
+    <TerrainGloss>0</TerrainGloss>
+    <TerrainSpecularIntensity>0</TerrainSpecularIntensity>
+    <TerrainMetal>0</TerrainMetal>
+    <Ambient>0.05</Ambient>
+    <HaloIntensity>0.5</HaloIntensity>
+    <HaloEffect>
+      <RotationSpeed>5</RotationSpeed>
+      <FadeSpeed>4</FadeSpeed>
+      <MinIntensity>0.7</MinIntensity>
+      <MaxIntensity>1</MaxIntensity>
+      <Alternating>false</Alternating>
+      <Scale>1.15</Scale>
+    </HaloEffect>
+    <HaloEffect>
+      <RotationSpeed>2</RotationSpeed>
+      <FadeSpeed>2</FadeSpeed>
+      <MinIntensity>0.2</MinIntensity>
+      <MaxIntensity>0.7</MaxIntensity>
+      <Alternating>false</Alternating>
+      <Scale>1.25</Scale>
+    </HaloEffect>
+  </ArtDefine>
+  
+  <!-- Noble World SC -->
+  <!-- TODO: Find appropriate art. Based on Low Gravity World -->
+  <ArtDefine>
+    <InternalName>NobleWorldSC</InternalName>
+    <PlanetType>Habitable</PlanetType>
+    <PlanetTrait>NobleWorldSC</PlanetTrait>
+    <Radius>12</Radius>
+    <Radius>13</Radius>
+    <Radius>14</Radius>
+    <Radius>15</Radius>
+    <RotationSpeed>-0.01</RotationSpeed>
+    <RotationSpeed>-0.03</RotationSpeed>
+    <RotationSpeed>-0.04</RotationSpeed>
+    <RotationSpeed>-0.05</RotationSpeed>
+    <RotationSpeed>-0.06</RotationSpeed>
+    <RotationSpeed>-0.07</RotationSpeed>
+    <RotationSpeed>-0.08</RotationSpeed>
+    <ModelFile>gfx/planets/planet_globe_with_seams.sdf</ModelFile>
+    <AxisTilt>0.2</AxisTilt>
+    <AxisTilt>0.3</AxisTilt>
+    <AxisTilt>0.4</AxisTilt>
+    <AxisTilt>0.5</AxisTilt>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_01.dds</AtmosphereTextureFile>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_Green_01.dds</AtmosphereTextureFile>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_Dark_01.dds</AtmosphereTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_01_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_02_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_03_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_01.png</BaseLayerGradientFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_02.png</BaseLayerGradientFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_03.png</BaseLayerGradientFile>
+    <AltLatGradientTextureFile>Planet_Generic_Continent_Gradient_Purple_01.png</AltLatGradientTextureFile>
+    <AltLatGradientTextureFile>Planet_Generic_Continent_Gradient_Purple_02.png</AltLatGradientTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_01.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_02.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_03.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_01.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_02.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_03.dds</PolarCapTextureFile>
+    <BaseLayerDiffuseColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>150</Alpha>
+    </BaseLayerDiffuseColor>
+    <EmissiveColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>225</Blue>
+      <Alpha>255</Alpha>
+    </EmissiveColor>
+    <PolarCapTintColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>255</Alpha>
+    </PolarCapTintColor>
+    <AtmosphereColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>255</Alpha>
+    </AtmosphereColor>
+    <PolarCapSize>0.5</PolarCapSize>
+    <PolarCapSize>0.25</PolarCapSize>
+    <PolarCapSize>0.35</PolarCapSize>
+    <PolarCapSize>0.45</PolarCapSize>
+    <ContinentSqueezeFactor>0.2</ContinentSqueezeFactor>
+    <BaseGloss>1</BaseGloss>
+    <BaseSpecularIntensity>0</BaseSpecularIntensity>
+    <BaseMetal>0</BaseMetal>
+    <TerrainGloss>0</TerrainGloss>
+    <TerrainSpecularIntensity>0</TerrainSpecularIntensity>
+    <TerrainMetal>0</TerrainMetal>
+    <Ambient>0.05</Ambient>
+    <HaloIntensity>0.5</HaloIntensity>
+    <HaloEffect>
+      <RotationSpeed>5</RotationSpeed>
+      <FadeSpeed>4</FadeSpeed>
+      <MinIntensity>0.7</MinIntensity>
+      <MaxIntensity>1</MaxIntensity>
+      <Alternating>false</Alternating>
+      <Scale>1.15</Scale>
+    </HaloEffect>
+    <HaloEffect>
+      <RotationSpeed>2</RotationSpeed>
+      <FadeSpeed>2</FadeSpeed>
+      <MinIntensity>0.2</MinIntensity>
+      <MaxIntensity>0.7</MaxIntensity>
+      <Alternating>false</Alternating>
+      <Scale>1.25</Scale>
+    </HaloEffect>
+  </ArtDefine>
+  
+  <!-- Organic World SC -->
+  <!-- TODO: Find appropriate art. Based on Low Gravity World -->
+  <ArtDefine>
+    <InternalName>OrganicWorldSC</InternalName>
+    <PlanetType>Habitable</PlanetType>
+    <PlanetTrait>OrganicWorldSC</PlanetTrait>
+    <Radius>12</Radius>
+    <Radius>13</Radius>
+    <Radius>14</Radius>
+    <Radius>15</Radius>
+    <RotationSpeed>-0.01</RotationSpeed>
+    <RotationSpeed>-0.03</RotationSpeed>
+    <RotationSpeed>-0.04</RotationSpeed>
+    <RotationSpeed>-0.05</RotationSpeed>
+    <RotationSpeed>-0.06</RotationSpeed>
+    <RotationSpeed>-0.07</RotationSpeed>
+    <RotationSpeed>-0.08</RotationSpeed>
+    <ModelFile>gfx/planets/planet_globe_with_seams.sdf</ModelFile>
+    <AxisTilt>0.2</AxisTilt>
+    <AxisTilt>0.3</AxisTilt>
+    <AxisTilt>0.4</AxisTilt>
+    <AxisTilt>0.5</AxisTilt>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_01.dds</AtmosphereTextureFile>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_Green_01.dds</AtmosphereTextureFile>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_Dark_01.dds</AtmosphereTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_01_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_02_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_03_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_01.png</BaseLayerGradientFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_02.png</BaseLayerGradientFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_03.png</BaseLayerGradientFile>
+    <AltLatGradientTextureFile>Planet_Generic_Continent_Gradient_Purple_01.png</AltLatGradientTextureFile>
+    <AltLatGradientTextureFile>Planet_Generic_Continent_Gradient_Purple_02.png</AltLatGradientTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_01.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_02.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_03.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_01.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_02.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_03.dds</PolarCapTextureFile>
+    <BaseLayerDiffuseColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>150</Alpha>
+    </BaseLayerDiffuseColor>
+    <EmissiveColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>225</Blue>
+      <Alpha>255</Alpha>
+    </EmissiveColor>
+    <PolarCapTintColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>255</Alpha>
+    </PolarCapTintColor>
+    <AtmosphereColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>255</Alpha>
+    </AtmosphereColor>
+    <PolarCapSize>0.5</PolarCapSize>
+    <PolarCapSize>0.25</PolarCapSize>
+    <PolarCapSize>0.35</PolarCapSize>
+    <PolarCapSize>0.45</PolarCapSize>
+    <ContinentSqueezeFactor>0.2</ContinentSqueezeFactor>
+    <BaseGloss>1</BaseGloss>
+    <BaseSpecularIntensity>0</BaseSpecularIntensity>
+    <BaseMetal>0</BaseMetal>
+    <TerrainGloss>0</TerrainGloss>
+    <TerrainSpecularIntensity>0</TerrainSpecularIntensity>
+    <TerrainMetal>0</TerrainMetal>
+    <Ambient>0.05</Ambient>
+    <HaloIntensity>0.5</HaloIntensity>
+    <HaloEffect>
+      <RotationSpeed>5</RotationSpeed>
+      <FadeSpeed>4</FadeSpeed>
+      <MinIntensity>0.7</MinIntensity>
+      <MaxIntensity>1</MaxIntensity>
+      <Alternating>false</Alternating>
+      <Scale>1.15</Scale>
+    </HaloEffect>
+    <HaloEffect>
+      <RotationSpeed>2</RotationSpeed>
+      <FadeSpeed>2</FadeSpeed>
+      <MinIntensity>0.2</MinIntensity>
+      <MaxIntensity>0.7</MaxIntensity>
+      <Alternating>false</Alternating>
+      <Scale>1.25</Scale>
+    </HaloEffect>
+  </ArtDefine>
+  
+  <!-- Ultramarine World SC -->
+  <!-- TODO: Find appropriate art. Based on Low Gravity World -->
+  <ArtDefine>
+    <InternalName>UltramarineWorldSC</InternalName>
+    <PlanetType>Habitable</PlanetType>
+    <PlanetTrait>UltramarineWorldSC</PlanetTrait>
+    <Radius>12</Radius>
+    <Radius>13</Radius>
+    <Radius>14</Radius>
+    <Radius>15</Radius>
+    <RotationSpeed>-0.01</RotationSpeed>
+    <RotationSpeed>-0.03</RotationSpeed>
+    <RotationSpeed>-0.04</RotationSpeed>
+    <RotationSpeed>-0.05</RotationSpeed>
+    <RotationSpeed>-0.06</RotationSpeed>
+    <RotationSpeed>-0.07</RotationSpeed>
+    <RotationSpeed>-0.08</RotationSpeed>
+    <ModelFile>gfx/planets/planet_globe_with_seams.sdf</ModelFile>
+    <AxisTilt>0.2</AxisTilt>
+    <AxisTilt>0.3</AxisTilt>
+    <AxisTilt>0.4</AxisTilt>
+    <AxisTilt>0.5</AxisTilt>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_01.dds</AtmosphereTextureFile>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_Green_01.dds</AtmosphereTextureFile>
+    <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_Dark_01.dds</AtmosphereTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_01_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_02_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerTextureFile>Planet_Base_Water_Generic_03_Merged.dds</BaseLayerTextureFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_01.png</BaseLayerGradientFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_02.png</BaseLayerGradientFile>
+    <BaseLayerGradientFile>Planet_Base_Purple_Gradient_03.png</BaseLayerGradientFile>
+    <AltLatGradientTextureFile>Planet_Generic_Continent_Gradient_Purple_01.png</AltLatGradientTextureFile>
+    <AltLatGradientTextureFile>Planet_Generic_Continent_Gradient_Purple_02.png</AltLatGradientTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_01.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_02.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Ice_03.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_01.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_02.dds</PolarCapTextureFile>
+    <PolarCapTextureFile>Planet_Cap_Generic_Lava_03.dds</PolarCapTextureFile>
+    <BaseLayerDiffuseColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>150</Alpha>
+    </BaseLayerDiffuseColor>
+    <EmissiveColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>225</Blue>
+      <Alpha>255</Alpha>
+    </EmissiveColor>
+    <PolarCapTintColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>255</Alpha>
+    </PolarCapTintColor>
+    <AtmosphereColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>255</Alpha>
+    </AtmosphereColor>
+    <PolarCapSize>0.5</PolarCapSize>
+    <PolarCapSize>0.25</PolarCapSize>
+    <PolarCapSize>0.35</PolarCapSize>
+    <PolarCapSize>0.45</PolarCapSize>
+    <ContinentSqueezeFactor>0.2</ContinentSqueezeFactor>
+    <BaseGloss>1</BaseGloss>
+    <BaseSpecularIntensity>0</BaseSpecularIntensity>
+    <BaseMetal>0</BaseMetal>
+    <TerrainGloss>0</TerrainGloss>
+    <TerrainSpecularIntensity>0</TerrainSpecularIntensity>
+    <TerrainMetal>0</TerrainMetal>
+    <Ambient>0.05</Ambient>
+    <HaloIntensity>0.5</HaloIntensity>
+    <HaloEffect>
+      <RotationSpeed>5</RotationSpeed>
+      <FadeSpeed>4</FadeSpeed>
+      <MinIntensity>0.7</MinIntensity>
+      <MaxIntensity>1</MaxIntensity>
+      <Alternating>false</Alternating>
+      <Scale>1.15</Scale>
+    </HaloEffect>
+    <HaloEffect>
+      <RotationSpeed>2</RotationSpeed>
+      <FadeSpeed>2</FadeSpeed>
+      <MinIntensity>0.2</MinIntensity>
+      <MaxIntensity>0.7</MaxIntensity>
+      <Alternating>false</Alternating>
+      <Scale>1.25</Scale>
+    </HaloEffect>
+  </ArtDefine>
+  
+  <!-- Urea World SC -->
+  <!-- TODO: Find appropriate art. Based on Low Gravity World -->
+  <ArtDefine>
+    <InternalName>UreaWorldSC</InternalName>
+    <PlanetType>Habitable</PlanetType>
+    <PlanetTrait>UreaWorldSC</PlanetTrait>
     <Radius>12</Radius>
     <Radius>13</Radius>
     <Radius>14</Radius>

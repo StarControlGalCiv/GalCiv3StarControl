@@ -71,7 +71,7 @@ GitHub issue pages for races:
 * [Arilou](https://github.com/StarControlGalCiv/GalCiv3StarControl/issues/21)
 * [Chmmr](https://github.com/StarControlGalCiv/GalCiv3StarControl/issues/17)
 * [Druuge](https://github.com/StarControlGalCiv/GalCiv3StarControl/issues/23)
-* [Earthlings](https://github.com/StarControlGalCiv/GalCiv3StarControl/issues/19)
+* [Humans](https://github.com/StarControlGalCiv/GalCiv3StarControl/issues/19)
 * [Ilwrath](https://github.com/StarControlGalCiv/GalCiv3StarControl/issues/10)
 * [Melnorme](https://github.com/StarControlGalCiv/GalCiv3StarControl/issues/22)
 * [Mycon](https://github.com/StarControlGalCiv/GalCiv3StarControl/issues/13)

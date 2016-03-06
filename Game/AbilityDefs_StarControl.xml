@@ -269,7 +269,7 @@ xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
     </Mod>
   </RaceTrait>
 
-  <!-- Earthling specific -->
+  <!-- Human specific -->
   <!-- All ships are equipped with the Point-defence Laser System. (few points to beam offence, small defense against all types of attacks) -->
   <RaceTrait>
     <InternalName>PDLSAbility</InternalName>
@@ -326,7 +326,7 @@ xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
     </Triggers>
   </RaceTrait>
 
-  <!-- Earthling specific -->
+  <!-- Human specific -->
   <!-- Long range missiles -->
   <RaceTrait>
     <InternalName>ICBMAbility</InternalName>
@@ -360,6 +360,33 @@ xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
       </Modifier>
     </Triggers>
   </RaceTrait>
+
+  <!-- Human specific -->
+  <!-- Instant human colony Unzervalt... also under a slave shield; works, but may -->
+  <!-- <RaceTrait>
+    <InternalName>RefugeesAbility</InternalName>
+    <DisplayName>RefugeesAbility_Name</DisplayName>
+    <DisplayNameShort>RefugeesAbility_ShortName</DisplayNameShort>
+    <Description>RefugeesAbility_Desc</Description>
+    <IsAbility>1</IsAbility>
+
+    <Triggers>
+      <OnEvent>OnStartTurn</OnEvent>
+      <CriteriaTurnNum>1</CriteriaTurnNum>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <PerformAction>
+        <Action>DiscoverNearbyPlanetOfClass</Action>
+        <ValueParam>8</ValueParam>
+        <ValueParam>8</ValueParam>
+        <StringParam>DiscoveredWorldPlanetTrait</StringParam>
+        <StringParam>OUTREACH5_POPUP_MESSAGE</StringParam>
+      </PerformAction>
+    </Triggers>
+  </RaceTrait> -->
 
   <!-- Syreen specific -->
   <!-- Cannot repair ships in outer space, except shipyards and starbases. -->

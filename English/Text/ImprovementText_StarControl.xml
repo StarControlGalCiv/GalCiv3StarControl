@@ -9,22 +9,22 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
 
   <StringTable>
     <Label>QuasiSpaceCivilizationCapital_Name</Label>
-    <String>[ICON=WobbleWorldIcon] QuasiSpace Civilization Capital</String>
+    <String>[ICON=WobbleWorldIcon] Civilization Capital</String>
   </StringTable>
  
   <StringTable>
     <Label>QuasiSpaceCivilizationCapital_ShortDec</Label>
-    <String>Colony capital that is imprisoned under an Ur-Quan slave shield.</String>
+    <String>A civilization's capital city. Glowing green due to QuasiSpace.</String>
   </StringTable>
  
   <StringTable>
     <Label>QuasiSpaceCivilizationCapital_Dec</Label>
-    <String>Disallows building a shipyard. Colonial capital does a little bit of everything and serves as a stepping stone to greater things.</String>
+    <String>A civilization's capital city. Glowing green due to QuasiSpace in place of the night sky.</String>
   </StringTable>
 
   <StringTable>
     <Label>TeleportPlanet_Name</Label>
-    <String>[ICON=ShieldedWorldIcon] Realign QuasiSpace Portals</String>
+    <String>[ICON=WobbleWorldIcon] Realign QuasiSpace Portals</String>
   </StringTable>
  
   <StringTable>
@@ -34,7 +34,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>TeleportPlanet_Dec</Label>
-    <String>Realigns QuasiSpace Portal nodes that causes QuasiSpace Portals to appear at different positions in TrueSpace with the planet having a random entry point.</String>
+    <String>Realigns QuasiSpace Portal nodes that causes QuasiSpace Portals to appear at different positions in TrueSpace with the sideffect of this planet having a new random entry point.</String>
   </StringTable>
 
   <StringTable>
@@ -44,12 +44,12 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>EnslavedColonyCapital_ShortDec</Label>
-    <String>Provides the basic needs for shielded planet.</String>
+    <String>A colony's founding city and capital. Glowing red due to the slave shield above the sky.</String>
   </StringTable>
  
   <StringTable>
     <Label>EnslavedColonyCapital_Dec</Label>
-    <String>Colony capital that is imprisoned under an Ur-Quan slave shield. Disallows building a shipyard. Colonial capital does a little bit of everything and serves as a stepping stone to greater things.</String>
+    <String>Colony capital that is imprisoned under an slave shield. The shield protects and totally isolates the planet.</String>
   </StringTable>
 
   <StringTable>
@@ -59,7 +59,7 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>EnslavedCivilizationCapital_ShortDec</Label>
-    <String>Colony capital that is imprisoned under an Ur-Quan slave shield.</String>
+    <String>A civilization's capital city. Glowing red due to the slave shield above the sky.</String>
   </StringTable>
  
   <StringTable>
@@ -75,12 +75,12 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>SpathiCivilizationCapital_ShortDec</Label>
-    <String>The Ur-Quan slave shield was set up by the Spathi themselves.</String>
+    <String>A civilization's capital city. Glowing red due to the slave shield above the sky.</String>
   </StringTable>
  
   <StringTable>
     <Label>SpathiCivilizationCapital_Dec</Label>
-    <String>Civilization capital that is imprisoned under an Ur-Quan slave shield. Disallows building a shipyard.</String>
+    <String>Civilization capital that is imprisoned under an slave shield, which the Spathi themselves set up. Disallows building a shipyard.</String>
   </StringTable>
 
   <StringTable>
@@ -90,12 +90,12 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
  
   <StringTable>
     <Label>FreeColonyCapital_ShortDec</Label>
-    <String>Colony that has had its Ur-Quan slave shield removed.</String>
+    <String>Colony that has had its slave shield removed.</String>
   </StringTable>
  
   <StringTable>
     <Label>FreeColonyCapital_Dec</Label>
-    <String>Colony that has had its Ur-Quan slave shield removed. The population feels uplifted after this event.</String>
+    <String>Colony that has had its slave shield removed. The population feels uplifted after this event.</String>
   </StringTable>
 
   <!-- Fun added non-canon twist -->

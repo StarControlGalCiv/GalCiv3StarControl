@@ -72,7 +72,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
   </ShipComponent>
 
   <!-- Kohr Ah Special weapon -->
-  <!-- No weapon does splash damage, mimicking it -->
+  <!-- No weapon does splash damage, mimicking it by decreasing tactical repair of all enemy ships to even negative territory -->
   <ShipComponent>
     <InternalName>Immolator</InternalName>
     <DisplayName>Immolator_Name</DisplayName>
@@ -108,20 +108,12 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
       <BonusType>Flat</BonusType>
       <Value>15</Value>
     </Stats>
-    <Stats>
-      <EffectType>TacticalRepair</EffectType>
-      <Target>
-        <TargetType>Ship</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>3</Value>
-    </Stats>
     <!-- <Stats>
       <EffectType>TacticalRepair</EffectType>
       <Scope>UPResolutionGalaxy</Scope>
       <Target>
         <TargetType>AllShipsInFleet</TargetType>
-        <TargetRelation>Foreign</TargetRelation>
+        <TargetRelation>Enemy</TargetRelation>
       </Target>
       <BonusType>Flat</BonusType>
       <Value>-1</Value>
@@ -141,5 +133,118 @@ xsi:noNamespaceSchemaLocation="../Schema/ShipComponentDefs.xsd">
       </RaceTrait>
     </Prerequ>
   </ShipComponent>
+
+  <!-- Sa-Matra -->
+  <ShipComponent>
+    <InternalName>SaMatra</InternalName>
+    <DisplayName>SaMatra_Name</DisplayName>
+    <Description>SaMatra_Dec</Description>
+    <ArtDefine>Armor_01</ArtDefine>
+    <Category>Support</Category>
+    <OnePerShip>true</OnePerShip>
+    <Type>SupportModule</Type>
+    <PlacementType>Defense</PlacementType>
+    <!-- "the sa-matra was many times larger than your ship, and bore weapons
+...but the most dangerous feature of the sa-matra was its annihilation toroids
+...with this weapon they could vaporize ships from the far side of a solar system
+the sa-matra incinerated our finest broodhome vessels from ten times our own ships' weapon range." - Chmmr -->
+    <Stats>
+      <EffectType>BeamRange</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>10</Value>
+    </Stats>
+    <Stats>
+      <EffectType>MissileRange</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>7</Value>
+    </Stats>
+    <Stats>
+      <EffectType>KineticRange</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>5</Value>
+    </Stats>
+    <Stats>
+      <EffectType>Accuracy</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>0.5</Value>
+    </Stats>
+    <!-- "and defensive systems
+that made it invulnerable to all of our technologies" - Chmmr -->
+    <Stats>
+      <EffectType>HitPointsCap</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>2000</Value>
+    </Stats>
+    <Stats>
+      <EffectType>ShieldStrength</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>3000</Value>
+    </Stats>
+    <Stats>
+      <EffectType>PointDefense</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>3000</Value>
+    </Stats>
+    <Stats>
+      <EffectType>ArmorRating</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>3000</Value>
+    </Stats>
+    <!-- Heals 100% every turn -->
+    <Stats>
+      <EffectType>StrategicRepair</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.25</Value>
+    </Stats>
+    <!-- Easy target, slow moving in battle -->
+    <Stats>
+      <EffectType>TacticalSpeed</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.9</Value>
+    </Stats>
+    <!-- Abnormal logistics to disallow stationing at starbases and planets -->
+    <Stats>
+      <EffectType>Logistics</EffectType>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>90</Value>
+    </Stats>
+    <Prerequ>
+      <Unavailable>true</Unavailable>
+    </Prerequ>
+  </ShipComponent>
+  <!-- "or cut broad swaths of devastation across a planet in seconds..." -->
 
 </ShipComponentList>

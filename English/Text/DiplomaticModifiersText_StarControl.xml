@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<StringTableList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- DiplomaticModifiersText.XML -->
+
+ 
+  <StringTable>
+    <Label>DoctrinalConflict_Dec</Label>
+    <String>We have unfinished business</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>BusyWithDoctrinalConflict_Dec</Label>
+    <String>Will turn to you after the Doctrinal Conflict</String>
+  </StringTable>
+</StringTableList>
