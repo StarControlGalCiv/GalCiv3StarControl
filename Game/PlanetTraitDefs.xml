@@ -32,10 +32,10 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
 		<Weight>100</Weight>
 	</PlanetClassSelect>
 	<ColonizationPrerequ>
-		<Techs>
-			<Option>HabitablePlanetColonization</Option>
-			<Option>AlkaliWorldColonization</Option>
-		</Techs>
+		<RaceTrait>
+			<Option>HabitablePlanetColonizationAbility</Option>
+			<Option>AlkaliWorldColonizationAbility</Option>
+		</RaceTrait>
 	</ColonizationPrerequ>
   </PlanetTrait>
 
@@ -50,10 +50,10 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
 		<Weight>100</Weight>
 	</PlanetClassSelect>
 	<ColonizationPrerequ>
-		<Techs>
-			<Option>HabitablePlanetColonization</Option>
-			<Option>AuricWorldColonization</Option>
-		</Techs>
+		<RaceTrait>
+			<Option>HabitablePlanetColonizationAbility</Option>
+			<Option>AuricWorldColonizationAbility</Option>
+		</RaceTrait>
 	</ColonizationPrerequ>
   </PlanetTrait>
 
@@ -68,10 +68,10 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
 		<Weight>100</Weight>
 	</PlanetClassSelect>
 	<ColonizationPrerequ>
-		<Techs>
-			<Option>HabitablePlanetColonization</Option>
-			<Option>AzureWorldColonization</Option>
-		</Techs>
+		<RaceTrait>
+			<Option>HabitablePlanetColonizationAbility</Option>
+			<Option>AzureWorldColonizationAbility</Option>
+		</RaceTrait>
 	</ColonizationPrerequ>
   </PlanetTrait>
 
@@ -116,10 +116,10 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
 		<Weight>100</Weight>
 	</PlanetClassSelect>
 	<ColonizationPrerequ>
-		<Techs>
-			<Option>HabitablePlanetColonization</Option>
-			<Option>ChondriteWorldColonization</Option>
-		</Techs>
+		<RaceTrait>
+			<Option>HabitablePlanetColonizationAbility</Option>
+			<Option>ChondriteWorldColonizationAbility</Option>
+		</RaceTrait>
 	</ColonizationPrerequ>
   </PlanetTrait>
 
@@ -164,10 +164,10 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
 		<Weight>100</Weight>
 	</PlanetClassSelect>
 	<ColonizationPrerequ>
-		<Techs>
-			<Option>HabitablePlanetColonization</Option>
-			<Option>CrimsonWorldColonization</Option>
-		</Techs>
+		<RaceTrait>
+			<Option>HabitablePlanetColonizationAbility</Option>
+			<Option>CrimsonWorldColonizationAbility</Option>
+		</RaceTrait>
 	</ColonizationPrerequ>
   </PlanetTrait>
 
@@ -213,9 +213,9 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
 		<Value>-0.25</Value>
 	</EffectModifier>
 	<ColonizationPrerequ>
-		<Techs>
-			<Option>HabitablePlanetColonization</Option>
-		</Techs>
+		<RaceTrait>
+			<Option>HabitablePlanetColonizationAbility</Option>
+		</RaceTrait>
 	</ColonizationPrerequ>
   </PlanetTrait>
 
@@ -250,9 +250,9 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
   </PlanetTrait>
 
   <PlanetTrait>
-	<InternalName>GasGiantWorldSC</InternalName>
-	<DisplayName>GasGiantWorldSC_Name</DisplayName>
-	<Description>GasGiantWorldSC_Dec</Description>
+	<InternalName>GasGiantSC</InternalName>
+	<DisplayName>GasGiantSC_Name</DisplayName>
+	<Description>GasGiantSC_Dec</Description>
 	<RelativeWeight>0</RelativeWeight><!--Dead-->
 	<PlanetClassSelect>
 		<MinPlanetClass>0</MinPlanetClass>
@@ -260,9 +260,9 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
 		<Weight>100</Weight>
 	</PlanetClassSelect>
 	<ColonizationPrerequ>
-		<Techs>
-			<Option>GasGiantWorldColonization</Option>
-		</Techs>
+		<RaceTrait>
+			<Option>GasGiantColonizationAbility</Option>
+		</RaceTrait>
 	</ColonizationPrerequ>
   </PlanetTrait>
 
@@ -277,10 +277,10 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
 		<Weight>100</Weight>
 	</PlanetClassSelect>
 	<ColonizationPrerequ>
-		<Techs>
-			<Option>HabitablePlanetColonization</Option>
-			<Option>GreenWorldColonization</Option>
-		</Techs>
+		<RaceTrait>
+			<Option>HabitablePlanetColonizationAbility</Option>
+			<Option>GreenWorldColonizationAbility</Option>
+		</RaceTrait>
 	</ColonizationPrerequ>
   </PlanetTrait>
 
@@ -295,10 +295,10 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
 		<Weight>100</Weight>
 	</PlanetClassSelect>
 	<ColonizationPrerequ>
-		<Techs>
-			<Option>HabitablePlanetColonization</Option>
-			<Option>HalideWorldColonization</Option>
-		</Techs>
+		<RaceTrait>
+			<Option>HabitablePlanetColonizationAbility</Option>
+			<Option>HalideWorldColonizationAbility</Option>
+		</RaceTrait>
 	</ColonizationPrerequ>
   </PlanetTrait>
 
@@ -313,10 +313,10 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
 		<Weight>100</Weight>
 	</PlanetClassSelect>
 	<ColonizationPrerequ>
-		<Techs>
-			<Option>HabitablePlanetColonization</Option>
-			<Option>HydrocarbonWorldColonization</Option>
-		</Techs>
+		<RaceTrait>
+			<Option>HabitablePlanetColonizationAbility</Option>
+			<Option>HydrocarbonWorldColonizationAbility</Option>
+		</RaceTrait>
 	</ColonizationPrerequ>
   </PlanetTrait>
 
@@ -331,10 +331,10 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
 		<Weight>100</Weight>
 	</PlanetClassSelect>
 	<ColonizationPrerequ>
-		<Techs>
-			<Option>HabitablePlanetColonization</Option>
-			<Option>InfraredWorldColonization</Option>
-		</Techs>
+		<RaceTrait>
+			<Option>HabitablePlanetColonizationAbility</Option>
+			<Option>InfraredWorldColonizationAbility</Option>
+		</RaceTrait>
 	</ColonizationPrerequ>
   </PlanetTrait>
 
@@ -424,10 +424,10 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
 		<Weight>100</Weight>
 	</PlanetClassSelect>
 	<ColonizationPrerequ>
-		<Techs>
-			<Option>HabitablePlanetColonization</Option>
-			<Option>MetalWorldColonization</Option>
-		</Techs>
+		<RaceTrait>
+			<Option>HabitablePlanetColonizationAbility</Option>
+			<Option>MetalWorldColonizationAbility</Option>
+		</RaceTrait>
 	</ColonizationPrerequ>
   </PlanetTrait>
 
@@ -442,10 +442,10 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
 		<Weight>100</Weight>
 	</PlanetClassSelect>
 	<ColonizationPrerequ>
-		<Techs>
-			<Option>HabitablePlanetColonization</Option>
-			<Option>NobleWorldColonization</Option>
-		</Techs>
+		<RaceTrait>
+			<Option>HabitablePlanetColonizationAbility</Option>
+			<Option>NobleWorldColonizationAbility</Option>
+		</RaceTrait>
 	</ColonizationPrerequ>
   </PlanetTrait>
 
@@ -490,10 +490,10 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
 		<Weight>100</Weight>
 	</PlanetClassSelect>
 	<ColonizationPrerequ>
-		<Techs>
-			<Option>HabitablePlanetColonization</Option>
-			<Option>OrganicWorldColonization</Option>
-		</Techs>
+		<RaceTrait>
+			<Option>HabitablePlanetColonizationAbility</Option>
+			<Option>OrganicWorldColonizationAbility</Option>
+		</RaceTrait>
 	</ColonizationPrerequ>
   </PlanetTrait>
 
@@ -508,7 +508,9 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
 		<Weight>100</Weight>
 	</PlanetClassSelect>
 	<ColonizationPrerequ>
-		<Unavailable>true</Unavailable>
+		<RaceTrait>
+			<Option>PellucidWorldColonizationAbility</Option>
+		</RaceTrait>
 	</ColonizationPrerequ>
   </PlanetTrait>
 
@@ -538,7 +540,9 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
 		<Weight>100</Weight>
 	</PlanetClassSelect>
 	<ColonizationPrerequ>
-		<Unavailable>true</Unavailable>
+		<RaceTrait>
+			<Option>PrimordialWorldColonizationAbility</Option>
+		</RaceTrait>
 	</ColonizationPrerequ>
   </PlanetTrait>
 
@@ -613,7 +617,9 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
 		<Weight>100</Weight>
 	</PlanetClassSelect>
 	<ColonizationPrerequ>
-		<Unavailable>true</Unavailable>
+		<RaceTrait>
+			<Option>ReduxWorldColonizationAbility</Option>
+		</RaceTrait>
 	</ColonizationPrerequ>
   </PlanetTrait>
 
@@ -643,7 +649,9 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
 		<Weight>100</Weight>
 	</PlanetClassSelect>
 	<ColonizationPrerequ>
-		<Unavailable>true</Unavailable>
+		<RaceTrait>
+			<Option>SapphireWorldColonizationAbility</Option>
+		</RaceTrait>
 	</ColonizationPrerequ>
   </PlanetTrait>
 
@@ -658,7 +666,9 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
 		<Weight>100</Weight>
 	</PlanetClassSelect>
 	<ColonizationPrerequ>
-		<Unavailable>true</Unavailable>
+		<RaceTrait>
+			<Option>SelenicWorldColonizationAbility</Option>
+		</RaceTrait>
 	</ColonizationPrerequ>
   </PlanetTrait>
 
@@ -667,16 +677,11 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
 	<InternalName>ShatteredWorldSC</InternalName>
 	<DisplayName>ShatteredWorldSC_Name</DisplayName>
 	<Description>ShatteredWorldSC_Dec</Description>
-	<RelativeWeight>10</RelativeWeight>
-	<PlanetClassSelect>
-		<MinPlanetClass>4</MinPlanetClass>
-		<MaxPlanetClass>10</MaxPlanetClass>
-		<Weight>100</Weight>
-	</PlanetClassSelect>
+	<RelativeWeight>0</RelativeWeight><!-- unnatural -->
 	<ColonizationPrerequ>
-		<Techs>
-			<Option>ShatteredWorldColonization</Option>
-		</Techs>
+		<RaceTrait>
+			<Option>ShatteredWorldColonizationAbility</Option>
+		</RaceTrait>
 	</ColonizationPrerequ>
   </PlanetTrait>
 
@@ -706,10 +711,10 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
 		<Weight>100</Weight>
 	</PlanetClassSelect>
 	<ColonizationPrerequ>
-		<Techs>
-			<Option>HabitablePlanetColonization</Option>
-			<Option>TelluricWorldColonization</Option>
-		</Techs>
+		<RaceTrait>
+			<Option>HabitablePlanetColonizationAbility</Option>
+			<Option>TelluricWorldColonizationAbility</Option>
+		</RaceTrait>
 	</ColonizationPrerequ>
   </PlanetTrait>
 
@@ -739,10 +744,10 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
 		<Weight>100</Weight>
 	</PlanetClassSelect>
 	<ColonizationPrerequ>
-		<Techs>
-			<Option>HabitablePlanetColonization</Option>
-			<Option>UltramarineWorldColonization</Option>
-		</Techs>
+		<RaceTrait>
+			<Option>HabitablePlanetColonizationAbility</Option>
+			<Option>UltramarineWorldColonizationAbility</Option>
+		</RaceTrait>
 	</ColonizationPrerequ>
   </PlanetTrait>
 
@@ -772,10 +777,10 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
 		<Weight>100</Weight>
 	</PlanetClassSelect>
 	<ColonizationPrerequ>
-		<Techs>
-			<Option>HabitablePlanetColonization</Option>
-			<Option>UreaWorldColonization</Option>
-		</Techs>
+		<RaceTrait>
+			<Option>HabitablePlanetColonizationAbility</Option>
+			<Option>UreaWorldColonizationAbility</Option>
+		</RaceTrait>
 	</ColonizationPrerequ>
   </PlanetTrait>
 
@@ -802,14 +807,14 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetTraitDefs.xsd">
 	<RelativeWeight>20</RelativeWeight><!--Life-->
 	<PlanetClassSelect>
 		<MinPlanetClass>1</MinPlanetClass>
-		<MaxPlanetClass>100</MaxPlanetClass>
+		<MaxPlanetClass>20</MaxPlanetClass>
 		<Weight>100</Weight>
 	</PlanetClassSelect>
 	<ColonizationPrerequ>
-		<Techs>
-			<Option>HabitablePlanetColonization</Option>
-			<Option>WaterWorldColonization</Option>
-		</Techs>
+		<RaceTrait>
+			<Option>HabitablePlanetColonizationAbility</Option>
+			<Option>WaterWorldColonizationAbility</Option>
+		</RaceTrait>
 	</ColonizationPrerequ>
   </PlanetTrait>
 
