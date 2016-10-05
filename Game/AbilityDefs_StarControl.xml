@@ -664,4 +664,64 @@ xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
       <Value>100000</Value>
     </Mod>
   </RaceTrait>
+
+  <!-- Colonization abilities: -->
+  <RaceTrait>
+      <InternalName>HabitablePlanetColonizationAbility</InternalName>
+      <DisplayName>HabitablePlanetColonizationAbility_Name</DisplayName>
+      <DisplayNameShort>HabitablePlanetColonizationAbility_ShortName</DisplayNameShort>
+      <Description>HabitablePlanetColonizationAbility_Desc</Description>
+      <IsAbility>1</IsAbility>
+  </RaceTrait>
+
+  <!-- Homeworld colonization abilities: -->
+  <RaceTrait>
+      <InternalName>SapphireWorldColonizationAbility</InternalName>
+      <DisplayName>SapphireWorldColonizationAbility_Name</DisplayName>
+      <DisplayNameShort>SapphireWorldColonizationAbility_ShortName</DisplayNameShort>
+      <Description>SapphireWorldColonizationAbility_Desc</Description>
+      <IsAbility>1</IsAbility>
+  </RaceTrait>
+  <RaceTrait>
+      <InternalName>PrimordialWorldColonizationAbility</InternalName>
+      <DisplayName>PrimordialWorldColonizationAbility_Name</DisplayName>
+      <DisplayNameShort>PrimordialWorldColonizationAbility_ShortName</DisplayNameShort>
+      <Description>PrimordialWorldColonizationAbility_Desc</Description>
+      <IsAbility>1</IsAbility>
+  </RaceTrait>
+  <RaceTrait>
+      <InternalName>SelenicWorldColonizationAbility</InternalName>
+      <DisplayName>SelenicWorldColonizationAbility_Name</DisplayName>
+      <DisplayNameShort>SelenicWorldColonizationAbility_ShortName</DisplayNameShort>
+      <Description>SelenicWorldColonizationAbility_Desc</Description>
+      <IsAbility>1</IsAbility>
+  </RaceTrait>
+  <RaceTrait>
+      <InternalName>GasGiantColonizationAbility</InternalName>
+      <DisplayName>GasGiantColonizationAbility_Name</DisplayName>
+      <DisplayNameShort>GasGiantColonizationAbility_ShortName</DisplayNameShort>
+      <Description>GasGiantColonizationAbility_Desc</Description>
+      <IsAbility>1</IsAbility>
+  </RaceTrait>
+  <RaceTrait>
+      <InternalName>ReduxWorldColonizationAbility</InternalName>
+      <DisplayName>ReduxWorldColonizationAbility_Name</DisplayName>
+      <DisplayNameShort>ReduxWorldColonizationAbility_ShortName</DisplayNameShort>
+      <Description>ReduxWorldColonizationAbility_Desc</Description>
+      <IsAbility>1</IsAbility>
+  </RaceTrait>
+  <RaceTrait>
+    <InternalName>WaterWorldColonizationAbility</InternalName>
+    <DisplayName>WaterWorldColonizationAbility_Name</DisplayName>
+    <DisplayNameShort>WaterWorldColonizationAbility_ShortName</DisplayNameShort>
+    <Description>WaterWorldColonizationAbility_Desc</Description>
+    <IsAbility>1</IsAbility>
+  </RaceTrait>
+  <RaceTrait>
+    <InternalName>ShatteredWorldColonizationAbility</InternalName>
+    <DisplayName>ShatteredWorldColonizationAbility_Name</DisplayName>
+    <DisplayNameShort>ShatteredWorldColonizationAbility_ShortName</DisplayNameShort>
+    <Description>ShatteredWorldColonizationAbility_Desc</Description>
+    <IsAbility>1</IsAbility>
+  </RaceTrait>
 </RaceTraitList>

@@ -96,6 +96,11 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<PersonalityTraits>Peaceful</PersonalityTraits>
 		<PersonalityTraits>Scientific</PersonalityTraits>
 
+		<!-- Standard colonization -->
+		<RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
+		<!-- Homeworld planet type colonization -->
+		<RaceTraits>SapphireWorldColonizationAbility</RaceTraits>
+
 		<RaceTraits>UnderSlaveShield</RaceTraits>
 		<RaceTraits>PDLSAbility</RaceTraits>
 		<RaceTraits>SyntheticLife</RaceTraits>
@@ -123,6 +128,9 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 
 		<RequiresHomeworld>true</RequiresHomeworld>
 		<HomeStarSystem>ProcyonSystem</HomeStarSystem>
+
+		<!-- For testing -->
+		<!-- <StartingShips>ColonyStaticBlueprint</StartingShips> -->
 		
 		<!-- TODO: Replaced with synthetic Yor colonyless tree -->
 		<TechTree>Colonyless_Tree</TechTree>
@@ -184,6 +192,9 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
         <PersonalityTraits>Merciless</PersonalityTraits>
         <PersonalityTraits>Greedy</PersonalityTraits>
         <PersonalityTraits>Trader</PersonalityTraits>
+
+        <!-- Standard colonization -->
+        <RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
 
         <RaceTraits>EntrepreneursAbility</RaceTraits>
         <RaceTraits>WealthyAbility</RaceTraits>
@@ -262,6 +273,9 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<PersonalityTraits>Neutral</PersonalityTraits>
 		<PersonalityTraits>Diplomatic</PersonalityTraits>
 		<PersonalityTraits>Trader</PersonalityTraits>
+
+		<!-- Standard colonization -->
+		<RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
 
 		<RaceTraits>UnderSlaveShield</RaceTraits>
 		<!-- <RaceTraits>RefugeesAbility</RaceTraits> -->
@@ -349,6 +363,11 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<PersonalityTraits>Merciless</PersonalityTraits>
 		<PersonalityTraits>Cruel</PersonalityTraits>
 		<PersonalityTraits>Xenophobic</PersonalityTraits>
+
+		<!-- Standard colonization -->
+		<RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
+		<!-- Homeworld planet type colonization -->
+		<RaceTraits>PrimordialWorldColonizationAbility</RaceTraits>
 
 		<RaceTraits>ZealotsAbility</RaceTraits>
 		<RaceTraits>StarfaringAbility</RaceTraits>
@@ -464,7 +483,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<!-- <RequiresHomeworld>true</RequiresHomeworld> -->
 		<RequiresHomeworld>false</RequiresHomeworld><!-- Ur-Quan are nomads/wanderers -->
 		<HomeStarSystem>KohrSystem</HomeStarSystem>
-		<StartingShips>UrQuanColonyStaticBlueprint</StartingShips>
+		<!-- <StartingShips>UrQuanColonyStaticBlueprint</StartingShips>
 		<StartingShips>UrQuanColonyStaticBlueprint</StartingShips>
 		<StartingShips>UrQuanColonyStaticBlueprint</StartingShips>
 		<StartingShips>UrQuanColonyStaticBlueprint</StartingShips>
@@ -473,7 +492,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<StartingShips>UrQuanConstructorStaticBlueprint</StartingShips>
 		<StartingShips>UrQuanConstructorStaticBlueprint</StartingShips>
 		<StartingShips>UrQuanConstructorStaticBlueprint</StartingShips>
-		<StartingShips>UrQuanConstructorStaticBlueprint</StartingShips>
+		<StartingShips>UrQuanConstructorStaticBlueprint</StartingShips> -->
 		<!-- Have to be balanced -->
 		<!-- <StartingShips>WreckerDefenseBattleshipStaticBlueprint</StartingShips>
 		<StartingShips>WreckerDefenseBattleshipStaticBlueprint</StartingShips>
@@ -482,7 +501,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<StartingShips>WreckerDefenseBattleshipStaticBlueprint</StartingShips>
 		<StartingShips>MarauderCapitalStaticBlueprint</StartingShips>
 		<StartingShips>MarauderCapitalStaticBlueprint</StartingShips> -->
-		<TechTree>DrenginTree</TechTree>
+		<TechTree>Drengin_Tree</TechTree>
 		<!-- Modified Drengin techtree. TODO: remove all use and mention of slave labour -->
 		<!-- <TechTree>UrQuan_Tree</TechTree> -->
 
@@ -578,7 +597,8 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<Surface1>GC3_Default_Surface_18</Surface1>
 		<Surface2>GC3_Default_Surface_18</Surface2>
 		<Appearance>GC3_Kohr-Ah</Appearance>
-		<ShipStyleSet>StarControlUrQuanShipStyleSet</ShipStyleSet>
+		<!-- <ShipStyleSet>StarControlUrQuanShipStyleSet</ShipStyleSet> -->
+		<ShipStyleSet>DrenginShipStyleSet</ShipStyleSet>
 
 		<CreditsInit>30000</CreditsInit>
 		<WarEnduranceInit>150</WarEnduranceInit>
@@ -633,7 +653,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<!-- <RequiresHomeworld>true</RequiresHomeworld> -->
 		<RequiresHomeworld>false</RequiresHomeworld><!-- Ur-Quan are nomads/wanderers -->
 		<HomeStarSystem>KzerSystem</HomeStarSystem>
-		<StartingShips>UrQuanColonyStaticBlueprint</StartingShips>
+		<!-- <StartingShips>UrQuanColonyStaticBlueprint</StartingShips>
 		<StartingShips>UrQuanColonyStaticBlueprint</StartingShips>
 		<StartingShips>UrQuanColonyStaticBlueprint</StartingShips>
 		<StartingShips>UrQuanColonyStaticBlueprint</StartingShips>
@@ -642,9 +662,9 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<StartingShips>UrQuanConstructorStaticBlueprint</StartingShips>
 		<StartingShips>UrQuanConstructorStaticBlueprint</StartingShips>
 		<StartingShips>UrQuanConstructorStaticBlueprint</StartingShips>
-		<StartingShips>UrQuanConstructorStaticBlueprint</StartingShips>
+		<StartingShips>UrQuanConstructorStaticBlueprint</StartingShips> -->
 		<!-- Kzer-Za owned the Sa-Matra during and even before the second Doctrinal Conflict -->
-		<StartingShips>SaMatraStaticBlueprint</StartingShips>
+		<!-- <StartingShips>SaMatraStaticBlueprint</StartingShips> -->
 		<!-- Have to be balanced -->
 		<!-- <StartingShips>DestroyerDefenseBattleshipStaticBlueprint</StartingShips>
 		<StartingShips>DestroyerDefenseBattleshipStaticBlueprint</StartingShips>
@@ -652,7 +672,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<StartingShips>DestroyerDefenseBattleshipStaticBlueprint</StartingShips>
 		<StartingShips>DestroyerDefenseBattleshipStaticBlueprint</StartingShips>
 		<StartingShips>DreadnaughtCapitalCarrierStaticBlueprint</StartingShips> -->
-		<TechTree>DrenginTree</TechTree>
+		<TechTree>Drengin_Tree</TechTree>
 		<!-- Modified Drengin techtree. TODO: remove all use and mention of slave labour -->
 		<!-- <TechTree>UrQuan_Tree</TechTree> -->
 
@@ -751,7 +771,8 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<Surface1>GC3_Default_Surface_07</Surface1>
 		<Surface2>GC3_Default_Surface_04</Surface2>
 		<Appearance>GC3_Kzer-Za</Appearance>
-		<ShipStyleSet>StarControlUrQuanShipStyleSet</ShipStyleSet>
+		<!-- <ShipStyleSet>StarControlUrQuanShipStyleSet</ShipStyleSet> -->
+		<ShipStyleSet>DrenginShipStyleSet</ShipStyleSet>
 		<CreditsInit>30000</CreditsInit>
 		<WarEnduranceInit>150</WarEnduranceInit>
 		<DefaultResistance>0.7</DefaultResistance>
@@ -784,6 +805,12 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<PersonalityTraits>Expansionist</PersonalityTraits>
 		<PersonalityTraits>Xenophobic</PersonalityTraits>
 
+		<!-- Homeworld planet type colonization -->
+		<RaceTraits>ShatteredWorldColonizationAbility</RaceTraits>
+		<!-- Water planet type colonization -->
+		<!-- TODO (if possible): Turn Water Worlds to Shattered -->
+		<RaceTraits>WaterWorldColonizationAbility</RaceTraits>
+
 		<RaceTraits>RegenerativeAbility</RaceTraits>
 		<RaceTraits>ParasiteAbility</RaceTraits>
 		<RaceTraits>ColonizersAbility</RaceTraits>
@@ -815,10 +842,8 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<StartingShips>ColonyStaticBlueprint</StartingShips>
 
 		<TechTree>Generic_Tree</TechTree>
-		<StartingTechs>ShatteredWorldColonization</StartingTechs>
-		<StartingTechs>WaterWorldColonization</StartingTechs>
 
-		<!-- They don't really 'hate' the Syreen in particular, just have to increase the odds of them going to war -->
+		<!-- Mycon don't really 'hate' the Syreen in particular, just have to increase the odds of them going to war -->
 		<HatedFaction>FACTION_SYREEN</HatedFaction>
 
 		<ShipCallsign></ShipCallsign>
@@ -872,6 +897,9 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
         <PersonalityTraits>Neutral</PersonalityTraits>
         <PersonalityTraits>Peaceful</PersonalityTraits>
         <PersonalityTraits>Diplomatic</PersonalityTraits>
+
+        <!-- Standard colonization -->
+        <RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
 
         <RaceTraits>UnrelentingAbility</RaceTraits>
         <RaceTraits>AdaptableAbility</RaceTraits>
@@ -950,6 +978,9 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
         <PersonalityTraits>Benevolent</PersonalityTraits>
         <PersonalityTraits>Peaceful</PersonalityTraits>
         <PersonalityTraits>Spiritual</PersonalityTraits>
+
+        <!-- Standard colonization -->
+        <RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
 
         <RaceTraits>StarfaringAbility</RaceTraits>
         <RaceTraits>ColonizersAbility</RaceTraits>
@@ -1033,6 +1064,9 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 	    <PersonalityTraits>Opportunistic</PersonalityTraits>
 	    <PersonalityTraits>Cultural</PersonalityTraits>
 
+	    <!-- Standard colonization -->
+		<RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
+
 	    <RaceTraits>ProlificAbility</RaceTraits>
 	    <RaceTraits>ZealotsAbility</RaceTraits>
 	    <RaceTraits>Spacefaring</RaceTraits>
@@ -1108,6 +1142,10 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<PersonalityTraits>Benevolent</PersonalityTraits>
 		<PersonalityTraits>Peaceful</PersonalityTraits>
 		<PersonalityTraits>Trader</PersonalityTraits>
+
+		<!-- Homeworld planet type colonization -->
+		<RaceTraits>GasGiantColonizationAbility</RaceTraits>
+
 		<!-- TODO: Culture flipping immunity on Gas Giants -->
 		<!-- <RaceTraits>UnflippableAbility</RaceTraits> -->
 		<RaceTraits>KnowledgeableAbility</RaceTraits>
@@ -1191,6 +1229,10 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<PersonalityTraits>Benevolent</PersonalityTraits>
 		<PersonalityTraits>Peaceful</PersonalityTraits>
 		<PersonalityTraits>Spiritual</PersonalityTraits>
+
+	    <!-- Standard colonization -->
+		<RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
+
 		<RaceTraits>ParanoidAbility</RaceTraits>
 
 		<RaceTraits>Spacefaring</RaceTraits>
@@ -1276,6 +1318,10 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<PersonalityTraits>Peaceful</PersonalityTraits>
 		<PersonalityTraits>Diplomatic</PersonalityTraits>
 		<PersonalityTraits>Trader</PersonalityTraits>
+
+	    <!-- Standard colonization -->
+		<RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
+
 		<RaceTraits>StarfaringAbility</RaceTraits>
 		<RaceTraits>WealthyAbility</RaceTraits>
 
@@ -1357,6 +1403,9 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<PersonalityTraits>Benevolent</PersonalityTraits>
 		<PersonalityTraits>Diplomatic</PersonalityTraits>
 		<PersonalityTraits>Cultural</PersonalityTraits>
+
+	    <!-- Standard colonization -->
+		<RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
 
 		<RaceTraits>UnderSlaveShield</RaceTraits>
 		<RaceTraits>VampireAbility</RaceTraits>
@@ -1445,6 +1494,9 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<PersonalityTraits>Aggressive</PersonalityTraits>
 		<PersonalityTraits>Xenophobic</PersonalityTraits>
 
+	    <!-- Standard colonization -->
+		<RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
+
 		<RaceTraits>AfterburnersAbility</RaceTraits>
 		<RaceTraits>UnrelentingAbility</RaceTraits>
 		<RaceTraits>AdaptableAbility</RaceTraits>
@@ -1529,6 +1581,9 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<PersonalityTraits>Aggressive</PersonalityTraits>
 		<PersonalityTraits>Opportunistic</PersonalityTraits>
 
+	    <!-- Standard colonization -->
+		<RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
+
 		<RaceTraits>HazardAbility</RaceTraits>
 		<RaceTraits>StarfaringAbility</RaceTraits>
 		<RaceTraits>IntuitiveAbility</RaceTraits>
@@ -1612,6 +1667,9 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
         <PersonalityTraits>Scientific</PersonalityTraits>
         <PersonalityTraits>Cultural</PersonalityTraits>
 
+        <!-- Standard colonization -->
+    	<RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
+
         <RaceTraits>CoerciveAbility</RaceTraits>
         <RaceTraits>IntuitiveAbility</RaceTraits>
 
@@ -1693,6 +1751,11 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
         <PersonalityTraits>Opportunistic</PersonalityTraits>
         <PersonalityTraits>Xenophobic</PersonalityTraits>
 
+        <!-- Standard colonization -->
+    	<RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
+    	<!-- Homeworld planet type colonization -->
+    	<RaceTraits>ReduxWorldColonizationAbility</RaceTraits>
+
         <RaceTraits>EngineersAbility</RaceTraits>
         <RaceTraits>StarfaringAbility</RaceTraits>
 
@@ -1770,6 +1833,9 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
         <PersonalityTraits>Greedy</PersonalityTraits>
         <PersonalityTraits>Opportunistic</PersonalityTraits>
 
+        <!-- Standard colonization -->
+    	<RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
+
         <RaceTraits>UnwaveringAbility</RaceTraits>
         <RaceTraits>WealthyAbility</RaceTraits>
         <RaceTraits>Spacefaring</RaceTraits>
@@ -1842,6 +1908,11 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
         <PersonalityTraits>Neutral</PersonalityTraits>
         <PersonalityTraits>Greedy</PersonalityTraits>
         <PersonalityTraits>Trader</PersonalityTraits>
+
+        <!-- Standard colonization -->
+    	<RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
+    	<!-- Homeworld planet type colonization -->
+    	<RaceTraits>ReduxWorldColonizationAbility</RaceTraits>
 
         <RaceTraits>UnwaveringAbility</RaceTraits>
 
