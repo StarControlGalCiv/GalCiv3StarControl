@@ -11,7 +11,15 @@ Mod's discussion thread - http://forums.galciv3.com/470323/page/1/
 
 ### Status
 
-Stable with all races added, but lacks aesthetic assets, balance of Ur-Quan races(Kzer-Za using carriers), balance of non-Ur-Quan races, Sa-Matra, textual information.
+Stable with all races added, but lacks aesthetic assets, balance between Ur-Quan races(Kzer-Za using carriers), balance within non-Ur-Quan races, Sa-Matra, textual information.
+
+Implemented features:
+
+* All races with their own graphical assets. No unique ship styles though.
+* Star systems for all race homeworlds.
+* All Star Control planetary traits as listed Ultronomicon wikia - http://wiki.uqm.stack.nl/List_of_planet_types
+* Slave Shields, by having the three races have unique civilization capitals, see issue #4
+* Arilou's starless Falayalaralfali and experimentation of moving the planet using wormholes, for more see issue #21
 
 Current version: 0.0.9 Pre-Alpha
 
@@ -43,7 +51,7 @@ Developers at Stardock Entertainment for creating Galactic Civilizations 3
 
 http://www.stardock.com/
 
-## Star Control 2 scenario
+## Star Control 2 scenario (not implemented)
 
 Ur-Quan Kzer-Za and Ur-Quan Kohr-Ah are at permanent war with each other, termed the second Doctrinal Conflict. While the last war was won by the Kzer-Za using the Sa-Matra battle platform, in this war the Kzer-Za avoid using it or even its Battle Thralls. Most likely outcome is victory by the Kohr-Ah, though neither outcome is desireable to other races.
 
