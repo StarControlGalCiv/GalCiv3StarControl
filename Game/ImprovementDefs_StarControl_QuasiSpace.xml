@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<DefaultImprovementList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
+<!-- ImprovementDefs.xml -->
+
+<!-- Begin Improvement -->
+<!-- Planet Teleportation Project that realigns QuasiSpace portal nodes -->
+  <Improvement>
+    <InternalName>QuasiSpaceTeleportPlanet</InternalName>
+    <DisplayName>TeleportPlanet_Name</DisplayName>
+    <ShortDescription>TeleportPlanet_ShortDec</ShortDescription>
+    <Description>TeleportPlanet_Dec</Description>
+    <Icon>BiomassResequencer.png</Icon>
+    <BuildIcon>BiomassResequencer_Build.png</BuildIcon>
+    <ListIcon>BiomassResequencer_Icon.png</ListIcon>
+    <ImprovementType>DurationalProject</ImprovementType>
+    <PlacementType>Special</PlacementType>
+ 
+    <!-- Stats -->
+ 
+    <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+      <!-- <Value>200</Value> -->
+    </Stats>
+ 
+    <!-- Triggers -->
+    <!-- <Triggers>
+      <OnEvent>OnConstructImprovment</OnEvent>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <PerformAction>
+        <Action>DoActionPlayerCancelAllRebellion</Action>
+      </PerformAction>
+    </Triggers> -->
+
+    <!-- FIXME: Crashes in GalCiv 3 v1.9 -->
+    <Triggers>
+      <OnEvent>OnConstructImprovment</OnEvent>
+      <!-- <Scope>Global</Scope> -->
+      <Target>
+        <!-- <TargetType>Colony</TargetType> -->
+        <TargetType>Planet</TargetType>
+        <!-- <TargetOrdinalConstraint>1</TargetOrdinalConstraint> -->
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <PerformAction>
+        <Action>Wormhole</Action>
+      </PerformAction>
+    </Triggers>
+ 
+    <!-- Level Effect Trigers -->
+ 
+    <!-- Level Effect Stats -->
+ 
+    <!-- Adjacency Bonuses -->
+ 
+    <!-- Prerequisites -->
+    <Prerequ>
+      <Unavailable>true</Unavailable>
+      <!-- <RaceTrait>
+        <Option>TeleportationAbility</Option>
+      </RaceTrait> -->
+    </Prerequ>
+  </Improvement>
+<!-- End Improvement -->
+
+<!-- Begin Improvement -->
+<!-- FIXME: Planet Teleportation Project that teleports docked fleet -->
+  <Improvement>
+    <InternalName>QuasiSpaceTeleportFleet</InternalName>
+    <DisplayName>TeleportFleet_Name</DisplayName>
+    <ShortDescription>TeleportFleet_ShortDec</ShortDescription>
+    <Description>TeleportFleet_Dec</Description>
+    <Icon>BiomassResequencer.png</Icon>
+    <BuildIcon>BiomassResequencer_Build.png</BuildIcon>
+    <ListIcon>BiomassResequencer_Icon.png</ListIcon>
+    <ImprovementType>DurationalProject</ImprovementType>
+    <PlacementType>Special</PlacementType>
+ 
+    <!-- Stats -->
+ 
+    <Stats>
+      <EffectType>ManufacturingCost</EffectType>
+      <Scope>Queue</Scope>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+ 
+    <!-- Triggers -->
+    <!-- FIXME: Crashes in GalCiv 3 v1.9 -->
+    <Triggers>
+      <OnEvent>OnConstructImprovment</OnEvent>
+      <Target>
+        <TargetType>Fleet</TargetType>
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <PerformAction>
+        <Action>Wormhole</Action>
+      </PerformAction>
+    </Triggers>
+ 
+    <!-- Level Effect Trigers -->
+ 
+    <!-- Level Effect Stats -->
+ 
+    <!-- Adjacency Bonuses -->
+ 
+    <!-- Prerequisites -->
+    <Prerequ>
+      <Unavailable>true</Unavailable>
+      <!-- <RaceTrait>
+        <Option>TeleportationAbility</Option>
+      </RaceTrait> -->
+    </Prerequ>
+  </Improvement>
+<!-- End Improvement -->
+</DefaultImprovementList>
