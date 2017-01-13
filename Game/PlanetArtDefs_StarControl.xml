@@ -2253,5 +2253,68 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetArtDefs.xsd">
       <Scale>1.25</Scale>
     </HaloEffect>
   </ArtDefine>
+
+  <!-- Rainbow World SC -->
+  <ArtDefine>
+    <InternalName>RainbowWorldSC</InternalName>
+    <PlanetTrait>RainbowWorldSC</PlanetTrait>
+    <Radius>20</Radius>
+    <Radius>21</Radius>
+    <Radius>22</Radius>
+    <Radius>23</Radius>
+    <Radius>24</Radius>
+    <Radius>25</Radius>
+    <RotationSpeed>-0.01</RotationSpeed>
+    <RotationSpeed>-0.03</RotationSpeed>
+    <RotationSpeed>-0.04</RotationSpeed>
+    <RotationSpeed>-0.05</RotationSpeed>
+    <RotationSpeed>-0.06</RotationSpeed>
+    <RotationSpeed>-0.07</RotationSpeed>
+    <RotationSpeed>-0.08</RotationSpeed>
+    <ModelFile>gfx/planets/planet_globe_with_seams.sdf</ModelFile>
+    <AxisTilt>0.5</AxisTilt>
+    <AxisTilt>0.4</AxisTilt>
+    <AxisTilt>0.3</AxisTilt>
+    <AxisTilt>0.2</AxisTilt>
+    <!-- <AtmosphereTextureFile>Planet_Atmosphere_Clouds_Generic_Orange_01.dds</AtmosphereTextureFile> -->
+    <BaseLayerTextureFile>Rainbow.png</BaseLayerTextureFile>
+    <BaseLayerGradientFile>Rainbow.png</BaseLayerGradientFile>
+    <BaseLayerDiffuseColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>255</Alpha>
+    </BaseLayerDiffuseColor>
+    <EmissiveColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>255</Alpha>
+    </EmissiveColor>
+    <PolarCapTintColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>255</Alpha>
+    </PolarCapTintColor>
+    <AtmosphereColor>
+      <Red>255</Red>
+      <Green>255</Green>
+      <Blue>255</Blue>
+      <Alpha>0</Alpha>
+    </AtmosphereColor>
+    <PolarCapSize>0</PolarCapSize>
+    <ContinentSqueezeFactor>0</ContinentSqueezeFactor>
+    <BaseGloss>1</BaseGloss>
+    <BaseSpecularIntensity>0</BaseSpecularIntensity>
+    <BaseMetal>0</BaseMetal>
+    <TerrainGloss>0</TerrainGloss>
+    <TerrainSpecularIntensity>0</TerrainSpecularIntensity>
+    <TerrainMetal>0</TerrainMetal>
+    <CustomContinent>Empty</CustomContinent>
+    <Ambient>0.05</Ambient>
+    <RingLikelihood>0.5</RingLikelihood>
+    <HaloIntensity>0.5</HaloIntensity>
+  </ArtDefine>
 </PlanetArtList>
 

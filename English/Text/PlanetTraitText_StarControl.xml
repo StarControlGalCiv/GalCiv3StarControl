@@ -589,4 +589,15 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
     <String>A TrueSpace planet within QuasiSpace</String>
   </StringTable>
 
+
+  <StringTable>
+    <Label>RainbowWorldSC_Name</Label>
+    <String>Rainbow World</String>
+  </StringTable>
+
+  <StringTable>
+    <Label>RainbowWorldSC_Dec</Label>
+    <String>World whose radiant energies defy all scanners producing a rainbow-like image.</String>
+  </StringTable>
+
 </StringTableList>

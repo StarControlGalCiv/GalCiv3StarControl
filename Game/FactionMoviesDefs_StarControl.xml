@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FactionMoviesFGList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/FactionMoviesDef.xsd">
+
+  <FactionMoviesFGDef>
+    <InternalName>KzerZaMoviesFG</InternalName>
+    <!-- <LeaderSmallMovie>KzerZaVideo.bk2</LeaderSmallMovie> -->
+    <DiplomacyMovie_Approach>KzerZaFirstContact.bk2</DiplomacyMovie_Approach>
+    <!-- <DiplomacyMovie_Neutral>KzerZaFirstContact.bk2</DiplomacyMovie_Neutral>
+    <DiplomacyMovie_Happy>KzerZaFirstContact.bk2</DiplomacyMovie_Happy> -->
+<!--     <DiplomacyMovie_HappyTrans>KzerZaFirstContact.bk2</DiplomacyMovie_HappyTrans>
+    <DiplomacyMovie_HappyTransRev>KzerZaFirstContact.bk2</DiplomacyMovie_HappyTransRev> -->
+    <!-- <DiplomacyMovie_Angry>KzerZaFirstContact.bk2</DiplomacyMovie_Angry> -->
+<!--     <DiplomacyMovie_AngryTrans>KzerZaFirstContact.bk2</DiplomacyMovie_AngryTrans>
+    <DiplomacyMovie_AngryTransRev>KzerZaFirstContact.bk2</DiplomacyMovie_AngryTransRev> -->
+    <StartupMovie>KzerZaVideo.bk2</StartupMovie>
+  </FactionMoviesFGDef>
+
+</FactionMoviesFGList>

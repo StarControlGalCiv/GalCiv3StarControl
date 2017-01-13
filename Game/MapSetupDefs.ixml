@@ -8,7 +8,7 @@ xsi:noNamespaceSchemaLocation="../Schema/MapSetupDefs.xsd">
     <Stars>0.1</Stars>
     <PlanetFrequencyExp>10.0</PlanetFrequencyExp>
     <HabitablePlanets>0.1</HabitablePlanets>
-    <ExtremePlanets>0</ExtremePlanets>
+    <ExtremePlanets>1</ExtremePlanets>
     <Asteroids>0</Asteroids>
     <MinAsteroidGroup>0</MinAsteroidGroup>
     <MaxAsteroidGroup>0</MaxAsteroidGroup>
@@ -43,18 +43,18 @@ xsi:noNamespaceSchemaLocation="../Schema/MapSetupDefs.xsd">
 		<InternalName>Rare</InternalName>
 		<Stars>0.5</Stars>
 		<PlanetFrequencyExp>1.75</PlanetFrequencyExp>
-		<HabitablePlanets>0.30</HabitablePlanets>
-		<ExtremePlanets>0</ExtremePlanets>
+		<HabitablePlanets>0.25</HabitablePlanets>
+		<ExtremePlanets>1</ExtremePlanets>
 		<Asteroids>0.05</Asteroids>
 		<MinAsteroidGroup>1</MinAsteroidGroup>
-		<MaxAsteroidGroup>3</MaxAsteroidGroup>
+		<MaxAsteroidGroup>2</MaxAsteroidGroup>
     <PrecursorRelics>0.02</PrecursorRelics>
     <AscensionGates>0.01</AscensionGates>
 		<MinAscensionGates>3</MinAscensionGates>
-    <Nebula>0.10</Nebula>
-    <BlackHoles>.02</BlackHoles>
+    <Nebula>0.01</Nebula>
+    <BlackHoles>.01</BlackHoles>
 		<Rifts>0.10</Rifts>
-		<Anomalies>0.25</Anomalies>
+		<Anomalies>0.05</Anomalies>
     <PirateBases>0.01</PirateBases>
 		<ResourceFrequency>
 			<MinablePlanetChance>0.15</MinablePlanetChance>
@@ -79,18 +79,18 @@ xsi:noNamespaceSchemaLocation="../Schema/MapSetupDefs.xsd">
 		<InternalName>Uncommon</InternalName>
 		<Stars>0.65</Stars>
 		<PlanetFrequencyExp>1.5</PlanetFrequencyExp>
-		<HabitablePlanets>0.45</HabitablePlanets>
-		<ExtremePlanets>0</ExtremePlanets>
-		<Asteroids>0.2</Asteroids>
-		<MinAsteroidGroup>1</MinAsteroidGroup>
-		<MaxAsteroidGroup>4</MaxAsteroidGroup>
+		<HabitablePlanets>0.3</HabitablePlanets>
+		<ExtremePlanets>1</ExtremePlanets>
+		<Asteroids>0.1</Asteroids>
+		<MinAsteroidGroup>2</MinAsteroidGroup>
+		<MaxAsteroidGroup>3</MaxAsteroidGroup>
     <PrecursorRelics>0.05</PrecursorRelics>
     <AscensionGates>0.02</AscensionGates>
 		<MinAscensionGates>3</MinAscensionGates>
-    <Nebula>0.15</Nebula>
-    <BlackHoles>0.05</BlackHoles>
+    <Nebula>0.05</Nebula>
+    <BlackHoles>0.02</BlackHoles>
 		<Rifts>00.20</Rifts>
-		<Anomalies>0.50</Anomalies>
+		<Anomalies>0.02</Anomalies>
     <PirateBases>0.03</PirateBases>
 		<ResourceFrequency>
 			<MinablePlanetChance>0.25</MinablePlanetChance>
@@ -114,19 +114,19 @@ xsi:noNamespaceSchemaLocation="../Schema/MapSetupDefs.xsd">
 	<MapSetup>
 		<InternalName>Occasional</InternalName>
 		<Stars>.8</Stars>
-		<PlanetFrequencyExp>1</PlanetFrequencyExp>
-		<HabitablePlanets>0.55</HabitablePlanets>
-		<ExtremePlanets>0</ExtremePlanets>
-		<Asteroids>0.30</Asteroids>
+		<PlanetFrequencyExp>2</PlanetFrequencyExp>
+		<HabitablePlanets>0.5</HabitablePlanets>
+		<ExtremePlanets>1</ExtremePlanets>
+		<Asteroids>0.20</Asteroids>
 		<MinAsteroidGroup>2</MinAsteroidGroup>
-		<MaxAsteroidGroup>5</MaxAsteroidGroup>
+		<MaxAsteroidGroup>4</MaxAsteroidGroup>
     <PrecursorRelics>0.05</PrecursorRelics>
     <AscensionGates>0.03</AscensionGates>
 		<MinAscensionGates>3</MinAscensionGates>
-		<Nebula>0.18</Nebula>
-		<BlackHoles>.07</BlackHoles>
+		<Nebula>0.03</Nebula>
+		<BlackHoles>.03</BlackHoles>
 		<Rifts>0.03</Rifts>
-		<Anomalies>1.0</Anomalies>
+		<Anomalies>0.15</Anomalies>
     <PirateBases>0.05</PirateBases>
 		<ResourceFrequency>
 			<MinablePlanetChance>0.3</MinablePlanetChance>
@@ -149,21 +149,21 @@ xsi:noNamespaceSchemaLocation="../Schema/MapSetupDefs.xsd">
 
 	<MapSetup>
 		<InternalName>Common</InternalName>
-		<Stars>0.9</Stars>
-		<PlanetFrequencyExp>0.75</PlanetFrequencyExp>
+		<Stars>1</Stars>
+		<PlanetFrequencyExp>3</PlanetFrequencyExp>
 		<HabitablePlanets>0.75</HabitablePlanets>
-		<ExtremePlanets>0</ExtremePlanets>
-		<Asteroids>0.40</Asteroids>
+		<ExtremePlanets>1</ExtremePlanets>
+		<Asteroids>0.25</Asteroids>
 		<MinAsteroidGroup>2</MinAsteroidGroup>
-		<MaxAsteroidGroup>6</MaxAsteroidGroup>
+		<MaxAsteroidGroup>4</MaxAsteroidGroup>
     <PrecursorRelics>0.1</PrecursorRelics>
     <AscensionGates>0.04</AscensionGates>
 		<MinAscensionGates>3</MinAscensionGates>
-		<Nebula>0.25</Nebula>
-		<BlackHoles>0.1</BlackHoles>
-		<Rifts>0.40</Rifts>
-		<Anomalies>1.5</Anomalies>
-    <PirateBases>0.1</PirateBases>
+		<Nebula>0.12</Nebula>
+		<BlackHoles>0.05</BlackHoles>
+		<Rifts>0.30</Rifts>
+		<Anomalies>0.5</Anomalies>
+    <PirateBases>0.075</PirateBases>
 		<ResourceFrequency>
 			<MinablePlanetChance>0.35</MinablePlanetChance>
       <MinableAsteroidChance>0.3</MinableAsteroidChance>
@@ -185,21 +185,21 @@ xsi:noNamespaceSchemaLocation="../Schema/MapSetupDefs.xsd">
 
 	<MapSetup>
 		<InternalName>Abundant</InternalName>
-		<Stars>1.00</Stars>
-		<PlanetFrequencyExp>0.5</PlanetFrequencyExp>
-		<HabitablePlanets>0.90</HabitablePlanets>
-		<ExtremePlanets>0</ExtremePlanets>
-		<Asteroids>0.50</Asteroids>
-		<MinAsteroidGroup>3</MinAsteroidGroup>
-		<MaxAsteroidGroup>7</MaxAsteroidGroup>
+		<Stars>1.5</Stars>
+		<PlanetFrequencyExp>3.50</PlanetFrequencyExp>
+		<HabitablePlanets>1.0</HabitablePlanets>
+		<ExtremePlanets>1</ExtremePlanets>
+		<Asteroids>0.40</Asteroids>
+		<MinAsteroidGroup>2</MinAsteroidGroup>
+		<MaxAsteroidGroup>6</MaxAsteroidGroup>
 		<PrecursorRelics>0.15</PrecursorRelics>
 		<AscensionGates>0.05</AscensionGates>
 		<MinAscensionGates>3</MinAscensionGates>
-		<Nebula>0.30</Nebula>
-		<BlackHoles>0.2</BlackHoles>
-		<Rifts>0.50</Rifts>
-		<Anomalies>2.0</Anomalies>
-    <PirateBases>0.2</PirateBases>
+		<Nebula>0.15</Nebula>
+		<BlackHoles>0.1</BlackHoles>
+		<Rifts>0.30</Rifts>
+		<Anomalies>1.0</Anomalies>
+    <PirateBases>0.1</PirateBases>
 		<ResourceFrequency>
 			<MinablePlanetChance>0.50</MinablePlanetChance>
       <MinableAsteroidChance>0.40</MinableAsteroidChance>

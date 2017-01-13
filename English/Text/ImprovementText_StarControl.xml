@@ -38,6 +38,21 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
   </StringTable>
 
   <StringTable>
+    <Label>TeleportFleet_Name</Label>
+    <String>[ICON=WobbleWorldIcon] Send Fleet To TrueSpace</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>TeleportFleet_ShortDec</Label>
+    <String>Sends docked fleet through a random QuasiSpace Portal, teleporting the fleet.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>TeleportFleet_Dec</Label>
+    <String>Sends docked fleet through a random QuasiSpace Portal, teleporting the fleet.</String>
+  </StringTable>
+
+  <StringTable>
     <Label>EnslavedColonyCapital_Name</Label>
     <String>[ICON=ShieldedWorldIcon] Enslaved Colony Capital</String>
   </StringTable>

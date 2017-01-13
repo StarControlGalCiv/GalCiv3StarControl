@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<GalCiv3MapList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/GalCiv3MapDefs.xsd">
+
+	
+	
+	<GalCiv3Map>
+		<PlanetLikelihoodInAsteroidLane>0.20</PlanetLikelihoodInAsteroidLane>
+		<BinaryStarLikelihood>0.01</BinaryStarLikelihood>
+		<PlanetTraitLikelihood>1</PlanetTraitLikelihood>
+		<StormcloudLikelihood>0.5</StormcloudLikelihood>
+    <StarsystemReplacedByBlackholeLikelihood>0</StarsystemReplacedByBlackholeLikelihood>
+		<NebulaPlacementBuffer>2</NebulaPlacementBuffer>
+
+    <DefaultPlanetClassSelect>
+      <MinPlanetClass>4</MinPlanetClass>
+      <MaxPlanetClass>8</MaxPlanetClass>
+      <Weight>20</Weight>
+    </DefaultPlanetClassSelect>
+    <DefaultPlanetClassSelect>
+      <MinPlanetClass>8</MinPlanetClass>
+      <MaxPlanetClass>12</MaxPlanetClass>
+      <Weight>55</Weight>
+    </DefaultPlanetClassSelect>
+    <DefaultPlanetClassSelect>
+      <MinPlanetClass>12</MinPlanetClass>
+      <MaxPlanetClass>16</MaxPlanetClass>
+      <Weight>20</Weight>
+    </DefaultPlanetClassSelect>
+    <DefaultPlanetClassSelect>
+      <MinPlanetClass>18</MinPlanetClass>
+      <MaxPlanetClass>21</MaxPlanetClass>
+      <Weight>5</Weight>
+    </DefaultPlanetClassSelect>
+    
+		<MapEditorPlanetClassSelect>
+			<MinPlanetClass>4</MinPlanetClass>
+			<MaxPlanetClass>8</MaxPlanetClass>
+			<Weight>20</Weight>
+		</MapEditorPlanetClassSelect>
+    <MapEditorPlanetClassSelect>
+      <MinPlanetClass>8</MinPlanetClass>
+      <MaxPlanetClass>12</MaxPlanetClass>
+      <Weight>55</Weight>
+    </MapEditorPlanetClassSelect>
+    <MapEditorPlanetClassSelect>
+			<MinPlanetClass>12</MinPlanetClass>
+			<MaxPlanetClass>16</MaxPlanetClass>
+			<Weight>20</Weight>
+		</MapEditorPlanetClassSelect>
+    <MapEditorPlanetClassSelect>
+			<MinPlanetClass>18</MinPlanetClass>
+			<MaxPlanetClass>21</MaxPlanetClass>
+			<Weight>5</Weight>
+		</MapEditorPlanetClassSelect>
+
+		<StarSystemWeightMin>200</StarSystemWeightMin>
+		<StarSystemWeightMax>255</StarSystemWeightMax>
+		<BlackHoleWeightMin>0</BlackHoleWeightMin>
+		<BlackHoleWeightMax>255</BlackHoleWeightMax>
+		<NebulaWeightMin>0</NebulaWeightMin>
+		<NebulaWeightMax>255</NebulaWeightMax>
+		<AnomalyWeightMin>0</AnomalyWeightMin>
+		<AnomalyWeightMax>255</AnomalyWeightMax>
+
+		<MinNebula>0</MinNebula>
+		<MinBlackHole>0</MinBlackHole>
+		<MinAnomaly>0</MinAnomaly>
+		<DeadWorldResource>ThuliumResource</DeadWorldResource>
+		<GasGiantResource>PromethionResource</GasGiantResource>
+		<AsteroidResource>DurantiumResource</AsteroidResource>
+		<BlackholeResource>AntimatterResource</BlackholeResource>
+		<NebulaResource>EleriumResource</NebulaResource>
+		<StarSystemTemplateGroup>SystemTemplate</StarSystemTemplateGroup>
+		<DefaultBlackhole>BlackHole</DefaultBlackhole>
+		<DefaultRift>DefaultRift</DefaultRift>
+		<DefaultNebulaGroup>NebulaGroup</DefaultNebulaGroup>
+		<DefaultStormGroup>StormGroup</DefaultStormGroup>
+
+    <PlayerStartSpacingWideMod>0.80</PlayerStartSpacingWideMod>
+    <PlayerStartSpacingNarrowMod>0.40</PlayerStartSpacingNarrowMod>
+    <BlackholeSpacingMod>0.20</BlackholeSpacingMod>
+    <AscensionGateSpacingMod>0.40</AscensionGateSpacingMod>
+    <RelicSpacingMod>0.40</RelicSpacingMod>
+    <PirateBaseSpacingMod>0.4</PirateBaseSpacingMod>
+    <PlayerStartToPirateMinRadius>40</PlayerStartToPirateMinRadius>
+    <ReduceStarSystemBoundarySize>0</ReduceStarSystemBoundarySize>
+    <PirateBaseTightenRadius>1</PirateBaseTightenRadius>
+
+    <MercenaryBaseSpacingMod>0.40</MercenaryBaseSpacingMod>
+    <MercenaryBaseSpacingMin>8</MercenaryBaseSpacingMin>
+    <MercenaryBaseSpacingMax>12</MercenaryBaseSpacingMax>
+    <MercenaryBasePlacementMaxRadius>4</MercenaryBasePlacementMaxRadius>
+    <MercenaryBaseBlockingPlacementProximityMod>0.66</MercenaryBaseBlockingPlacementProximityMod>
+    <HabitablePlanetChanceDivisor>3</HabitablePlanetChanceDivisor>
+	</GalCiv3Map>
+
+</GalCiv3MapList>

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<DefaultImprovementList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
+<!-- ImprovementDefs.xml -->
+<!-- Begin Improvement -->
+<!-- Melnorme colony capital (downgrades Civilization Capital) -->
+  <Improvement>
+    <InternalName>MelnormeCivilizationCapital</InternalName>
+    <DisplayName>ColonyCapital_Name</DisplayName>
+    <ShortDescription>ColonyCapital_ShortDec</ShortDescription>
+    <Description>ColonyCapital_Dec</Description>
+    <Icon>ColonyCapital.png</Icon>
+    <BuildIcon>ColonyCapital_Build.png</BuildIcon>
+    <ListIcon>ColonyCapital_Icon.png</ListIcon>
+    <ImprovementType>Special</ImprovementType>
+    <PlacementType>Special</PlacementType>
+    <RelativeWeight>100</RelativeWeight>
+    <IsIndestructible>true</IsIndestructible>
+    <IsPlayerWonder>true</IsPlayerWonder>
+    <DoNotShowNotificationsWhenBuilt>true</DoNotShowNotificationsWhenBuilt>
+ 
+    <!-- Stats -->
+ 
+    <Stats>
+      <EffectType>Maintenance</EffectType>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>0</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>ProductionPoints</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>GoodsAndServices</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>3</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>Food</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>0.1</Value>
+    </Stats>
+ 
+    <Stats>
+      <EffectType>SensorPower</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <!--  -->
+
+    <Stats>
+      <EffectType>ImmuneToCultureFlip</EffectType>
+      <Target>
+        <!-- <TargetType>Colony</TargetType> -->
+        <!-- Target type Colony does not work -->
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <!-- Immunity to any and all future invasions added by Stardock -->
+    <!-- <Stats>
+      <EffectType>IsImmuneToInvasion0</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion1</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion2</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion3</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion4</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion5</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion6</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion7</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion8</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion9</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion10</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion11</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion12</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion13</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion14</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion15</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion16</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion17</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>IsImmuneToInvasion18</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>1</Value>
+    </Stats> -->
+    <!-- Invasion 19 left for the Kohr-Ah's Merciless Warfare invasion, the only race that is allowed to destroy the Melnorme civilization -->
+
+    <Triggers>
+      <OnEvent>OnConquerPlanet</OnEvent>
+      <Target>
+        <TargetType>Improvement</TargetType>
+      </Target>
+      <PerformAction>
+        <Action>DestroyObject</Action>
+      </PerformAction>
+    </Triggers>
+ 
+    <!-- Prerequisites -->
+    <Prerequ>
+      <RaceTrait>
+        <Option>Melnorme</Option>
+      </RaceTrait>
+
+      <!-- Tech Age prerequisite added to avoid being able to build on other homeworlds -->
+      <TechAge>
+        <Option>AgeOfExpansion</Option>
+      </TechAge>
+      <UpgradesFrom>CivilizationCapital</UpgradesFrom>
+    </Prerequ>
+
+    <!-- See above comment -->
+    <Preclusions>
+      <Stat>
+        <Option>IsHomeworld</Option>
+      </Stat>
+    </Preclusions>
+  </Improvement>
+ </DefaultImprovementList>

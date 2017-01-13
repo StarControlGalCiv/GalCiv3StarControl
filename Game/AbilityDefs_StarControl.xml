@@ -4,13 +4,32 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
 <!-- Created with the Gal Civ 3 Editor -->
 <!-- AbilityDefs.xml -->
-      
+  <!-- Allows building of shipyards -->
   <RaceTrait>
     <InternalName>Spacefaring</InternalName>
     <DisplayName>Spacefaring_Name</DisplayName>
     <DisplayNameShort>Spacefaring_ShortName</DisplayNameShort>
     <Description>Spacefaring_Desc</Description>
     <IsAbility>1</IsAbility>
+  </RaceTrait>
+
+  <!-- Disables ship ability to colonize planets -->
+  <RaceTrait>
+    <InternalName>Homesick</InternalName>
+    <DisplayName>Homesick_Name</DisplayName>
+    <DisplayNameShort>Homesick_ShortName</DisplayNameShort>
+    <Description>Homesick_Desc</Description>
+    <IsAbility>1</IsAbility>
+
+    <Mod>
+      <EffectType>CanColonize</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Ship</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-100</Value>
+    </Mod>
   </RaceTrait>
 
   <!-- Ur-Quan traits: -->
@@ -146,6 +165,19 @@ xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
       <BonusType>Flat</BonusType>
       <Value>1</Value>
     </Mod> -->
+
+    <!-- Destroy colony -->
+    <!-- FIXME: Crashes when newly habitable planet is colonized -->
+    <!-- <Triggers>
+      <OnEvent>OnConquerPlanet</OnEvent>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <PerformAction>
+        <Action>DestroyObject</Action>
+      </PerformAction>
+    </Triggers> -->
   </RaceTrait>
 
   <!-- Slave shield traits: -->
@@ -155,6 +187,74 @@ xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
     <DisplayNameShort>UnderSlaveShield_ShortName</DisplayNameShort>
     <Description>UnderSlaveShield_Desc</Description>
     <IsAbility>1</IsAbility>
+
+    <!-- Should upgrade colony capital to slaveshield capital  -->
+    <!-- <Triggers>
+      <OnEvent>OnStartTurn</OnEvent>
+      <CriteriaTurnNum>1</CriteriaTurnNum>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <Duration>0</Duration>
+      <PerformAction>
+        <Action>AwardFreeImprovement</Action>
+      </PerformAction>
+    </Triggers> -->
+
+    <!-- Disable unlocking branches in Ideology tree -->
+    <Triggers>
+      <OnEvent>OnStartTurn</OnEvent>
+      <CriteriaTurnNum>1</CriteriaTurnNum>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <Modifier>
+        <EffectType>CultureBenevolent</EffectType>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <Value>-10000</Value>
+      </Modifier>
+    </Triggers>
+    <Triggers>
+      <OnEvent>OnStartTurn</OnEvent>
+      <CriteriaTurnNum>1</CriteriaTurnNum>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <Modifier>
+        <EffectType>CultureNeutral</EffectType>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <Value>-10000</Value>
+      </Modifier>
+    </Triggers>
+    <Triggers>
+      <OnEvent>OnStartTurn</OnEvent>
+      <CriteriaTurnNum>1</CriteriaTurnNum>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <Modifier>
+        <EffectType>CultureMerciless</EffectType>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <Value>-10000</Value>
+      </Modifier>
+    </Triggers>
   </RaceTrait>
 
 <!--   <RaceTrait>
@@ -210,26 +310,6 @@ xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
     </Triggers>
   </RaceTrait> -->
 
-
-  <!-- Should upgrade colony capital to slaveshield capital  -->
-  <!-- <RaceTrait>
-    <InternalName>SlaveshieldedAbility</InternalName>
-    <DisplayName>SlaveshieldedAbility_Name</DisplayName>
-    <DisplayNameShort>SlaveshieldedAbility_ShortName</DisplayNameShort>
-    <Description>SlaveshieldedAbility_Desc</Description>
-    <IsAbility>1</IsAbility>
-    <Triggers>
-      <OnEvent>OnStartTurn</OnEvent>
-      <Target>
-        <TargetType>Colony</TargetType>
-      </Target>
-      <Lifetime>Instant</Lifetime>
-      <Duration>0</Duration>
-      <PerformAction>
-        <Action>AwardFreeImprovement</Action>
-      </PerformAction>
-    </Triggers>
-  </RaceTrait> -->
 
   <!-- Should make race leave United Planets -->
   <!-- <RaceTrait>
@@ -465,6 +545,51 @@ xsi:noNamespaceSchemaLocation="../Schema/RaceTraitDefs.xsd">
         <Value>0.5</Value>
       </Modifier>
     </Triggers>
+  </RaceTrait>
+
+  <RaceTrait>
+    <InternalName>Melnorme</InternalName>
+    <DisplayName>Melnorme_Name</DisplayName>
+    <DisplayNameShort>Melnorme_ShortName</DisplayNameShort>
+    <Description>Melnorme_Desc</Description>
+    <IsAbility>1</IsAbility>
+
+    <Mod>
+      <EffectType>SponsorDecay</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-100</Value>
+    </Mod>
+
+    <!-- <Triggers>
+      <OnEvent>OnStartTurn</OnEvent>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <Modifier>
+        <EffectType>CanCloak</EffectType>
+        <Target>
+          <TargetType>Planet</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <Value>1</Value>
+      </Modifier>
+    </Triggers> -->
+    <!-- <Triggers>
+      <OnEvent>OnStartTurn</OnEvent>
+      <CriteriaTurnNum>1</CriteriaTurnNum>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <PerformAction>
+        <Action>DestroyObject</Action>
+      </PerformAction>
+    </Triggers> -->
   </RaceTrait>
 
   <!-- Mycon specific -->

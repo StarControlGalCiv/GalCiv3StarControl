@@ -21,6 +21,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<RaceTraits>UnlimitedRange1</RaceTraits>
 
 		<RaceTraits>Spacefaring</RaceTraits>
+		<RaceTraits>Homesick</RaceTraits>
 		<RaceTraits>Productive2</RaceTraits>
 		<RaceTraits>Clever1</RaceTraits>
 		<RaceTraits>Content1</RaceTraits>
@@ -108,8 +109,8 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<RaceTraits>EngineersAbility</RaceTraits>
 		<RaceTraits>UnwaveringAbility</RaceTraits>
 		<RaceTraits>KnowledgeableAbility</RaceTraits>
-		<RaceTraits>AncientAbility></RaceTraits>
-		<RaceTraits>EntrepreneursAbility></RaceTraits>
+		<RaceTraits>AncientAbility</RaceTraits>
+		<RaceTraits>EntrepreneursAbility</RaceTraits>
 		<!-- Following two immaterial until breaking free -->
 		<RaceTraits>ProlificAbility</RaceTraits>
 		<RaceTraits>PatrioticAbility</RaceTraits>
@@ -132,8 +133,8 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<!-- For testing -->
 		<!-- <StartingShips>ColonyStaticBlueprint</StartingShips> -->
 		
-		<!-- TODO: Replaced with synthetic Yor colonyless tree -->
-		<TechTree>Colonyless_Tree</TechTree>
+		<!-- TODO: Replaced with synthetic Yor tree -->
+		<TechTree>Yor_Tree</TechTree>
 		<StartingTechs>Slaveshielded</StartingTechs>
 
 		<!-- Revenge -->
@@ -181,85 +182,85 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 	</Faction>
 	
 	<!-- Druuge -->
-    <Faction>
-        <InternalName>FACTION_DRUUGE</InternalName>
-        <DisplayName>FACTION_DRUUGE_Name</DisplayName>
-        <DisplayNameShort>FACTION_DRUUGE_ShortName</DisplayNameShort>
-        <LeaderName>FACTION_DRUUGE_LeaderName</LeaderName>
-        <Description>FACTION_DRUUGE_Dec</Description>
-        <LeaderDescription>FACTION_DRUUGE_LeaderDec</LeaderDescription>
-        <RaceType>Major</RaceType>
-        <PersonalityTraits>Merciless</PersonalityTraits>
-        <PersonalityTraits>Greedy</PersonalityTraits>
-        <PersonalityTraits>Trader</PersonalityTraits>
+	<Faction>
+		<InternalName>FACTION_DRUUGE</InternalName>
+		<DisplayName>FACTION_DRUUGE_Name</DisplayName>
+		<DisplayNameShort>FACTION_DRUUGE_ShortName</DisplayNameShort>
+		<LeaderName>FACTION_DRUUGE_LeaderName</LeaderName>
+		<Description>FACTION_DRUUGE_Dec</Description>
+		<LeaderDescription>FACTION_DRUUGE_LeaderDec</LeaderDescription>
+		<RaceType>Major</RaceType>
+		<PersonalityTraits>Merciless</PersonalityTraits>
+		<PersonalityTraits>Greedy</PersonalityTraits>
+		<PersonalityTraits>Trader</PersonalityTraits>
 
-        <!-- Standard colonization -->
-        <RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
+		<!-- Standard colonization -->
+		<RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
 
-        <RaceTraits>EntrepreneursAbility</RaceTraits>
-        <RaceTraits>WealthyAbility</RaceTraits>
+		<RaceTraits>EntrepreneursAbility</RaceTraits>
+		<RaceTraits>WealthyAbility</RaceTraits>
 
-        <RaceTraits>Spacefaring</RaceTraits>
-        <RaceTraits>Influencial2</RaceTraits>
-        <RaceTraits>Economical1</RaceTraits>
-        <RaceTraits>Content3</RaceTraits>
-        <RaceTraits>Handy2</RaceTraits>
-        <RaceTraits>Dense3</RaceTraits>
-        <RaceTraits>Popular3</RaceTraits>
-        <RaceTraits>Traders1</RaceTraits>
-        <RaceTraits>Tough3</RaceTraits>
-        <RaceTraits>SharpEyed1</RaceTraits>
-        <RaceTraits>Adventuresome2</RaceTraits>
+		<RaceTraits>Spacefaring</RaceTraits>
+		<RaceTraits>Influencial2</RaceTraits>
+		<RaceTraits>Economical1</RaceTraits>
+		<RaceTraits>Content3</RaceTraits>
+		<RaceTraits>Handy2</RaceTraits>
+		<RaceTraits>Dense3</RaceTraits>
+		<RaceTraits>Popular3</RaceTraits>
+		<RaceTraits>Traders1</RaceTraits>
+		<RaceTraits>Tough3</RaceTraits>
+		<RaceTraits>SharpEyed1</RaceTraits>
+		<RaceTraits>Adventuresome2</RaceTraits>
 
-        <RequiresHomeworld>true</RequiresHomeworld>
-        <HomeStarSystem>ZetaPerseiSystem</HomeStarSystem>
+		<RequiresHomeworld>true</RequiresHomeworld>
+		<HomeStarSystem>ZetaPerseiSystem</HomeStarSystem>
 
-        <StartingShips>ColonyStaticBlueprint</StartingShips>
-        <StartingShips>ColonyStaticBlueprint</StartingShips>
-        <StartingShips>ScoutStaticBlueprint</StartingShips>
+		<StartingShips>ColonyStaticBlueprint</StartingShips>
+		<StartingShips>ColonyStaticBlueprint</StartingShips>
+		<StartingShips>ScoutStaticBlueprint</StartingShips>
 
-        <TechTree>Drengin_Tree</TechTree>
-        <StartingTechs>HabitablePlanetColonization</StartingTechs>
+		<TechTree>Drengin_Tree</TechTree>
+		<StartingTechs>HabitablePlanetColonization</StartingTechs>
 
-        <ShipCallsign></ShipCallsign>
-        <!-- <ShipCallsign>FACTION_DRUUGE_Callsign</ShipCallsign> -->
-        <LogoImage>DruugeLogo.png</LogoImage>
-        <LeaderThumbnail>DruugePortrait.png</LeaderThumbnail>
-        <LeaderImageFG>druuge-000.png</LeaderImageFG>
-        <NewsRobotMovie_Approach>Drengin_NewsBot_Idle.bk2</NewsRobotMovie_Approach>
-        <NewsRobotMovie_Idle>Drengin_NewsBot_Idle.bk2</NewsRobotMovie_Idle>
-        <StartupImage></StartupImage>
-        <StartupTitle>FACTION_DRUUGE_StartupTitle</StartupTitle>
-        <StartupDescription>FACTION_DRUUGE_StartupDescription</StartupDescription>
-        <StartupTraitsDescription>FACTION_DRUUGE_StartupTraitsDescription</StartupTraitsDescription>
-        <ConquestMovie>MillVic_Drengin.bk2</ConquestMovie>
-        <MapColorDef>DruugeStarControl2MapColors</MapColorDef>
-        <UIColorDef>DrenginUIColors</UIColorDef>
-        <FactionMusicDef>DruugeMusic</FactionMusicDef>
+		<ShipCallsign></ShipCallsign>
+		<!-- <ShipCallsign>FACTION_DRUUGE_Callsign</ShipCallsign> -->
+		<LogoImage>DruugeLogo.png</LogoImage>
+		<LeaderThumbnail>DruugePortrait.png</LeaderThumbnail>
+		<LeaderImageFG>druuge-000.png</LeaderImageFG>
+		<NewsRobotMovie_Approach>Drengin_NewsBot_Idle.bk2</NewsRobotMovie_Approach>
+		<NewsRobotMovie_Idle>Drengin_NewsBot_Idle.bk2</NewsRobotMovie_Idle>
+		<StartupImage></StartupImage>
+		<StartupTitle>FACTION_DRUUGE_StartupTitle</StartupTitle>
+		<StartupDescription>FACTION_DRUUGE_StartupDescription</StartupDescription>
+		<StartupTraitsDescription>FACTION_DRUUGE_StartupTraitsDescription</StartupTraitsDescription>
+		<ConquestMovie>MillVic_Drengin.bk2</ConquestMovie>
+		<MapColorDef>DruugeStarControl2MapColors</MapColorDef>
+		<UIColorDef>DrenginUIColors</UIColorDef>
+		<FactionMusicDef>DruugeMusic</FactionMusicDef>
 
-        <Material1>GC3_Ship_Material_Gold</Material1>
-        <Material2>GC3_Red_Death_Material_02</Material2>
-        <Surface1>GC3_Default_Surface_01</Surface1>
-        <Surface2>GC3_Default_Surface_02</Surface2>
-        <Appearance>GC3_Steel</Appearance>
-        <ShipStyleSet>KrynnShipStyleSet</ShipStyleSet>
+		<Material1>GC3_Ship_Material_Gold</Material1>
+		<Material2>GC3_Red_Death_Material_02</Material2>
+		<Surface1>GC3_Default_Surface_01</Surface1>
+		<Surface2>GC3_Default_Surface_02</Surface2>
+		<Appearance>GC3_Steel</Appearance>
+		<ShipStyleSet>KrynnShipStyleSet</ShipStyleSet>
 
-        <CreditsInit>5000</CreditsInit>
-        <WarEnduranceInit>150</WarEnduranceInit>
-        <DefaultResistance>0.25</DefaultResistance>
-        <InfluenceTallyInit>10</InfluenceTallyInit>
-        <StartingColonyPopulation>10</StartingColonyPopulation>
-        <AICategoryWeight>
-          <Military>12</Military>
-          <Growth>10</Growth>
-          <Tech>16</Tech>
-          <Diplomacy>22</Diplomacy>
-          <Expansion>18</Expansion>
-          <Wealth>25</Wealth>
-          <Influence>9</Influence>
-          <Fortification>8</Fortification>
-        </AICategoryWeight>
-    </Faction>
+		<CreditsInit>5000</CreditsInit>
+		<WarEnduranceInit>150</WarEnduranceInit>
+		<DefaultResistance>0.25</DefaultResistance>
+		<InfluenceTallyInit>10</InfluenceTallyInit>
+		<StartingColonyPopulation>10</StartingColonyPopulation>
+		<AICategoryWeight>
+		  <Military>12</Military>
+		  <Growth>10</Growth>
+		  <Tech>16</Tech>
+		  <Diplomacy>22</Diplomacy>
+		  <Expansion>18</Expansion>
+		  <Wealth>25</Wealth>
+		  <Influence>9</Influence>
+		  <Fortification>8</Fortification>
+		</AICategoryWeight>
+	</Faction>
 	
 	<!-- Human -->
 	<Faction>
@@ -303,8 +304,8 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<!-- Allow them to have and own the captain's Precursor ship? -->
 		<!-- <StartingShips>SurveyStaticBlueprint</StartingShips> -->
 
-		<!-- TODO: Replaced with Terran colonyless tree -->
-		<TechTree>Colonyless_Tree</TechTree>
+		<!-- TODO: Replaced with Terran tree -->
+		<TechTree>Terran_Tree</TechTree>
 		<StartingTechs>Slaveshielded</StartingTechs>
 		<StartingTechs>MarsColonization</StartingTechs>
 
@@ -338,7 +339,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<ManufacturingSliderInit>1.0</ManufacturingSliderInit>
 		<MilitarySliderInit>0</MilitarySliderInit>
 		<InfluenceTallyInit>1</InfluenceTallyInit>
-		<StartingColonyPopulation>10</StartingColonyPopulation>
+		<StartingColonyPopulation>100</StartingColonyPopulation>
 		<AICategoryWeight>
 			<Military>15</Military>
 			<Growth>5</Growth>
@@ -397,7 +398,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<StartingShips>ScoutStaticBlueprint</StartingShips>      
 
 		<TechTree>Thalan_Tree</TechTree>
-        <StartingTechs>HabitablePlanetColonization</StartingTechs>
+		<StartingTechs>HabitablePlanetColonization</StartingTechs>
 
 		<HatedFaction>FACTION_HUMANS</HatedFaction>
 		<HatedFaction>FACTION_THRADDASH</HatedFaction>
@@ -452,10 +453,16 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<Description>FACTION_KOHR-AH_Dec</Description>
 		<LeaderDescription>FACTION_KOHR-AH_LeaderDec</LeaderDescription>
 		<RaceType>Major</RaceType>
+		<SpecialBehavior>DoesNotTrade</SpecialBehavior>
+		<SpecialBehavior>DoesNotSpeakToPlayer</SpecialBehavior>
 		<PersonalityTraits>Merciless</PersonalityTraits>
 		<PersonalityTraits>Aggressive</PersonalityTraits>
 		<PersonalityTraits>Cruel</PersonalityTraits>
 		<PersonalityTraits>Xenophobic</PersonalityTraits>
+
+		<!-- Standard colonization -->
+		<RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
+
 		<RaceTraits>KohrAh</RaceTraits>
 		<!-- <RaceTraits>MundaneAbility</RaceTraits> -->
 		<RaceTraits>HeadstartAbility</RaceTraits>
@@ -483,16 +490,16 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<!-- <RequiresHomeworld>true</RequiresHomeworld> -->
 		<RequiresHomeworld>false</RequiresHomeworld><!-- Ur-Quan are nomads/wanderers -->
 		<HomeStarSystem>KohrSystem</HomeStarSystem>
-		<!-- <StartingShips>UrQuanColonyStaticBlueprint</StartingShips>
 		<StartingShips>UrQuanColonyStaticBlueprint</StartingShips>
 		<StartingShips>UrQuanColonyStaticBlueprint</StartingShips>
 		<StartingShips>UrQuanColonyStaticBlueprint</StartingShips>
 		<StartingShips>UrQuanColonyStaticBlueprint</StartingShips>
-		<StartingShips>UrQuanConstructorStaticBlueprint</StartingShips>
-		<StartingShips>UrQuanConstructorStaticBlueprint</StartingShips>
-		<StartingShips>UrQuanConstructorStaticBlueprint</StartingShips>
-		<StartingShips>UrQuanConstructorStaticBlueprint</StartingShips>
-		<StartingShips>UrQuanConstructorStaticBlueprint</StartingShips> -->
+		<StartingShips>UrQuanColonyStaticBlueprint</StartingShips>
+		<StartingShips>ConstructorStaticBlueprint</StartingShips>
+		<StartingShips>ConstructorStaticBlueprint</StartingShips>
+		<StartingShips>ConstructorStaticBlueprint</StartingShips>
+		<StartingShips>ConstructorStaticBlueprint</StartingShips>
+		<StartingShips>ConstructorStaticBlueprint</StartingShips>
 		<!-- Have to be balanced -->
 		<!-- <StartingShips>WreckerDefenseBattleshipStaticBlueprint</StartingShips>
 		<StartingShips>WreckerDefenseBattleshipStaticBlueprint</StartingShips>
@@ -505,7 +512,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<!-- Modified Drengin techtree. TODO: remove all use and mention of slave labour -->
 		<!-- <TechTree>UrQuan_Tree</TechTree> -->
 
-        <StartingTechs>HabitablePlanetColonization</StartingTechs>
+		<StartingTechs>HabitablePlanetColonization</StartingTechs>
 
 		<StartingTechs>InterstellarTravel</StartingTechs>
 		<StartingTechs>InterstellarSpecialization3</StartingTechs>
@@ -515,6 +522,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<StartingTechs>WeaponsSystemsTech</StartingTechs>
 		<StartingTechs>WeaponsSpecializationTech2</StartingTechs>
 
+		<!-- Kohr-Ah unique -->
 		<StartingTechs>KineticWeapons</StartingTechs>
 		<StartingTechs>KineticOptimization1</StartingTechs>
 		<StartingTechs>KineticOptimization2</StartingTechs>
@@ -532,6 +540,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<StartingTechs>MilitarySpecialization2</StartingTechs>
 		<StartingTechs>MilitarySpecialization3</StartingTechs>
 		<StartingTechs>Fortification</StartingTechs>
+		<!-- Immunity to information warfare -->
 		<StartingTechs>DefensiveFocus2</StartingTechs>
 
 		<!-- Planetary techs -->
@@ -597,8 +606,8 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<Surface1>GC3_Default_Surface_18</Surface1>
 		<Surface2>GC3_Default_Surface_18</Surface2>
 		<Appearance>GC3_Kohr-Ah</Appearance>
-		<!-- <ShipStyleSet>StarControlUrQuanShipStyleSet</ShipStyleSet> -->
-		<ShipStyleSet>DrenginShipStyleSet</ShipStyleSet>
+		<ShipStyleSet>StarControlUrQuanShipStyleSet</ShipStyleSet>
+		<!-- <ShipStyleSet>DrenginShipStyleSet</ShipStyleSet> -->
 
 		<CreditsInit>30000</CreditsInit>
 		<WarEnduranceInit>150</WarEnduranceInit>
@@ -626,15 +635,21 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<Description>FACTION_KZER-ZA_Dec</Description>
 		<LeaderDescription>FACTION_KZER-ZA_LeaderDec</LeaderDescription>
 		<RaceType>Major</RaceType>
+		<SpecialBehavior>DoesNotTrade</SpecialBehavior>
+		<SpecialBehavior>DoesNotSpeakToPlayer</SpecialBehavior>
 		<PersonalityTraits>Aggressive</PersonalityTraits>
 		<PersonalityTraits>Xenophobic</PersonalityTraits>
+
+		<!-- Standard colonization -->
+		<RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
+		
 		<!-- <RaceTraits>MundaneAbility</RaceTraits> -->
 		<RaceTraits>KzerZa</RaceTraits>
 		<RaceTraits>HeadstartAbility</RaceTraits>
 		<RaceTraits>ProlificAbility</RaceTraits>
 		<RaceTraits>UnwaveringAbility</RaceTraits>
 		<RaceTraits>PatrioticAbility</RaceTraits> 
-		<RaceTraits>KnowledgeableAbility></RaceTraits>
+		<RaceTraits>KnowledgeableAbility</RaceTraits>
 		<RaceTraits>UnlimitedRange1</RaceTraits>
 		
 		<RaceTraits>Spacefaring</RaceTraits>
@@ -653,16 +668,16 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<!-- <RequiresHomeworld>true</RequiresHomeworld> -->
 		<RequiresHomeworld>false</RequiresHomeworld><!-- Ur-Quan are nomads/wanderers -->
 		<HomeStarSystem>KzerSystem</HomeStarSystem>
-		<!-- <StartingShips>UrQuanColonyStaticBlueprint</StartingShips>
 		<StartingShips>UrQuanColonyStaticBlueprint</StartingShips>
 		<StartingShips>UrQuanColonyStaticBlueprint</StartingShips>
 		<StartingShips>UrQuanColonyStaticBlueprint</StartingShips>
 		<StartingShips>UrQuanColonyStaticBlueprint</StartingShips>
-		<StartingShips>UrQuanConstructorStaticBlueprint</StartingShips>
-		<StartingShips>UrQuanConstructorStaticBlueprint</StartingShips>
-		<StartingShips>UrQuanConstructorStaticBlueprint</StartingShips>
-		<StartingShips>UrQuanConstructorStaticBlueprint</StartingShips>
-		<StartingShips>UrQuanConstructorStaticBlueprint</StartingShips> -->
+		<StartingShips>UrQuanColonyStaticBlueprint</StartingShips>
+		<StartingShips>ConstructorStaticBlueprint</StartingShips>
+		<StartingShips>ConstructorStaticBlueprint</StartingShips>
+		<StartingShips>ConstructorStaticBlueprint</StartingShips>
+		<StartingShips>ConstructorStaticBlueprint</StartingShips>
+		<StartingShips>ConstructorStaticBlueprint</StartingShips>
 		<!-- Kzer-Za owned the Sa-Matra during and even before the second Doctrinal Conflict -->
 		<!-- <StartingShips>SaMatraStaticBlueprint</StartingShips> -->
 		<!-- Have to be balanced -->
@@ -676,7 +691,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<!-- Modified Drengin techtree. TODO: remove all use and mention of slave labour -->
 		<!-- <TechTree>UrQuan_Tree</TechTree> -->
 
-        <StartingTechs>HabitablePlanetColonization</StartingTechs>
+		<StartingTechs>HabitablePlanetColonization</StartingTechs>
 
 		<StartingTechs>EngineeringTech</StartingTechs>
 		<StartingTechs>InterstellarSpecialization3</StartingTechs>
@@ -687,6 +702,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<StartingTechs>WeaponsSpecializationTech1</StartingTechs>
 		<StartingTechs>WeaponsSpecializationTech2</StartingTechs>
 		<StartingTechs>WeaponsSpecializationTech3</StartingTechs>
+		<!-- Kzer-Za unique -->
 		<StartingTechs>BeamWeapons</StartingTechs>
 		<StartingTechs>BeamWeaponOptimization1</StartingTechs>
 		<StartingTechs>BeamWeaponOptimization2</StartingTechs>
@@ -704,6 +720,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<StartingTechs>MilitarySpecialization2</StartingTechs>
 		<StartingTechs>MilitarySpecialization3</StartingTechs>
 		<StartingTechs>Fortification</StartingTechs>
+		<!-- Immunity to information warfare -->
 		<StartingTechs>DefensiveFocus2</StartingTechs>
 
 		<!-- Planetary techs -->
@@ -746,33 +763,39 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<StartingTechs>LargeScaleConstruction</StartingTechs>
 		<StartingTechs>MassiveScaleConstruction</StartingTechs>
 
-		<!-- Let Stardock fix the overpowered Carriers first -->
-		<!-- <StartingTechs>CarrierTech</StartingTechs>
-		<StartingTechs>CarrierFocus1</StartingTechs>
+		<!-- Kzer-Za unique -->
+		<StartingTechs>CarrierTech</StartingTechs>
+		<!-- <StartingTechs>CarrierFocus1</StartingTechs>
 		<StartingTechs>CarrierFocus2</StartingTechs> -->
 
+		<HatedFaction>FACTION_KOHR-AH</HatedFaction>
+		<HatedFaction>FACTION_KOHR-AH</HatedFaction>
 		<HatedFaction>FACTION_KOHR-AH</HatedFaction>
 
 		<ShipCallsign>FACTION_KZER-ZA_Callsign</ShipCallsign>
 		<LogoImage>KzerZaLogo.png</LogoImage>
 		<LeaderThumbnail>KzerZaPortrait.png</LeaderThumbnail>
-		<LeaderImageFG>urquan-000.png</LeaderImageFG>
+		<!-- <LeaderImageFG>urquan-000.png</LeaderImageFG> -->
+		<!-- <LeaderImageBG>urquan-000.png</LeaderImageBG> -->
 		<NewsRobotMovie_Approach>Drengin_NewsBot_Idle.bk2</NewsRobotMovie_Approach>
 		<NewsRobotMovie_Idle>Drengin_NewsBot_Idle.bk2</NewsRobotMovie_Idle>
-		<StartupImage></StartupImage>
+		<StartupImage>urquan-000.png</StartupImage>
 		<StartupTitle>FACTION_THRADDASH_StartupTitle</StartupTitle>
 		<StartupDescription>FACTION_THRADDASH_StartupDescription</StartupDescription>
 		<StartupTraitsDescription>FACTION_THRADDASH_StartupTraitsDescription</StartupTraitsDescription>
 		<MapColorDef>KzerZaStarControl2MapColors</MapColorDef>
 		<UIColorDef>DrenginUIColors</UIColorDef>
+		<FactionMoviesFGDef>KzerZaMoviesFG</FactionMoviesFGDef>
+		<FactionMoviesBGDef>KzerZaMoviesBG</FactionMoviesBGDef>
 		<FactionMusicDef>KzerZaMusic</FactionMusicDef>
 		<Material1>GC3_Asteroid_Material_01</Material1>
 		<Material2>GC3_Ship_Material_IconianPainted</Material2>
 		<Surface1>GC3_Default_Surface_07</Surface1>
 		<Surface2>GC3_Default_Surface_04</Surface2>
 		<Appearance>GC3_Kzer-Za</Appearance>
-		<!-- <ShipStyleSet>StarControlUrQuanShipStyleSet</ShipStyleSet> -->
-		<ShipStyleSet>DrenginShipStyleSet</ShipStyleSet>
+		<ShipStyleSet>StarControlUrQuanShipStyleSet</ShipStyleSet>
+		<!-- <ShipStyleSet>DrenginShipStyleSet</ShipStyleSet> -->
+
 		<CreditsInit>30000</CreditsInit>
 		<WarEnduranceInit>150</WarEnduranceInit>
 		<DefaultResistance>0.7</DefaultResistance>
@@ -790,6 +813,97 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		</AICategoryWeight>
 	</Faction>
 	
+	<Faction>
+		<InternalName>FACTION_MELNORME</InternalName>
+		<DisplayName>FACTION_MELNORME_Name</DisplayName>
+		<DisplayNameShort>FACTION_MELNORME_ShortName</DisplayNameShort>
+		<LeaderName>FACTION_MELNORME_LeaderName</LeaderName>
+		<Description>FACTION_MELNORME_Dec</Description>
+		<LeaderDescription>FACTION_MELNORME_LeaderDec</LeaderDescription>
+		<RaceType>Major</RaceType>
+
+		<PersonalityTraits>Neutral</PersonalityTraits>
+		<PersonalityTraits>Greedy</PersonalityTraits>
+		<PersonalityTraits>Trader</PersonalityTraits>
+
+		<RaceTraits>Melnorme</RaceTraits>
+		<RaceTraits>EntrepreneursAbility</RaceTraits>
+		<RaceTraits>WealthyAbility</RaceTraits>
+		<RaceTraits>UnlimitedRange1</RaceTraits>
+
+		<RaceTraits>Spacefaring</RaceTraits>
+		<RaceTraits>Homesick</RaceTraits>
+		<RaceTraits>Productive3</RaceTraits>
+		<RaceTraits>Clever1</RaceTraits>
+		<RaceTraits>Influential4</RaceTraits>
+		<RaceTraits>Economical1</RaceTraits>
+		<RaceTraits>Fertile4</RaceTraits>
+		<RaceTraits>Handy2</RaceTraits>
+		<RaceTraits>Dense1</RaceTraits>
+		<RaceTraits>Militant4</RaceTraits>
+		<RaceTraits>Popular1</RaceTraits>
+		<RaceTraits>Traders1</RaceTraits>
+		<RaceTraits>Farmers4</RaceTraits>
+		<RaceTraits>Brutal4</RaceTraits>
+		<RaceTraits>Courageous4</RaceTraits>
+		<RaceTraits>Tough2</RaceTraits>
+		<RaceTraits>Resilient2</RaceTraits>
+		<RaceTraits>Adventuresome1</RaceTraits>
+		<RaceTraits>Likeable2</RaceTraits>
+		<RaceTraits>Observant1</RaceTraits>
+
+		<!-- The descendants of Mel-num have long since become nomads -->
+		<RequiresHomeworld>false</RequiresHomeworld>
+		<HomeStarSystem>MelnormeSystem</HomeStarSystem>
+
+		<StartingShips>SurveyStaticBlueprint</StartingShips>
+		<StartingShips>ScoutStaticBlueprint</StartingShips>
+		<StartingShips>ScoutStaticBlueprint</StartingShips>
+		<StartingShips>ScoutStaticBlueprint</StartingShips>
+
+		<TechTree>Iridium_Tree</TechTree>
+		<ShipCallsign></ShipCallsign>
+		<!-- <ShipCallsign>FACTION_MELNORME_Callsign</ShipCallsign> -->
+
+		<LogoImage>MelnormeLogo.png</LogoImage>
+		<LeaderThumbnail>MelnormePortrait.png</LeaderThumbnail>
+		<LeaderImageFG>melnorme-000.png</LeaderImageFG>
+
+		<NewsRobotMovie_Approach>Irridium_NewsBot_Approach.bk2</NewsRobotMovie_Approach>
+		<NewsRobotMovie_Idle>Iridium_Newsbot_Idle.bk2</NewsRobotMovie_Idle>
+		<StartupImage></StartupImage>
+		<StartupTitle>FACTION_MELNORME_StartupTitle</StartupTitle>
+		<StartupDescription>FACTION_MELNORME_StartupDescription</StartupDescription>
+		<StartupTraitsDescription>FACTION_MELNORME_StartupTraitsDescription</StartupTraitsDescription>
+		<ConquestMovie>MillVic_IRR.bk2</ConquestMovie>
+
+		<MapColorDef>IridiumMapColors</MapColorDef>
+		<UIColorDef>IridiumUIColors</UIColorDef>
+		<FactionMusicDef>MelnormeMusic</FactionMusicDef>
+		<Material1>GC3_Ship_Material_Gold</Material1>
+		<Material2>GC3_Red_Death_Material_02</Material2>
+		<Surface1>GC3_Default_Surface_23</Surface1>
+		<Surface2>GC3_Default_Surface_23</Surface2>
+		<Appearance>GC3_Steel</Appearance>
+		<ShipStyleSet>ThalanShipStyleSet</ShipStyleSet>
+
+		<CreditsInit>3000</CreditsInit>
+		<WarEnduranceInit>80</WarEnduranceInit>
+		<DefaultResistance>0.25</DefaultResistance>
+		<InfluenceTallyInit>10</InfluenceTallyInit>
+		<StartingColonyPopulation>0.1</StartingColonyPopulation>
+		<AICategoryWeight>
+			<Military>14</Military>
+			<Growth>8</Growth>
+			<Tech>16</Tech>
+			<Diplomacy>20</Diplomacy>
+			<Expansion>18</Expansion>
+			<Wealth>22</Wealth>
+			<Influence>6</Influence>
+			<Fortification>5</Fortification>
+		</AICategoryWeight>
+	</Faction>
+
 	<!-- Mycon -->
 	<Faction>
 		<InternalName>FACTION_MYCON</InternalName>
@@ -886,247 +1000,247 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 	</Faction>
 	
 	<!-- Orz -->
-    <Faction>
-        <InternalName>FACTION_ORZ</InternalName>
-        <DisplayName>FACTION_ORZ_Name</DisplayName>
-        <DisplayNameShort>FACTION_ORZ_ShortName</DisplayNameShort>
-        <LeaderName>FACTION_ORZ_LeaderName</LeaderName>
-        <Description>FACTION_ORZ_Dec</Description>
-        <LeaderDescription>FACTION_ORZ_LeaderDec</LeaderDescription>
-        <RaceType>Major</RaceType>
-        <PersonalityTraits>Neutral</PersonalityTraits>
-        <PersonalityTraits>Peaceful</PersonalityTraits>
-        <PersonalityTraits>Diplomatic</PersonalityTraits>
+	<Faction>
+		<InternalName>FACTION_ORZ</InternalName>
+		<DisplayName>FACTION_ORZ_Name</DisplayName>
+		<DisplayNameShort>FACTION_ORZ_ShortName</DisplayNameShort>
+		<LeaderName>FACTION_ORZ_LeaderName</LeaderName>
+		<Description>FACTION_ORZ_Dec</Description>
+		<LeaderDescription>FACTION_ORZ_LeaderDec</LeaderDescription>
+		<RaceType>Major</RaceType>
+		<PersonalityTraits>Neutral</PersonalityTraits>
+		<PersonalityTraits>Peaceful</PersonalityTraits>
+		<PersonalityTraits>Diplomatic</PersonalityTraits>
 
-        <!-- Standard colonization -->
-        <RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
+		<!-- Standard colonization -->
+		<RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
 
-        <RaceTraits>UnrelentingAbility</RaceTraits>
-        <RaceTraits>AdaptableAbility</RaceTraits>
-        <RaceTraits>Spacefaring</RaceTraits>
-        <RaceTraits>Content1</RaceTraits>
-        <RaceTraits>Dense2</RaceTraits>
-        <RaceTraits>Popular4</RaceTraits>
-        <RaceTraits>Farmers2</RaceTraits>
-        <RaceTraits>Brutal1</RaceTraits>
-        <RaceTraits>Tough2</RaceTraits>
-        <RaceTraits>SharpEyed2</RaceTraits>
-        <RaceTraits>Likeable3</RaceTraits>
+		<RaceTraits>UnrelentingAbility</RaceTraits>
+		<RaceTraits>AdaptableAbility</RaceTraits>
+		<RaceTraits>Spacefaring</RaceTraits>
+		<RaceTraits>Content1</RaceTraits>
+		<RaceTraits>Dense2</RaceTraits>
+		<RaceTraits>Popular4</RaceTraits>
+		<RaceTraits>Farmers2</RaceTraits>
+		<RaceTraits>Brutal1</RaceTraits>
+		<RaceTraits>Tough2</RaceTraits>
+		<RaceTraits>SharpEyed2</RaceTraits>
+		<RaceTraits>Likeable3</RaceTraits>
 
-        <RequiresHomeworld>true</RequiresHomeworld>
-        <HomeStarSystem>GammaVulpeculaeSystem</HomeStarSystem>
+		<RequiresHomeworld>true</RequiresHomeworld>
+		<HomeStarSystem>GammaVulpeculaeSystem</HomeStarSystem>
 
-        <StartingShips>ColonyStaticBlueprint</StartingShips>
-        <StartingShips>SurveyStaticBlueprint</StartingShips>
-        <StartingShips>ScoutStaticBlueprint</StartingShips>
+		<StartingShips>ColonyStaticBlueprint</StartingShips>
+		<StartingShips>SurveyStaticBlueprint</StartingShips>
+		<StartingShips>ScoutStaticBlueprint</StartingShips>
 
-        <TechTree>Thalan_Tree</TechTree>
-        <StartingTechs>HabitablePlanetColonization</StartingTechs>
+		<TechTree>Thalan_Tree</TechTree>
+		<StartingTechs>HabitablePlanetColonization</StartingTechs>
 
-        <!-- Able to colonize Aquatic(GC3) extreme worlds -->
-        <StartingTechs>ColonizationFocus1</StartingTechs>
+		<!-- Able to colonize Aquatic(GC3) extreme worlds -->
+		<StartingTechs>ColonizationFocus1</StartingTechs>
 
-        <ShipCallsign></ShipCallsign>
-        <!-- <ShipCallsign>FACTION_ORZ_Callsign</ShipCallsign> -->
-        <LogoImage>OrzLogo.png</LogoImage>
-        <LeaderThumbnail>OrzPortrait.png</LeaderThumbnail>
-        <LeaderImageFG>orz-000.png</LeaderImageFG>
-        <NewsRobotMovie_Approach>Thalan_NewsBot_Idle.bk2</NewsRobotMovie_Approach>
-        <NewsRobotMovie_Idle>Thalan_NewsBot_Idle.bk2</NewsRobotMovie_Idle>
-        <StartupImage></StartupImage>
-        <StartupTitle>FACTION_ORZ_StartupTitle</StartupTitle>
-        <StartupDescription>FACTION_ORZ_StartupDescription</StartupDescription>
-        <StartupTraitsDescription>FACTION_ORZ_StartupTraitsDescription</StartupTraitsDescription>
-        <ConquestMovie>MilVic_ORZ.bk2</ConquestMovie>
-        <MapColorDef>OrzStarControl2MapColors</MapColorDef>
-        <UIColorDef>SnathiUIColors</UIColorDef>
-        <FactionMusicDef>OrzMusic</FactionMusicDef>
+		<ShipCallsign></ShipCallsign>
+		<!-- <ShipCallsign>FACTION_ORZ_Callsign</ShipCallsign> -->
+		<LogoImage>OrzLogo.png</LogoImage>
+		<LeaderThumbnail>OrzPortrait.png</LeaderThumbnail>
+		<LeaderImageFG>orz-000.png</LeaderImageFG>
+		<NewsRobotMovie_Approach>Thalan_NewsBot_Idle.bk2</NewsRobotMovie_Approach>
+		<NewsRobotMovie_Idle>Thalan_NewsBot_Idle.bk2</NewsRobotMovie_Idle>
+		<StartupImage></StartupImage>
+		<StartupTitle>FACTION_ORZ_StartupTitle</StartupTitle>
+		<StartupDescription>FACTION_ORZ_StartupDescription</StartupDescription>
+		<StartupTraitsDescription>FACTION_ORZ_StartupTraitsDescription</StartupTraitsDescription>
+		<ConquestMovie>MilVic_ORZ.bk2</ConquestMovie>
+		<MapColorDef>OrzStarControl2MapColors</MapColorDef>
+		<UIColorDef>SnathiUIColors</UIColorDef>
+		<FactionMusicDef>OrzMusic</FactionMusicDef>
 
-        <Material1>GC3_Ship_Material_Steel</Material1>
-        <Material2>GC3_Red_Death_Material_02</Material2>
-        <Surface1>GC3_Default_Surface_13</Surface1>
-        <Surface2>GC3_Default_Surface_04</Surface2>
-        <Appearance>GC3_Ocean_R</Appearance>
+		<Material1>GC3_Ship_Material_Steel</Material1>
+		<Material2>GC3_Red_Death_Material_02</Material2>
+		<Surface1>GC3_Default_Surface_13</Surface1>
+		<Surface2>GC3_Default_Surface_04</Surface2>
+		<Appearance>GC3_Ocean_R</Appearance>
 
-        <ShipStyleSet>ThalanShipStyleSet</ShipStyleSet>
-        <CreditsInit>5000</CreditsInit>
-        <WarEnduranceInit>100</WarEnduranceInit>
-        <DefaultResistance>0.25</DefaultResistance>
-        <InfluenceTallyInit>11</InfluenceTallyInit>
-        <StartingColonyPopulation>10</StartingColonyPopulation>
-        <AICategoryWeight>
-          <Military>12</Military>
-          <Growth>8</Growth>
-          <Tech>15</Tech>
-          <Diplomacy>20</Diplomacy>
-          <Expansion>25</Expansion>
-          <Wealth>16</Wealth>
-          <Influence>5</Influence>
-          <Fortification>6</Fortification>
-        </AICategoryWeight>
-    </Faction>
+		<ShipStyleSet>ThalanShipStyleSet</ShipStyleSet>
+		<CreditsInit>5000</CreditsInit>
+		<WarEnduranceInit>100</WarEnduranceInit>
+		<DefaultResistance>0.25</DefaultResistance>
+		<InfluenceTallyInit>11</InfluenceTallyInit>
+		<StartingColonyPopulation>10</StartingColonyPopulation>
+		<AICategoryWeight>
+		  <Military>12</Military>
+		  <Growth>8</Growth>
+		  <Tech>15</Tech>
+		  <Diplomacy>20</Diplomacy>
+		  <Expansion>25</Expansion>
+		  <Wealth>16</Wealth>
+		  <Influence>5</Influence>
+		  <Fortification>6</Fortification>
+		</AICategoryWeight>
+	</Faction>
 	
 	<!-- Pkunk -->
-    <Faction>
-        <InternalName>FACTION_PKUNK</InternalName>
-        <DisplayName>FACTION_PKUNK_Name</DisplayName>
-        <DisplayNameShort>FACTION_PKUNK_ShortName</DisplayNameShort>
-        <LeaderName>FACTION_PKUNK_LeaderName</LeaderName>
-        <Description>FACTION_PKUNK_Dec</Description>
-        <LeaderDescription>FACTION_PKUNK_LeaderDec</LeaderDescription>
-        <RaceType>Major</RaceType>
-        <PersonalityTraits>Benevolent</PersonalityTraits>
-        <PersonalityTraits>Peaceful</PersonalityTraits>
-        <PersonalityTraits>Spiritual</PersonalityTraits>
+	<Faction>
+		<InternalName>FACTION_PKUNK</InternalName>
+		<DisplayName>FACTION_PKUNK_Name</DisplayName>
+		<DisplayNameShort>FACTION_PKUNK_ShortName</DisplayNameShort>
+		<LeaderName>FACTION_PKUNK_LeaderName</LeaderName>
+		<Description>FACTION_PKUNK_Dec</Description>
+		<LeaderDescription>FACTION_PKUNK_LeaderDec</LeaderDescription>
+		<RaceType>Major</RaceType>
+		<PersonalityTraits>Benevolent</PersonalityTraits>
+		<PersonalityTraits>Peaceful</PersonalityTraits>
+		<PersonalityTraits>Spiritual</PersonalityTraits>
 
-        <!-- Standard colonization -->
-        <RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
+		<!-- Standard colonization -->
+		<RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
 
-        <RaceTraits>StarfaringAbility</RaceTraits>
-        <RaceTraits>ColonizersAbility</RaceTraits>
-        <RaceTraits>Spacefaring</RaceTraits>
+		<RaceTraits>StarfaringAbility</RaceTraits>
+		<RaceTraits>ColonizersAbility</RaceTraits>
+		<RaceTraits>Spacefaring</RaceTraits>
 
-        <RaceTraits>Influencial1</RaceTraits>
-        <RaceTraits>Economical2</RaceTraits>
-        <RaceTraits>Content2</RaceTraits>
-        <RaceTraits>Handy2</RaceTraits>
-        <RaceTraits>Dense3</RaceTraits>
-        <RaceTraits>Militant4</RaceTraits>
-        <RaceTraits>Traders2</RaceTraits>
-        <RaceTraits>Brutal4</RaceTraits>
-        <RaceTraits>Courageous4</RaceTraits>
-        <RaceTraits>Tough3</RaceTraits>
-        <RaceTraits>Agile1</RaceTraits>
-        <RaceTraits>Adventuresome2</RaceTraits>
-        <RaceTraits>Likeable1</RaceTraits>
-        <RaceTraits>Fast1</RaceTraits>
+		<RaceTraits>Influencial1</RaceTraits>
+		<RaceTraits>Economical2</RaceTraits>
+		<RaceTraits>Content2</RaceTraits>
+		<RaceTraits>Handy2</RaceTraits>
+		<RaceTraits>Dense3</RaceTraits>
+		<RaceTraits>Militant4</RaceTraits>
+		<RaceTraits>Traders2</RaceTraits>
+		<RaceTraits>Brutal4</RaceTraits>
+		<RaceTraits>Courageous4</RaceTraits>
+		<RaceTraits>Tough3</RaceTraits>
+		<RaceTraits>Agile1</RaceTraits>
+		<RaceTraits>Adventuresome2</RaceTraits>
+		<RaceTraits>Likeable1</RaceTraits>
+		<RaceTraits>Fast1</RaceTraits>
 
-        <RequiresHomeworld>true</RequiresHomeworld>
-        <HomeStarSystem>GammaKruegerSystem</HomeStarSystem>
+		<RequiresHomeworld>true</RequiresHomeworld>
+		<HomeStarSystem>GammaKruegerSystem</HomeStarSystem>
 
-        <StartingShips>ColonyStaticBlueprint</StartingShips>
-        <StartingShips>SurveyStaticBlueprint</StartingShips>
-        <StartingShips>ScoutStaticBlueprint</StartingShips>
+		<StartingShips>ColonyStaticBlueprint</StartingShips>
+		<StartingShips>SurveyStaticBlueprint</StartingShips>
+		<StartingShips>ScoutStaticBlueprint</StartingShips>
 
-        <TechTree>Iconian_Tree</TechTree>
-        <StartingTechs>HabitablePlanetColonization</StartingTechs>
+		<TechTree>Iconian_Tree</TechTree>
+		<StartingTechs>HabitablePlanetColonization</StartingTechs>
 
-        <ShipCallsign></ShipCallsign>
-        <!-- <ShipCallsign>FACTION_PKUNK_Callsign</ShipCallsign> -->
-        <LogoImage>PkunkLogo.png</LogoImage>
-        <LeaderThumbnail>PkunkPortrait.png</LeaderThumbnail>
-        <LeaderImageFG>pkunk-000.png</LeaderImageFG>
-        <NewsRobotMovie_Approach>Iconian_NewsBot_Idle.bk2</NewsRobotMovie_Approach>
-        <NewsRobotMovie_Idle>Iconian_NewsBot_Idle.bk2</NewsRobotMovie_Idle>
-        <StartupImage></StartupImage>
-        <StartupTitle>FACTION_PKUNK_StartupTitle</StartupTitle>
-        <StartupDescription>FACTION_PKUNK_StartupDescription</StartupDescription>
-        <StartupTraitsDescription>FACTION_PKUNK_StartupTraitsDescription</StartupTraitsDescription>
-        <ConquestMovie>MillVic_PKUNK.bk2</ConquestMovie>
-        <MapColorDef>PkunkStarControl2MapColors</MapColorDef>
-        <UIColorDef>IconianUIColors</UIColorDef>
-        <FactionMusicDef>PkunkMusic</FactionMusicDef>
+		<ShipCallsign></ShipCallsign>
+		<!-- <ShipCallsign>FACTION_PKUNK_Callsign</ShipCallsign> -->
+		<LogoImage>PkunkLogo.png</LogoImage>
+		<LeaderThumbnail>PkunkPortrait.png</LeaderThumbnail>
+		<LeaderImageFG>pkunk-000.png</LeaderImageFG>
+		<NewsRobotMovie_Approach>Iconian_NewsBot_Idle.bk2</NewsRobotMovie_Approach>
+		<NewsRobotMovie_Idle>Iconian_NewsBot_Idle.bk2</NewsRobotMovie_Idle>
+		<StartupImage></StartupImage>
+		<StartupTitle>FACTION_PKUNK_StartupTitle</StartupTitle>
+		<StartupDescription>FACTION_PKUNK_StartupDescription</StartupDescription>
+		<StartupTraitsDescription>FACTION_PKUNK_StartupTraitsDescription</StartupTraitsDescription>
+		<ConquestMovie>MillVic_PKUNK.bk2</ConquestMovie>
+		<MapColorDef>PkunkStarControl2MapColors</MapColorDef>
+		<UIColorDef>IconianUIColors</UIColorDef>
+		<FactionMusicDef>PkunkMusic</FactionMusicDef>
 
-        <Material1>GC3_Missile_Material_01</Material1>
-        <Material2>GC3_Red_Death_Material_02</Material2>
-        <Surface1>GC3_Default_Surface_06</Surface1>
-        <Surface2>GC3_Default_Surface_12</Surface2>
-        <Appearance>GC3_Bubblegum</Appearance>
-        <ShipStyleSet>IridiumShipStyleSet</ShipStyleSet>
+		<Material1>GC3_Missile_Material_01</Material1>
+		<Material2>GC3_Red_Death_Material_02</Material2>
+		<Surface1>GC3_Default_Surface_06</Surface1>
+		<Surface2>GC3_Default_Surface_12</Surface2>
+		<Appearance>GC3_Bubblegum</Appearance>
+		<ShipStyleSet>IridiumShipStyleSet</ShipStyleSet>
 
-        <CreditsInit>5000</CreditsInit>
-        <WarEnduranceInit>100</WarEnduranceInit>
-        <DefaultResistance>0.25</DefaultResistance>
-        <InfluenceTallyInit>10</InfluenceTallyInit>
-        <StartingColonyPopulation>10</StartingColonyPopulation>
-        <AICategoryWeight>
-          <Military>8</Military>
-          <Growth>10</Growth>
-          <Tech>15</Tech>
-          <Diplomacy>20</Diplomacy>
-          <Expansion>12</Expansion>
-          <Wealth>18</Wealth>
-          <Influence>25</Influence>
-          <Fortification>8</Fortification>
-        </AICategoryWeight>
-    </Faction>
+		<CreditsInit>5000</CreditsInit>
+		<WarEnduranceInit>100</WarEnduranceInit>
+		<DefaultResistance>0.25</DefaultResistance>
+		<InfluenceTallyInit>10</InfluenceTallyInit>
+		<StartingColonyPopulation>10</StartingColonyPopulation>
+		<AICategoryWeight>
+		  <Military>8</Military>
+		  <Growth>10</Growth>
+		  <Tech>15</Tech>
+		  <Diplomacy>20</Diplomacy>
+		  <Expansion>12</Expansion>
+		  <Wealth>18</Wealth>
+		  <Influence>25</Influence>
+		  <Fortification>8</Fortification>
+		</AICategoryWeight>
+	</Faction>
 	
 	<!-- Shofixti -->
 	<Faction>
-	    <InternalName>FACTION_SHOFIXTI</InternalName>
-	    <DisplayName>FACTION_SHOFIXTI_Name</DisplayName>
-	    <DisplayNameShort>FACTION_SHOFIXTI_ShortName</DisplayNameShort>
-	    <LeaderName>FACTION_SHOFIXTI_LeaderName</LeaderName>
-	    <Description>FACTION_SHOFIXTI_Dec</Description>
-	    <LeaderDescription>FACTION_SHOFIXTI_LeaderDec</LeaderDescription>
-	    <RaceType>Major</RaceType>
-	    <PersonalityTraits>Neutral</PersonalityTraits>
-	    <PersonalityTraits>Opportunistic</PersonalityTraits>
-	    <PersonalityTraits>Cultural</PersonalityTraits>
+		<InternalName>FACTION_SHOFIXTI</InternalName>
+		<DisplayName>FACTION_SHOFIXTI_Name</DisplayName>
+		<DisplayNameShort>FACTION_SHOFIXTI_ShortName</DisplayNameShort>
+		<LeaderName>FACTION_SHOFIXTI_LeaderName</LeaderName>
+		<Description>FACTION_SHOFIXTI_Dec</Description>
+		<LeaderDescription>FACTION_SHOFIXTI_LeaderDec</LeaderDescription>
+		<RaceType>Major</RaceType>
+		<PersonalityTraits>Neutral</PersonalityTraits>
+		<PersonalityTraits>Opportunistic</PersonalityTraits>
+		<PersonalityTraits>Cultural</PersonalityTraits>
 
-	    <!-- Standard colonization -->
+		<!-- Standard colonization -->
 		<RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
 
-	    <RaceTraits>ProlificAbility</RaceTraits>
-	    <RaceTraits>ZealotsAbility</RaceTraits>
-	    <RaceTraits>Spacefaring</RaceTraits>
+		<RaceTraits>ProlificAbility</RaceTraits>
+		<RaceTraits>ZealotsAbility</RaceTraits>
+		<RaceTraits>Spacefaring</RaceTraits>
 
-	    <RaceTraits>Fertile1</RaceTraits>
-	    <RaceTraits>Handy2</RaceTraits>
-	    <RaceTraits>Militant1</RaceTraits>
-	    <RaceTraits>Farmers1</RaceTraits>
-	    <RaceTraits>Tough4</RaceTraits>
-	    <RaceTraits>SharpEyed3</RaceTraits>
-	    <RaceTraits>Agile3</RaceTraits>
-	    <RaceTraits>Resilient4</RaceTraits>
-	    <RaceTraits>Likeable2</RaceTraits>
-	    <RaceTraits>Fast2</RaceTraits>
-	    <RaceTraits>Organized1</RaceTraits>
+		<RaceTraits>Fertile1</RaceTraits>
+		<RaceTraits>Handy2</RaceTraits>
+		<RaceTraits>Militant1</RaceTraits>
+		<RaceTraits>Farmers1</RaceTraits>
+		<RaceTraits>Tough4</RaceTraits>
+		<RaceTraits>SharpEyed3</RaceTraits>
+		<RaceTraits>Agile3</RaceTraits>
+		<RaceTraits>Resilient4</RaceTraits>
+		<RaceTraits>Likeable2</RaceTraits>
+		<RaceTraits>Fast2</RaceTraits>
+		<RaceTraits>Organized1</RaceTraits>
 
-	    <RequiresHomeworld>true</RequiresHomeworld>
-	    <HomeStarSystem>DeltaGornoSystem</HomeStarSystem>
+		<RequiresHomeworld>true</RequiresHomeworld>
+		<HomeStarSystem>DeltaGornoSystem</HomeStarSystem>
 
-	    <TechTree>Iconian_Tree</TechTree>
-        <StartingTechs>HabitablePlanetColonization</StartingTechs>
+		<TechTree>Iconian_Tree</TechTree>
+		<StartingTechs>HabitablePlanetColonization</StartingTechs>
 
-	    <ShipCallsign></ShipCallsign>
-	    <!-- <ShipCallsign>FACTION_SHOFIXTI_Callsign</ShipCallsign> -->
-	    <LogoImage>ShofixtiLogo.png</LogoImage>
-	    <LeaderThumbnail>ShofixtiPortrait.png</LeaderThumbnail>
-	    <LeaderImageFG>shofixti-000.png</LeaderImageFG>
-	    <NewsRobotMovie_Approach>Krynn_NewsBot_Idle.bk2</NewsRobotMovie_Approach>
-	    <NewsRobotMovie_Idle>Krynn_NewsBot_Idle.bk2</NewsRobotMovie_Idle>
-	    <StartupImage></StartupImage>
-	    <StartupTitle>FACTION_SHOFIXTI_StartupTitle</StartupTitle>
-	    <StartupDescription>FACTION_SHOFIXTI_StartupDescription</StartupDescription>
-	    <StartupTraitsDescription>FACTION_SHOFIXTI_StartupTraitsDescription</StartupTraitsDescription>
-	    <ConquestMovie>MilVic_SHOFIXTI.bk2</ConquestMovie>
-	    <MapColorDef>ShofixtiStarControl2MapColors</MapColorDef>
-	    <UIColorDef>KrynnUIColors</UIColorDef>
-	    <FactionMusicDef>ShofixtiMusic</FactionMusicDef>
+		<ShipCallsign></ShipCallsign>
+		<!-- <ShipCallsign>FACTION_SHOFIXTI_Callsign</ShipCallsign> -->
+		<LogoImage>ShofixtiLogo.png</LogoImage>
+		<LeaderThumbnail>ShofixtiPortrait.png</LeaderThumbnail>
+		<LeaderImageFG>shofixti-000.png</LeaderImageFG>
+		<NewsRobotMovie_Approach>Krynn_NewsBot_Idle.bk2</NewsRobotMovie_Approach>
+		<NewsRobotMovie_Idle>Krynn_NewsBot_Idle.bk2</NewsRobotMovie_Idle>
+		<StartupImage></StartupImage>
+		<StartupTitle>FACTION_SHOFIXTI_StartupTitle</StartupTitle>
+		<StartupDescription>FACTION_SHOFIXTI_StartupDescription</StartupDescription>
+		<StartupTraitsDescription>FACTION_SHOFIXTI_StartupTraitsDescription</StartupTraitsDescription>
+		<ConquestMovie>MilVic_SHOFIXTI.bk2</ConquestMovie>
+		<MapColorDef>ShofixtiStarControl2MapColors</MapColorDef>
+		<UIColorDef>KrynnUIColors</UIColorDef>
+		<FactionMusicDef>ShofixtiMusic</FactionMusicDef>
 
-	    <Material1>GC3_Asteroid_Material_03</Material1>
-	    <Material2>GC3_Red_Death_Material_02</Material2>
-	    <Surface1>GC3_Default_Surface_10</Surface1>
-	    <Surface2>GC3_Default_Surface_11</Surface2>
-	    <Appearance>GC3_Relic_Appearance</Appearance>
-	    <ShipStyleSet>IridiumShipStyleSet</ShipStyleSet>
+		<Material1>GC3_Asteroid_Material_03</Material1>
+		<Material2>GC3_Red_Death_Material_02</Material2>
+		<Surface1>GC3_Default_Surface_10</Surface1>
+		<Surface2>GC3_Default_Surface_11</Surface2>
+		<Appearance>GC3_Relic_Appearance</Appearance>
+		<ShipStyleSet>IridiumShipStyleSet</ShipStyleSet>
 
-	    <CreditsInit>5000</CreditsInit>
-	    <WarEnduranceInit>95</WarEnduranceInit>
-	    <DefaultResistance>0.25</DefaultResistance>
-	    <InfluenceTallyInit>9</InfluenceTallyInit>
-	    <StartingColonyPopulation>0.001</StartingColonyPopulation>
-	    <AICategoryWeight>
-	      <Military>15</Military>
-	      <Growth>25</Growth>
-	      <Tech>10</Tech>
-	      <Diplomacy>17</Diplomacy>
-	      <Expansion>25</Expansion>
-	      <Wealth>18</Wealth>
-	      <Influence>5</Influence>
-	      <Fortification>6</Fortification>
-	    </AICategoryWeight>
+		<CreditsInit>5000</CreditsInit>
+		<WarEnduranceInit>95</WarEnduranceInit>
+		<DefaultResistance>0.25</DefaultResistance>
+		<InfluenceTallyInit>9</InfluenceTallyInit>
+		<StartingColonyPopulation>0.001</StartingColonyPopulation>
+		<AICategoryWeight>
+		  <Military>15</Military>
+		  <Growth>25</Growth>
+		  <Tech>10</Tech>
+		  <Diplomacy>17</Diplomacy>
+		  <Expansion>25</Expansion>
+		  <Wealth>18</Wealth>
+		  <Influence>5</Influence>
+		  <Fortification>6</Fortification>
+		</AICategoryWeight>
 	</Faction>
 	
 	<!-- Slylandro -->
@@ -1230,7 +1344,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<PersonalityTraits>Peaceful</PersonalityTraits>
 		<PersonalityTraits>Spiritual</PersonalityTraits>
 
-	    <!-- Standard colonization -->
+		<!-- Standard colonization -->
 		<RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
 
 		<RaceTraits>ParanoidAbility</RaceTraits>
@@ -1263,7 +1377,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<StartingShips>ScoutStaticBlueprint</StartingShips>
 		
 		<TechTree>Iconian_Tree</TechTree>
-        <StartingTechs>HabitablePlanetColonization</StartingTechs>
+		<StartingTechs>HabitablePlanetColonization</StartingTechs>
 
 		<ShipCallsign></ShipCallsign>
 		<!-- <ShipCallsign>FACTION_SPATHI_Callsign</ShipCallsign> -->
@@ -1319,7 +1433,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<PersonalityTraits>Diplomatic</PersonalityTraits>
 		<PersonalityTraits>Trader</PersonalityTraits>
 
-	    <!-- Standard colonization -->
+		<!-- Standard colonization -->
 		<RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
 
 		<RaceTraits>StarfaringAbility</RaceTraits>
@@ -1349,7 +1463,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<StartingShips>ScoutStaticBlueprint</StartingShips>
 		
 		<TechTree>Iconian_Tree</TechTree>
-        <StartingTechs>HabitablePlanetColonization</StartingTechs>
+		<StartingTechs>HabitablePlanetColonization</StartingTechs>
 
 		<ShipCallsign></ShipCallsign>
 		<!-- <ShipCallsign>FACTION_SUPOX_Callsign</ShipCallsign> -->
@@ -1404,7 +1518,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<PersonalityTraits>Diplomatic</PersonalityTraits>
 		<PersonalityTraits>Cultural</PersonalityTraits>
 
-	    <!-- Standard colonization -->
+		<!-- Standard colonization -->
 		<RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
 
 		<RaceTraits>UnderSlaveShield</RaceTraits>
@@ -1434,8 +1548,8 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<StartingShips>ScoutStaticBlueprint</StartingShips>
 
 
-		<!-- TODO: Replaced with Altarian colonyless tree -->
-		<TechTree>Colonyless_Tree</TechTree>
+		<!-- TODO: Replaced with Altarian tree -->
+		<TechTree>Altarian_Tree</TechTree>
 		<StartingTechs>Slaveshielded</StartingTechs>
 
 		<HatedFaction>FACTION_MYCON</HatedFaction>
@@ -1494,7 +1608,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<PersonalityTraits>Aggressive</PersonalityTraits>
 		<PersonalityTraits>Xenophobic</PersonalityTraits>
 
-	    <!-- Standard colonization -->
+		<!-- Standard colonization -->
 		<RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
 
 		<RaceTraits>AfterburnersAbility</RaceTraits>
@@ -1526,7 +1640,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<StartingShips>ScoutStaticBlueprint</StartingShips>
 
 		<TechTree>Drengin_Tree</TechTree>
-        <StartingTechs>HabitablePlanetColonization</StartingTechs>
+		<StartingTechs>HabitablePlanetColonization</StartingTechs>
 
 		<ShipCallsign></ShipCallsign>
 		<!-- <ShipCallsign>FACTION_THRADDASH_Callsign</ShipCallsign> -->
@@ -1581,7 +1695,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<PersonalityTraits>Aggressive</PersonalityTraits>
 		<PersonalityTraits>Opportunistic</PersonalityTraits>
 
-	    <!-- Standard colonization -->
+		<!-- Standard colonization -->
 		<RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
 
 		<RaceTraits>HazardAbility</RaceTraits>
@@ -1613,7 +1727,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 		<StartingShips>ScoutStaticBlueprint</StartingShips>
 
 		<TechTree>Iconian_Tree</TechTree>
-        <StartingTechs>HabitablePlanetColonization</StartingTechs>
+		<StartingTechs>HabitablePlanetColonization</StartingTechs>
 
 		<ShipCallsign></ShipCallsign>
 		<!-- <ShipCallsign>FACTION_UMGAH_Callsign</ShipCallsign> -->
@@ -1655,323 +1769,323 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionDefs.xsd">
 	</Faction>
 	
 	<!-- Utwig -->
-    <Faction>
-        <InternalName>FACTION_UTWIG</InternalName>
-        <DisplayName>FACTION_UTWIG_Name</DisplayName>
-        <DisplayNameShort>FACTION_UTWIG_ShortName</DisplayNameShort>
-        <LeaderName>FACTION_UTWIG_LeaderName</LeaderName>
-        <Description>FACTION_UTWIG_Dec</Description>
-        <LeaderDescription>FACTION_UTWIG_LeaderDec</LeaderDescription>
-        <RaceType>Major</RaceType>
-        <PersonalityTraits>Benevolent</PersonalityTraits>
-        <PersonalityTraits>Scientific</PersonalityTraits>
-        <PersonalityTraits>Cultural</PersonalityTraits>
+	<Faction>
+		<InternalName>FACTION_UTWIG</InternalName>
+		<DisplayName>FACTION_UTWIG_Name</DisplayName>
+		<DisplayNameShort>FACTION_UTWIG_ShortName</DisplayNameShort>
+		<LeaderName>FACTION_UTWIG_LeaderName</LeaderName>
+		<Description>FACTION_UTWIG_Dec</Description>
+		<LeaderDescription>FACTION_UTWIG_LeaderDec</LeaderDescription>
+		<RaceType>Major</RaceType>
+		<PersonalityTraits>Benevolent</PersonalityTraits>
+		<PersonalityTraits>Scientific</PersonalityTraits>
+		<PersonalityTraits>Cultural</PersonalityTraits>
 
-        <!-- Standard colonization -->
-    	<RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
+		<!-- Standard colonization -->
+		<RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
 
-        <RaceTraits>CoerciveAbility</RaceTraits>
-        <RaceTraits>IntuitiveAbility</RaceTraits>
+		<RaceTraits>CoerciveAbility</RaceTraits>
+		<RaceTraits>IntuitiveAbility</RaceTraits>
 
-        <RaceTraits>Spacefaring</RaceTraits>
-        <RaceTraits>Clever2</RaceTraits>
-        <RaceTraits>Content4</RaceTraits>
-        <RaceTraits>Fertile4</RaceTraits>
-        <RaceTraits>Dense1</RaceTraits>
-        <RaceTraits>Farmers3</RaceTraits>
-        <RaceTraits>Brutal4</RaceTraits>
-        <RaceTraits>Courageous4</RaceTraits>
-        <RaceTraits>Tough1</RaceTraits>
-        <RaceTraits>SharpEyed2</RaceTraits>
-        <RaceTraits>Agile1</RaceTraits>
-        <RaceTraits>Resilient1</RaceTraits>
-        <RaceTraits>Adventuresome1</RaceTraits>
-        <RaceTraits>Organized1</RaceTraits>
+		<RaceTraits>Spacefaring</RaceTraits>
+		<RaceTraits>Clever2</RaceTraits>
+		<RaceTraits>Content4</RaceTraits>
+		<RaceTraits>Fertile4</RaceTraits>
+		<RaceTraits>Dense1</RaceTraits>
+		<RaceTraits>Farmers3</RaceTraits>
+		<RaceTraits>Brutal4</RaceTraits>
+		<RaceTraits>Courageous4</RaceTraits>
+		<RaceTraits>Tough1</RaceTraits>
+		<RaceTraits>SharpEyed2</RaceTraits>
+		<RaceTraits>Agile1</RaceTraits>
+		<RaceTraits>Resilient1</RaceTraits>
+		<RaceTraits>Adventuresome1</RaceTraits>
+		<RaceTraits>Organized1</RaceTraits>
 
-        <RequiresHomeworld>true</RequiresHomeworld>
-        <HomeStarSystem>BetaAquariiSystem</HomeStarSystem>
-        <StartingShips>ColonyStaticBlueprint</StartingShips>
-        <StartingShips>ColonyStaticBlueprint</StartingShips>
-        <StartingShips>SurveyStaticBlueprint</StartingShips>
-        <StartingShips>ScoutStaticBlueprint</StartingShips>
+		<RequiresHomeworld>true</RequiresHomeworld>
+		<HomeStarSystem>BetaAquariiSystem</HomeStarSystem>
+		<StartingShips>ColonyStaticBlueprint</StartingShips>
+		<StartingShips>ColonyStaticBlueprint</StartingShips>
+		<StartingShips>SurveyStaticBlueprint</StartingShips>
+		<StartingShips>ScoutStaticBlueprint</StartingShips>
 
-        <TechTree>Thalan_Tree</TechTree>
-        <StartingTechs>HabitablePlanetColonization</StartingTechs>
+		<TechTree>Thalan_Tree</TechTree>
+		<StartingTechs>HabitablePlanetColonization</StartingTechs>
 
-        <ShipCallsign></ShipCallsign>
-        <!-- <ShipCallsign>FACTION_UTWIG_Callsign</ShipCallsign> -->
-        <LogoImage>UtwigLogo.png</LogoImage>
-        <LeaderThumbnail>UtwigPortrait.png</LeaderThumbnail>
-        <LeaderImageFG>utwig-000.png</LeaderImageFG>
-        <NewsRobotMovie_Approach>Krynn_NewsBot_Idle.bk2</NewsRobotMovie_Approach>
-        <NewsRobotMovie_Idle>Krynn_NewsBot_Idle.bk2</NewsRobotMovie_Idle>
-        <StartupImage></StartupImage>
-        <StartupTitle>FACTION_UTWIG_StartupTitle</StartupTitle>
-        <StartupDescription>FACTION_UTWIG_StartupDescription</StartupDescription>
-        <StartupTraitsDescription>FACTION_UTWIG_StartupTraitsDescription</StartupTraitsDescription>
-        <ConquestMovie>MilVic_UTWIG.bk2</ConquestMovie>
-        <MapColorDef>UtwigStarControl2MapColors</MapColorDef>
-        <UIColorDef>KrynnUIColors</UIColorDef>
-        <FactionMusicDef>UtwigMusic</FactionMusicDef>
+		<ShipCallsign></ShipCallsign>
+		<!-- <ShipCallsign>FACTION_UTWIG_Callsign</ShipCallsign> -->
+		<LogoImage>UtwigLogo.png</LogoImage>
+		<LeaderThumbnail>UtwigPortrait.png</LeaderThumbnail>
+		<LeaderImageFG>utwig-000.png</LeaderImageFG>
+		<NewsRobotMovie_Approach>Krynn_NewsBot_Idle.bk2</NewsRobotMovie_Approach>
+		<NewsRobotMovie_Idle>Krynn_NewsBot_Idle.bk2</NewsRobotMovie_Idle>
+		<StartupImage></StartupImage>
+		<StartupTitle>FACTION_UTWIG_StartupTitle</StartupTitle>
+		<StartupDescription>FACTION_UTWIG_StartupDescription</StartupDescription>
+		<StartupTraitsDescription>FACTION_UTWIG_StartupTraitsDescription</StartupTraitsDescription>
+		<ConquestMovie>MilVic_UTWIG.bk2</ConquestMovie>
+		<MapColorDef>UtwigStarControl2MapColors</MapColorDef>
+		<UIColorDef>KrynnUIColors</UIColorDef>
+		<FactionMusicDef>UtwigMusic</FactionMusicDef>
 
-        <Material1>GC3_Asteroid_Material_01</Material1>
-        <Material2>GC3_Red_Death_Material_02</Material2>
-        <Surface1>GC3_Default_Surface_05</Surface1>
-        <Surface2>GC3_Default_Surface_06</Surface2>
-        <Appearance>GC3_Ocean</Appearance>
-        <ShipStyleSet>YorShipStyleSet</ShipStyleSet>
+		<Material1>GC3_Asteroid_Material_01</Material1>
+		<Material2>GC3_Red_Death_Material_02</Material2>
+		<Surface1>GC3_Default_Surface_05</Surface1>
+		<Surface2>GC3_Default_Surface_06</Surface2>
+		<Appearance>GC3_Ocean</Appearance>
+		<ShipStyleSet>YorShipStyleSet</ShipStyleSet>
 
-        <CreditsInit>5000</CreditsInit>
-        <WarEnduranceInit>95</WarEnduranceInit>
-        <DefaultResistance>0.25</DefaultResistance>
-        <InfluenceTallyInit>9</InfluenceTallyInit>
-        <StartingColonyPopulation>10</StartingColonyPopulation>
-        <AICategoryWeight>
-          <Military>20</Military>
-          <Growth>8</Growth>
-          <Tech>18</Tech>
-          <Diplomacy>7</Diplomacy>
-          <Expansion>12</Expansion>
-          <Wealth>15</Wealth>
-          <Influence>10</Influence>
-          <Fortification>25</Fortification>
-        </AICategoryWeight>
-    </Faction>
+		<CreditsInit>5000</CreditsInit>
+		<WarEnduranceInit>95</WarEnduranceInit>
+		<DefaultResistance>0.25</DefaultResistance>
+		<InfluenceTallyInit>9</InfluenceTallyInit>
+		<StartingColonyPopulation>10</StartingColonyPopulation>
+		<AICategoryWeight>
+		  <Military>20</Military>
+		  <Growth>8</Growth>
+		  <Tech>18</Tech>
+		  <Diplomacy>7</Diplomacy>
+		  <Expansion>12</Expansion>
+		  <Wealth>15</Wealth>
+		  <Influence>10</Influence>
+		  <Fortification>25</Fortification>
+		</AICategoryWeight>
+	</Faction>
 	
 	<!-- VUX -->
-    <Faction>
-        <InternalName>FACTION_VUX</InternalName>
-        <DisplayName>FACTION_VUX_Name</DisplayName>
-        <DisplayNameShort>FACTION_VUX_ShortName</DisplayNameShort>
-        <LeaderName>FACTION_VUX_LeaderName</LeaderName>
-        <Description>FACTION_VUX_Dec</Description>
-        <LeaderDescription>FACTION_VUX_LeaderDec</LeaderDescription>
-        <RaceType>Major</RaceType>
-        <PersonalityTraits>Merciless</PersonalityTraits>
-        <PersonalityTraits>Opportunistic</PersonalityTraits>
-        <PersonalityTraits>Xenophobic</PersonalityTraits>
+	<Faction>
+		<InternalName>FACTION_VUX</InternalName>
+		<DisplayName>FACTION_VUX_Name</DisplayName>
+		<DisplayNameShort>FACTION_VUX_ShortName</DisplayNameShort>
+		<LeaderName>FACTION_VUX_LeaderName</LeaderName>
+		<Description>FACTION_VUX_Dec</Description>
+		<LeaderDescription>FACTION_VUX_LeaderDec</LeaderDescription>
+		<RaceType>Major</RaceType>
+		<PersonalityTraits>Merciless</PersonalityTraits>
+		<PersonalityTraits>Opportunistic</PersonalityTraits>
+		<PersonalityTraits>Xenophobic</PersonalityTraits>
 
-        <!-- Standard colonization -->
-    	<RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
-    	<!-- Homeworld planet type colonization -->
-    	<RaceTraits>ReduxWorldColonizationAbility</RaceTraits>
+		<!-- Standard colonization -->
+		<RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
+		<!-- Homeworld planet type colonization -->
+		<RaceTraits>ReduxWorldColonizationAbility</RaceTraits>
 
-        <RaceTraits>EngineersAbility</RaceTraits>
-        <RaceTraits>StarfaringAbility</RaceTraits>
+		<RaceTraits>EngineersAbility</RaceTraits>
+		<RaceTraits>StarfaringAbility</RaceTraits>
 
-        <RaceTraits>Spacefaring</RaceTraits>
-        <RaceTraits>Economical2</RaceTraits>
-        <RaceTraits>Handy2</RaceTraits>
-        <RaceTraits>Militant2</RaceTraits>
-        <RaceTraits>Popular4</RaceTraits>
-        <RaceTraits>Tough2</RaceTraits>
-        <RaceTraits>SharpEyed1</RaceTraits>
-        <RaceTraits>Adventuresome3</RaceTraits>
-        <RaceTraits>Likeable3</RaceTraits>
+		<RaceTraits>Spacefaring</RaceTraits>
+		<RaceTraits>Economical2</RaceTraits>
+		<RaceTraits>Handy2</RaceTraits>
+		<RaceTraits>Militant2</RaceTraits>
+		<RaceTraits>Popular4</RaceTraits>
+		<RaceTraits>Tough2</RaceTraits>
+		<RaceTraits>SharpEyed1</RaceTraits>
+		<RaceTraits>Adventuresome3</RaceTraits>
+		<RaceTraits>Likeable3</RaceTraits>
 
-        <RequiresHomeworld>true</RequiresHomeworld>
-        <HomeStarSystem>BetaLuytenSystem</HomeStarSystem>
+		<RequiresHomeworld>true</RequiresHomeworld>
+		<HomeStarSystem>BetaLuytenSystem</HomeStarSystem>
 
-        <StartingShips>ColonyStaticBlueprint</StartingShips>
-        <StartingShips>ColonyStaticBlueprint</StartingShips>
-        <StartingShips>ScoutStaticBlueprint</StartingShips>
+		<StartingShips>ColonyStaticBlueprint</StartingShips>
+		<StartingShips>ColonyStaticBlueprint</StartingShips>
+		<StartingShips>ScoutStaticBlueprint</StartingShips>
 
-        <TechTree>Iconian_Tree</TechTree>
-        <StartingTechs>HabitablePlanetColonization</StartingTechs>
+		<TechTree>Iconian_Tree</TechTree>
+		<StartingTechs>HabitablePlanetColonization</StartingTechs>
 
-        <ShipCallsign></ShipCallsign>
-        <!-- <ShipCallsign>FACTION_VUX_Callsign</ShipCallsign> -->
-        <LogoImage>VuxLogo.png</LogoImage>
-        <LeaderThumbnail>VuxPortrait.png</LeaderThumbnail>
-        <LeaderImageFG>vux-000.png</LeaderImageFG>
-        <NewsRobotMovie_Approach>Iridium_Newsbot_Idle.bk2</NewsRobotMovie_Approach>
-        <NewsRobotMovie_Idle>Iridium_Newsbot_Idle.bk2</NewsRobotMovie_Idle>
-        <StartupImage></StartupImage>
-        <StartupTitle>FACTION_VUX_StartupTitle</StartupTitle>
-        <StartupDescription>FACTION_VUX_StartupDescription</StartupDescription>
-        <StartupTraitsDescription>FACTION_VUX_StartupTraitsDescription</StartupTraitsDescription>
-        <ConquestMovie>MillVic_IRR.bk2</ConquestMovie>
-        <MapColorDef>VuxStarControl2MapColors</MapColorDef>
-        <UIColorDef>IridiumUIColors</UIColorDef>
-        <FactionMusicDef>VuxMusic</FactionMusicDef>
+		<ShipCallsign></ShipCallsign>
+		<!-- <ShipCallsign>FACTION_VUX_Callsign</ShipCallsign> -->
+		<LogoImage>VuxLogo.png</LogoImage>
+		<LeaderThumbnail>VuxPortrait.png</LeaderThumbnail>
+		<LeaderImageFG>vux-000.png</LeaderImageFG>
+		<NewsRobotMovie_Approach>Iridium_Newsbot_Idle.bk2</NewsRobotMovie_Approach>
+		<NewsRobotMovie_Idle>Iridium_Newsbot_Idle.bk2</NewsRobotMovie_Idle>
+		<StartupImage></StartupImage>
+		<StartupTitle>FACTION_VUX_StartupTitle</StartupTitle>
+		<StartupDescription>FACTION_VUX_StartupDescription</StartupDescription>
+		<StartupTraitsDescription>FACTION_VUX_StartupTraitsDescription</StartupTraitsDescription>
+		<ConquestMovie>MillVic_IRR.bk2</ConquestMovie>
+		<MapColorDef>VuxStarControl2MapColors</MapColorDef>
+		<UIColorDef>IridiumUIColors</UIColorDef>
+		<FactionMusicDef>VuxMusic</FactionMusicDef>
 
-        <Material1>GC3_Ship_Material_01</Material1>
-        <Material2>GC3_Red_Death_Material_02</Material2>
-        <Surface1>GC3_Default_Surface_04</Surface1>
-        <Surface2>GC3_Default_Surface_04</Surface2>
-        <Appearance>GC3_Ocean_R</Appearance>
-        <ShipStyleSet>YorShipStyleSet</ShipStyleSet>
+		<Material1>GC3_Ship_Material_01</Material1>
+		<Material2>GC3_Red_Death_Material_02</Material2>
+		<Surface1>GC3_Default_Surface_04</Surface1>
+		<Surface2>GC3_Default_Surface_04</Surface2>
+		<Appearance>GC3_Ocean_R</Appearance>
+		<ShipStyleSet>YorShipStyleSet</ShipStyleSet>
 
-        <CreditsInit>5000</CreditsInit>
-        <WarEnduranceInit>80</WarEnduranceInit>
-        <DefaultResistance>0.25</DefaultResistance>
-        <InfluenceTallyInit>10</InfluenceTallyInit>
-        <StartingColonyPopulation>10</StartingColonyPopulation>
-        <AICategoryWeight>
-          <Military>23</Military>
-          <Growth>10</Growth>
-          <Tech>18</Tech>
-          <Diplomacy>5</Diplomacy>
-          <Expansion>25</Expansion>
-          <Wealth>15</Wealth>
-          <Influence>9</Influence>
-          <Fortification>8</Fortification>
-        </AICategoryWeight>
-    </Faction>
+		<CreditsInit>5000</CreditsInit>
+		<WarEnduranceInit>80</WarEnduranceInit>
+		<DefaultResistance>0.25</DefaultResistance>
+		<InfluenceTallyInit>10</InfluenceTallyInit>
+		<StartingColonyPopulation>10</StartingColonyPopulation>
+		<AICategoryWeight>
+		  <Military>23</Military>
+		  <Growth>10</Growth>
+		  <Tech>18</Tech>
+		  <Diplomacy>5</Diplomacy>
+		  <Expansion>25</Expansion>
+		  <Wealth>15</Wealth>
+		  <Influence>9</Influence>
+		  <Fortification>8</Fortification>
+		</AICategoryWeight>
+	</Faction>
 	
 	<!-- Yehat -->
 	<Faction>
-        <InternalName>FACTION_YEHAT</InternalName>
-        <DisplayName>FACTION_YEHAT_Name</DisplayName>
-        <DisplayNameShort>FACTION_YEHAT_ShortName</DisplayNameShort>
-        <LeaderName>FACTION_YEHAT_LeaderName</LeaderName>
-        <Description>FACTION_YEHAT_Dec</Description>
-        <LeaderDescription>FACTION_YEHAT_LeaderDec</LeaderDescription>
-        <RaceType>Major</RaceType>
-        <PersonalityTraits>Neutral</PersonalityTraits>
-        <PersonalityTraits>Peaceful</PersonalityTraits>
-        <PersonalityTraits>Greedy</PersonalityTraits>
-        <PersonalityTraits>Opportunistic</PersonalityTraits>
+		<InternalName>FACTION_YEHAT</InternalName>
+		<DisplayName>FACTION_YEHAT_Name</DisplayName>
+		<DisplayNameShort>FACTION_YEHAT_ShortName</DisplayNameShort>
+		<LeaderName>FACTION_YEHAT_LeaderName</LeaderName>
+		<Description>FACTION_YEHAT_Dec</Description>
+		<LeaderDescription>FACTION_YEHAT_LeaderDec</LeaderDescription>
+		<RaceType>Major</RaceType>
+		<PersonalityTraits>Neutral</PersonalityTraits>
+		<PersonalityTraits>Peaceful</PersonalityTraits>
+		<PersonalityTraits>Greedy</PersonalityTraits>
+		<PersonalityTraits>Opportunistic</PersonalityTraits>
 
-        <!-- Standard colonization -->
-    	<RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
+		<!-- Standard colonization -->
+		<RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
 
-        <RaceTraits>UnwaveringAbility</RaceTraits>
-        <RaceTraits>WealthyAbility</RaceTraits>
-        <RaceTraits>Spacefaring</RaceTraits>
-        <RaceTraits>Militant2</RaceTraits>
-        <RaceTraits>Traders2</RaceTraits>
-        <RaceTraits>Agile1</RaceTraits>
-        <RaceTraits>Resilient3</RaceTraits>
-        <RaceTraits>Adventuresome2</RaceTraits>
-        <RaceTraits>Likeable2</RaceTraits>
-        
-        <RequiresHomeworld>true</RequiresHomeworld>
-        <HomeStarSystem>GammaSerpentisSystem</HomeStarSystem>
+		<RaceTraits>UnwaveringAbility</RaceTraits>
+		<RaceTraits>WealthyAbility</RaceTraits>
+		<RaceTraits>Spacefaring</RaceTraits>
+		<RaceTraits>Militant2</RaceTraits>
+		<RaceTraits>Traders2</RaceTraits>
+		<RaceTraits>Agile1</RaceTraits>
+		<RaceTraits>Resilient3</RaceTraits>
+		<RaceTraits>Adventuresome2</RaceTraits>
+		<RaceTraits>Likeable2</RaceTraits>
+		
+		<RequiresHomeworld>true</RequiresHomeworld>
+		<HomeStarSystem>GammaSerpentisSystem</HomeStarSystem>
 
-        <StartingShips>ColonyStaticBlueprint</StartingShips>
-        <StartingShips>ColonyStaticBlueprint</StartingShips>
-        <StartingShips>ScoutStaticBlueprint</StartingShips>
+		<StartingShips>ColonyStaticBlueprint</StartingShips>
+		<StartingShips>ColonyStaticBlueprint</StartingShips>
+		<StartingShips>ScoutStaticBlueprint</StartingShips>
 
-        <TechTree>Terran_Tree</TechTree>
-        <StartingTechs>HabitablePlanetColonization</StartingTechs>
+		<TechTree>Terran_Tree</TechTree>
+		<StartingTechs>HabitablePlanetColonization</StartingTechs>
 
-        <ShipCallsign></ShipCallsign>
-        <!-- <ShipCallsign>FACTION_YEHAT_Callsign</ShipCallsign> -->
-        <LogoImage>YehatLogo.png</LogoImage>
-        <LeaderThumbnail>YehatPortrait.png</LeaderThumbnail>
-        <LeaderImageFG>yehat-000.png</LeaderImageFG>
-        <NewsRobotMovie_Approach>Iridium_Newsbot_Idle.bk2</NewsRobotMovie_Approach>
-        <NewsRobotMovie_Idle>Iridium_Newsbot_Idle.bk2</NewsRobotMovie_Idle>
-        <StartupImage></StartupImage>
-        <StartupTitle>FACTION_YEHAT_StartupTitle</StartupTitle>
-        <StartupDescription>FACTION_YEHAT_StartupDescription</StartupDescription>
-        <StartupTraitsDescription>FACTION_YEHAT_StartupTraitsDescription</StartupTraitsDescription>
-        <ConquestMovie>MillVic_IRR.bk2</ConquestMovie>
-        <MapColorDef>YehatStarControl2MapColors</MapColorDef>
-        <UIColorDef>IridiumUIColors</UIColorDef>
-        <FactionMusicDef>YehatMusic</FactionMusicDef>
+		<ShipCallsign></ShipCallsign>
+		<!-- <ShipCallsign>FACTION_YEHAT_Callsign</ShipCallsign> -->
+		<LogoImage>YehatLogo.png</LogoImage>
+		<LeaderThumbnail>YehatPortrait.png</LeaderThumbnail>
+		<LeaderImageFG>yehat-000.png</LeaderImageFG>
+		<NewsRobotMovie_Approach>Iridium_Newsbot_Idle.bk2</NewsRobotMovie_Approach>
+		<NewsRobotMovie_Idle>Iridium_Newsbot_Idle.bk2</NewsRobotMovie_Idle>
+		<StartupImage></StartupImage>
+		<StartupTitle>FACTION_YEHAT_StartupTitle</StartupTitle>
+		<StartupDescription>FACTION_YEHAT_StartupDescription</StartupDescription>
+		<StartupTraitsDescription>FACTION_YEHAT_StartupTraitsDescription</StartupTraitsDescription>
+		<ConquestMovie>MillVic_IRR.bk2</ConquestMovie>
+		<MapColorDef>YehatStarControl2MapColors</MapColorDef>
+		<UIColorDef>IridiumUIColors</UIColorDef>
+		<FactionMusicDef>YehatMusic</FactionMusicDef>
 
-        <Material1>GC3_Ship_Material_ThalanSteel</Material1>
-        <Material2>GC3_Red_Death_Material_02</Material2>
-        <Surface1>GC3_Default_Surface_12</Surface1>
-        <Surface2>GC3_Default_Surface_10</Surface2>
-        <Appearance>GC3_Bubblegum_R</Appearance>
-        <ShipStyleSet>AltarianShipStyleSet</ShipStyleSet>
+		<Material1>GC3_Ship_Material_ThalanSteel</Material1>
+		<Material2>GC3_Red_Death_Material_02</Material2>
+		<Surface1>GC3_Default_Surface_12</Surface1>
+		<Surface2>GC3_Default_Surface_10</Surface2>
+		<Appearance>GC3_Bubblegum_R</Appearance>
+		<ShipStyleSet>AltarianShipStyleSet</ShipStyleSet>
 
-        <CreditsInit>5000</CreditsInit>
-        <WarEnduranceInit>80</WarEnduranceInit>
-        <DefaultResistance>0.25</DefaultResistance>
-        <InfluenceTallyInit>10</InfluenceTallyInit>
-        <StartingColonyPopulation>10</StartingColonyPopulation>
-        <AICategoryWeight>
-          <Military>15</Military>
-          <Growth>10</Growth>
-          <Tech>23</Tech>
-          <Diplomacy>15</Diplomacy>
-          <Expansion>6</Expansion>
-          <Wealth>20</Wealth>
-          <Influence>25</Influence>
-          <Fortification>8</Fortification>
-        </AICategoryWeight>
-    </Faction>
+		<CreditsInit>5000</CreditsInit>
+		<WarEnduranceInit>80</WarEnduranceInit>
+		<DefaultResistance>0.25</DefaultResistance>
+		<InfluenceTallyInit>10</InfluenceTallyInit>
+		<StartingColonyPopulation>10</StartingColonyPopulation>
+		<AICategoryWeight>
+		  <Military>15</Military>
+		  <Growth>10</Growth>
+		  <Tech>23</Tech>
+		  <Diplomacy>15</Diplomacy>
+		  <Expansion>6</Expansion>
+		  <Wealth>20</Wealth>
+		  <Influence>25</Influence>
+		  <Fortification>8</Fortification>
+		</AICategoryWeight>
+	</Faction>
 	
 	<!-- Zoq-Fot-Pik -->
 	<Faction>
-        <InternalName>FACTION_ZOQ-FOT-PIK</InternalName>
-        <DisplayName>FACTION_ZOQ-FOT-PIK_Name</DisplayName>
-        <DisplayNameShort>FACTION_ZOQ-FOT-PIK_ShortName</DisplayNameShort>
-        <LeaderName>FACTION_ZOQ-FOT-PIK_LeaderName</LeaderName>
-        <Description>FACTION_ZOQ-FOT-PIK_Dec</Description>
-        <LeaderDescription>FACTION_ZOQ-FOT-PIK_LeaderDec</LeaderDescription>
-        <RaceType>Major</RaceType>
-        <PersonalityTraits>Neutral</PersonalityTraits>
-        <PersonalityTraits>Greedy</PersonalityTraits>
-        <PersonalityTraits>Trader</PersonalityTraits>
+		<InternalName>FACTION_ZOQ-FOT-PIK</InternalName>
+		<DisplayName>FACTION_ZOQ-FOT-PIK_Name</DisplayName>
+		<DisplayNameShort>FACTION_ZOQ-FOT-PIK_ShortName</DisplayNameShort>
+		<LeaderName>FACTION_ZOQ-FOT-PIK_LeaderName</LeaderName>
+		<Description>FACTION_ZOQ-FOT-PIK_Dec</Description>
+		<LeaderDescription>FACTION_ZOQ-FOT-PIK_LeaderDec</LeaderDescription>
+		<RaceType>Major</RaceType>
+		<PersonalityTraits>Neutral</PersonalityTraits>
+		<PersonalityTraits>Greedy</PersonalityTraits>
+		<PersonalityTraits>Trader</PersonalityTraits>
 
-        <!-- Standard colonization -->
-    	<RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
-    	<!-- Homeworld planet type colonization -->
-    	<RaceTraits>ReduxWorldColonizationAbility</RaceTraits>
+		<!-- Standard colonization -->
+		<RaceTraits>HabitablePlanetColonizationAbility</RaceTraits>
+		<!-- Homeworld planet type colonization -->
+		<RaceTraits>ReduxWorldColonizationAbility</RaceTraits>
 
-        <RaceTraits>UnwaveringAbility</RaceTraits>
+		<RaceTraits>UnwaveringAbility</RaceTraits>
 
-        <RaceTraits>Spacefaring</RaceTraits>
-        <RaceTraits>Dense3</RaceTraits>
-        <RaceTraits>Brutal3</RaceTraits>
-        <RaceTraits>Courageous2</RaceTraits>
-        <RaceTraits>Tough2</RaceTraits>
-        <RaceTraits>Resilient2</RaceTraits>
-        <RaceTraits>Likeable2</RaceTraits>
-        <RaceTraits>Observant1</RaceTraits>
-        <RaceTraits>Organized2</RaceTraits>
+		<RaceTraits>Spacefaring</RaceTraits>
+		<RaceTraits>Dense3</RaceTraits>
+		<RaceTraits>Brutal3</RaceTraits>
+		<RaceTraits>Courageous2</RaceTraits>
+		<RaceTraits>Tough2</RaceTraits>
+		<RaceTraits>Resilient2</RaceTraits>
+		<RaceTraits>Likeable2</RaceTraits>
+		<RaceTraits>Observant1</RaceTraits>
+		<RaceTraits>Organized2</RaceTraits>
 
-        <RequiresHomeworld>true</RequiresHomeworld>
-        <HomeStarSystem>AlphaTucanaeSystem</HomeStarSystem>
+		<RequiresHomeworld>true</RequiresHomeworld>
+		<HomeStarSystem>AlphaTucanaeSystem</HomeStarSystem>
 
-        <StartingShips>SurveyStaticBlueprint</StartingShips>
-        <StartingShips>ScoutStaticBlueprint</StartingShips>
+		<StartingShips>SurveyStaticBlueprint</StartingShips>
+		<StartingShips>ScoutStaticBlueprint</StartingShips>
 
-        <TechTree>Iridium_Tree</TechTree>
-        <StartingTechs>HabitablePlanetColonization</StartingTechs>
+		<TechTree>Iridium_Tree</TechTree>
+		<StartingTechs>HabitablePlanetColonization</StartingTechs>
 
-        <ShipCallsign></ShipCallsign>
-        <!-- <ShipCallsign>FACTION_ZOQ-FOT-PIK_Callsign</ShipCallsign> -->
-        <LogoImage>ZoqFotPikLogo.png</LogoImage>
-        <LeaderThumbnail>ZoqFotPikPortrait.png</LeaderThumbnail>
-        <LeaderImageFG>zoqfotpik-000.png</LeaderImageFG>
-        <NewsRobotMovie_Approach>Iridium_Newsbot_Idle.bk2</NewsRobotMovie_Approach>
-        <NewsRobotMovie_Idle>Iridium_Newsbot_Idle.bk2</NewsRobotMovie_Idle>
-        <StartupImage></StartupImage>
-        <StartupTitle>FACTION_ZOQ-FOT-PIK_StartupTitle</StartupTitle>
-        <StartupDescription>FACTION_ZOQ-FOT-PIK_StartupDescription</StartupDescription>
-        <StartupTraitsDescription>FACTION_ZOQ-FOT-PIK_StartupTraitsDescription</StartupTraitsDescription>
-        <ConquestMovie>MillVic_IRR.bk2</ConquestMovie>
-        <MapColorDef>ZoqFotPikStarControl2MapColors</MapColorDef>
-        <UIColorDef>IridiumUIColors</UIColorDef>
-        <FactionMusicDef>ZoqFotPikMusic</FactionMusicDef>
+		<ShipCallsign></ShipCallsign>
+		<!-- <ShipCallsign>FACTION_ZOQ-FOT-PIK_Callsign</ShipCallsign> -->
+		<LogoImage>ZoqFotPikLogo.png</LogoImage>
+		<LeaderThumbnail>ZoqFotPikPortrait.png</LeaderThumbnail>
+		<LeaderImageFG>zoqfotpik-000.png</LeaderImageFG>
+		<NewsRobotMovie_Approach>Iridium_Newsbot_Idle.bk2</NewsRobotMovie_Approach>
+		<NewsRobotMovie_Idle>Iridium_Newsbot_Idle.bk2</NewsRobotMovie_Idle>
+		<StartupImage></StartupImage>
+		<StartupTitle>FACTION_ZOQ-FOT-PIK_StartupTitle</StartupTitle>
+		<StartupDescription>FACTION_ZOQ-FOT-PIK_StartupDescription</StartupDescription>
+		<StartupTraitsDescription>FACTION_ZOQ-FOT-PIK_StartupTraitsDescription</StartupTraitsDescription>
+		<ConquestMovie>MillVic_IRR.bk2</ConquestMovie>
+		<MapColorDef>ZoqFotPikStarControl2MapColors</MapColorDef>
+		<UIColorDef>IridiumUIColors</UIColorDef>
+		<FactionMusicDef>ZoqFotPikMusic</FactionMusicDef>
 
-        <Material1>GC3_Ship_Material_02</Material1>
-        <Material2>GC3_Red_Death_Material_02</Material2>
-        <Surface1>GC3_Default_Surface_01</Surface1>
-        <Surface2>GC3_Default_Surface_02</Surface2>
-        <Appearance>GC3_Altarian_Appearance_R</Appearance>
-        <ShipStyleSet>IconianShipStyleSet</ShipStyleSet>
+		<Material1>GC3_Ship_Material_02</Material1>
+		<Material2>GC3_Red_Death_Material_02</Material2>
+		<Surface1>GC3_Default_Surface_01</Surface1>
+		<Surface2>GC3_Default_Surface_02</Surface2>
+		<Appearance>GC3_Altarian_Appearance_R</Appearance>
+		<ShipStyleSet>IconianShipStyleSet</ShipStyleSet>
 
-        <CreditsInit>5000</CreditsInit>
-        <WarEnduranceInit>80</WarEnduranceInit>
-        <DefaultResistance>0.25</DefaultResistance>
-        <InfluenceTallyInit>10</InfluenceTallyInit>
-        <StartingColonyPopulation>10</StartingColonyPopulation>
-        <AICategoryWeight>
-          <Military>10</Military>
-          <Growth>22</Growth>
-          <Tech>15</Tech>
-          <Diplomacy>18</Diplomacy>
-          <Expansion>6</Expansion>
-          <Wealth>25</Wealth>
-          <Influence>8</Influence>
-          <Fortification>5</Fortification>
-        </AICategoryWeight>
-    </Faction>
+		<CreditsInit>5000</CreditsInit>
+		<WarEnduranceInit>80</WarEnduranceInit>
+		<DefaultResistance>0.25</DefaultResistance>
+		<InfluenceTallyInit>10</InfluenceTallyInit>
+		<StartingColonyPopulation>10</StartingColonyPopulation>
+		<AICategoryWeight>
+		  <Military>10</Military>
+		  <Growth>22</Growth>
+		  <Tech>15</Tech>
+		  <Diplomacy>18</Diplomacy>
+		  <Expansion>6</Expansion>
+		  <Wealth>25</Wealth>
+		  <Influence>8</Influence>
+		  <Fortification>5</Fortification>
+		</AICategoryWeight>
+	</Faction>
 </FactionList>

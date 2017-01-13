@@ -18,8 +18,11 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     <ListIcon>EnslavedCivilizationCapital_Icon.png</ListIcon>
     <ImprovementType>Special</ImprovementType>
     <PlacementType>Special</PlacementType>
+    <!-- Hopefully RelativeWeight makes AI build it instantly -->
+    <RelativeWeight>100</RelativeWeight>
     <IsIndestructible>true</IsIndestructible>
-    <IsColonyUnique>true</IsColonyUnique>
+    <IsPlayerWonder>true</IsPlayerWonder>
+    <DoNotShowNotificationsWhenBuilt>true</DoNotShowNotificationsWhenBuilt>
  
     <!-- Stats -->
  
@@ -29,7 +32,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Improvement</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>1</Value>
+      <Value>0</Value>
     </Stats>
  
     <Stats>
@@ -56,34 +59,22 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>10</Value>
+      <Value>5</Value>
     </Stats>
- 
-    
- 
+
     <!-- Slave shield effects: -->
     <!-- Colony -->
-    
-    <!-- "We are under a slave shield" -->
+
+    <!-- No influence beyond the planet -->
     <Stats>
-      <EffectType>GoodsAndServices</EffectType>
+      <EffectType>Influence</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>-0.2</Value>
+      <Value>-100</Value>
     </Stats>
-    <!-- "We are safe under a slave shield" -->
-    <Stats>
-      <EffectType>GoodsAndServices</EffectType>
-      <Target>
-        <TargetType>Colony</TargetType>
-      </Target>
-      <BonusType>Multiplier</BonusType>
-      <Value>0.1</Value>
-    </Stats>
- 
-    <!-- Loses all influence -->
+
     <Stats>
       <EffectType>InfluencePerTurn</EffectType>
       <Target>
@@ -93,19 +84,37 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       <Value>-100</Value>
     </Stats>
 
-    <!-- No interstellar tourism, dunno if it works -->
     <Stats>
-      <EffectType>CanTourism</EffectType>
+      <EffectType>InfluenceTally</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>-1</Value>
+      <Value>-100</Value>
+    </Stats>
+
+    <!-- No tourism income -->
+    <Stats>
+      <EffectType>Tourism</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-100</Value>
     </Stats>
 
     <!-- No possible interaction with the outside -->
     <Stats>
       <EffectType>SensorRange</EffectType>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-100</Value>
+    </Stats>
+
+    <Stats>
+      <EffectType>SensorPower</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
@@ -120,12 +129,12 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>1</Value>
+      <Value>100</Value>
     </Stats>
 
-    <!-- ... might as well try -->
+    <!-- Harder to research space technologies -->
     <Stats>
-      <EffectType>Military</EffectType>
+      <EffectType>ManufacturingOverflow</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
@@ -133,16 +142,17 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       <Value>-100</Value>
     </Stats>
 
+    <!-- Harder to research space technologies -->
     <Stats>
       <EffectType>Research</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Multiplier</BonusType>
-      <Value>-0.1</Value>
+      <Value>-0.25</Value>
     </Stats>
 
-    <!-- Deny gain from foreign trade routes -->
+    <!-- Deny gain from foreign trade routes, not listed in Colony stats, might not work -->
     <Stats>
       <EffectType>TradeRouteValueRaw</EffectType>
       <Target>
@@ -162,7 +172,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       <BonusType>Multiplier</BonusType>
       <Value>-100</Value>
     </Stats>
-    <!-- previous Stat only removes the additional cap added to stations, plain LogisticsCap still remains, lets remove all of it => makes it impossible for this faction to have fleets -->
+    <!-- previous Stat only removes the additional cap added to stations, plain LogisticsCap still remains, have to remove all of it => makes it impossible for this faction to have fleets though -->
     <Stats>
       <EffectType>LogisticsCap</EffectType>
       <Target>
@@ -171,6 +181,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       <BonusType>Multiplier</BonusType>
       <Value>-100</Value>
     </Stats>
+
     <!-- "Our homeworld is under a slave shield" -->
     <Stats>
       <EffectType>GoodsAndServices</EffectType>
@@ -190,61 +201,6 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       <BonusType>Multiplier</BonusType>
       <Value>-100</Value>
     </Stats>
-
-    <!-- Disable Ideology point gains as they allow to acquire ships, doesn't help much -->
-    <!-- <Stats>
-      <EffectType>CulturePerTurnBenevolent</EffectType>
-      <Target>
-        <TargetType>Faction</TargetType>
-      </Target>
-      <BonusType>Multiplier</BonusType>
-      <Value>-100</Value>
-    </Stats>
-    
-     <Stats>
-      <EffectType>CulturePerTurnNeutral</EffectType>
-      <Target>
-        <TargetType>Faction</TargetType>
-      </Target>
-      <BonusType>Multiplier</BonusType>
-      <Value>-100</Value>
-    </Stats>
-
-    <Stats>
-      <EffectType>CulturePerTurnMerciless</EffectType>
-      <Target>
-        <TargetType>Faction</TargetType>
-      </Target>
-      <BonusType>Multiplier</BonusType>
-      <Value>-100</Value>
-    </Stats>
-
-    <Stats>
-      <EffectType>CulturePerTurnBenevolent</EffectType>
-      <Target>
-        <TargetType>Faction</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>-100</Value>
-    </Stats>
- 
-     <Stats>
-      <EffectType>CulturePerTurnNeutral</EffectType>
-      <Target>
-        <TargetType>Faction</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>-100</Value>
-    </Stats>
-
-    <Stats>
-      <EffectType>CulturePerTurnMerciless</EffectType>
-      <Target>
-        <TargetType>Faction</TargetType>
-      </Target>
-      <BonusType>Flat</BonusType>
-      <Value>-100</Value>
-    </Stats> -->
 
     <!-- Leave them alone, AI -->
     <!-- Immunity to war so that they don't mess with AI behavior -->
@@ -332,16 +288,16 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       <Value>1</Value>
     </Stats>
 
-    <Stats>
+    <!-- <Stats>
       <EffectType>IsImmuneToInvasion6</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
       <Value>1</Value>
-    </Stats>
+    </Stats> -->
 
-    <Stats>
+    <!-- <Stats>
       <EffectType>IsImmuneToInvasion7</EffectType>
       <Target>
         <TargetType>Colony</TargetType>
@@ -447,7 +403,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       </Target>
       <BonusType>Flat</BonusType>
       <Value>1</Value>
-    </Stats>
+    </Stats> -->
     <!-- Invasion 19 left for the Kohr-Ah's Merciless Warfare invasion -->
 
 
@@ -471,42 +427,22 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
  
     <NeighborBonuses>
       <GiveBonusToNeighborType>Research</GiveBonusToNeighborType>
-      <NeighborBonusValue>1</NeighborBonusValue>
-    </NeighborBonuses>
- 
-    <NeighborBonuses>
-      <GiveBonusToNeighborType>Approval</GiveBonusToNeighborType>
-      <NeighborBonusValue>1</NeighborBonusValue>
+      <NeighborBonusValue>3</NeighborBonusValue>
     </NeighborBonuses>
  
     <NeighborBonuses>
       <GiveBonusToNeighborType>Population</GiveBonusToNeighborType>
-      <NeighborBonusValue>1</NeighborBonusValue>
+      <NeighborBonusValue>3</NeighborBonusValue>
     </NeighborBonuses>
  
     <NeighborBonuses>
       <GiveBonusToNeighborType>Manufacturing</GiveBonusToNeighborType>
-      <NeighborBonusValue>1</NeighborBonusValue>
-    </NeighborBonuses>
- 
-    <NeighborBonuses>
-      <GiveBonusToNeighborType>Influence</GiveBonusToNeighborType>
-      <NeighborBonusValue>1</NeighborBonusValue>
-    </NeighborBonuses>
- 
-    <NeighborBonuses>
-      <GiveBonusToNeighborType>Tourism</GiveBonusToNeighborType>
-      <NeighborBonusValue>1</NeighborBonusValue>
+      <NeighborBonusValue>3</NeighborBonusValue>
     </NeighborBonuses>
  
     <NeighborBonuses>
       <GiveBonusToNeighborType>Wealth</GiveBonusToNeighborType>
-      <NeighborBonusValue>1</NeighborBonusValue>
-    </NeighborBonuses>
- 
-    <NeighborBonuses>
-      <GiveBonusToNeighborType>Military</GiveBonusToNeighborType>
-      <NeighborBonusValue>1</NeighborBonusValue>
+      <NeighborBonusValue>3</NeighborBonusValue>
     </NeighborBonuses>
  
     <!-- Prerequisites -->
@@ -515,9 +451,20 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       <RaceTrait>
         <Option>UnderSlaveShield</Option>
       </RaceTrait>
+
+      <!-- Tech Age prerequisite added to avoid being able to build on other homeworlds -->
+      <TechAge>
+        <Option>AgeOfExpansion</Option>
+      </TechAge>
       <UpgradesFrom>CivilizationCapital</UpgradesFrom>
     </Prerequ>
- 
+
+    <!-- See above comment -->
+    <Preclusions>
+      <Stat>
+        <Option>IsHomeworld</Option>
+      </Stat>
+    </Preclusions>
   </Improvement>
 <!-- End Improvement -->
 
@@ -607,6 +554,59 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
         <Action>DoActionPlayerCancelAllRebellion</Action>
       </PerformAction>
     </Triggers>
+
+    <!-- Enables spending of Ideology points -->
+    <Triggers>
+      <OnEvent>OnStartTurn</OnEvent>
+      <CriteriaTurnNum>1</CriteriaTurnNum>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <Modifier>
+        <EffectType>CultureBenevolent</EffectType>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <Value>10000</Value>
+      </Modifier>
+    </Triggers>
+    <Triggers>
+      <OnEvent>OnStartTurn</OnEvent>
+      <CriteriaTurnNum>1</CriteriaTurnNum>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <Modifier>
+        <EffectType>CultureNeutral</EffectType>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <Value>10000</Value>
+      </Modifier>
+    </Triggers>
+    <Triggers>
+      <OnEvent>OnStartTurn</OnEvent>
+      <CriteriaTurnNum>1</CriteriaTurnNum>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <Lifetime>Instant</Lifetime>
+      <Modifier>
+        <EffectType>CultureMerciless</EffectType>
+        <Target>
+          <TargetType>Faction</TargetType>
+        </Target>
+        <BonusType>Flat</BonusType>
+        <Value>10000</Value>
+      </Modifier>
+    </Triggers>
  
     <!-- Level Effect Trigers -->
  
@@ -657,6 +657,8 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     <!-- Prerequisites -->
  
     <Prerequ>
+      <Unavailable>true</Unavailable>
+      
       <!-- <Techs>
         <Option>InternalSlaveShieldRemover</Option>
       </Techs> -->
@@ -666,7 +668,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       <TechAge>
         <Option>AgeOfWar</Option>
       </TechAge>
-      <UpgradesFrom>EnslavedCivilizationCapital</UpgradesFrom>
+      <!-- <UpgradesFrom>EnslavedCivilizationCapital</UpgradesFrom> -->
     </Prerequ>
  
   </Improvement>
@@ -1038,7 +1040,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
     <ListIcon>CivilizationCapital_Icon.png</ListIcon>
     <ImprovementType>Special</ImprovementType>
     <PlacementType>Special</PlacementType>
-    <IsIndestructible>true</IsIndestructible>
+    <IsIndestructible>false</IsIndestructible>
     <IsColonyUnique>true</IsColonyUnique>
  
     <!-- Stats -->
@@ -1382,6 +1384,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ImprovementDefs.xsd">
       <RaceTrait>
         <Option>Spathi</Option>
       </RaceTrait>
+      <!-- TODO: replace with Tech -->
       <TechAge>
         <Option>AgeOfAscension</Option>
       </TechAge>

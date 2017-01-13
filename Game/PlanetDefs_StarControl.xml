@@ -392,6 +392,18 @@ xsi:noNamespaceSchemaLocation="../Schema/PlanetDefs.xsd">
 		<!-- <PlanetTrait></PlanetTrait> -->
 		<ArtDefine>GenericWorld</ArtDefine>
 	</Planet>
+
+
+
+
+	<!-- Melnorme placeholder Home Solar System -->
+	<Planet>
+	  <InternalName>PlanetMelnorme</InternalName>
+	  <DisplayName>PlanetMelnormeName</DisplayName>
+	  <PlanetType>Habitable</PlanetType>
+	  <PlanetClass>1</PlanetClass>
+	  <ArtDefine>DesertWorld</ArtDefine>
+	</Planet>
 	
 
 

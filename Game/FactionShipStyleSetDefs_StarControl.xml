@@ -23,9 +23,10 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionShipStyleSetDefs.xsd">
   
     <ShipClass>UrQuanStartingColony</ShipClass>
     <ShipClass>UrQuanStartingConstructor</ShipClass>
-    <ShipClass>SaMatra</ShipClass>
+    <!-- <ShipClass>SaMatra</ShipClass> -->
 
     <ShipClass>DrenginStartingScout</ShipClass>
+    <!-- Temporarily can't colonize -->
     <!-- <ShipClass>DrenginStartingSurvey</ShipClass> -->
     <!-- <ShipClass>DrenginStartingColony</ShipClass> -->
     <ShipClass>ProtoTypeDrenginScout</ShipClass>
@@ -50,6 +51,7 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionShipStyleSetDefs.xsd">
     <ShipClass>DrenginGunboatL</ShipClass>
     <ShipClass>DrenginFury</ShipClass>
     <ShipClass>DrenginSurvey</ShipClass>
+    <ShipClass>HeavyDrenginSurvey</ShipClass>
     <ShipClass>DrenginCorvette</ShipClass>
     <ShipClass>ProtoTypeDrenginCorvette</ShipClass>
     <ShipClass>DrenginCorvetteL</ShipClass>
@@ -103,9 +105,10 @@ xsi:noNamespaceSchemaLocation="../Schema/FactionShipStyleSetDefs.xsd">
     <ShipClass>DrenginDreadnoughtP</ShipClass>
     <ShipClass>DrenginDreadnoughtD</ShipClass>
     <ShipClass>DrenginTitan</ShipClass>
+    <!-- Temporarily can't colonize -->
     <!-- <ShipClass>DrenginColony</ShipClass> -->
     <ShipClass>DrenginConstructor</ShipClass>
-    <!-- Temporary, can't invade -->
+    <!-- Temporarily can't invade -->
     <!-- <ShipClass>DrenginTransport</ShipClass> -->
     <!-- Can never trade -->
     <!-- <ShipClass>DrenginFreighter</ShipClass> -->

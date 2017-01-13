@@ -301,6 +301,43 @@ xsi:noNamespaceSchemaLocation="../Schema/StarSystemDefs.xsd">
       </OrbitLane>
     </StarSystem>
 
+    <!-- Melnorme placeholder Star System -->
+    <StarSystem>
+      <!-- Based on SystemPurple01 -->
+      <InternalName>MelnormeSystem</InternalName>
+      <Weight>50</Weight>
+      <OrbitLane>
+        <LaneType>Star</LaneType>
+        <Body>
+          <BodyType>UnaryStar</BodyType>
+          <BodyDef>PurpleStar</BodyDef>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>DeadZone</LaneType>
+        <MinPlanets>0</MinPlanets>
+        <MaxPlanets>1</MaxPlanets>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>HabitableZone</LaneType>
+        <Body>
+          <BodyType>Planet</BodyType>
+          <BodyDef>PlanetMelnorme</BodyDef>
+          <IsHomeworld>true</IsHomeworld>
+          <Position>8</Position>
+        </Body>
+      </OrbitLane>
+      <OrbitLane>
+        <LaneType>OuterZone</LaneType>
+        <MinPlanets>1</MinPlanets>
+        <MaxPlanets>2</MaxPlanets>
+        <Body>
+          <BodyType>Asteroid</BodyType>
+          <BodyDef>NormalAsteroid</BodyDef>
+        </Body>
+      </OrbitLane>
+    </StarSystem>
+
     <!-- Mycon Home Star System -->
     <StarSystem>
       <InternalName>EpsilonScorpiiSystem</InternalName>

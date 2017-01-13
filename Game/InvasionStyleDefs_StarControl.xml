@@ -29,7 +29,18 @@ xsi:noNamespaceSchemaLocation="../Schema/InvasionStyleDefs.xsd">
     <InvaderCasualtyMax>0.02</InvaderCasualtyMax>
     <DefenderCasualtyMin>1.0</DefenderCasualtyMin>
     <DefenderCasualtyMax>1.0</DefenderCasualtyMax>
-    <ImprovementDamageThreshold>0.95</ImprovementDamageThreshold>
-    <SurfaceDamageThreshold>0.1</SurfaceDamageThreshold>
+    <ImprovementDamageThreshold>1.0</ImprovementDamageThreshold>
+    <SurfaceDamageThreshold>1.0</SurfaceDamageThreshold>
+
+    <!-- TODO: Turn planet into an uninhabitable/dead one if possible -->
+<!--     <Trigger>
+      <OnEvent>OnConquerPlanet</OnEvent>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <PerformAction>
+        <Action>DestroyObject</Action>
+      </PerformAction>
+    </Trigger> -->
   </InvasionStyle>
 </InvasionStyleList>

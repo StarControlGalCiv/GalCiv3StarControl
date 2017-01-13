@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FactionMoviesBGList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/FactionMoviesBGDef.xsd">
+
+  <FactionMoviesBGDef>
+    <InternalName>KzerZaMoviesBG</InternalName>
+    <BGMovie_Large>KzerZaVideo.bk2</BGMovie_Large>
+    <BGMovie_Small>KzerZaVideo.bk2</BGMovie_Small>
+  </FactionMoviesBGDef>
+</FactionMoviesBGList>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<CultureTraitList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/CultureTraitDefs.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- CultureTraitDefs.xml -->
+ 
+<!-- Begin Trait -->
+ 
+  <Trait>
+    <InternalName>UrQuan</InternalName>
+    <DisplayName>OutreachTrait1_Name</DisplayName>
+    <!-- <ShortDescription>OutreachTrait1_ShortDec</ShortDescription>
+    <Description>OutreachTrait1_Dec</Description>
+    <Icon>Outreach1_Hot.png</Icon>
+    <DisabledIcon>Outreach1_Disabled.png</DisabledIcon> -->
+    <!-- <Disabled>true</Disabled> -->
+  </Trait>
+</CultureTraitList>

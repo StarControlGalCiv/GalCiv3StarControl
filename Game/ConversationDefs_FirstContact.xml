@@ -5,7 +5,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="../Schema/ConversationDefs.xsd">
 
   <ConversationTopicDef>
-    <InternalName>SandboxConversation_FirstContact</InternalName>
+    <InternalName>StarControl_FirstContact</InternalName>
     <TopicID>FirstContact</TopicID>
 
     <!-- Player Kzer-Za starts by being at war with Kohr-Ah -->
@@ -14,17 +14,43 @@ xsi:noNamespaceSchemaLocation="../Schema/ConversationDefs.xsd">
         <SpeakerFaction>FACTION_KOHR-AH</SpeakerFaction>
         <ListenerFaction>FACTION_KZER-ZA</ListenerFaction>
       </Requirements>
-      <PreferenceWeight>100</PreferenceWeight>
-      <FlavorText>FIRST_CONTACT_MAIN</FlavorText>
+      <PreferenceWeight>2147483647</PreferenceWeight>
+      <FlavorText>FIRST_CONTACT_MAIN_STAR_CONTROL</FlavorText>
       <Response>
         <InternalName>FirstContact_Response_Kohr_Kzer_War_Star_Control</InternalName>
         <ResponseFlavorText>DECLARE_WAR_RESPONSE_AGGRESSIVE</ResponseFlavorText>
         <SetDiplomaticState>Enemy</SetDiplomaticState>
+        <DiplomaticModifier>OnCrusade</DiplomaticModifier>
+        <DiplomaticModifier>Grudge</DiplomaticModifier>
+        <DiplomaticModifier>Grudge</DiplomaticModifier>
+        <DiplomaticModifier>Grudge</DiplomaticModifier>
+      </Response>
+    </ConversationDef>
+    
+    <!-- Player Kohr-Ah starts by being at war with Kzer-Za -->
+    <ConversationDef>
+      <Requirements>
+        <SpeakerFaction>FACTION_KZER-ZA</SpeakerFaction>
+        <ListenerFaction>FACTION_KOHR-AH</ListenerFaction>
+      </Requirements>
+      <PreferenceWeight>2147483647</PreferenceWeight>
+      <FlavorText>FIRST_CONTACT_MAIN_STAR_CONTROL</FlavorText>
+      <Response>
+        <InternalName>FirstContact_Response_Kohr_Kzer_War_Star_Control</InternalName>
+        <ResponseFlavorText>DECLARE_WAR_RESPONSE_AGGRESSIVE</ResponseFlavorText>
+        <SetDiplomaticState>Enemy</SetDiplomaticState>
+        <DiplomaticModifier>OnCrusade</DiplomaticModifier>
+        <DiplomaticModifier>UsedPlanetKiller</DiplomaticModifier>
+        <DiplomaticModifier>UsedPlanetKiller</DiplomaticModifier>
+        <DiplomaticModifier>UsedPlanetKiller</DiplomaticModifier>
+        <DiplomaticModifier>Grudge</DiplomaticModifier>
+        <DiplomaticModifier>Grudge</DiplomaticModifier>
+        <DiplomaticModifier>Grudge</DiplomaticModifier>
       </Response>
     </ConversationDef>
 
     <!-- Player Kohr-Ah starts by being at war with everyone -->
-    <ConversationDef>
+    <!-- <ConversationDef>
       <Requirements>
         <ListenerFaction>FACTION_KOHR-AH</ListenerFaction>
       </Requirements>
@@ -35,7 +61,7 @@ xsi:noNamespaceSchemaLocation="../Schema/ConversationDefs.xsd">
         <ResponseFlavorText>DECLARE_WAR_RESPONSE_AGGRESSIVE</ResponseFlavorText>
         <SetDiplomaticState>Enemy</SetDiplomaticState>
       </Response>
-    </ConversationDef>
+    </ConversationDef> -->
 
     <!-- <ConversationDef>
       <Requirements>
@@ -50,6 +76,45 @@ xsi:noNamespaceSchemaLocation="../Schema/ConversationDefs.xsd">
       </Response>
     </ConversationDef> -->
 
+    <!-- <ConversationDef>
+      <FlavorText>FIRST_CONTACT_MAIN_STAR_CONTROL</FlavorText>
+      <Response>
+        <InternalName>StarControl_FirstContact_Response_1</InternalName>
+        <ResponseFlavorText>FIRST_CONTACT_RESPONSE_PEACEFUL_STAR_CONTROL</ResponseFlavorText>
+      </Response>
+    </ConversationDef>
+  </ConversationTopicDef> -->
+
+    <ConversationDef>
+      <Requirements>
+        <SpeakerFaction>FACTION_KZER-ZA</SpeakerFaction>
+      </Requirements>
+      <PreferenceWeight>2147483647</PreferenceWeight>
+      <FlavorText>FIRST_CONTACT_MAIN_STAR_CONTROL</FlavorText>
+      <!-- <DiplomacyMovieType>Happy</DiplomacyMovieType> -->
+      <!-- <OverrideMovie>dre_neutralidle.bk2</OverrideMovie> -->
+      <Response>
+        <InternalName>FirstContact_Response_1</InternalName>
+        <ResponseFlavorText>FIRST_CONTACT_RESPONSE_PEACEFUL_STAR_CONTROL</ResponseFlavorText>
+      </Response>
+    </ConversationDef>
+
+    <ConversationDef>
+      <Requirements>
+        <SpeakerFaction>FACTION_KOHR-AH</SpeakerFaction>
+      </Requirements>
+      <PreferenceWeight>2147483647</PreferenceWeight>
+      <FlavorText>FIRST_CONTACT_MAIN_STAR_CONTROL</FlavorText>
+      <!-- <DiplomacyMovieType>Happy</DiplomacyMovieType> -->
+      <Response>
+        <InternalName>FirstContact_Response_1</InternalName>
+        <ResponseFlavorText>FIRST_CONTACT_RESPONSE_PEACEFUL_STAR_CONTROL</ResponseFlavorText>
+      </Response>
+    </ConversationDef>
+
+  <!-- <ConversationTopicDef>
+    <InternalName>SandboxConversation_FirstContact</InternalName>
+    <TopicID>FirstContact</TopicID> -->
     <ConversationDef>
       <FlavorText>FIRST_CONTACT_MAIN</FlavorText>
       <Response>
@@ -79,5 +144,4 @@ xsi:noNamespaceSchemaLocation="../Schema/ConversationDefs.xsd">
       </Response>
     </ConversationDef>
   </ConversationTopicDef>
-
 </ConversationTopicDefs>

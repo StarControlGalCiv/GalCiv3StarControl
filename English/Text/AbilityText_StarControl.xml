@@ -23,6 +23,39 @@ xsi:noNamespaceSchemaLocation="../../Schema/Lib/StringTable.xsd">
 
 <!-- Abilities Traits -->
   <StringTable>
+    <Label>Homesick_Name</Label>
+    <String>Homesick</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Homesick_ShortName</Label>
+    <String>Homesick</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Homesick_Desc</Label>
+    <String>This race avoids colonizing planets in this sector of space.</String>
+  </StringTable>
+
+
+<!-- Abilities Traits -->
+  <StringTable>
+    <Label>Spacefaring_Name</Label>
+    <String>Able to build Shipyards from the start.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Spacefaring_ShortName</Label>
+    <String>Able to build Shipyards from the start.</String>
+  </StringTable>
+ 
+  <StringTable>
+    <Label>Spacefaring_Desc</Label>
+    <String>Able to build Shipyards from the start.</String>
+  </StringTable>
+
+<!-- Abilities Traits -->
+  <StringTable>
     <Label>KzerZa_Name</Label>
     <String>Advanced</String>
   </StringTable>

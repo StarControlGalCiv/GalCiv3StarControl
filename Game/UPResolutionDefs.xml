@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<UPResolutionList
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="../Schema/UPResolutionDefs.xsd">
+<!-- Created with the Gal Civ 3 Editor -->
+<!-- UPResolutionDefs.xml -->
+ 
+<!-- Begin Resolution -->
+ 
+  <UPResolution>
+    <InternalName>ElectChairmanRes</InternalName>
+    <DisplayName>ElectChairmanRes_Name</DisplayName>
+    <Description>ElectChairmanRes_Dec</Description>
+    <Question>ElectChairmanRes_Question</Question>
+    <VoteType>
+      <VoteType>PickFaction</VoteType>
+    </VoteType>
+
+    <!-- Ur-Quan races defy UP as early as possible -->
+    <IdeologyModifier>
+      <Ideology>UrQuan</Ideology>
+      <VoteInfluence>-1000000</VoteInfluence>
+    </IdeologyModifier>
+
+    <!-- <PersonalityTraitModifier>
+      <PersonalityTrait>Xenophobic</PersonalityTrait>
+      <VoteInfluence>-1000000</VoteInfluence>
+    </PersonalityTraitModifier> -->
+
+    <SpecialValue>
+       <Special>PercentRequiredToWin</Special>
+       <ValueParam>0</ValueParam>
+    </SpecialValue>
+    <TurnDuration>104</TurnDuration>
+    <Prerequ>
+      <Techs>
+        <Option>TechTree</Option>
+      </Techs>
+    </Prerequ>
+  </UPResolution>
+ 
+<!-- Begin Resolution -->
+ 
+  <UPResolution>
+    <InternalName>UnitedPlanetsHeadquarters</InternalName>
+    <DisplayName>UnitedPlanetsHeadquarters_Name</DisplayName>
+    <Description>UnitedPlanetsHeadquarters_Dec</Description>
+    <Question>UnitedPlanetsHeadquarters_Question</Question>
+    <VoteType>
+      <VoteType>PickFaction</VoteType>
+    </VoteType>
+    
+    <!-- Ur-Quan races defy UP as early as possible -->
+    <IdeologyModifier>
+      <Ideology>UrQuan</Ideology>
+      <VoteInfluence>-1000000</VoteInfluence>
+    </IdeologyModifier>
+
+    <Behavior>UnitedPlanetsHQ</Behavior>
+    <SpecialValue>
+       <Special>PercentRequiredToWin</Special>
+       <ValueParam>0</ValueParam>
+    </SpecialValue>
+    <TurnDuration>104</TurnDuration>
+    <MeetingCooldownAfter>3</MeetingCooldownAfter>
+    <Modifier>
+      <EffectType>CreditsPerTurn</EffectType>
+      <Scope>UPResolutionGalaxy</Scope>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.01</Value>
+    </Modifier>
+    <Modifier>
+      <EffectType>Influence</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.5</Value>
+    </Modifier>
+    <Prerequ>
+      <Techs>
+        <Option>TechTree</Option>
+      </Techs>
+    </Prerequ>
+  </UPResolution>
+ 
+<!-- Begin Resolution -->
+ 
+  <UPResolution>
+    <InternalName>UnitedPlanetsTourismBoard</InternalName>
+    <DisplayName>UnitedPlanetsTourismBoard_Name</DisplayName>
+    <Description>UnitedPlanetsTourismBoard_Dec</Description>
+    <Question>UnitedPlanetsTourismBoard_Question</Question>
+    <VoteType>
+      <VoteType>YesNo</VoteType>
+    </VoteType>
+    <PersonalityTraitModifier>
+      <PersonalityTrait>Expansionist</PersonalityTrait>
+      <VoteInfluence>10</VoteInfluence>
+    </PersonalityTraitModifier>
+    <PersonalityTraitModifier>
+      <PersonalityTrait>Xenophobic</PersonalityTrait>
+      <VoteInfluence>-10</VoteInfluence>
+    </PersonalityTraitModifier>
+    <MeetingCooldownAfter>10</MeetingCooldownAfter>
+    <Modifier>
+      <EffectType>CreditsPerTurn</EffectType>
+      <Scope>UPResolutionGalaxy</Scope>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.02</Value>
+    </Modifier>
+    <Modifier>
+      <EffectType>Tourism</EffectType>
+      <Scope>UPResolutionGalaxy</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>1</Value>
+    </Modifier>
+    <Prerequ>
+      <Techs>
+        <Option>UnitedPlanetsClout</Option>
+      </Techs>
+    </Prerequ>
+  </UPResolution>
+ 
+<!-- Begin Resolution -->
+ 
+  <UPResolution>
+    <InternalName>GalaxyUnitedCelebration</InternalName>
+    <DisplayName>GalaxyUnitedCelebration_Name</DisplayName>
+    <Description>GalaxyUnitedCelebration_Dec</Description>
+    <Question>GalaxyUnitedCelebration_Question</Question>
+    <VoteType>
+      <VoteType>YesNo</VoteType>
+    </VoteType>
+    <PersonalityTraitModifier>
+      <PersonalityTrait>Cruel</PersonalityTrait>
+      <VoteInfluence>-10</VoteInfluence>
+    </PersonalityTraitModifier>
+    <PersonalityTraitModifier>
+      <PersonalityTrait>Spiritual</PersonalityTrait>
+      <VoteInfluence>10</VoteInfluence>
+    </PersonalityTraitModifier>
+    <TurnDuration>52</TurnDuration>
+    <MeetingCooldownAfter>10</MeetingCooldownAfter>
+    <Modifier>
+      <EffectType>CreditsPerTurn</EffectType>
+      <Scope>UPResolutionGalaxy</Scope>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.03</Value>
+    </Modifier>
+    <Modifier>
+      <EffectType>GoodsAndServices</EffectType>
+      <Scope>UPResolutionGalaxy</Scope>
+      <Target>
+        <TargetType>Colony</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.1</Value>
+    </Modifier>
+    <Prerequ>
+      <Techs>
+        <Option>TechTree</Option>
+      </Techs>
+    </Prerequ>
+  </UPResolution>
+ 
+<!-- Begin Resolution -->
+ 
+  <UPResolution>
+    <InternalName>EconomicRedistributionAct</InternalName>
+    <DisplayName>EconomicRedistributionAct_Name</DisplayName>
+    <Description>EconomicRedistributionAct_Dec</Description>
+    <Question>EconomicRedistributionAct_Question</Question>
+    <VoteType>
+      <VoteType>YesNo</VoteType>
+    </VoteType>
+    <PersonalityTraitModifier>
+      <PersonalityTrait>Greedy</PersonalityTrait>
+      <VoteInfluence>-10</VoteInfluence>
+    </PersonalityTraitModifier>
+    <PersonalityTraitModifier>
+      <PersonalityTrait>Opportunistic</PersonalityTrait>
+      <VoteInfluence>10</VoteInfluence>
+    </PersonalityTraitModifier>
+    <MeetingCooldownAfter>10</MeetingCooldownAfter>
+    <Trigger>
+      <OnEvent>OnUPResolutionPassed</OnEvent>
+      <Lifetime>Instant</Lifetime>
+      <PerformAction>
+        <Action>UPResolutionRedistributeWealth</Action>
+        <ValueParam>0.25</ValueParam>
+        <StringParam>RichestPlayer</StringParam>
+      </PerformAction>
+    </Trigger>
+    <Prerequ>
+      <Techs>
+        <Option>TechTree</Option>
+      </Techs>
+    </Prerequ>
+  </UPResolution>
+ 
+<!-- Begin Resolution -->
+ 
+  <UPResolution>
+    <InternalName>GalacticPeace</InternalName>
+    <DisplayName>GalacticPeace_Name</DisplayName>
+    <Description>GalacticPeace_Dec</Description>
+    <Question>GalacticPeace_Question</Question>
+    <VoteType>
+      <VoteType>YesNo</VoteType>
+    </VoteType>
+    <PersonalityTraitModifier>
+      <PersonalityTrait>Aggressive</PersonalityTrait>
+      <VoteInfluence>-10</VoteInfluence>
+    </PersonalityTraitModifier>
+    <PersonalityTraitModifier>
+      <PersonalityTrait>Spiritual</PersonalityTrait>
+      <VoteInfluence>10</VoteInfluence>
+    </PersonalityTraitModifier>
+    <Behavior>BlockDeclaringWar</Behavior>
+    <TurnDuration>24</TurnDuration>
+    <MeetingCooldownAfter>10</MeetingCooldownAfter>
+    <Modifier>
+      <EffectType>CreditsPerTurn</EffectType>
+      <Scope>UPResolutionGalaxy</Scope>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.01</Value>
+    </Modifier>
+    <Trigger>
+      <OnEvent>OnUPResolutionPassed</OnEvent>
+      <Lifetime>Instant</Lifetime>
+      <PerformAction>
+        <Action>UPResolutionCancelAllWars</Action>
+      </PerformAction>
+    </Trigger>
+    <Prerequ>
+      <Techs>
+        <Option>TechTree</Option>
+      </Techs>
+    </Prerequ>
+  </UPResolution>
+ 
+<!-- Begin Resolution -->
+ 
+  <UPResolution>
+    <InternalName>InterstellarWarFine</InternalName>
+    <DisplayName>InterstellarWarFine_Name</DisplayName>
+    <Description>InterstellarWarFine_Dec</Description>
+    <Question>InterstellarWarFine_Question</Question>
+    <VoteType>
+      <VoteType>YesNo</VoteType>
+    </VoteType>
+    <PersonalityTraitModifier>
+      <PersonalityTrait>Aggressive</PersonalityTrait>
+      <VoteInfluence>-10</VoteInfluence>
+    </PersonalityTraitModifier>
+    <PersonalityTraitModifier>
+      <PersonalityTrait>Greedy</PersonalityTrait>
+      <VoteInfluence>10</VoteInfluence>
+    </PersonalityTraitModifier>
+    <TurnDuration>0</TurnDuration>
+    <MeetingCooldownAfter>10</MeetingCooldownAfter>
+    <Trigger>
+      <OnEvent>OnUPResolutionPassed</OnEvent>
+      <Lifetime>Instant</Lifetime>
+      <PerformAction>
+        <Action>UPResolutionRedistributeWealth</Action>
+        <ValueParam>0.25</ValueParam>
+        <StringParam>WarringPlayers</StringParam>
+      </PerformAction>
+    </Trigger>
+    <Prerequ>
+      <Techs>
+        <Option>UnitedPlanetsLobbyist</Option>
+      </Techs>
+    </Prerequ>
+  </UPResolution>
+ 
+<!-- Begin Resolution -->
+ 
+  <UPResolution>
+    <InternalName>GalacticGamesFund</InternalName>
+    <DisplayName>GalacticGamesFund_Name</DisplayName>
+    <Description>GalacticGamesFund_Dec</Description>
+    <Question>GalacticGamesFund_Question</Question>
+    <VoteType>
+      <VoteType>PickFaction</VoteType>
+    </VoteType>
+    <TurnDuration>24</TurnDuration>
+    <MeetingCooldownAfter>10</MeetingCooldownAfter>
+    <Modifier>
+      <EffectType>CreditsPerTurn</EffectType>
+      <Scope>UPResolutionGalaxy</Scope>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.03</Value>
+    </Modifier>
+    <Modifier>
+      <EffectType>CreditsPerTurn</EffectType>
+      <Scope>Global</Scope>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.15</Value>
+    </Modifier>
+    <Prerequ>
+      <Techs>
+        <Option>UnitedPlanetsLobbyist</Option>
+      </Techs>
+    </Prerequ>
+  </UPResolution>
+ 
+<!-- Begin Resolution -->
+ 
+  <UPResolution>
+    <InternalName>CulturalPreservationCouncil</InternalName>
+    <DisplayName>CulturalPreservationCouncil_Name</DisplayName>
+    <Description>CulturalPreservationCouncil_Dec</Description>
+    <Question>CulturalPreservationCouncil_Question</Question>
+    <VoteType>
+      <VoteType>YesNo</VoteType>
+    </VoteType>
+    <PersonalityTraitModifier>
+      <PersonalityTrait>Expansionist</PersonalityTrait>
+      <VoteInfluence>10</VoteInfluence>
+    </PersonalityTraitModifier>
+    <PersonalityTraitModifier>
+      <PersonalityTrait>Spiritual</PersonalityTrait>
+      <VoteInfluence>-10</VoteInfluence>
+    </PersonalityTraitModifier>
+    <Behavior>BlockRebellionStatus</Behavior>
+    <Modifier>
+      <EffectType>CreditsPerTurn</EffectType>
+      <Scope>UPResolutionGalaxy</Scope>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.1</Value>
+    </Modifier>
+    <Trigger>
+      <OnEvent>OnUPResolutionPassed</OnEvent>
+      <Lifetime>Instant</Lifetime>
+      <PerformAction>
+        <Action>UPResolutionCancelAllRebellion</Action>
+      </PerformAction>
+    </Trigger>
+    <Prerequ>
+      <Techs>
+        <Option>UnitedPlanetsLobbyist</Option>
+      </Techs>
+    </Prerequ>
+  </UPResolution>
+ 
+<!-- Begin Resolution -->
+ 
+  <UPResolution>
+    <InternalName>InterstellarPatentBoard</InternalName>
+    <DisplayName>InterstellarPatentBoard_Name</DisplayName>
+    <Description>InterstellarPatentBoard_Dec</Description>
+    <Question>InterstellarPatentBoard_Question</Question>
+    <VoteType>
+      <VoteType>YesNo</VoteType>
+    </VoteType>
+    <PersonalityTraitModifier>
+      <PersonalityTrait>Opportunistic</PersonalityTrait>
+      <VoteInfluence>-10</VoteInfluence>
+    </PersonalityTraitModifier>
+    <PersonalityTraitModifier>
+      <PersonalityTrait>Scientific</PersonalityTrait>
+      <VoteInfluence>10</VoteInfluence>
+    </PersonalityTraitModifier>
+    <Behavior>PatentBoard</Behavior>
+    <SpecialValue>
+       <Special>PercentOfResearchCost</Special>
+       <ValueParam>0.25</ValueParam>
+    </SpecialValue>
+    <Modifier>
+      <EffectType>CreditsPerTurn</EffectType>
+      <Scope>UPResolutionGalaxy</Scope>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.01</Value>
+    </Modifier>
+    <Prerequ>
+      <Techs>
+        <Option>UnitedPlanetsLobbyist</Option>
+      </Techs>
+    </Prerequ>
+  </UPResolution>
+ 
+<!-- Begin Resolution -->
+ 
+  <UPResolution>
+    <InternalName>FreedomOfTechnologyAct</InternalName>
+    <DisplayName>FreedomOfTechnologyAct_Name</DisplayName>
+    <Description>FreedomOfTechnologyAct_Dec</Description>
+    <Question>FreedomOfTechnologyAct_Question</Question>
+    <VoteType>
+      <VoteType>YesNo</VoteType>
+    </VoteType>
+    <PersonalityTraitModifier>
+      <PersonalityTrait>Scientific</PersonalityTrait>
+      <VoteInfluence>-10</VoteInfluence>
+    </PersonalityTraitModifier>
+    <PersonalityTraitModifier>
+      <PersonalityTrait>Trader</PersonalityTrait>
+      <VoteInfluence>10</VoteInfluence>
+    </PersonalityTraitModifier>
+    <TurnDuration>1</TurnDuration>
+    <Trigger>
+      <OnEvent>OnUPResolutionPassed</OnEvent>
+      <Lifetime>Instant</Lifetime>
+      <PerformAction>
+        <Action>UPResolutionRedistributeTech</Action>
+      </PerformAction>
+    </Trigger>
+    <Prerequ>
+      <Techs>
+        <Option>UnitedPlanetsLobbyist</Option>
+      </Techs>
+    </Prerequ>
+  </UPResolution>
+ 
+<!-- Begin Resolution -->
+ 
+  <UPResolution>
+    <InternalName>UnitedPlanetsResearchFoundation</InternalName>
+    <DisplayName>UnitedPlanetsResearchFoundation_Name</DisplayName>
+    <Description>UnitedPlanetsResearchFoundation_Dec</Description>
+    <Question>UnitedPlanetsResearchFoundation_Question</Question>
+    <VoteType>
+      <VoteType>YesNo</VoteType>
+    </VoteType>
+    <PersonalityTraitModifier>
+      <PersonalityTrait>Scientific</PersonalityTrait>
+      <VoteInfluence>10</VoteInfluence>
+    </PersonalityTraitModifier>
+    <PersonalityTraitModifier>
+      <PersonalityTrait>Xenophobic</PersonalityTrait>
+      <VoteInfluence>-10</VoteInfluence>
+    </PersonalityTraitModifier>
+    <Behavior>ResearchDiscount</Behavior>
+    <SpecialValue>
+       <Special>ResearchTag</Special>
+       <ValueParam>0.25</ValueParam>
+       <StringParam>NonMilitary</StringParam>
+    </SpecialValue>
+    <Modifier>
+      <EffectType>CreditsPerTurn</EffectType>
+      <Scope>UPResolutionGalaxy</Scope>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.05</Value>
+    </Modifier>
+    <Prerequ>
+      <Techs>
+        <Option>UnitedPlanetsLobbyist</Option>
+      </Techs>
+    </Prerequ>
+  </UPResolution>
+ 
+<!-- Begin Resolution -->
+ 
+  <UPResolution>
+    <InternalName>TechnologyExploitationPreventionAct</InternalName>
+    <DisplayName>TechnologyExploitationPreventionAct_Name</DisplayName>
+    <Description>TechnologyExploitationPreventionAct_Dec</Description>
+    <Question>TechnologyExploitationPreventionAct_Question</Question>
+    <VoteType>
+      <VoteType>YesNo</VoteType>
+    </VoteType>
+    <PersonalityTraitModifier>
+      <PersonalityTrait>Greedy</PersonalityTrait>
+      <VoteInfluence>10</VoteInfluence>
+    </PersonalityTraitModifier>
+    <PersonalityTraitModifier>
+      <PersonalityTrait>Trader</PersonalityTrait>
+      <VoteInfluence>-10</VoteInfluence>
+    </PersonalityTraitModifier>
+    <Behavior>BlockTechBrokering</Behavior>
+    <Modifier>
+      <EffectType>CreditsPerTurn</EffectType>
+      <Scope>UPResolutionGalaxy</Scope>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.01</Value>
+    </Modifier>
+    <Prerequ>
+      <Techs>
+        <Option>UnitedPlanetsClout</Option>
+      </Techs>
+    </Prerequ>
+  </UPResolution>
+ 
+<!-- Begin Resolution -->
+ 
+  <UPResolution>
+    <InternalName>TechnologyNonInterferenceAct</InternalName>
+    <DisplayName>TechnologyNonInterferenceAct_Name</DisplayName>
+    <Description>TechnologyNonInterferenceAct_Dec</Description>
+    <Question>TechnologyNonInterferenceAct_Question</Question>
+    <VoteType>
+      <VoteType>YesNo</VoteType>
+    </VoteType>
+    <PersonalityTraitModifier>
+      <PersonalityTrait>Scientific</PersonalityTrait>
+      <VoteInfluence>-10</VoteInfluence>
+    </PersonalityTraitModifier>
+    <PersonalityTraitModifier>
+      <PersonalityTrait>Spiritual</PersonalityTrait>
+      <VoteInfluence>10</VoteInfluence>
+    </PersonalityTraitModifier>
+    <Behavior>BlockTechTrading</Behavior>
+    <Modifier>
+      <EffectType>CreditsPerTurn</EffectType>
+      <Scope>UPResolutionGalaxy</Scope>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.01</Value>
+    </Modifier>
+    <Prerequ>
+      <Techs>
+        <Option>UnitedPlanetsClout</Option>
+      </Techs>
+    </Prerequ>
+  </UPResolution>
+ 
+<!-- Begin Resolution -->
+ 
+  <UPResolution>
+    <InternalName>EnvironmentalProtectionAct</InternalName>
+    <DisplayName>EnvironmentalProtectionAct_Name</DisplayName>
+    <Description>EnvironmentalProtectionAct_Dec</Description>
+    <Question>EnvironmentalProtectionAct_Question</Question>
+    <VoteType>
+      <VoteType>YesNo</VoteType>
+    </VoteType>
+    <PersonalityTraitModifier>
+      <PersonalityTrait>Expansionist</PersonalityTrait>
+      <VoteInfluence>-10</VoteInfluence>
+    </PersonalityTraitModifier>
+    <PersonalityTraitModifier>
+      <PersonalityTrait>Xenophobic</PersonalityTrait>
+      <VoteInfluence>10</VoteInfluence>
+    </PersonalityTraitModifier>
+    <Behavior>BlockColonization</Behavior>
+    <Prerequ>
+      <Techs>
+        <Option>UnitedPlanetsClout</Option>
+      </Techs>
+    </Prerequ>
+  </UPResolution>
+ 
+<!-- Begin Resolution -->
+ 
+  <UPResolution>
+    <InternalName>DemilitarizationTreaty</InternalName>
+    <DisplayName>DemilitarizationTreaty_Name</DisplayName>
+    <Description>DemilitarizationTreaty_Dec</Description>
+    <Question>DemilitarizationTreaty_Question</Question>
+    <VoteType>
+      <VoteType>YesNo</VoteType>
+    </VoteType>
+    <PersonalityTraitModifier>
+      <PersonalityTrait>Aggressive</PersonalityTrait>
+      <VoteInfluence>-10</VoteInfluence>
+    </PersonalityTraitModifier>
+    <PersonalityTraitModifier>
+      <PersonalityTrait>Scientific</PersonalityTrait>
+      <VoteInfluence>10</VoteInfluence>
+    </PersonalityTraitModifier>
+    <Behavior>BlockResearch</Behavior>
+    <SpecialValue>
+       <Special>ResearchTag</Special>
+       <StringParam>Weapon</StringParam>
+    </SpecialValue>
+    <TurnDuration>52</TurnDuration>
+    <Modifier>
+      <EffectType>CreditsPerTurn</EffectType>
+      <Scope>UPResolutionGalaxy</Scope>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.03</Value>
+    </Modifier>
+    <Trigger>
+      <OnEvent>OnUPResolutionPassed</OnEvent>
+      <Lifetime>Instant</Lifetime>
+      <PerformAction>
+        <Action>UPResolutionCancelResearch</Action>
+        <StringParam>Weapon</StringParam>
+      </PerformAction>
+    </Trigger>
+    <Prerequ>
+      <Techs>
+        <Option>UnitedPlanetsClout</Option>
+      </Techs>
+    </Prerequ>
+  </UPResolution>
+ 
+<!-- Begin Resolution -->
+ 
+  <UPResolution>
+    <InternalName>InterstellarTradeStimulusAct</InternalName>
+    <DisplayName>InterstellarTradeStimulusAct_Name</DisplayName>
+    <Description>InterstellarTradeStimulusAct_Dec</Description>
+    <Question>InterstellarTradeStimulusAct_Question</Question>
+    <VoteType>
+      <VoteType>YesNo</VoteType>
+    </VoteType>
+    <PersonalityTraitModifier>
+      <PersonalityTrait>Trader</PersonalityTrait>
+      <VoteInfluence>10</VoteInfluence>
+    </PersonalityTraitModifier>
+    <PersonalityTraitModifier>
+      <PersonalityTrait>Xenophobic</PersonalityTrait>
+      <VoteInfluence>-10</VoteInfluence>
+    </PersonalityTraitModifier>
+    <Modifier>
+      <EffectType>CreditsPerTurn</EffectType>
+      <Scope>UPResolutionGalaxy</Scope>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.03</Value>
+    </Modifier>
+    <Modifier>
+      <EffectType>TradeLicensesMax</EffectType>
+      <Scope>UPResolutionGalaxy</Scope>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Flat</BonusType>
+      <Value>2</Value>
+    </Modifier>
+    <Prerequ>
+      <Techs>
+        <Option>UnitedPlanetsClout</Option>
+      </Techs>
+    </Prerequ>
+  </UPResolution>
+ 
+<!-- Begin Resolution -->
+ 
+  <UPResolution>
+    <InternalName>DiversityInTradeAct</InternalName>
+    <DisplayName>DiversityInTradeAct_Name</DisplayName>
+    <Description>DiversityInTradeAct_Dec</Description>
+    <Question>DiversityInTradeAct_Question</Question>
+    <VoteType>
+      <VoteType>YesNo</VoteType>
+    </VoteType>
+    <PersonalityTraitModifier>
+      <PersonalityTrait>Trader</PersonalityTrait>
+      <VoteInfluence>10</VoteInfluence>
+    </PersonalityTraitModifier>
+    <PersonalityTraitModifier>
+      <PersonalityTrait>Xenophobic</PersonalityTrait>
+      <VoteInfluence>-10</VoteInfluence>
+    </PersonalityTraitModifier>
+    <Modifier>
+      <EffectType>CreditsPerTurn</EffectType>
+      <Scope>UPResolutionGalaxy</Scope>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.03</Value>
+    </Modifier>
+    <Modifier>
+      <EffectType>TradeRouteValueRaw</EffectType>
+      <Scope>UPResolutionGalaxy</Scope>
+      <Target>
+        <TargetType>TradeRoute</TargetType>
+     <TargetQualifier>TradingWithAllUPMembersNotAtWar</TargetQualifier>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>0.5</Value>
+    </Modifier>
+    <Prerequ>
+      <Techs>
+        <Option>UnitedPlanetsClout</Option>
+      </Techs>
+    </Prerequ>
+  </UPResolution>
+ 
+<!-- Begin Resolution -->
+ 
+  <UPResolution>
+    <InternalName>GalacticDomainAct</InternalName>
+    <DisplayName>GalacticDomainAct_Name</DisplayName>
+    <Description>GalacticDomainAct_Dec</Description>
+    <Question>GalacticDomainAct_Question</Question>
+    <VoteType>
+      <VoteType>YesNo</VoteType>
+    </VoteType>
+    <PersonalityTraitModifier>
+      <PersonalityTrait>Aggressive</PersonalityTrait>
+      <VoteInfluence>10</VoteInfluence>
+    </PersonalityTraitModifier>
+    <PersonalityTraitModifier>
+      <PersonalityTrait>Expansionist</PersonalityTrait>
+      <VoteInfluence>-10</VoteInfluence>
+    </PersonalityTraitModifier>
+    <Behavior>BlockColonizationInOtherPlayerZOC</Behavior>
+    <TurnDuration>20</TurnDuration>
+    <Prerequ>
+      <Techs>
+        <Option>TechTree</Option>
+      </Techs>
+    </Prerequ>
+  </UPResolution>
+ 
+<!-- Begin Resolution -->
+ 
+  <UPResolution>
+    <InternalName>DefiantRaceRemoval</InternalName>
+    <DisplayName>DefiantRaceRemoval_Name</DisplayName>
+    <Description>DefiantRaceRemoval_Dec</Description>
+    <Question>DefiantRaceRemoval_Question</Question>
+    <VoteType>
+      <VoteType>YesNo</VoteType>
+    </VoteType>
+    <Behavior>RemoveDefiantRaces</Behavior>
+    <Modifier>
+      <EffectType>CreditsPerTurn</EffectType>
+      <Scope>UPResolutionGalaxy</Scope>
+      <Target>
+        <TargetType>Faction</TargetType>
+      </Target>
+      <BonusType>Multiplier</BonusType>
+      <Value>-0.01</Value>
+    </Modifier>
+    <Trigger>
+      <OnEvent>OnUPResolutionPassed</OnEvent>
+      <Lifetime>Instant</Lifetime>
+      <PerformAction>
+        <Action>UPResolutionDefiantRaceRemoval</Action>
+      </PerformAction>
+    </Trigger>
+    <Prerequ>
+      <Techs>
+        <Option>UnitedPlanetsClout</Option>
+      </Techs>
+    </Prerequ>
+  </UPResolution>
+</UPResolutionList>
