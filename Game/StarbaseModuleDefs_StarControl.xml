@@ -6,6 +6,7 @@ xsi:noNamespaceSchemaLocation="../Schema/StarbaseModuleDefs.xsd">
 <!-- StarbaseModuleDefs.xml -->
  
 <!-- Module -->
+<!-- FIXME: Starbase Teleportation Module that teleports docked fleet -->
   <!-- Core module -->
   <StarbaseModule>
     <InternalName>QuasiSpacePortalModule</InternalName>
@@ -21,25 +22,16 @@ xsi:noNamespaceSchemaLocation="../Schema/StarbaseModuleDefs.xsd">
         <TargetType>StarbaseModule</TargetType>
       </Target>
       <BonusType>Flat</BonusType>
-      <Value>2</Value>
+      <Value>1</Value>
+      <!-- <Value>2</Value> -->
     </Stats>
 
+    <!-- FIXME: Crashes  -->
     <Triggers>
       <OnEvent>OnConstructModule</OnEvent>
-      <Scope>Global</Scope>
+      <!-- <Scope>Global</Scope> -->
       <Target>
-        <TargetType>Starbase</TargetType>
-      </Target>
-      <Lifetime>Instant</Lifetime>
-      <PerformAction>
-        <Action>Wormhole</Action>
-      </PerformAction>
-    </Triggers>
-    <Triggers>
-      <OnEvent>OnConstructModule</OnEvent>
-      <Scope>Global</Scope>
-      <Target>
-        <TargetType>Starbase</TargetType>
+        <TargetType>Fleet</TargetType>
       </Target>
       <Lifetime>Instant</Lifetime>
       <PerformAction>
@@ -48,11 +40,10 @@ xsi:noNamespaceSchemaLocation="../Schema/StarbaseModuleDefs.xsd">
     </Triggers>
  
     <Prerequ>
-      <!-- Doesn't work, OnConstructModule is not triggered and it is not used anywhere by Stardock, only defined within XML schema -->
-      <!-- <RaceTrait>
-        <Option>TeleportationAbility</Option>
-      </RaceTrait> -->
       <Unavailable>true</Unavailable>
+      <RaceTrait>
+        <Option>TeleportationAbility</Option>
+      </RaceTrait>
     </Prerequ>
     <Preclusions>
       <StarbaseModule>CultureRingModule</StarbaseModule>
