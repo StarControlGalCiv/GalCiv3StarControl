@@ -11,7 +11,9 @@ Mod's discussion thread - http://forums.galciv3.com/470323/page/1/
 
 ### Status
 
-Stable with all races added, but lacks aesthetic assets, balance between Ur-Quan races(Kzer-Za using carriers), balance within non-Ur-Quan races, Sa-Matra, textual information.
+**Block type error in the latest GalCiv 3 version. Why? Game's log doesn't say and Stardock are too busy launching Star Control Origins on 20th of September to help debugging.**
+
+All races added, but lacks aesthetic assets, balance between Ur-Quan races(Kzer-Za using carriers), balance within non-Ur-Quan races, Sa-Matra, textual information.
 
 Implemented features:
 
